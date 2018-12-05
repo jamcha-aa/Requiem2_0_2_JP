@@ -284,6 +284,12 @@
       <Dest>これはポイだな…</Dest>
     </String>
     <String List="0">
+      <EDID>sRandomDoorTeleportFailureMessage</EDID>
+      <REC>GMST:DATA</REC>
+      <Source>It won&apos;t budge...</Source>
+      <Dest>動きそうにない…</Dest>
+    </String>
+    <String List="0">
       <EDID>sWitnessKilled</EDID>
       <REC>GMST:DATA</REC>
       <Source>Alright, that was the last one...</Source>
@@ -55656,10 +55662,24 @@
       <Dest>汚い霧</Dest>
     </String>
     <String List="1">
+      <EDID>ArgonianRace</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>Argonians are the reptilian denizens of Black Marsh. Years of defending their borders have made them experts in stealth and evasion, and their natural abilities make them equally at home in water and on land. They are resistant to diseases and poisons and enjoy raw meat. Their Histskin allows them to quickly heal their wounds and then slowly regenerate for a long duration once per day.</Source>
+      <Dest>アルゴニアンは、彼らの母語ではジェルのサクスリールと呼ばれ、ブラックマーシュの爬虫類のような居住者である。彼らについてはほとんど知られていない。何年もその国境を守り続けてきたためアルゴニアンはゲリラ戦に秀でており、生まれつきの能力のため水中も地上も得意としている。彼らは一般に、なかなか他人を信用せず理解することが難しいが、信義に厚く、友のために死を賭して戦うこともする。</Dest>
+    </String>
+    <String List="1">
       <EDID>BretonRace</EDID>
       <REC>RACE:DESC</REC>
       <Source>Bretons, the inhabitants of the province of High Rock, are the human descendants of the Elves and the ancient race of the Nedes. While Bretons are physically weak, they can tap on magicka more than any other human race and they are particularly capable in the school of Conjuration. Their magic resistance blocks one fifth of incoming spell damage and they can call upon the Dragonskin power to absorb spells once per day.</Source>
-      <Dest>呪文習得の早さと理解度に加え、ブレトンはどんな者でも魔法に対する耐性を備えている。特に召喚魔法に長けている。</Dest>
+      <Dest>ハイロックの民であるブレトンは、エルフと太古の種族Nedesの子孫である。ブレトンは体格で劣るが、他の人間種族よりもマジカに優れ、特に召喚術系の能力がある。その魔法耐性によって呪文によるダメージの1/5を防ぎ、一日に一度、ドラゴンスキンのパワーによって魔法を吸収できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>DarkElfRace</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvardenfell. They combine powerful intellects with strong and agile physiques, producing excellent warriors and evokers. They are extremely resistant to fire, blocking two thirds of incoming fire damage. Once per day they can call upon their ancestors to protect them from almost everything for a short duration.</Source>
+      <Dest>ダンマー、もしくはダークエルフは、灰の肌に赤い目を持つ、ヴァーデンフェルのエルフの民である。
+
+The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvardenfell. 彼らはパワフルな知性と強靭で俊敏な肉体をあわせもち、すばらしい戦士と幻術師となりうる。彼らは炎に極めて強く、炎ダメージの2/3を防ぐ。一日に一度、彼らは短いあいだ自身の先祖を呼び出し、ほとんどのものから自分を守ることができる。</Dest>
     </String>
     <String List="1">
       <EDID>NordRaceAstrid</EDID>
@@ -55668,10 +55688,24 @@
       <Dest>スカイリムの民は背が高く、髪は金色である。強く、たくましいノルドは冷気に対する耐性で広く知られる。戦士としての才能も高く、特に両手武器の使用に秀でている。</Dest>
     </String>
     <String List="1">
+      <EDID>ArgonianRaceVampire</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>Argonians are the reptilian denizens of Black Marsh. Years of defending their borders have made them experts in stealth and evasion, and their natural abilities make them equally at home in water and on land. They are resistant to diseases and poisons and enjoy raw meat. Their Histskin allows them to quickly heal their wounds and then slowly regenerate for a long duration once per day.</Source>
+      <Dest>アルゴニアンは、彼らの母語ではジェルのサクスリールと呼ばれ、ブラックマーシュの爬虫類のような居住者である。彼らについてはほとんど知られていない。何年もその国境を守り続けてきたためアルゴニアンはゲリラ戦に秀でており、生まれつきの能力のため水中も地上も得意としている。彼らは一般に、なかなか他人を信用せず理解することが難しいが、信義に厚く、友のために死を賭して戦うこともする。</Dest>
+    </String>
+    <String List="1">
       <EDID>BretonRaceVampire</EDID>
       <REC>RACE:DESC</REC>
       <Source>Bretons, the inhabitants of the province of High Rock, are the human descendants of the Elves and the ancient race of the Nedes. While Bretons are physically weak, they can tap on magicka more than any other human race and they are particularly capable in the school of Conjuration. Their magic resistance blocks one fifth of incoming spell damage and they can call upon the Dragonskin power to absorb spells once per day.</Source>
-      <Dest>呪文習得の早さと理解度に加え、ブレトンはどんな者でも魔法に対する耐性を備えている。特に召喚魔法に長けている。</Dest>
+      <Dest>ハイロックの民であるブレトンは、エルフと太古の種族Nedesの子孫である。ブレトンは体格で劣るが、他の人間種族よりもマジカに優れ、特に召喚術系の能力がある。その魔法耐性によって呪文によるダメージの1/5を防ぎ、一日に一度、ドラゴンスキンのパワーによって魔法を吸収できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>DarkElfRaceVampire</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvardenfell. They combine powerful intellects with strong and agile physiques, producing excellent warriors and evokers. They are extremely resistant to fire, blocking two thirds of incoming fire damage. Once per day they can call upon their ancestors to protect them from almost everything for a short duration.</Source>
+      <Dest>ダンマー、もしくはダークエルフは、灰の肌に赤い目を持つ、ヴァーデンフェルのエルフの民である。
+
+The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvardenfell. 彼らはパワフルな知性と強靭で俊敏な肉体をあわせもち、すばらしい戦士と幻術師となりうる。彼らは炎に極めて強く、炎ダメージの2/3を防ぐ。一日に一度、彼らは短いあいだ自身の先祖を呼び出し、ほとんどのものから自分を守ることができる。</Dest>
     </String>
     <String List="1">
       <EDID>DA13AfflictedRace</EDID>
@@ -56268,6 +56302,18 @@
       <Dest>墓場の力で体力が &lt;50&gt; 上昇する。</Dest>
     </String>
     <String List="1">
+      <EDID>BYOHAdoptionSleepAbilityMale</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Healing spells and potions restore &lt;10&gt;% more health for &lt;16&gt; hours.</Source>
+      <Dest>&lt;16&gt; 時間の間、治癒の呪文や薬による体力の回復量が &lt;10&gt;% 増加</Dest>
+    </String>
+    <String List="1">
+      <EDID>BYOHAdoptionSleepAbilityFemale</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Healing spells and potions restore &lt;10&gt;% more health for &lt;16&gt; hours.</Source>
+      <Dest>&lt;16&gt; 時間の間、治癒の呪文や薬による体力の回復量が &lt;10&gt;% 増加</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Power_PowerOfLife01</EDID>
       <REC>SPEL:DESC</REC>
       <Source>The caster&apos;s health becomes almost inexhaustable for a short duration.</Source>
@@ -56475,49 +56521,55 @@
       <EDID>ArmorDragonPriestMaskMoonstoneHelmet</EDID>
       <REC>ARMO:DESC</REC>
       <Source>Morokei&apos;s focus is yours as long as you wear the mask, allowing you to regenerate magicka much faster.</Source>
-      <Dest>この仮面をつけている限りモロケイの焦点はあなたのものになり、マジカをより早く回復できる。</Dest>
+      <Dest>この仮面をつけている限りモロケイの焦点はあなたのものだ。マジカをより早く回復できる。</Dest>
     </String>
     <String List="1">
       <EDID>ArmorDragonPriestMaskEbonyHelmet</EDID>
       <REC>ARMO:DESC</REC>
       <Source>Nahkrin&apos;s power is yours as long as you wear the mask, increasing certain magical abilities.</Source>
-      <Dest>この仮面をつけている限りナークリーンの力はあなたのものになり、特定の魔法能力が増加する。</Dest>
+      <Dest>この仮面をつけている限りナークリーンの力はあなたのものだ。特定の魔法能力が増加する。</Dest>
     </String>
     <String List="1">
       <EDID>ArmorDragonPriestMaskCorondrumHelmet</EDID>
       <REC>ARMO:DESC</REC>
       <Source>Volsung&apos;s guile is yours as long as you wear the mask, allowing you to breath underwater and carry more.</Source>
-      <Dest>この仮面をつけている限りヴォルサングの狡知はあなたのものになり、水中での呼吸が可能となりより多くを運搬できる。</Dest>
+      <Dest>この仮面をつけている限りヴォルサングの狡知はあなたのものだ。水中での呼吸が可能となりより多くを運搬できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>ArmorDragonPriestMaskBronzeHelmet</EDID>
+      <REC>ARMO:DESC</REC>
+      <Source>Krosis&apos; cunning is yours as long as you wear the mask, making lockpicking and sneaking easier and enhancing marksmanship.</Source>
+      <Dest>この仮面をつけている限りクロシスの狡猾はあなたのものだ。解錠と隠密が容易になり、そして弓術が強化される。</Dest>
     </String>
     <String List="1">
       <EDID>ArmorDragonPriestMaskOrichalumHelmet</EDID>
       <REC>ARMO:DESC</REC>
       <Source>Rahgot&apos;s fortitude is yours as long as you wear the mask, increasing your stamina greatly.</Source>
-      <Dest>この仮面をつけている限りラーゴットの堅忍はあなたのものになり、スタミナが大幅に増加する。</Dest>
+      <Dest>この仮面をつけている限りラーゴットの堅忍はあなたのものだ。スタミナが大幅に増加する。</Dest>
     </String>
     <String List="1">
       <EDID>ArmorDragonPriestMaskIronHelmet</EDID>
       <REC>ARMO:DESC</REC>
       <Source>Hevnoraak&apos;s durability is yours as long as you wear the mask, rendering you immune to both poison and disease.</Source>
-      <Dest>この仮面をつけている限りヘブノラークの耐久力はあなたのものになり、毒と疾病を無視できる。</Dest>
+      <Dest>この仮面をつけている限りヘブノラークの耐久力はあなたのものだ。毒と疾病を無視できる。</Dest>
     </String>
     <String List="1">
       <EDID>ArmorDragonPriestMaskMarbleHelmet</EDID>
       <REC>ARMO:DESC</REC>
       <Source>Otar&apos;s resistance is yours as long as you wear the mask, making you more resistant to the elements.</Source>
-      <Dest>この仮面をつけている限りオタールの耐性はあなたのものになり、要素へのさらなる耐性がつく。</Dest>
+      <Dest>この仮面をつけている限りオタールの耐性はあなたのものだ。属性へのさらなる耐性がつく。</Dest>
     </String>
     <String List="1">
       <EDID>ArmorDragonPriestMaskSteelHelmet</EDID>
       <REC>ARMO:DESC</REC>
       <Source>Vokun&apos;s knowledge is yours as long as you wear the mask, making certain spells cost less.</Source>
-      <Dest>この仮面をつけている限りヴォクンの知識はあなたのものになり、特定の呪文の消費マジカが低くなる。</Dest>
+      <Dest>この仮面をつけている限りヴォクンの知識はあなたのものだ。特定の呪文は詠唱コストが減る。</Dest>
     </String>
     <String List="1">
       <EDID>ArmorDragonPriestMaskUltraHelmet</EDID>
       <REC>ARMO:DESC</REC>
       <Source>Konahrik&apos;s inviolability is yours when wearing the mask, healing wounds and empowering body, spirit and voice alike.</Source>
-      <Dest>この仮面をつけている限りコナヒリクの不可侵はあなたのものになり、傷を回復し肉体、魂、声といったものが改善する</Dest>
+      <Dest>この仮面をつけている限りコナヒリクの不可侵はあなたのものだ。傷は治り、肉体、魂、そして声がみなぎる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Clothing_Robes_Archmage</EDID>
@@ -56547,7 +56599,7 @@
       <EDID>ArmorShieldofYsgramor</EDID>
       <REC>ARMO:DESC</REC>
       <Source>Ysgramor&apos;s shield not only increases its wielder&apos;s life force, but also protects from magical harm.</Source>
-      <Dest>イスグラモルの盾は着用者の生命力を増加させるだけでなく、魔法の損害からも防護する。</Dest>
+      <Dest>イスグラモルの盾は着用者の生命力を増加させるだけでなく、魔法の危害からも守る。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>DremoraDaedricBoots</EDID>
@@ -56638,6 +56690,12 @@
       <REC>ARMO:DESC</REC>
       <Source>The crown is capable of storing the power of a standing stone, so its bearer can benefit from two at once.</Source>
       <Dest>この冠は立石の力を蓄えられるため、着用者は一度に二つの恩恵を得られる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>DLC1nVampireBloodMagicRingErudite</EDID>
+      <REC>ARMO:DESC</REC>
+      <Source>While wearing this ring, you will receive &lt;100&gt; extra Magicka as well as regenerate Magicka &lt;150&gt;% faster.</Source>
+      <Dest>この指輪を身に着けていると、マジカが &lt;100&gt; 上昇し、マジカの回復速度が &lt;150&gt;%増加する。</Dest>
     </String>
     <String List="1">
       <EDID>DLC1DawnguardRuneShield</EDID>
@@ -58376,7 +58434,7 @@ Soul Gem
       <EDID>AtrFrgRecipe15</EDID>
       <REC>BOOK:CNAM</REC>
       <Source>Void Salts</Source>
-      <Dest>虚無の塩鉱石</Dest>
+      <Dest>虚無の塩</Dest>
     </String>
     <String List="1">
       <EDID>AtrFrgRecipe16</EDID>
@@ -58412,7 +58470,7 @@ Torchbug Thorax
       <EDID>AtrFrgRecipe16</EDID>
       <REC>BOOK:CNAM</REC>
       <Source>Tome - Soul Trap</Source>
-      <Dest>書 - 魂縛</Dest>
+      <Dest>呪文書 - 魂縛</Dest>
     </String>
     <String List="1">
       <EDID>AtrFrgDaedricRecipe00</EDID>
@@ -59149,6 +59207,54 @@ Heal Undead</Source>
       <REC>BOOK:DESC</REC>
       <Source>&lt;Cool graphic&gt;</Source>
       <Dest>&lt;Cool graphic&gt;</Dest>
+    </String>
+    <String List="1">
+      <EDID>BYOHHouse1Deed</EDID>
+      <REC>BOOK:DESC</REC>
+      <Source>&lt;font face=&quot;$HandwrittenFont&quot; size=&quot;18&quot;&gt;
+&lt;Alias=Jarl&gt;, Jarl of &lt;Alias=HoldCity&gt;, to &lt;Alias=Player&gt;, in recognition of service; grant of the steading of Lakeview Manor on the south shore of Lake Ilinalta, east of Falkreath, as well as enough material to build a permanent residence.
+
+Witnessed by &lt;Alias=Steward&gt;, Steward to Jarl &lt;Alias=Jarl&gt;, &lt;Global.Day=GameDaysPassed&gt; &lt;Global.MonthWord=GameDaysPassed&gt;, &lt;Global.Year=GameDaysPassed&gt;
+
+
+</Source>
+      <Dest>&lt;font face=&quot;$HandwrittenFont&quot; size=&quot;18&quot;&gt;
+&lt;Alias=HoldCity&gt; の首長 &lt;Alias=Jarl&gt; から、忠実な友 &lt;Alias=Player&gt; へ。ファルクリース東、イリナルタ湖の南にあるレイクビュー邸の所有を認める。
+
+ &lt;Alias=Steward&gt; 、首長 &lt;Alias=Jarl&gt; の執政が証人となる。 &lt;Global.Day=GameDaysPassed&gt; &lt;Global.MonthWord=GameDaysPassed&gt; 、 &lt;Global.Year=GameDaysPassed&gt;
+
+
+</Dest>
+    </String>
+    <String List="1">
+      <EDID>BYOHHouse2Deed</EDID>
+      <REC>BOOK:DESC</REC>
+      <Source>&lt;font face=&quot;$HandwrittenFont&quot; size=&quot;18&quot;&gt;
+&lt;Alias=Jarl&gt;, Jarl of &lt;Alias=HoldCity&gt;, to &lt;Alias=Player&gt;, in recognition of service; grant of the steading of Windstad Manor, near the Mouths of the Karth, north of Morthal, as well as enough material to build a permanent residence.
+
+Witnessed by &lt;Alias=Steward&gt;, Steward to Jarl &lt;Alias=Jarl&gt;, &lt;Global.Day=GameDaysPassed&gt; &lt;Global.MonthWord=GameDaysPassed&gt;, &lt;Global.Year=GameDaysPassed&gt;
+
+
+</Source>
+      <Dest>&lt;font face=&quot;$HandwrittenFont&quot; size=&quot;18&quot;&gt;
+&lt;Alias=HoldCity&gt; の首長 &lt;Alias=Jarl&gt; から、忠実な友 &lt;Alias=Player&gt; へ。その功績を認め、終の棲家建築のための十分な資材に加え、モーサル北、カース河口近くにあるウィンドスタッド邸の所有を認める。
+
+ &lt;Alias=Steward&gt; 、首長 &lt;Alias=Jarl&gt; の執政が証人となる。 &lt;Global.Day=GameDaysPassed&gt; &lt;Global.MonthWord=GameDaysPassed&gt; 、 &lt;Global.Year=GameDaysPassed&gt;
+
+
+</Dest>
+    </String>
+    <String List="1">
+      <EDID>BYOHHouse3Deed</EDID>
+      <REC>BOOK:DESC</REC>
+      <Source>&lt;font face=&quot;$HandwrittenFont&quot; size=&quot;18&quot;&gt;
+&lt;Alias=Jarl&gt;, Jarl of &lt;Alias=HoldCity&gt;, to &lt;Alias=Player&gt;, in recognition of service; grant of the steading of Heljarchen Hall, south of Fort Dunstad near Giants&apos; Gap, as well as enough material to build a permanent residence.
+
+Granted on &lt;Global.Day=GameDaysPassed&gt; &lt;Global.MonthWord=GameDaysPassed&gt;, &lt;Global.Year=GameDaysPassed&gt;</Source>
+      <Dest>&lt;font face=&quot;$HandwrittenFont&quot; size=&quot;18&quot;&gt;
+&lt;Alias=HoldCity&gt; の首長 &lt;Alias=Jarl&gt; から、忠実な友 &lt;Alias=Player&gt; へ。ダンスタッド砦南、巨人の峡谷近くにあるヘリヤーケン・ホールの所有を認める。
+
+ 授与:&lt;Global.Day=GameDaysPassed&gt; &lt;Global.MonthWord=GameDaysPassed&gt; 、 &lt;Global.Year=GameDaysPassed&gt;</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Tome_Conjuration5_SpiritSteed</EDID>
@@ -64837,6 +64943,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>ウースラドによってもたらされる傷は特にエルフにとって致命的である。</Dest>
     </String>
     <String List="1">
+      <EDID>dunMossMotherValdrDagger</EDID>
+      <REC>WEAP:DESC</REC>
+      <Source>&lt;25&gt;% chance of a critical hit.</Source>
+      <Dest>&lt;25&gt;% の確率でクリティカルヒットする。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_NULL_MQ203AkaviriKatana1</EDID>
       <REC>WEAP:DESC</REC>
       <Source>The katana&apos;s edge thirsts for the dragons&apos; blood!</Source>
@@ -65372,6 +65484,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
     </String>
     <String List="1">
       <EDID>DA09</EDID>
+      <REC id="0" idMax="3">QUST:CNAM</REC>
+      <Source>An otherworldly voice coming from Mount Kilkreath is commanding me to find a beacon and return it. It should be located in &lt;Alias=GemContainerLocation&gt;.</Source>
+      <Dest>キルクリース山からのこの世のものとは思えない声が、灯を見つけて戻すよう命令している。その場所は &lt;Alias=GemContainerLocation&gt; にあるだろう。</Dest>
+    </String>
+    <String List="1">
+      <EDID>DA09</EDID>
       <REC id="1" idMax="3">QUST:CNAM</REC>
       <Source>I&apos;ve found a strange gem. An otherworldly voice is commanding me to bring it to Mount Kilkreath.</Source>
       <Dest>不思議な石を見つけた。別世界から聞こえるような声が、その石をキルクリース山に持っていくよう命じている。</Dest>
@@ -65381,6 +65499,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC id="2" idMax="3">QUST:CNAM</REC>
       <Source>Meridia has commanded me to enter Kilkreath Ruins, destroy Malkoran, and retrieve the artifact Dawnbreaker. I will need to guide a beam of light through the ruins which will open the way for me.</Source>
       <Dest>メリディアにキルクリースの遺跡に入ってマルコランを倒し、秘宝ドーンブレイカーを取り戻すように命じられた。道を切り開いてくれる、遺跡を貫く一筋の光を導かねばならない。</Dest>
+    </String>
+    <String List="1">
+      <EDID>DA09</EDID>
+      <REC id="3" idMax="3">QUST:CNAM</REC>
+      <Source>I have entered Kilkreath Ruins, destroyed Malkoran, and retrieved the artifact Dawnbreaker, which Meridia has bestowed upon me for my service.</Source>
+      <Dest>キルクリースの遺跡に入り、マルコランを倒し、秘宝ドーンスターを回収した。メリディアは報酬として、ドーンブレイカーを与えてくれた。</Dest>
     </String>
     <String List="1">
       <EDID>MQ102</EDID>
@@ -67262,6 +67386,18 @@ using the default resistance system leads to crap, because the damageresist resi
       <Dest>石碑に手を触れた時、古の強大な魔法を体中で感じた。駿馬座についての物語を思い起こした: 素早く、絶え間なく、旅をする。駿馬座が長い時間止まることは絶対になく、星々の間を旅している。その祝福を受けた者は、駿馬座自身のように桁外れの耐久力を持つ。</Dest>
     </String>
     <String List="1">
+      <EDID>doomThiefMSG</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>As your hand touches the stone, you can feel its ancient magic in every part of your body. You recall the tales about the Thief: hidden and piercing of secrets, the Thief makes small blades and arrows keen, shadows darker, fingers more dextrous in pockets, and locks looser for those who carry her blessing.</Source>
+      <Dest>手で石碑に触れると、太古の魔法が身体をかけめぐるのを感じる。あなたは盗賊の物語を思い出す: 隠れて秘密に穴を開け、盗賊は小さい刃と鋭い矢を作り、影はより暗く、指はポケットの中でより素早く動き、祝福を運ぶ者の鍵は緩む。</Dest>
+    </String>
+    <String List="1">
+      <EDID>doomTowerMSG</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>As your hand touches the stone you can feel its powerful and ancient magic in every part of your body. You recall the tales about the Tower: everywhere but nowhere, the true understanding of self, the Tower grants access to places locked away and blesses its bearer to carry the weight of the world with ease.</Source>
+      <Dest>手で石碑に触れると、強力な太古の魔法を身体の隅々まで感じる。あなたは塔の物語を思い出す: どこでも、しかしどこでもない、自己の真なる理解、塔は鍵のかけられた場所へ入ることを認め、世界の重みを容易に持ち運べるよう、運び手を祝福する。</Dest>
+    </String>
+    <String List="1">
       <EDID>doomWarriorMSG</EDID>
       <REC>MESG:DESC</REC>
       <Source>As your hand touches the stone, you can feel its powerful and ancient magic in every part of your body. You recall the tales about the Warrior: Powerful and mighty, the Warrior can strike down any foe that dares to tread on his path, granting those blessed by him the ability to wield any weapon with greater skill and power.</Source>
@@ -67274,10 +67410,22 @@ using the default resistance system leads to crap, because the damageresist resi
       <Dest>たった今何が起こったのか調べた方がいいな…</Dest>
     </String>
     <String List="1">
+      <EDID>barredDoorOpenMSG</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It won&apos;t budge...</Source>
+      <Dest>動きそうにない…</Dest>
+    </String>
+    <String List="1">
       <EDID>PlayerWerewolfExpirationWarning</EDID>
       <REC>MESG:DESC</REC>
       <Source>I can feel the transformation becoming weaker...</Source>
       <Dest>変身の力が弱くなってきた気がする…</Dest>
+    </String>
+    <String List="1">
+      <EDID>HallofStoriesNoObjMSG</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It seems to be some sort of socket.</Source>
+      <Dest>何かの受け口のようだ。</Dest>
     </String>
     <String List="1">
       <EDID>WoodChoppingFailureMessage</EDID>
@@ -67292,6 +67440,12 @@ using the default resistance system leads to crap, because the damageresist resi
       <Dest>武器を飾るのには素晴らしい場所のようだ…</Dest>
     </String>
     <String List="1">
+      <EDID>barredDoorMSG</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It won&apos;t budge...</Source>
+      <Dest>動きそうにない…</Dest>
+    </String>
+    <String List="1">
       <EDID>WeaponRackNoWeaponMESSAGE</EDID>
       <REC>MESG:DESC</REC>
       <Source>I should look if I don&apos;t have something to display here...</Source>
@@ -67302,6 +67456,72 @@ using the default resistance system leads to crap, because the damageresist resi
       <REC>MESG:DESC</REC>
       <Source>Hmm... It doesn&apos;t fit.</Source>
       <Dest>うーむ… これは合わない。</Dest>
+    </String>
+    <String List="1">
+      <EDID>dunRebelsCairnNoSwordMessage</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>None of my weapons fit in this slot.</Source>
+      <Dest>このスロットにあう武器を持っていない。</Dest>
+    </String>
+    <String List="1">
+      <EDID>HallofStoriesNoObjMSGGolden</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It seems to be some sort of socket.</Source>
+      <Dest>何かの受け口のようだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>HallofStoriesNoObjMSGRuby</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It seems to be some sort of socket.</Source>
+      <Dest>何かの受け口のようだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>HallofStoriesNoObjMSGGlass</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It seems to be some sort of socket.</Source>
+      <Dest>何かの受け口のようだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>HallofStoriesNoObjMSGIvory</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It seems to be some sort of socket.</Source>
+      <Dest>何かの受け口のようだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>HallofStoriesNoObjMSGDiamond</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It seems to be some sort of socket.</Source>
+      <Dest>何かの受け口のようだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>HallofStoriesNoObjMSGSapphire</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It seems to be some sort of socket.</Source>
+      <Dest>何かの受け口のようだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>HallofStoriesNoObjMSGEmerald</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It seems to be some sort of socket.</Source>
+      <Dest>何かの受け口のようだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>HallofStoriesNoObjMSGCoral</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It seems to be some sort of socket.</Source>
+      <Dest>何かの受け口のようだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>HallofStoriesNoObjMSGEbony</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It seems to be some sort of socket.</Source>
+      <Dest>何かの受け口のようだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>HallofStoriesNoObjMSGIron</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It seems to be some sort of socket.</Source>
+      <Dest>何かの受け口のようだ。</Dest>
     </String>
     <String List="1">
       <EDID>BookShelfNoMoreRoomMESSAGE</EDID>
@@ -67412,6 +67632,18 @@ using the default resistance system leads to crap, because the damageresist resi
       <Dest>今は使えない。</Dest>
     </String>
     <String List="1">
+      <EDID>HarvestNirnrootMESSAGE</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>This plant seems quite interesting.</Source>
+      <Dest>この植物はきわめて興味深い。</Dest>
+    </String>
+    <String List="1">
+      <EDID>dunSleepingTreeCampHarvestMSG</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>That smell is pretty... unique.</Source>
+      <Dest>その香りはとても…ユニークだ。</Dest>
+    </String>
+    <String List="1">
       <EDID>dunSleepingTreeCampHarvestFailMSG</EDID>
       <REC>MESG:DESC</REC>
       <Source>Hmm... Nothing.</Source>
@@ -67422,6 +67654,12 @@ using the default resistance system leads to crap, because the damageresist resi
       <REC>MESG:DESC</REC>
       <Source>That does not fit there.</Source>
       <Dest>これはここに合わない。</Dest>
+    </String>
+    <String List="1">
+      <EDID>dunFolgunthurActivatorNoObjMSGIvory</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>It seems to be some sort of socket.</Source>
+      <Dest>何かの受け口のようだ。</Dest>
     </String>
     <String List="1">
       <EDID>VampireStageProgressionMessage</EDID>
@@ -67494,6 +67732,12 @@ using the default resistance system leads to crap, because the damageresist resi
       <REC>MESG:DESC</REC>
       <Source>Arrrghhhh!!! The daylight... It burns!</Source>
       <Dest>ああぁあぁ！！！ 日光だ… 熱い！</Dest>
+    </String>
+    <String List="1">
+      <EDID>MarriageRestedMessage</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I awaken feeling my lover&apos;s comfort.</Source>
+      <Dest>目が覚めて、恋人の癒しを自覚した。</Dest>
     </String>
     <String List="1">
       <EDID>VampireStage4Message</EDID>
@@ -67730,10 +67974,52 @@ using the default resistance system leads to crap, because the damageresist resi
       <Dest>戦闘中は使えない。</Dest>
     </String>
     <String List="1">
+      <EDID>DLC1VampirePerkEarned</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I feel more capable.</Source>
+      <Dest>もっとできそうだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>DLC1WerewolfPerkEarned</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I feel more capable.</Source>
+      <Dest>もっとできそうだ。</Dest>
+    </String>
+    <String List="1">
       <EDID>DLC1LD_BthalftForgeFailMessage01</EDID>
       <REC>MESG:DESC</REC>
       <Source>I can&apos;t use this while the steam is on.</Source>
       <Dest>蒸気が出ている間は使えない。</Dest>
+    </String>
+    <String List="1">
+      <EDID>DLC1LD_BthalftForgeFailMessage02</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I can&apos;t use this during combat.</Source>
+      <Dest>戦闘中は使用できない。</Dest>
+    </String>
+    <String List="1">
+      <EDID>BYOHFishHatcheryOnlyOneItemMESSAGE</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I only need to add one of each item to the hatchery.</Source>
+      <Dest>ふ化場には1つずつアイテムを加えれば良い</Dest>
+    </String>
+    <String List="1">
+      <EDID>BYOHVampireSleepMsg</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I awaken feeling a surge of Vampiric power.</Source>
+      <Dest>目が覚めて、吸血鬼の力の高まりを感じた。</Dest>
+    </String>
+    <String List="1">
+      <EDID>BYOHAdoptionRestedMessageMale</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I awaken feeling a Father&apos;s Love.</Source>
+      <Dest>目が覚めて、父性愛を自覚した。</Dest>
+    </String>
+    <String List="1">
+      <EDID>BYOHAdoptionRestedMessageFemale</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I awaken feeling a Mother&apos;s Love.</Source>
+      <Dest>目が覚めて、母性愛を自覚した。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_DestroyedBowInMelee</EDID>
@@ -68082,6 +68368,12 @@ Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinio
       <REC>SHOU:DESC</REC>
       <Source>Staggers targets and knocks over loose objects.</Source>
       <Dest>対象をよろめかせ、揺らいでいる物を転倒させる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>DLC1DrainVitalityShout</EDID>
+      <REC>SHOU:DESC</REC>
+      <Source>Your Thu&apos;um reaches out and takes away the very lifeforce of your enemies.</Source>
+      <Dest>あなたのスゥームは手を伸ばし、まさに敵の生命力を持ち去る。</Dest>
     </String>
     <String List="1">
       <EDID>DLC1DragonUndeadSummonShout</EDID>
