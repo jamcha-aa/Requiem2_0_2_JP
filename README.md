@@ -4,7 +4,7 @@ Requiem - The Roleplaying Overhaul (https://www.nexusmods.com/skyrim/mods/19281)
 
 These files will be a Requiem 2.0.2 Japanese translation, which is based on the Requiem 1.9.4.1 日本語版 (see Copyrights). 
 
-A machine translation is **not** used for added sentences in Requiem 2.x. However, I don't know whether machine translations were used in works of Requiem 1.x Japanese.
+A machine translation is **not** used for added sentences in Requiem 2.x. However, I don't know whether machine translations had been used in  works of Requiem 1.x Japanese.
 
 ## Requirements
 [xTranslator](https://www.nexusmods.com/skyrimspecialedition/mods/134)
