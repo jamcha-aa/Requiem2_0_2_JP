@@ -14,7 +14,7 @@ A machine translation is **not** used for added sentences in Requiem 2.x. Howeve
 ### Requiem.esp
 - STRINGS: 8754/9842 items (88.9%)
 - DLSTRINGS: 1000/1302 items (76.8%)
-- ILSTRINGS: 38/57 items (66.7%)
+- ILSTRINGS: 57/57 items (100%)
 
 ### Requiem - Legendary Bugsmasher Edition.esp (COMPLETED)
 - STRINGS: 117/117 items (100%)
