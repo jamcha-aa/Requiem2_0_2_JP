@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SSTXMLRessources>
+  <Params>
+    <Addon>Requiem - Legendary Bugsmasher Edition.esp</Addon>
+    <Source>english</Source>
+    <Dest>japanese</Dest>
+    <Version>2</Version>
+  </Params>
+  <Content>
+    <String List="0">
+      <EDID>VoiceElementalFury</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Elemental Fury</Source>
+      <Dest>激しき力</Dest>
+    </String>
+    <String List="0">
+      <EDID>VoiceElementalFury</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Your Thu&apos;um imbues your arms with the speed of wind, allowing for meteoric attacks.</Source>
+      <Dest>スゥームが風の速度を伴い腕に染みこみ、流星のような素早い攻撃が可能になる。</Dest>
+    </String>
+    <String List="0">
+      <EDID>AlchWeaknessPoison</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Toxicity</Source>
+      <Dest>毒性</Dest>
+    </String>
+    <String List="0">
+      <EDID>AlchWeaknessPoison</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The target is &lt;mag&gt;% weaker to poison for &lt;dur&gt; seconds.</Source>
+      <Dest>対象の毒耐性が &lt;mag&gt;%、 &lt;dur&gt; 秒間低下する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>USKPGiftOfCharityEffect</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Ably Persuading</Source>
+      <Dest>巧みな説得</Dest>
+    </String>
+    <String List="0">
+      <EDID>USKPGiftOfCharityEffect</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Increases Speech skill by &lt;mag&gt; points for &lt;dur&gt; seconds.</Source>
+      <Dest>話術が&lt;mag&gt;ポイント、&lt;dur&gt;秒間増加する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>FavorJobsBeggarsAbility</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>The Gift of Charity</Source>
+      <Dest>慈悲の贈り物</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Scroll_CallToArms</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Scroll of Call to Arms</Source>
+      <Dest>戦場への誘いの巻物</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesCirclet01</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Orichalcum and Emerald Circlet</Source>
+      <Dest>オリハルコンとエメラルドのサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesCirclet02</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Silver and Moonstone Circlet</Source>
+      <Dest>銅と月長石のサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesCirclet03</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Gold and Ruby Circlet</Source>
+      <Dest>ゴールドとルビーのサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesCirclet04</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Copper and Sapphire Circlet</Source>
+      <Dest>銅とサファイアのサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesCirclet05</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Copper and Onyx Circlet</Source>
+      <Dest>銅とオニキスのサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesCirclet06</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Silver and Sapphire Circlet</Source>
+      <Dest>銀とサファイアのサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesCirclet07</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Orichalcum and Sapphire Circlet</Source>
+      <Dest>オリハルコンとサファイアのサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesCirclet08</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Gold and Emerald Circlet</Source>
+      <Dest>ゴールドとエメラルドのサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesCirclet09</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Copper and Moonstone Circlet</Source>
+      <Dest>銅と月長石のサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesCirclet10</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Copper and Ruby Circlet</Source>
+      <Dest>銅とルビーのサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesUlfric</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Ulfric&apos;s Clothes</Source>
+      <Dest>ウルフリックの服</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesUlfricBoots</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Ulfric&apos;s Boots</Source>
+      <Dest>ウルフリックのブーツ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesFineHat02</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Fine Hat</Source>
+      <Dest>上等な帽子</Dest>
+    </String>
+    <String List="0">
+      <EDID>MG04Reward01</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Mage&apos;s Circlet</Source>
+      <Dest>魔術師のサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>MG04Reward02</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Mage&apos;s Circlet</Source>
+      <Dest>魔術師のサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>MG04Reward03</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Mage&apos;s Circlet</Source>
+      <Dest>魔術師のサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>MG04Reward04</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Mage&apos;s Circlet</Source>
+      <Dest>魔術師のサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>MG04Reward05</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Mage&apos;s Circlet</Source>
+      <Dest>魔術師のサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>MG04Reward06</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Mage&apos;s Circlet</Source>
+      <Dest>魔術師のサークレット</Dest>
+    </String>
+    <String List="0">
+      <EDID>dunLabyrinthianMazeCircletReward</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Diadem of the Savant</Source>
+      <Dest>学者の王冠</Dest>
+    </String>
+    <String List="0">
+      <EDID>USKPClothesMagesGloves</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Mage Gloves</Source>
+      <Dest>魔術師の手袋</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_VendorChest_Blacksmith_UnderstoneKeep</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Chest</Source>
+      <Dest>宝箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_VendorChest_Apothecary_Falkreath</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Chest</Source>
+      <Dest>宝箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_VendorChest_Blacksmith_Falkreath</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Chest</Source>
+      <Dest>宝箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_VendorChest_Wizard_Morthal</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Chest</Source>
+      <Dest>宝箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_VendorChest_Wizard_Dawnstar</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Chest</Source>
+      <Dest>宝箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_VendorChest_General_Grelka</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Chest</Source>
+      <Dest>宝箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_VendorChest_General_BrandShei</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Chest</Source>
+      <Dest>宝箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_VendorChest_Meat_Riften</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Chest</Source>
+      <Dest>宝箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_VendorChest_Jeweler_Riften</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Chest</Source>
+      <Dest>宝箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_VendorChest_Blacksmith_ShorsStone</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Chest</Source>
+      <Dest>宝箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_VendorChest_Fence_Winterhold</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Thieves Guild Fence Chest</Source>
+      <Dest>盗賊ギルドの盗品保管庫</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_VendorChest_WCollege_Enthir</EDID>
+      <REC>CONT:FULL</REC>
+      <Source>Chest</Source>
+      <Dest>宝箱</Dest>
+    </String>
+    <String List="0">
+      <EDID>JareeRa</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Jaree-Ra</Source>
+      <Dest>ジャリー・ラ</Dest>
+    </String>
+    <String List="0">
+      <EDID>JareeRa</EDID>
+      <REC>NPC_:SHRT</REC>
+      <Source>Jaree</Source>
+      <Dest>ジャリー</Dest>
+    </String>
+    <String List="0">
+      <EDID>KharagGroShurkul</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Kharag gro-Shurkul</Source>
+      <Dest>カラグ・グロ・シュルクル</Dest>
+    </String>
+    <String List="0">
+      <EDID>Dirge</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Dirge</Source>
+      <Dest>ディルジ</Dest>
+    </String>
+    <String List="0">
+      <EDID>Vekel</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Vekel the Man</Source>
+      <Dest>ヴェケル</Dest>
+    </String>
+    <String List="0">
+      <EDID>Helvard</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Helvard</Source>
+      <Dest>ヘルヴァルド</Dest>
+    </String>
+    <String List="0">
+      <EDID>Amren</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Amren</Source>
+      <Dest>アムレン</Dest>
+    </String>
+    <String List="0">
+      <EDID>Silda</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Silda the Unseen</Source>
+      <Dest>不可視のシルダ</Dest>
+    </String>
+    <String List="0">
+      <EDID>Silda</EDID>
+      <REC>NPC_:SHRT</REC>
+      <Source>Silda</Source>
+      <Dest>シルダ</Dest>
+    </String>
+    <String List="0">
+      <EDID>Wuunferth</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Wuunferth the Unliving</Source>
+      <Dest>死せる者ウーンファース</Dest>
+    </String>
+    <String List="0">
+      <EDID>Wuunferth</EDID>
+      <REC>NPC_:SHRT</REC>
+      <Source>Wuunferth</Source>
+      <Dest>ウーンファース</Dest>
+    </String>
+    <String List="0">
+      <EDID>Ulfric</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Ulfric Stormcloak</Source>
+      <Dest>ウルフリック・ストームクローク</Dest>
+    </String>
+    <String List="0">
+      <EDID>Ulfric</EDID>
+      <REC>NPC_:SHRT</REC>
+      <Source>Ulfric</Source>
+      <Dest>ウルフリック</Dest>
+    </String>
+    <String List="0">
+      <EDID>DBInitiate2</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Dark Brotherhood Initiate</Source>
+      <Dest>闇の一党の新人</Dest>
+    </String>
+    <String List="0">
+      <EDID>Atub</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Atub</Source>
+      <Dest>アタブ</Dest>
+    </String>
+    <String List="0">
+      <EDID>DelvinMallory</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Delvin Mallory</Source>
+      <Dest>デルビン・マロリー</Dest>
+    </String>
+    <String List="0">
+      <EDID>DelvinMallory</EDID>
+      <REC>NPC_:SHRT</REC>
+      <Source>Delvin</Source>
+      <Dest>デルビン</Dest>
+    </String>
+    <String List="0">
+      <EDID>Vex</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Vex</Source>
+      <Dest>ヴェックス</Dest>
+    </String>
+    <String List="0">
+      <EDID>Babette</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Babette</Source>
+      <Dest>バベット</Dest>
+    </String>
+    <String List="0">
+      <EDID>Syndus</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Syndus</Source>
+      <Dest>シンダス</Dest>
+    </String>
+    <String List="0">
+      <EDID>Arnskar</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Arnskar Ember-Master</Source>
+      <Dest>アーンスカル・エンバー・マスター</Dest>
+    </String>
+    <String List="0">
+      <EDID>HerluinLothaire</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Herluin Lothaire</Source>
+      <Dest>ハールイン・ロザイレ</Dest>
+    </String>
+    <String List="0">
+      <EDID>VanrythGatharian</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Vanryth Gatharian</Source>
+      <Dest>ヴァンリス・ガサリアン</Dest>
+    </String>
+    <String List="0">
+      <EDID>FelldirTheOld</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Felldir the Old</Source>
+      <Dest>古きフェルディル</Dest>
+    </String>
+    <String List="0">
+      <EDID>FelldirTheOld</EDID>
+      <REC>NPC_:SHRT</REC>
+      <Source>Felldir</Source>
+      <Dest>フェルディル</Dest>
+    </String>
+    <String List="0">
+      <EDID>HakonOneEye</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Hakon One-Eye</Source>
+      <Dest>隻眼のハコン</Dest>
+    </String>
+    <String List="0">
+      <EDID>HakonOneEye</EDID>
+      <REC>NPC_:SHRT</REC>
+      <Source>Hakon</Source>
+      <Dest>ハコン</Dest>
+    </String>
+    <String List="0">
+      <EDID>Uthgerd</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Uthgerd the Unbroken</Source>
+      <Dest>不滅のウスガルド</Dest>
+    </String>
+    <String List="0">
+      <EDID>CiceroDawnstar</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Cicero</Source>
+      <Dest>シセロ</Dest>
+    </String>
+    <String List="0">
+      <EDID>HousecarlMarkarth</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Argis the Bulwark</Source>
+      <Dest>防波堤のアルギス</Dest>
+    </String>
+    <String List="0">
+      <EDID>HousecarlMarkarth</EDID>
+      <REC>NPC_:SHRT</REC>
+      <Source>Argis</Source>
+      <Dest>アルギス</Dest>
+    </String>
+    <String List="0">
+      <EDID>HousecarlWhiterun</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Lydia</Source>
+      <Dest>リディア</Dest>
+    </String>
+    <String List="0">
+      <EDID>HousecarlWhiterun</EDID>
+      <REC>NPC_:SHRT</REC>
+      <Source>Lydia</Source>
+      <Dest>リディア</Dest>
+    </String>
+    <String List="0">
+      <EDID>HousecarlSolitude</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Jordis the Sword-Maiden</Source>
+      <Dest>ソード・メイデンのジョディス</Dest>
+    </String>
+    <String List="0">
+      <EDID>HousecarlSolitude</EDID>
+      <REC>NPC_:SHRT</REC>
+      <Source>Jordis</Source>
+      <Dest>ジョディス</Dest>
+    </String>
+    <String List="0">
+      <EDID>HousecarlWindhelm</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Calder</Source>
+      <Dest>カルダー</Dest>
+    </String>
+    <String List="0">
+      <EDID>HousecarlWindhelm</EDID>
+      <REC>NPC_:SHRT</REC>
+      <Source>Calder</Source>
+      <Dest>カルダー</Dest>
+    </String>
+    <String List="0">
+      <EDID>HousecarlRiften</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Iona</Source>
+      <Dest>イオナ</Dest>
+    </String>
+    <String List="0">
+      <EDID>HousecarlRiften</EDID>
+      <REC>NPC_:SHRT</REC>
+      <Source>Iona</Source>
+      <Dest>イオナ</Dest>
+    </String>
+    <String List="0">
+      <EDID>Tonilia</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Tonilia</Source>
+      <Dest>トニリア</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC1Durnehviir</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Durnehviir</Source>
+      <Dest>ダーネヴィール</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC1DurnehviirSummon</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Durnehviir</Source>
+      <Dest>ダーネヴィール</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Food_PieMeat</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Meat Pie</Source>
+      <Dest>ミートパイ</Dest>
+    </String>
+    <String List="0">
+      <EDID>HeartwoodMill</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Heartwood Mill</Source>
+      <Dest>ハートウッド工場</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformRiften11</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>Caught Red Handed</Source>
+      <Dest>現行犯</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformRiften11</EDID>
+      <REC id="0" idMax="4">QUST:NNAM</REC>
+      <Source>Obtain a Mark of Dibella from Bolli, a Riften fisherman</Source>
+      <Dest>リフテンの漁師ボッリから、ディベラの印を手に入れる</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformRiften11</EDID>
+      <REC id="1" idMax="4">QUST:NNAM</REC>
+      <Source>Obtain a Mark of Dibella from Hofgrir, owner of the Riften Stables</Source>
+      <Dest>リフテン馬屋を経営するホフグリルから、ディベラの印を手に入れる</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformRiften11</EDID>
+      <REC id="2" idMax="4">QUST:NNAM</REC>
+      <Source>Obtain a Mark of Dibella from Indaryn, who runs the operations of Black-Briar Meadery</Source>
+      <Dest>ブラック・ブライア醸造所の責任者インダルインから、ディベラの印を手に入れる</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformRiften11</EDID>
+      <REC id="3" idMax="4">QUST:NNAM</REC>
+      <Source>Confront Haelga with the Marks of Dibella you&apos;ve collected around Riften</Source>
+      <Dest>リフテン周辺で集めたディベラの印を持ってヘルガに会う</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformRiften11</EDID>
+      <REC id="4" idMax="4">QUST:NNAM</REC>
+      <Source>Speak to Svana</Source>
+      <Dest>スヴァナと話す</Dest>
+    </String>
+    <String List="0">
+      <EDID>MQ102</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>Before the Storm</Source>
+      <Dest>嵐の前</Dest>
+    </String>
+    <String List="0">
+      <EDID>MQ102</EDID>
+      <REC id="0" idMax="2">QUST:NNAM</REC>
+      <Source>Talk to &lt;Alias=RiverwoodFriend&gt; in Riverwood</Source>
+      <Dest>リバーウッドで &lt;Alias=RiverwoodFriend&gt; と話す</Dest>
+    </String>
+    <String List="0">
+      <EDID>MQ102</EDID>
+      <REC id="1" idMax="2">QUST:NNAM</REC>
+      <Source>(Optional) Travel to Riverwood with &lt;Alias=FactionFriend&gt;</Source>
+      <Dest>(オプション) &lt;Alias=FactionFriend&gt; とリバーウッドへ行く</Dest>
+    </String>
+    <String List="0">
+      <EDID>MQ102</EDID>
+      <REC id="2" idMax="2">QUST:NNAM</REC>
+      <Source>Talk to the Jarl of Whiterun</Source>
+      <Dest>ホワイトランの首長と話す</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformRiftenThane</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>I Done Got Thaned!</Source>
+      <Dest>日焼けして真っ黒だ！</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformRiftenThane</EDID>
+      <REC id="0" idMax="2">QUST:NNAM</REC>
+      <Source>Speak to the Jarl of Riften</Source>
+      <Dest>リフテンの首長と話す</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformRiftenThane</EDID>
+      <REC id="1" idMax="2">QUST:NNAM</REC>
+      <Source>Purchase Honeyside from Riften&apos;s Steward</Source>
+      <Dest>リフテンの執政からハニーサイドを買う</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformRiftenThane</EDID>
+      <REC id="2" idMax="2">QUST:NNAM</REC>
+      <Source>Return to the Jarl of Riften</Source>
+      <Dest>リフテンの首長のところに戻る</Dest>
+    </String>
+    <String List="0">
+      <EDID>Favor252</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>Thane of Haafingar</Source>
+      <Dest>ハーフィンガルの従士</Dest>
+    </String>
+    <String List="0">
+      <EDID>Favor252</EDID>
+      <REC id="0" idMax="1">QUST:NNAM</REC>
+      <Source>Purchase a house in Solitude</Source>
+      <Dest>ソリチュードの家を買う</Dest>
+    </String>
+    <String List="0">
+      <EDID>Favor252</EDID>
+      <REC id="1" idMax="1">QUST:NNAM</REC>
+      <Source>Return to &lt;Alias.ShortName=Questgiver&gt;</Source>
+      <Dest>&lt;Alias.ShortName=Questgiver&gt; のところに戻る</Dest>
+    </String>
+    <String List="0">
+      <EDID>Favor255</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>Thane of Hjaalmarch</Source>
+      <Dest>ハイヤルマーチの従士</Dest>
+    </String>
+    <String List="0">
+      <EDID>Favor255</EDID>
+      <REC>QUST:NNAM</REC>
+      <Source>Return to &lt;Alias.ShortName=QuestGiver&gt;</Source>
+      <Dest>&lt;Alias.ShortName=Questgiver&gt; のところに戻る</Dest>
+    </String>
+    <String List="0">
+      <EDID>Favor256</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>Thane of the Pale</Source>
+      <Dest>ペイルの従士</Dest>
+    </String>
+    <String List="0">
+      <EDID>Favor256</EDID>
+      <REC>QUST:NNAM</REC>
+      <Source>Return to &lt;Alias.ShortName=QuestGiver&gt;</Source>
+      <Dest>&lt;Alias.ShortName=Questgiver&gt; のところに戻る</Dest>
+    </String>
+    <String List="0">
+      <EDID>Favor258</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>Thane of Falkreath</Source>
+      <Dest>ファルクリースの従士</Dest>
+    </String>
+    <String List="0">
+      <EDID>Favor258</EDID>
+      <REC>QUST:NNAM</REC>
+      <Source>Return to &lt;Alias.ShortName=QuestGiver&gt;</Source>
+      <Dest>&lt;Alias.ShortName=Questgiver&gt; のところに戻る</Dest>
+    </String>
+    <String List="0">
+      <EDID>WEJS02</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>DB08- Finding the Gourmet</Source>
+      <Dest>DB08-美食家を見つける</Dest>
+    </String>
+    <String List="0">
+      <EDID>DA03Start</EDID>
+      <REC id="0" idMax="1">QUST:NNAM</REC>
+      <Source>Speak to Lod, Falkreath&apos;s blacksmith, about a dog he&apos;s looking for</Source>
+      <Dest>ファルクリースの鍛冶屋ロッドに、彼が探しているイヌについて話す</Dest>
+    </String>
+    <String List="0">
+      <EDID>DA03Start</EDID>
+      <REC id="1" idMax="1">QUST:NNAM</REC>
+      <Source>Look around on the road outside Falkreath for Lod&apos;s dog</Source>
+      <Dest>ロッドのイヌのために、ファルクリースの周辺にある道を見て回る</Dest>
+    </String>
+    <String List="0">
+      <EDID>WEJS18</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>Corpses in the aftermath of a dragon attack, Dog left behind</Source>
+      <Dest>ドラゴンの攻撃後に残された死体。イヌが取り残されている</Dest>
+    </String>
+    <String List="0">
+      <EDID>UDGPDawnguardCrossbow</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Crossbows are slow but they deal heavy damage and they are specifically made to penetrate an opponent&apos;s armor.</Source>
+      <Dest>クロスボウは遅いが大きなダメージを与えることができ、とくに敵の鎧を貫くために作られた。</Dest>
+    </String>
+    <String List="0">
+      <EDID>USKPDoomstoneTowerTip</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>The Tower Stone increases a thief&apos;s carrying capacity.</Source>
+      <Dest>塔の石碑は、盗賊の持ち運べる重量を増やす。</Dest>
+    </String>
+    <String List="0">
+      <EDID>USKPWeaponRackNoCrossBowMESSAGE</EDID>
+      <REC>MESG:ITXT</REC>
+      <Source>OK</Source>
+      <Dest>OK</Dest>
+    </String>
+    <String List="0">
+      <EDID>USKPWeaponRackWeaponDisallowedMESSAGE</EDID>
+      <REC>MESG:ITXT</REC>
+      <Source>OK</Source>
+      <Dest>OK</Dest>
+    </String>
+    <String List="0">
+      <EDID>USKWrongStaffMessage</EDID>
+      <REC>MESG:ITXT</REC>
+      <Source>OK</Source>
+      <Dest>OK</Dest>
+    </String>
+    <String List="1">
+      <EDID>FavorJobsBeggarsAbility</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Your benevolence grants you a bit of the favor of the people in these harsh times...</Source>
+      <Dest>あなたの慈悲は、この過酷な時代に暮らす人々からのささやかな好意を得る...</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Scroll_CallToArms</EDID>
+      <REC>SCRL:DESC</REC>
+      <Source>Targets have improved combat skills, health and stamina for &lt;10&gt; minutes.</Source>
+      <Dest>対象は &lt;10&gt; 分間、戦闘スキル、体力、スタミナが上昇する。</Dest>
+    </String>
+    <String List="1">
+      <EDID>dunLabyrinthianMazeCircletReward</EDID>
+      <REC>ARMO:DESC</REC>
+      <Source>The Diadem emnates a protective magic while also enhancing its wearer&apos;s spell casting capabilities.</Source>
+      <Dest>王冠は保護魔法を放ち、着用者の詠唱能力をも高める。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQ102</EDID>
+      <REC id="0" idMax="12">QUST:CNAM</REC>
+      <Source>Hadvar suggested that I head north of Helgen and follow the river to the nearby town of Riverwood. His uncle is the blacksmith there and should be able to help me.</Source>
+      <Dest>ハドバルは私に、ヘルゲンの北を川沿いに進んだそばにある町リバーウッドを目指すよう提案した。彼の叔父さんはそこで鍛冶屋をやっており私の助けになるはずだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQ102</EDID>
+      <REC id="1" idMax="12">QUST:CNAM</REC>
+      <Source>Ralof suggested that I head north of Helgen and follow the river to the nearby town of Riverwood. His sister owns a lumbermill there and should be able to help me.</Source>
+      <Dest>レイロフは私に、ヘルゲンの北を川沿いに進んだそばにある町リバーウッドを目指すよう提案した。彼の妹はそこで製材所をやっており私の助けになるはずだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQ102</EDID>
+      <REC id="2" idMax="12">QUST:CNAM</REC>
+      <Source>Hadvar suggested that we head to the nearby town of Riverwood, north of Helgen on the White River. His uncle is the blacksmith there and should be able to help us.</Source>
+      <Dest>ハドバルは私たちで近くの町リバーウッドを目指そうと提案した。そこはヘルゲンからホワイト川を北に行ったところにある。彼の叔父さんはそこで鍛冶屋をやっており、私たちの助けになるはずだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQ102</EDID>
+      <REC id="3" idMax="12">QUST:CNAM</REC>
+      <Source>Ralof suggested that we head to the nearby town of Riverwood, north of Helgen on the White River. His sister owns a lumbermill there and should be able to help us.</Source>
+      <Dest>レイロフは私たちで近くの町リバーウッドを目指そうと提案した。そこはヘルゲンからホワイト川を北に行ったところにある。彼の妹はそこで製材所をやっており私たちの助けになるはずだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQ102</EDID>
+      <REC id="4" idMax="12">QUST:CNAM</REC>
+      <Source>Hadvar&apos;s uncle Alvor asked me to take word of the dragon attack in Helgen to the Jarl of Whiterun, with a request for soldiers to protect Riverwood. I should head north from the town to find the Jarl&apos;s namesake city.</Source>
+      <Dest>ハドバルの叔父アルヴォアは、ヘルゲンで起きたドラゴン襲撃のことをホワイトランの首長に伝え、リバーウッドを守る兵士をよこしてくれるよう頼んだ。町を北に向かい、首長の名に由来するその都市を探すべきだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQ102</EDID>
+      <REC id="5" idMax="12">QUST:CNAM</REC>
+      <Source>Ralof&apos;s sister Gerdur asked me to take word of the dragon attack in Helgen to the Jarl of Whiterun, with a request for soldiers to protect Riverwood. I should head north from the town to find the Jarl&apos;s namesake city.</Source>
+      <Dest>レイロフの妹ジャルデュルは、ヘルゲンで起きたドラゴン襲撃のことをホワイトランの首長に伝え、リバーウッドを守る兵士をよこしてくれるよう頼んだ。町を北に向かい、首長の名に由来するその都市を探すべきだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQ102</EDID>
+      <REC id="6" idMax="12">QUST:CNAM</REC>
+      <Source>I&apos;ve arrived in Whiterun. I should tell the Jarl about the dragon attack on Helgen.</Source>
+      <Dest>ホワイトランに到着した。ヘルゲンに対するドラゴンの襲撃を首長に報告すべきだろう。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQ102</EDID>
+      <REC id="7" idMax="12">QUST:CNAM</REC>
+      <Source>I&apos;ve arrived in Whiterun. I should tell the Jarl about the dragon attack on Helgen.</Source>
+      <Dest>ホワイトランに到着した。ヘルゲンに対するドラゴンの襲撃を首長に報告すべきだろう。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQ102</EDID>
+      <REC id="8" idMax="12">QUST:CNAM</REC>
+      <Source>When I arrived in Whiterun, I told the Jarl about the dragon attack on Helgen.</Source>
+      <Dest>ホワイトランに着いてヘルゲンに対するドラゴンの襲撃を首長に報告した。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQ102</EDID>
+      <REC id="9" idMax="12">QUST:CNAM</REC>
+      <Source>When I arrived in Whiterun, I told the Jarl about the dragon attack on Helgen.</Source>
+      <Dest>ホワイトランに着いてヘルゲンに対するドラゴンの襲撃を首長に報告した。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQ102</EDID>
+      <REC id="10" idMax="12">QUST:CNAM</REC>
+      <Source>Hadvar&apos;s uncle Alvor asked me to take word to the Jarl of Whiterun of the dragon attack on Helgen, and to ask the Jarl to send soldiers to protect Riverwood. I delivered the news to Jarl Balgruuf in Whiterun, and he rewarded me for my help.</Source>
+      <Dest>ハドバルのおじアルヴォアに、ドラゴンのヘルゲン襲撃をホワイトランの首長に伝え、リバーウッドを守るため兵士の派遣を要請するよう頼まれた。ホワイトランのバルグルーフ首長に報告したところ、助力に対し報酬をもらった。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQ102</EDID>
+      <REC id="11" idMax="12">QUST:CNAM</REC>
+      <Source>Ralof&apos;s sister Gerdur asked me to take word to the Jarl of Whiterun of the dragon attack on Helgen, and to ask the Jarl to send soldiers to protect Riverwood. I delivered the news to Jarl Balgruuf in Whiterun, and he rewarded me for my help.</Source>
+      <Dest>レイロフの姉妹ジャルデュルに、ドラゴンのヘルゲン襲撃をホワイトランの首長に伝え、リバーウッドを守るため兵士の派遣を要請するよう頼まれた。ホワイトランのバルグルーフ首長に報告したところ、助力に対して報酬をもらった。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQ102</EDID>
+      <REC id="12" idMax="12">QUST:CNAM</REC>
+      <Source>When I arrived in Whiterun, I told the Jarl about the dragon attack on Helgen, and he rewarded me for my efforts.</Source>
+      <Dest>ホワイトランに着いてヘルゲンに対するドラゴンの襲撃を首長に報告すると、報酬をもらった。</Dest>
+    </String>
+    <String List="1">
+      <EDID>DA03Start</EDID>
+      <REC>QUST:CNAM</REC>
+      <Source>A guard outside Falkreath mentioned the Blacksmith Lod is looking for a Dog and offering a reward. </Source>
+      <Dest>ファルクリースの外の衛兵が、鍛冶屋のロッドのイヌ探しと謝礼について話していた。</Dest>
+    </String>
+    <String List="1">
+      <EDID>USKPWeaponRackNoCrossBowMESSAGE</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I can&apos;t place a crossbow on this rack.</Source>
+      <Dest>この棚にクロスボウは置けない。</Dest>
+    </String>
+    <String List="1">
+      <EDID>USKPWeaponRackWeaponDisallowedMESSAGE</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I can&apos;t place this weapon on a rack.</Source>
+      <Dest>この棚に武器は置けない。</Dest>
+    </String>
+    <String List="1">
+      <EDID>USKWrongStaffMessage</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I can&apos;t put this staff in this display case.</Source>
+      <Dest>この展示台に杖は置けない。</Dest>
+    </String>
+  </Content>
+</SSTXMLRessources>
