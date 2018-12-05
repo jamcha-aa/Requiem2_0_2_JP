@@ -32,4 +32,6 @@ Requiem is a product of Requiem Dungeon Masters and others (https://requiem.atla
 
 Requiem 1.9.4.1 日本語版 (https://skyrim.2game.info/detail.php?id=19281)
 
+USLEEP - Japanese Voice Edit (https://www.nexusmods.com/skyrim/mods/85456)
+
 (c) 2018 jamcha
