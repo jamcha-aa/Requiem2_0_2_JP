@@ -12,7 +12,7 @@ A machine translation is **not** used for added sentences in Requiem 2.x. Howeve
 ## Progress
 
 ### Requiem.esp
-- STRINGS: 9375/9842 items (95.3%)
+- STRINGS: 9545/9842 items (97.0%)
 - DLSTRINGS: 1087/1302 items (83.5%)
 - ILSTRINGS: 57/57 items (100%)
 
