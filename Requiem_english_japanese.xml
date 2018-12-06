@@ -383,7 +383,7 @@
       <EDID>sMagicCastMultiCast</EDID>
       <REC>GMST:DATA</REC>
       <Source>That most certainly would cause a magical overload...</Source>
-      <Dest>魔法の過負荷が発生するのは間違いない…</Dest>
+      <Dest>それは魔法への負荷がかかりすぎてしまう…</Dest>
     </String>
     <String List="0">
       <EDID>sMagicCastPowerUsed</EDID>
@@ -1538,6 +1538,12 @@
       <Dest>ドラゴン・プリースト</Dest>
     </String>
     <String List="0">
+      <EDID>WispShadeRace</EDID>
+      <REC>RACE:FULL</REC>
+      <Source>Wisp Shade</Source>
+      <Dest>ウィスプの影</Dest>
+    </String>
+    <String List="0">
       <EDID>DogCompanionRace</EDID>
       <REC>RACE:FULL</REC>
       <Source>Dog</Source>
@@ -1548,6 +1554,12 @@
       <REC>RACE:FULL</REC>
       <Source>Spriggan</Source>
       <Dest>スプリガン</Dest>
+    </String>
+    <String List="0">
+      <EDID>DraugrMagicRace</EDID>
+      <REC>RACE:FULL</REC>
+      <Source>Spectral Draugr</Source>
+      <Dest>亡霊のドラウグル</Dest>
     </String>
     <String List="0">
       <EDID>MG07DogRace</EDID>
@@ -2120,6 +2132,12 @@
       <Dest>嵐の精霊の召喚</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Conjuration_StormAtronach</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster summons a Storm Atronach for &lt;dur&gt; seconds.</Source>
+      <Dest>術者は嵐の精霊を &lt;dur&gt; 秒間召喚する。</Dest>
+    </String>
+    <String List="0">
       <EDID>InvisibillityFFSelf</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Invisibility</Source>
@@ -2471,7 +2489,13 @@
       <EDID>ShockCloakFFSelf</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Shock Cloak</Source>
-      <Dest>雷撃マント</Dest>
+      <Dest>雷の外套</Dest>
+    </String>
+    <String List="0">
+      <EDID>ShockCloakFFSelf</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>For &lt;dur&gt; seconds nearby opponents take &lt;30&gt; points of shock damage and half magicka damage.</Source>
+      <Dest>近接距離にいる敵に1秒ごとに &lt;30&gt; ポイントの雷撃ダメージとその半分のマジカダメージを与える。</Dest>
     </String>
     <String List="0">
       <EDID>dunSilentMoonsEnchFFContact</EDID>
@@ -2754,6 +2778,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Ably Lockpicking (Skill)</Source>
       <Dest>巧みな開錠 (スキル)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alch_FortifyLockpicking_Skill</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Lockpicking skill is increased by &lt;mag&gt; for &lt;dur&gt; seconds.</Source>
+      <Dest>&lt;dur&gt; 秒間、開錠のスキルが &lt;mag&gt; ポイント上がる。</Dest>
     </String>
     <String List="0">
       <EDID>AlchFortifySneak</EDID>
@@ -3200,6 +3230,12 @@
       <Dest>強力な氷の精霊召喚</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Conjuration_StormAtronach_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Potent Storm Atronach</Source>
+      <Dest>強力な嵐の精霊召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Attacks_DwarvenSpider_ShockDamage</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Lightning Bolt</Source>
@@ -3450,6 +3486,18 @@
       <REC>MGEF:DNAM</REC>
       <Source>The caster causes Undead up to level &lt;mag&gt; to flee for &lt;dur&gt; seconds.</Source>
       <Dest>術者はレベル &lt;mag&gt; までのアンデットを &lt;dur&gt; 秒間逃走させる。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritWolf</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Wolf</Source>
+      <Dest>霊魂のオオカミ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritWolf</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster summons the spirit of a feral wolf for &lt;dur&gt; seconds.</Source>
+      <Dest>術者は &lt;dur&gt; 秒間、残忍なオオカミの霊魂を召喚する。</Dest>
     </String>
     <String List="0">
       <EDID>VoiceMakeEthereal</EDID>
@@ -4904,6 +4952,12 @@
       <Dest>強力な氷の従徒召喚</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Conjuration_StormThrall_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Potent Storm Thrall</Source>
+      <Dest>強力な嵐の従徒召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>DetectLifeEnemyExteriorConcSelf</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Detect Life Enemy Exterior</Source>
@@ -5436,6 +5490,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Restore Stamina</Source>
       <Dest>スタミナ回復</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Food_RestoreStamina</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Consumed out of combat, it restores &lt;mag&gt; Stamina.</Source>
+      <Dest>戦いで使い果たしたスタミナを &lt;mag&gt; ポイント回復する。</Dest>
     </String>
     <String List="0">
       <EDID>PerkIntenseFlamesConfDownFFAimed</EDID>
@@ -5980,10 +6040,22 @@
       <Dest>体力治癒</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Food_RestoreHealthDuration</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Restores &lt;mag&gt; points of Health per second for &lt;dur&gt; seconds.</Source>
+      <Dest>&lt;dur&gt; 秒間、体力を1秒ごとに &lt;mag&gt; 回復する。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Food_RestoreStaminaDuration</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Restore Stamina</Source>
       <Dest>スタミナ回復</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Food_RestoreStaminaDuration</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Restores &lt;mag&gt; points of Stamina per second for &lt;dur&gt; seconds.</Source>
+      <Dest>&lt;dur&gt; 秒間、スタミナを1秒ごとに &lt;mag&gt; ポイント回復する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Food_FortifyStamina</EDID>
@@ -6214,6 +6286,12 @@
       <Dest>運動不全症</Dest>
     </String>
     <String List="0">
+      <EDID>TrapDisDamagePickpocketLockpick</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Lockpicking expertise is reduced by &lt;mag&gt; and pickpocketing is much harder.</Source>
+      <Dest>開錠の技術が &lt;mag&gt; 低下し、スリはより困難になる</Dest>
+    </String>
+    <String List="0">
       <EDID>TrapDisDamageMagicka</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Reduced Magicka</Source>
@@ -6374,6 +6452,18 @@
       <REC>MGEF:DNAM</REC>
       <Source>Khajiit claws are much more lethal than a man&apos;s punch.</Source>
       <Dest>カジートの爪は人間のパンチよりも致命的だ。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alcohol_DamageRegeneration</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Inebriation</Source>
+      <Dest>酩酊</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alcohol_DamageRegeneration</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Impairs coordination and focus, slowing the regeneration of Stamina by &lt;mag&gt;% and twice that for Magicka for &lt;dur&gt; seconds. At least you get to feel good for a while!</Source>
+      <Dest>調整力と集中力が失われ、 &lt;dur&gt; 秒間、スタミナの回復が &lt;mag&gt;% 遅くなり、マジカはその倍遅くなる。まぁ少なくともしばらく気分が良いんだが！</Dest>
     </String>
     <String List="0">
       <EDID>werewolfKnockbackEffect</EDID>
@@ -7738,6 +7828,12 @@
       <Dest>体力治癒</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Mechanics_RestoreHealthDuration</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Restores &lt;mag&gt; points of Health per second for &lt;dur&gt; seconds.</Source>
+      <Dest>&lt;dur&gt; 秒間、体力を1秒ごとに &lt;mag&gt; 回復する。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_Mechanics_IceForm_Wabbajack</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Ice Form</Source>
@@ -7831,7 +7927,13 @@
       <EDID>REQ_Alteration2_LesserKnockEffect</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Lesser Knock</Source>
-      <Dest>弱い転倒</Dest>
+      <Dest>弱いノック</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration2_LesserKnockEffect</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster projects a snarl in reality that flips the tumblers on any novice lock. If empowered, the spell can also unlock apprentice locks.</Source>
+      <Dest>術者は現実をもつれさせ、あらゆる素人レベルの錠前を回転させる。強化された場合、この呪文は見習いレベルの鍵を開けることもできる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Alteration_Featherfalling_FFSelf</EDID>
@@ -7876,16 +7978,34 @@
       <Dest>体力吸収</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Alteration3_AbsorbHealth_Effect</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Absorbs &lt;mag&gt; points of a living target&apos;s health per second.</Source>
+      <Dest>生きた対象の生命力を毎秒 &lt;mag&gt; ポイント吸収する。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Alteration3_AbsorbStamina_Effect</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Absorb Stamina</Source>
       <Dest>スタミナ吸収</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Alteration3_AbsorbStamina_Effect</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Absorbs &lt;mag&gt; points of a living target&apos;s stamina per second.</Source>
+      <Dest>生きた対象のスタミナを毎秒 &lt;mag&gt; ポイント吸収する。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Alteration4_AbsorbMagicka_Effect</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Absorb Magicka</Source>
       <Dest>マジカ吸収</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration4_AbsorbMagicka_Effect</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Absorbs &lt;mag&gt; points of the target&apos;s magicka per second.</Source>
+      <Dest>対象のマジカを毎秒 &lt;mag&gt; ポイント吸収する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Alteration_DetectAuraExterior_FFAimed</EDID>
@@ -7972,6 +8092,12 @@
       <Dest>体力治癒</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Restoration_HealingAura1</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The recipient is surrounded by an aura that slowly restores health for &lt;dur&gt; seconds.</Source>
+      <Dest>これを受ける者は、 &lt;dur&gt; 秒間、体力をゆっくり回復するオーラに包まれる。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_Restoration_HealingAuraStamina</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Restore Stamina</Source>
@@ -8038,10 +8164,22 @@
       <Dest>術者はハーシーンの領域から対象の肉に潜り込むさらに残忍な昆虫の大群を召喚し、&lt;mag&gt; ポイントの毒ダメージと &lt;mag&gt; ポイントの物理ダメージを &lt;dur&gt; 秒間与える。</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritHorse</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Steed</Source>
+      <Dest>霊魂の駿馬召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_RestorationDispelOther02</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Dispel Other</Source>
       <Dest>他者解呪</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_InvisibleStalker</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Invisible Stalker</Source>
+      <Dest>不可視のストーカー召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_InvisibleStalker</EDID>
@@ -8176,6 +8314,18 @@
       <Dest>術者は対象の場所に氷の欠片の爆発を生じさせ、衝撃範囲内に &lt;mag&gt; ポイントのダメージを与える。</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritBear</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Bear</Source>
+      <Dest>霊魂のクマ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritBear</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster summons the spirit of a furious bear for &lt;dur&gt; seconds.</Source>
+      <Dest>術者は &lt;dur&gt; 秒間、獰猛なクマの霊魂を召喚する。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_DestructioNSteamCloud02</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Steam</Source>
@@ -8192,6 +8342,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Phantasmal Killer</Source>
       <Dest>幻影の殺人者</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Illusion_75_PhantasmalKiller</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster commands a weak-minded target to commit suicide but slicing their wrist.</Source>
+      <Dest>術者は意志の弱い対象に自殺するか首をかき切れと命令する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_RECYLCETHIS_AA000XarrianIllusionSuicide02</EDID>
@@ -8233,7 +8389,13 @@
       <EDID>REQ_Effect_Conjuration_SpiritIceWraith</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Summon Ice Spirit</Source>
-      <Dest>氷のスピリット召喚</Dest>
+      <Dest>氷の霊魂召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritIceWraith</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster summons the spirit of a ravaging ice wraith for &lt;dur&gt; seconds.</Source>
+      <Dest>術者は破壊的な氷の怨霊を &lt;dur&gt; 秒間召喚する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_AlterationtelekineticGrip</EDID>
@@ -8323,7 +8485,13 @@
       <EDID>REQ_Alteration2_TransmuteMuscles_FortifyUnarmed</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Transmuted Muscles</Source>
-      <Dest>変成した拳</Dest>
+      <Dest>変性した筋肉</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration2_TransmuteMuscles_FortifyUnarmed</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Reinforces the caster&apos;s muscle tissue, fortifying unarmed damage, health and carrying capacity by &lt;mag&gt; points for &lt;dur&gt; seconds.</Source>
+      <Dest>術者の筋組織を &lt;dur&gt; 秒間強化する。素手のダメージと生命力が上がり、持ち運べる重量が &lt;mag&gt; ポイント増える。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_EnchantmentAdvToxicity</EDID>
@@ -8402,6 +8570,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Elemental Fury</Source>
       <Dest>激しき力</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_ElementalFuryScript</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Combines fire, frost and shock into an elemental strike that deals &lt;mag&gt; total points of damage.</Source>
+      <Dest>炎、冷気、そして雷撃が一体となった属性攻撃によって合計 &lt;mag&gt; ポイントのダメージを与える。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_EnchantmentAdvFireSelfExplosioN</EDID>
@@ -8527,19 +8701,19 @@
       <EDID>REQ_Effect_Conjuration_DremoraArcher</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Summon Dremora Archer</Source>
-      <Dest>ドレモラアーチャー召喚</Dest>
+      <Dest>ドレモラ・アーチャー召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_DremoraArcher</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>The caster summons a mighty Dremora Archer for &lt;dur&gt; seconds.</Source>
-      <Dest>術者は&lt;dur&gt; 秒間、強大なドレモラ・アーチャーを召喚する。</Dest>
+      <Dest>術者は&lt;dur&gt; 秒間、強大ななドレモラ・アーチャーを召喚する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_DremoraMage</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Summon Dremora Archmage</Source>
-      <Dest>ドレモラアークメイジ召喚</Dest>
+      <Dest>ドレモラ・アークメイジ召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_DremoraMage</EDID>
@@ -8551,13 +8725,49 @@
       <EDID>REQ_Effect_Conjuration_SpiritSabrecat</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Summon Spirit Sabrecat</Source>
-      <Dest>スピリット・サーベルキャット召喚</Dest>
+      <Dest>霊魂のサーベルキャット召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritSabrecat</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster summons the spirit of a vicious sabrecat for &lt;dur&gt; seconds.</Source>
+      <Dest>術者は &lt;dur&gt; 秒間、凶悪なサーベルキャットの霊魂を召喚する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritTroll</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Troll</Source>
+      <Dest>霊魂のトロール召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritTroll</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster summons the spirit of a rampaging troll for &lt;dur&gt; seconds.</Source>
+      <Dest>術者は &lt;dur&gt; 秒間、暴れ回るトロールの霊魂を召喚する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritMudcrab</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Mudcrab</Source>
+      <Dest>霊魂のマッドクラブ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritMudcrab</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster summons the spirit of a mudcrab for &lt;dur&gt; seconds.</Source>
+      <Dest>術者はマッドクラブの霊魂を &lt;dur&gt; 秒間召喚する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_SpiritWerewolf</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Summon Spirit Werewolf</Source>
-      <Dest>スピリット・ウェアウルフ召喚</Dest>
+      <Dest>霊魂のウェアウルフ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritWerewolf</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster summons the spirit of a bloodthirsty werewolf for &lt;dur&gt; seconds.</Source>
+      <Dest>術者は &lt;dur&gt; 秒間、血に飢えたウェアウルフの霊魂を召喚する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_crSpiderBiteFFContact02</EDID>
@@ -8612,6 +8822,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Weak Stomach</Source>
       <Dest>弱った胃</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Food_DamageAttributes</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Its raw taste is revolting to anyone but those with a strong stomach.</Source>
+      <Dest>生の風味は強い胃袋でなければ受けつけない。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_FortifyShouts</EDID>
@@ -8716,10 +8932,52 @@
       <Dest>麻痺</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Food_Paralysis_Beast</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Only they can enjoy this meal without vomiting.</Source>
+      <Dest>彼らだけが嘔吐せずにこの食事を楽しむことができる。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpectralArcher</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spectral Archer</Source>
+      <Dest>亡霊の射手召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpectralArcher</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster summons the ghost of an archer for &lt;dur&gt; seconds.</Source>
+      <Dest>術者は &lt;dur&gt; 秒間、亡霊の射手を召喚する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpectralWarrior</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spectral Warrior</Source>
+      <Dest>亡霊の戦士召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpectralWarrior</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster summons the ghost of a warrior for &lt;dur&gt; seconds.</Source>
+      <Dest>術者は &lt;dur&gt; 秒間、戦士の亡霊を召喚する。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_Conjuration_GhostlyDragonpriest</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Summon Ghostly Dragonpriest</Source>
       <Dest>亡霊のドラゴン・プリースト召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_GhostlyDragonpriest</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster binds the ghost of a terrifying Dragonpriest that brings cold death upon all who dare to cross its path for &lt;dur&gt; seconds.</Source>
+      <Dest>術者は &lt;dur&gt; 秒間、その行く手を大胆にも横切ろうとするすべての存在に冷たい死をもたらす、恐ろしい亡霊のドラゴン・プリーストを従わせる。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpectralWarhound</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spectral Warhound</Source>
+      <Dest>亡霊の猟犬召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_SpectralWarhound</EDID>
@@ -8887,19 +9145,25 @@
       <EDID>REQ_Ench_FortifyLockpicking_Expertise</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Ably Lockpicking (Expertise)</Source>
-      <Dest>巧みな開錠 (知識)</Dest>
+      <Dest>巧みな開錠 (技術)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ench_FortifyLockpicking_Expertise</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Lockpicking expertise is increased by &lt;mag&gt;.</Source>
-      <Dest>開錠の知識が &lt;mag&gt; ポイント上昇する。</Dest>
+      <Dest>開錠の技術が &lt;mag&gt; ポイント上昇する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alch_FortifyLockpicking_Expertise</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Ably Lockpicking (Expertise)</Source>
-      <Dest>巧みな開錠 (知識)</Dest>
+      <Dest>巧みな開錠 (技術)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alch_FortifyLockpicking_Expertise</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Lockpicking expertise is increased by &lt;mag&gt; for &lt;dur&gt; seconds.</Source>
+      <Dest>&lt;dur&gt; 秒間、開錠の技術が &lt;mag&gt; ポイント上がる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_ConjurationConjureInvisibleStalker01Ancano</EDID>
@@ -8918,6 +9182,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Meridia&apos;s Malediction</Source>
       <Dest>メリディアの中傷</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_MeridiasMalediction</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Meridia&apos;s eternal despise of anything undead makes her dawning light burn through unnatural flesh and bone alike, only leaving the ashes of the wicked behind to remind the rest of her devastating glory.</Source>
+      <Dest>メリディアはアンデッドに対する永遠の蔑みのために、自然に反した肉や骨を夜明けの光で溶かしてしまう。残された邪悪な者の灰を見ると、彼女の破壊的な栄光が思い出されるのみである。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_AlchCureDiseaseSpell</EDID>
@@ -9490,6 +9760,12 @@
       <Dest>グリーンパクトのごちそう</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Food_RestoreStaminaDuration_Greenpact</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Restores &lt;mag&gt; points of Stamina and Magicka per second for &lt;dur&gt; seconds - there&apos;s just nothing more motivating than the sweet taste of a slain enemy&apos;s flesh.</Source>
+      <Dest>&lt;dur&gt; 秒間、スタミナとマジカを1秒ごとに &lt;mag&gt; ポイント回復する - 殺した敵の肉を味わうよりも楽しいことなどない。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_Food_RestoreMagickaDuration_Greenpact</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Greenpact Feast</Source>
@@ -9500,6 +9776,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Restore Stamina</Source>
       <Dest>スタミナ回復</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Food_RestoreStaminaDuration_Beast</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>A stew tartare which restores &lt;mag&gt; Stamina per second for &lt;dur&gt; seconds.</Source>
+      <Dest>&lt;dur&gt; 秒間、獣のシチューがスタミナを1秒ごとに &lt;mag&gt; ポイント回復させる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_FortifySpeechcraftFFSelfImperial</EDID>
@@ -9518,6 +9800,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Fortify Carry Weight</Source>
       <Dest>持ち運び重量上昇</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Food_FortifyCarryWeight</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Carry weight is increased by &lt;mag&gt; points for &lt;dur&gt; seconds.</Source>
+      <Dest>&lt;dur&gt; 秒間、持ち運べる重量が &lt;mag&gt; ポイント増える。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_EnchLight</EDID>
@@ -9644,6 +9932,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Healing Poultice</Source>
       <Dest>治癒の湿布</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_AlchRestoreHealthBalmSelf</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>A herbal medicine which is rubbed on the skin, forming a crust that enhances natural regeneration. Stress suppresses its effect, so it&apos;s often applied before sleep. It contains enough amount for nearby companions, but dries quickly after being opened.</Source>
+      <Dest>皮膚に塗られる漢方薬で、自然治癒を促す膜を形成する。ストレスはその効果を抑制するため、寝る前に使用されることが多い。使用者にとって十分な量の薬品が含まれているが、開封後はすぐに乾燥する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_EnchRestoreHealthDurationNoKeywords</EDID>
@@ -9992,6 +10286,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Invisibility (Protection)</Source>
       <Dest>透明化 (防護)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Illusion_25_Invisibility_side</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster also gains &lt;mag&gt; armor rating and he cannot be aimed at precisely.</Source>
+      <Dest>術者は相手が正確に狙いを定められないため &lt;mag&gt; ポイントの防御値を得る。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Illusion_25_Invisibility_dual</EDID>
@@ -10858,16 +11158,34 @@
       <Dest>燃え立つ粉末</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Dust_Fire</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>A highly ignitable powder. If somebody is foolish enough to come into contact with it after the ignition, the unfortunate one will be set ablaze and suffer &lt;mag&gt; points of fire damage for &lt;dur&gt; seconds.</Source>
+      <Dest>非常に引火しやすい粉末。着火後に近づく愚かな者がいたならば、その不運な者は炎上し &lt;mag&gt; ポイントの炎ダメージを &lt;dur&gt; 秒間受ける。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_Dust_Frost</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Frost Powder</Source>
       <Dest>冷気の粉末</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Dust_Frost</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>An extremely cold powder. Those unfortunate ones who are hit by this blood-freezing dust will suffer &lt;mag&gt; points of frost damage for &lt;dur&gt; seconds.</Source>
+      <Dest>非常に冷たい粉末。この血も凍る粉に当たった不運な者は &lt;mag&gt; ポイントの冷気ダメージを &lt;dur&gt; 秒間受ける。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_Dust_Shock</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Shock Powder</Source>
       <Dest>雷の粉末</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Dust_Shock</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>An incredibly dry, foul smelling powder. Anyone foolish enough to come into contact with it will be electrocuted and suffer &lt;mag&gt; points of shock damage for &lt;dur&gt; seconds.</Source>
+      <Dest>信じられないほどに乾いていて、におう粉末だ。これに接触する愚かな者はシビれ、 &lt;mag&gt; ポイントの雷撃ダメージを &lt;dur&gt; 秒間受ける。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Illusion_75_ShadowSimulacrum_side</EDID>
@@ -10934,6 +11252,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Phantasmal Killer (Empowered)</Source>
       <Dest>幻影の殺人者 (強化)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Illusion_75_PhantasmalKiller_dual</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Empowered, the spell&apos;s message becomes even darker and universal, causing an immediate heart attack to most living creatures.</Source>
+      <Dest>強化された呪文のメッセージはより悪しく普遍的になり、ほとんどの生物は即座に心臓麻痺を引き起こす。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Illusion_75_PhantasmalKiller_</EDID>
@@ -11344,10 +11668,22 @@
       <Dest>透明化の宝球 (防護)</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Illusion_75_InvisibleSphere_2</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>All inside the sphere also gain &lt;mag&gt; armor rating and they cannot be aimed at precisely.</Source>
+      <Dest>球のなかに入る者は誰でも &lt;mag&gt; ポイントの防御値を得て、敵は正確に狙いをつけられなくなる。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_Illusion_75_InvisibleSphere_side2</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Invisibility Sphere (Protection)</Source>
       <Dest>透明化の宝球 (防護)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Illusion_75_InvisibleSphere_side2</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>All inside the sphere also gain &lt;mag&gt; armor rating and they cannot be aimed at precisely.</Source>
+      <Dest>球のなかに入る者は誰でも &lt;mag&gt; ポイントの防御値を得て、敵は正確に狙いをつけられなくなる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_werewolfKnockbackStrong</EDID>
@@ -11932,10 +12268,58 @@
       <Dest>Increased Stamina Regeneration</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_PerkAbilities_StunningPrecision</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Stun</Source>
+      <Dest>気絶</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_PerkAbilities_StunningPrecision</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>You&apos;ve been stunned by an arrow.</Source>
+      <Dest>矢によって気絶した。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_Illusion_100_Miasma_5</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Phantasmal Miasma - Speed Update Enforcer</Source>
       <Dest>Phantasmal Miasma - Speed Update Enforcer</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Scroll_Knock</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Knock (Scroll)</Source>
+      <Dest>ノック (巻物)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Scroll_Knock</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The user of the scroll projects a tear in reality that flips the tumblers on any adept or lesser lock.</Source>
+      <Dest>この巻物を使用する物は現実を破り、あらゆる精鋭レベル以下の錠前を回転させる。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Scroll_GreaterKnock</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Greater Knock (Scroll)</Source>
+      <Dest>強いノック (巻物)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Scroll_GreaterKnock</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The user of the scroll projects a rip in reality that flips the tumblers on any expert or lesser lock.</Source>
+      <Dest>この巻物を使用する物は現実を引き裂き、あらゆる熟練レベル以下の錠前を回転させる。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Okin_Eduj</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Fortify Weapon Speed</Source>
+      <Dest>攻撃速度上昇</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Okin_Eduj</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>You feel Okin and Eduj almost swinging on their own will, increasing your attack speed by &lt;15&gt;%, as long as they are wielded on your right and left hand respectively.</Source>
+      <Dest>左右の手に持っているかぎり、オキンとエドジュが自らの意思で振るっているように感じ、攻撃速度が &lt;15&gt;% 上昇する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_DamageStamina</EDID>
@@ -11984,19 +12368,55 @@
       <EDID>REQ_Effect_Conjuration_SpiritIceWraith_Potent</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Summon Ice Spirit</Source>
-      <Dest>氷のスピリット召喚</Dest>
+      <Dest>氷の霊魂召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritIceWraith_Potent</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster summons the spirit of a ravaging ice wraith for &lt;dur&gt; seconds.</Source>
+      <Dest>術者は破壊的な氷の怨霊を &lt;dur&gt; 秒間召喚する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_SpiritWerewolf_Potent</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Summon Spirit Werewolf</Source>
-      <Dest>スピリット・ウェアウルフ召喚</Dest>
+      <Dest>霊魂のウェアウルフ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritMudcrab_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Mudcrab</Source>
+      <Dest>霊魂のマッドクラブ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritTroll_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Troll</Source>
+      <Dest>霊魂のトロール召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_SpiritSabrecat_Potent</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Summon Spirit Sabrecat</Source>
-      <Dest>スピリット・サーベルキャット召喚</Dest>
+      <Dest>霊魂のサーベルキャット召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritBear_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Bear</Source>
+      <Dest>霊魂のクマ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritHorse_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Steed</Source>
+      <Dest>霊魂の駿馬召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritWolf_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Wolf</Source>
+      <Dest>霊魂のオオカミ召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_DispelCloak</EDID>
@@ -12008,13 +12428,25 @@
       <EDID>REQ_Alteration5_GreaterKnockEffect</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Greater Knock</Source>
-      <Dest>強い転倒</Dest>
+      <Dest>強いノック</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration5_GreaterKnockEffect</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster projects a rip in reality that flips the tumblers on any adept or lesser lock. If empowered, the spell can also unlock master locks.</Source>
+      <Dest>術者は現実を引き裂き、あらゆる熟練レベル以下の錠前を回転させる。強化された場合、この呪文は達人レベルの鍵を開けることもできる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alteration3_KnockEffect</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Knock</Source>
-      <Dest>転倒</Dest>
+      <Dest>ノック</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration3_KnockEffect</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster projects a tear in reality that flips the tumblers on any apprentice or lesser lock. If empowered, the spell can also unlock expert locks.</Source>
+      <Dest>術者は現実を破り、あらゆる見習いレベル以下の錠前を回転させる。強化された場合、この呪文は精鋭レベルの鍵を開けることもできる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ability_FortifyLockpicking_Skill</EDID>
@@ -12032,13 +12464,13 @@
       <EDID>REQ_Ability_FortifyLockpicking_Expertise</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Ably Lockpicking (Expertise)</Source>
-      <Dest>巧みな開錠 (知識)</Dest>
+      <Dest>巧みな開錠 (技術)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ability_FortifyLockpicking_Expertise</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Lockpicking expertise is increased by &lt;mag&gt;.</Source>
-      <Dest>開錠の知識が &lt;mag&gt; ポイント上昇する。</Dest>
+      <Dest>開錠の技術が &lt;mag&gt; ポイント上昇する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alteration5_AbsorbHealth_Effect</EDID>
@@ -12047,16 +12479,34 @@
       <Dest>体力吸収</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Alteration5_AbsorbHealth_Effect</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Absorbs &lt;mag&gt; points of a living target&apos;s health per second.</Source>
+      <Dest>生きた対象の生命力を毎秒 &lt;mag&gt; ポイント吸収する。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Alteration5_AbsorbStamina_Effect</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Absorb Stamina</Source>
       <Dest>スタミナ吸収</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Alteration5_AbsorbStamina_Effect</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Absorbs &lt;mag&gt; points of a living target&apos;s stamina per second.</Source>
+      <Dest>生きた対象のスタミナを毎秒 &lt;mag&gt; ポイント吸収する。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Alteration5_AbsorbMagicka_Effect</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Absorb Magicka</Source>
       <Dest>マジカ吸収</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration5_AbsorbMagicka_Effect</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Absorbs &lt;mag&gt; points of the target&apos;s magicka per second.</Source>
+      <Dest>対象のマジカを毎秒 &lt;mag&gt; ポイント吸収する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alteration3_TransmutedMuscles_FortifyCarryWeight</EDID>
@@ -12074,13 +12524,25 @@
       <EDID>REQ_Alteration3_TransmuteMuscles_FortifyUnarmed</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Transmuted Muscles</Source>
-      <Dest>変成した拳</Dest>
+      <Dest>変性した筋肉</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration3_TransmuteMuscles_FortifyUnarmed</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Reinforces the target&apos;s muscle tissue, fortifying unarmed damage, health and carrying capacity by &lt;mag&gt; points for &lt;dur&gt; seconds.</Source>
+      <Dest>対象の筋組織を &lt;dur&gt; 秒間強化する。対象の素手のダメージと生命力が上がり、持ち運べる重量が &lt;mag&gt; ポイント増える。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Food_ResistDisease</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Disease Resistance</Source>
       <Dest>疾病耐性</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Food_ResistDisease</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Increases Disease Resistance by &lt;mag&gt;% for &lt;dur&gt; seconds.</Source>
+      <Dest>&lt;dur&gt; 秒間、疾病への耐性が &lt;mag&gt;% 上がる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Food_ResistPoison</EDID>
@@ -12177,6 +12639,18 @@
       <REC>MGEF:DNAM</REC>
       <Source>Resists &lt;mag&gt;% of fire damage for &lt;dur&gt; seconds.</Source>
       <Dest>炎ダメージに対して &lt;mag&gt;%の耐性が &lt;dur&gt; 秒間生じる。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alcohol_DamageHealth</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Inebriation</Source>
+      <Dest>酩酊</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alcohol_DamageHealth</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>That might feel good for a short time... or it might just shorten your time.</Source>
+      <Dest>短いあいだ、いい気分…もしくは寿命を短くするかも。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Alcohol_Magicka</EDID>
@@ -13053,6 +13527,12 @@
       <REC>ENCH:FULL</REC>
       <Source>Fortify Block</Source>
       <Dest>防御上昇</Dest>
+    </String>
+    <String List="0">
+      <EDID>StaffEnchConjureFamiliar</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Summon Spirit Wolf</Source>
+      <Dest>霊魂のオオカミ召喚</Dest>
     </String>
     <String List="0">
       <EDID>StaffEnchFury</EDID>
@@ -14279,6 +14759,12 @@
       <Dest>石の皮膚</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Ench_Armor_FortifyLockpicking_Base01</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Ably Lockpicking (Rank I)</Source>
+      <Dest>巧みな開錠 (ランクI)</Dest>
+    </String>
+    <String List="0">
       <EDID>EnchArmorFortifyMagickaBase</EDID>
       <REC>ENCH:FULL</REC>
       <Source>Spellpower (Rank I)</Source>
@@ -14621,6 +15107,12 @@
       <Dest>治癒の手</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Ench_Staff_Souldrinker</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Souldrinker</Source>
+      <Dest>魂飲み</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Ench_Armor_AetheriumHelmet</EDID>
       <REC>ENCH:FULL</REC>
       <Source>Aetherial Mind</Source>
@@ -14643,6 +15135,12 @@
       <REC>ENCH:FULL</REC>
       <Source>Aetherial Mind</Source>
       <Dest>エセリウムの精神</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ench_Armor_FortifyLockpicking_Base02</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Ably Lockpicking (Rank II)</Source>
+      <Dest>巧みな開錠 (ランクII)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ench_Armor_FortifyLockpicking_Base03</EDID>
@@ -15551,6 +16049,12 @@
       <Dest>フロストバイトの毒</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration1_SpiritWolf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spirit Wolf</Source>
+      <Dest>霊魂のオオカミ召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>crAtronachCloakFlameDmg</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Flames</Source>
@@ -15591,6 +16095,12 @@
       <REC>SPEL:FULL</REC>
       <Source>Lightning Rune (Rank I)</Source>
       <Dest>稲妻のルーン (ランクI)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration2_ArnielGane</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Arniel Gane</Source>
+      <Dest>アーニエル・ゲイン召喚</Dest>
     </String>
     <String List="0">
       <EDID>WerewolfNightEye</EDID>
@@ -17417,6 +17927,12 @@
       <Dest>メリディアの光</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration1_SpiritWolf_RightHand</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spirit Wolf</Source>
+      <Dest>霊魂のオオカミ召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Conjuration3_FlameAtronach_RightHand</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Summon Flame Atronach</Source>
@@ -17804,7 +18320,7 @@
       <EDID>REQ_Conjuration5_DremoraLord</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Summon Dremora Lord</Source>
-      <Dest>ドレモラロード召喚</Dest>
+      <Dest>ドレモラ・ロード召喚</Dest>
     </String>
     <String List="0">
       <EDID>doomApprenticeNegativeAbility</EDID>
@@ -18273,6 +18789,18 @@
       <REC>SPEL:FULL</REC>
       <Source>Drain Life</Source>
       <Dest>生命低下</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration2_NecromanticEmpowermentOnTarget</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Necromantic Empowerment on Target</Source>
+      <Dest>相手への死霊術の強化</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration3_NecromanticEmpowerementOnSelf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Necromantic Empowerment on Self</Source>
+      <Dest>死霊術の強化</Dest>
     </String>
     <String List="0">
       <EDID>DLC1dunHarkoncrVampireDrain07</EDID>
@@ -18770,7 +19298,7 @@
       <EDID>REQ_Alteration2_LesserKnock</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Lesser Knock</Source>
-      <Dest>弱い転倒</Dest>
+      <Dest>弱いノック</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alteration3_AbsorbHealth</EDID>
@@ -18839,6 +19367,18 @@
       <Dest>治癒の光線</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Restoration1_HealingAuraOnSelf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Healing Aura on Self</Source>
+      <Dest>治癒のオーラ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Restoration1_HealingAuraOnTarget</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Healing Aura on Target</Source>
+      <Dest>相手への治癒のオーラ</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Destruction5_VenomousShock</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Venomous Shock</Source>
@@ -18905,6 +19445,18 @@
       <Dest>霊体性</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration5_SpiritSteed</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spirit Steed</Source>
+      <Dest>霊魂の駿馬召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration5_InvisibleStalker</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Invisible Stalker</Source>
+      <Dest>不可視のストーカー召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Destruction3_ArcaneMissile</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Arcane Missile</Source>
@@ -18965,6 +19517,12 @@
       <Dest>雪の泡</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration3_SpiritBear</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spirit Bear</Source>
+      <Dest>霊魂のクマ召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Illusion4_PhantasmalKiller</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Phantasmal Killer</Source>
@@ -18981,6 +19539,24 @@
       <REC>SPEL:FULL</REC>
       <Source>Telekinetic Execution</Source>
       <Dest>念動の処刑</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Restoration2_ProtectionFromPoisonOnSelf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Protection from Poison on Self</Source>
+      <Dest>毒からの防護</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Restoration2_ProtectionFromPoisonOnTarget</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Protection from Poison on Target</Source>
+      <Dest>対象への毒からの防護</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration2_TransmuteMusclesOnSelf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Transmute Muscles on Self</Source>
+      <Dest>筋肉変成</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alteration5_TelekineticGrab</EDID>
@@ -19052,25 +19628,37 @@
       <EDID>REQ_Conjuration5_DremoraArcher</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Summon Dremora Archer</Source>
-      <Dest>ドレモラアーチャー召喚</Dest>
+      <Dest>ドレモラ・アーチャー召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Conjuration5_DremoraMage</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Summon Dremora Archmage</Source>
-      <Dest>ドレモラアークメイジ召喚</Dest>
+      <Dest>ドレモラ・アークメイジ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration2_SpiritMudcrab</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spirit Mudcrab</Source>
+      <Dest>霊魂のマッドクラブ召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Conjuration4_SpiritSabrecat</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Summon Spirit Sabrecat</Source>
-      <Dest>スピリット・サーベルキャット召喚</Dest>
+      <Dest>霊魂のサーベルキャット召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration3_SpiritTroll</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spirit Troll</Source>
+      <Dest>霊魂のトロール召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Conjuration5_SpiritWerewolf</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Summon Spirit Werewolf</Source>
-      <Dest>スピリット・ウェアウルフ召喚</Dest>
+      <Dest>霊魂のウェアウルフ召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alteration5_AbsorbEssence_NPC</EDID>
@@ -19106,13 +19694,25 @@
       <EDID>REQ_Conjuration4_SpiritIceWraith</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Summon Ice Spirit</Source>
-      <Dest>氷のスピリット召喚</Dest>
+      <Dest>氷の霊魂召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration3_SpectralArcher</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spectral Archer</Source>
+      <Dest>亡霊の射手召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_GM_Flurry</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Dual Flurry 50</Source>
       <Dest>二連疾風50</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration3_SpectralWarrior</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spectral Warrior</Source>
+      <Dest>亡霊の戦士召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Conjuration5_GhostlyDragonpriest</EDID>
@@ -19125,6 +19725,12 @@
       <REC>SPEL:FULL</REC>
       <Source>Icy Spear</Source>
       <Dest>アイスジャベリン</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration2_SpectralWarhound</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spectral Warhound</Source>
+      <Dest>亡霊の猟犬召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Illusion4_Blackout</EDID>
@@ -19181,6 +19787,12 @@
       <Dest>馬減速</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration5_InvisibleStalkerAncano</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Invisible Stalker</Source>
+      <Dest>不可視のストーカー召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_GM_LoreOfTheThuum</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Draconic Rhetoric</Source>
@@ -19205,6 +19817,12 @@
       <Dest>世界を喰らう者の再生</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration3_SpectralArcher_NPC</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spectral Archer</Source>
+      <Dest>亡霊の射手召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Conjuration5_GhostlyDragonpriest_NPC</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Summon Ghostly Dragonpriest</Source>
@@ -19214,7 +19832,19 @@
       <EDID>REQ_Conjuration5_SpiritWerewolf_NPC</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Summon Spirit Werewolf</Source>
-      <Dest>スピリット・ウェアウルフ召喚</Dest>
+      <Dest>霊魂のウェアウルフ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration3_SpiritTroll_NPC</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spirit Troll</Source>
+      <Dest>霊魂のトロール召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration3_SpectralWarrior_NPC</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spectral Warrior</Source>
+      <Dest>亡霊の戦士召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Conjuration5_GhostlyDragonpriest_Morokei</EDID>
@@ -19251,6 +19881,12 @@
       <REC>SPEL:FULL</REC>
       <Source>Dispel Soul Gems</Source>
       <Dest>魂石解呪</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration3_TransmuteMusclesOnTarget</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Transmute Muscles on Target</Source>
+      <Dest>対象への筋肉変成</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Illusion5_VeilOfShadows</EDID>
@@ -19425,6 +20061,18 @@
       <REC>SPEL:FULL</REC>
       <Source>Bestial Blood</Source>
       <Dest>獣の血</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Restoration4_HealingAuraSelf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Powerful Healing Aura on Self</Source>
+      <Dest>強力な治癒のオーラ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Restoration4_HealingAuraTarget</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Powerful Healing Aura on Target</Source>
+      <Dest>対象への強力な治癒のオーラ</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Restoration5_ShalidorsMirror</EDID>
@@ -20120,13 +20768,13 @@
       <EDID>REQ_Alteration5_GreaterKnock</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Greater Knock</Source>
-      <Dest>強い転倒</Dest>
+      <Dest>強いノック</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alteration3_Knock</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Knock</Source>
-      <Dest>転倒</Dest>
+      <Dest>ノック</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ability_Khajiit_Lockpicking</EDID>
@@ -20162,7 +20810,7 @@
       <EDID>REQ_Conjuration5_Dremora_Falion</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Summon Dremora Archmage &amp; Archer</Source>
-      <Dest>ドレモラアークメイジ &amp; アーチャー召喚</Dest>
+      <Dest>ドレモラ・アークメイジ &amp; アーチャー召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ability_MeridiasMalediction</EDID>
@@ -20217,6 +20865,12 @@
       <REC>SCRL:FULL</REC>
       <Source>Scroll of Raise Zombie</Source>
       <Dest>幽鬼作成の巻物</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Scroll_SpiritWolf</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Scroll of Summon Spirit Wolf</Source>
+      <Dest>霊魂のオオカミ召喚の巻物</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Scroll_Courage</EDID>
@@ -20648,13 +21302,13 @@
       <EDID>REQ_Scroll_Knock</EDID>
       <REC>SCRL:FULL</REC>
       <Source>Scroll of Knock</Source>
-      <Dest>転倒の巻物</Dest>
+      <Dest>ノックの巻物</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Scroll_GreaterKnock</EDID>
       <REC>SCRL:FULL</REC>
       <Source>Scroll of Greater Knock</Source>
-      <Dest>強い転倒の巻物</Dest>
+      <Dest>強いノックの巻物</Dest>
     </String>
     <String List="0">
       <EDID>BearTrap01</EDID>
@@ -22011,6 +22665,12 @@
       <REC>ARMO:FULL</REC>
       <Source>Alik&apos;r Hood</Source>
       <Dest>アリクルのフード</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Clothing_Boots_Archmage</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Arch-Mage&apos;s Boots</Source>
+      <Dest>アークメイジのブーツ</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Clothing_Robes_Archmage</EDID>
@@ -25433,6 +26093,12 @@
       <Dest>ウィンターホールド衛兵のスチールプレートの鎧</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Orichalcum_Cuirass_GuardThePale</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Pale Orichalcum Plate Armor</Source>
+      <Dest>ペイルのオリハルコンの鎧</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Orichalcum_Cuirass_GuardBoots</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Orichalcum Plate Boots</Source>
@@ -25473,6 +26139,36 @@
       <REC>ARMO:FULL</REC>
       <Source>Falkreath Orichalcum Plate Armor</Source>
       <Dest>ファルクリース衛兵のオークのプレートの鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Orichalcum_Cuirass_GuardTheReach</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Reach Orichalcum Plate Armor</Source>
+      <Dest>リーチのオリハルコンの鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Orichalcum_Cuirass_GuardHjaalmarch</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Hjaalmarch Orichalcum Plate Armor</Source>
+      <Dest>ハイアルマーチのオリハルコンの鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Orichalcum_Cuirass_GuardTheRift</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Rift Orichalcum Plate Armor</Source>
+      <Dest>リフトのオリハルコンの鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Orichalcum_Cuirass_GuardHaafingar</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Haafingar Orichalcum Plate Armor</Source>
+      <Dest>ハーフィンガルのオリハルコンの鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Orichalcum_Cuirass_GuardEastmarch</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Eastmarch Orichalcum Plate Armor</Source>
+      <Dest>イーストマーチのオリハルコンの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Orichalcum_Cuirass_GuardWinterhold</EDID>
@@ -25583,6 +26279,12 @@
       <Dest>衛兵のプレート兜</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Clothing_Hood_Archmage</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Arch-Mage&apos;s Hood</Source>
+      <Dest>アークメイジのフード</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Daedric_Helmet_Unplayable</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Daedric Helmet</Source>
@@ -25665,6 +26367,12 @@
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Raise Dead I</Source>
       <Dest>呪文の書: 死者再生I</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration1_SpiritWolf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Spirit Wolf</Source>
+      <Dest>呪文の書: 霊魂のオオカミ召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Illusion2_EnragingOrb</EDID>
@@ -25757,6 +26465,12 @@
       <Dest>呪文の書: 死者再生II</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Conjuration3_FlameAtronach</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Flame Atronach</Source>
+      <Dest>呪文の書: 炎の精霊召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Conjuration2_BoundBattleAxe</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Bound Axe</Source>
@@ -25767,6 +26481,18 @@
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Banish Daedra I</Source>
       <Dest>呪文の書: デイドラ追放I</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration4_FrostAtronach</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Frost Atronach</Source>
+      <Dest>呪文の書: 氷の精霊召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration4_StormAtronach</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Storm Atronach</Source>
+      <Dest>呪文の書: 嵐の精霊召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Conjuration4_BoundBow</EDID>
@@ -25803,6 +26529,24 @@
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Raise Dead V</Source>
       <Dest>呪文の書: 死者再生Ⅴ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration5_FlameThrall</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Flame Thrall</Source>
+      <Dest>呪文の書: 炎の従徒召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration5_FrostThrall</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Frost Thrall</Source>
+      <Dest>呪文の書: 氷の従徒召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration5_StormThrall</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Storm Thrall</Source>
+      <Dest>呪文の書: 嵐の従徒召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Destruction2_Firebolt</EDID>
@@ -26057,6 +26801,12 @@
       <Dest>呪文の書: 形なき矢</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Conjuration2_FlamingFamiliar</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Flaming Familiar</Source>
+      <Dest>呪文の書: 炎の使い魔召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Alteration5_MageArmorOnSelf</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Mage Armor on Self V</Source>
@@ -26264,7 +27014,7 @@
       <EDID>REQ_Tome_Alteration2_LesserKnock</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Lesser Knock</Source>
-      <Dest>呪文の書: 弱い転倒</Dest>
+      <Dest>呪文の書: 弱いノック</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Restoration3_HealSelf</EDID>
@@ -26519,6 +27269,18 @@
       <Dest>呪文の書: ソウル・ケルン召喚術III</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Conjuration2_NecromanticEmpowermentOnTarget</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Necromantic Empowerment on Target</Source>
+      <Dest>呪文の書: 対象の死霊術の強化</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration3_NecromanticEmpowerementOnSelf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Necromantic Empowerment on Self</Source>
+      <Dest>呪文の書: 死霊術の強化</Dest>
+    </String>
+    <String List="0">
       <EDID>DLC1ElderScrollBlood</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Elder Scroll</Source>
@@ -26555,6 +27317,24 @@
       <Dest>ヘリヤーケン・ホールの権利証</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Conjuration5_SpiritSteed</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Spirit Steed</Source>
+      <Dest>呪文の書: 霊魂の駿馬召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Restoration5_ShalidorsMirror</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Shalidor&apos;s Mirror</Source>
+      <Dest>呪文の書: シャリドールの鏡</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration5_InvisibleStalker</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Invisible Stalker</Source>
+      <Dest>呪文の書: 不可視のストーカー召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Conjuration1_Swarm</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Summon Swarm I</Source>
@@ -26567,10 +27347,34 @@
       <Dest>呪文の書: 大群召喚II</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Restoration3_DispelOnSelf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Dispel on Self</Source>
+      <Dest>呪文の書: 解呪</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Conjuration5_Teleport</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Teleport</Source>
       <Dest>呪文の書: テレポート</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Restoration5_DispelOnTarget</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Dispel on Target</Source>
+      <Dest>呪文の書: 対象への解呪</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Restoration1_HealingAuraOnSelf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Healing Aura on Self</Source>
+      <Dest>呪文の書: 治癒のオーラ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Restoration1_HealingAuraOnTarget</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Healing Aura on Target</Source>
+      <Dest>呪文の書: 対象への治癒のオーラ</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Restoration3_HealingRay</EDID>
@@ -26687,6 +27491,12 @@
       <Dest>呪文の書: 蒸気の雲</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Destruction3_SnowSpume</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Snow Spume</Source>
+      <Dest>呪文の書: 雪の泡</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Destruction4_FrostShock</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Iceshock</Source>
@@ -26753,6 +27563,12 @@
       <Dest>呪文の書: 毒ショック</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Conjuration3_SpiritBear</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Spirit Bear</Source>
+      <Dest>呪文の書: 霊魂のクマ召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Illusion4_InvisibilitySphere</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Invisibility Sphere</Source>
@@ -26783,6 +27599,18 @@
       <Dest>呪文の書: 幻影の殺人者</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Restoration2_ProtectionFromPoisonOnSelf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Protection from Poison on Self</Source>
+      <Dest>呪文の書: 毒からの保護</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Restoration2_ProtectionFromPoisonOnTarget</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Protection from Poison on Target</Source>
+      <Dest>呪文の書: 対象への毒からの保護</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Alteration2_TransmuteMusclesOnSelf</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Transmute Muscles on Self</Source>
@@ -26799,6 +27627,42 @@
       <REC>BOOK:FULL</REC>
       <Source>Note</Source>
       <Dest>メモ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration5_SpiritWerewolf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Spirit Werewolf</Source>
+      <Dest>呪文の書: 霊魂のウェアウルフ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration3_SpiritTroll</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Spirit Troll</Source>
+      <Dest>呪文の書: 霊魂のトロール召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration2_SpiritMudcrab</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Spirit Mudcrab</Source>
+      <Dest>呪文の書: 霊魂のマッドクラブ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration4_SpiritSabrecat</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Spirit Sabrecat</Source>
+      <Dest>呪文の書: 霊魂のサーベルキャット召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration5_DremoraArcher</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Dremora Archer</Source>
+      <Dest>呪文の書: ドレモラ・アーチャー召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration5_DremoraMage</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Dremora Archmage</Source>
+      <Dest>呪文の書: ドレモラ・アークメイジ召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Book_Recipe_Dwarven</EDID>
@@ -26903,6 +27767,24 @@
       <Dest>魔術師ギルドの起源</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Conjuration4_SpiritIceWraith</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Spirit Ice Wraith</Source>
+      <Dest>呪文の書: 霊魂の氷の怨霊召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration3_SpectralArcher</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Spectral Archer</Source>
+      <Dest>呪文の書: 亡霊の射手召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration3_SpectralWarrior</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Spectral Warrior</Source>
+      <Dest>呪文の書: 亡霊の戦士召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Conjuration5_GhostlyDragonpriest</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Summon Ghostly Dragonpriest</Source>
@@ -26993,6 +27875,12 @@
       <Dest>呪文の書: 相手への筋肉変成</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Illusion4_MufflingSphere</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Muffling Sphere</Source>
+      <Dest>呪文の書: 透明化の宝球</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Book_GorakNote</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Gorak&apos;s Diary</Source>
@@ -27069,6 +27957,12 @@
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Absorbing Grasp</Source>
       <Dest>呪文の書: 吸収の掌握</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Book_Recipe_Steel</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>The Craftsman&apos;s Manual</Source>
+      <Dest>職人のマニュアル</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Book_MQ203Note01</EDID>
@@ -27221,6 +28115,24 @@
       <Dest>メモ</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Restoration4_HealingAuraSelf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Powerful Healing Aura on Self</Source>
+      <Dest>呪文の書: 強力な治癒のオーラ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Restoration4_HealingAuraTarget</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Powerful Healing Aura on Target</Source>
+      <Dest>呪文の書: 対象への強力な治癒のオーラ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration2_SpectralWarhound</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Summon Spectral Warhound</Source>
+      <Dest>呪文の書: 霊魂の猟犬召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Alteration3_MageArmorOnTarget</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Mage Armor on Target I</Source>
@@ -27284,13 +28196,13 @@
       <EDID>REQ_Tome_Alteration3_Knock</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Knock</Source>
-      <Dest>呪文の書: 転倒</Dest>
+      <Dest>呪文の書: ノック</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Alteration5_GreaterKnock</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Greater Knock</Source>
-      <Dest>呪文の書: 強い転倒</Dest>
+      <Dest>呪文の書: 強いノック</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Alteration4_Polymorph</EDID>
@@ -33755,6 +34667,12 @@
       <Dest>デイドラの戦鎚(業火)</Dest>
     </String>
     <String List="0">
+      <EDID>StaffConjureFamiliar</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Staff of the Spirit Wolf</Source>
+      <Dest>霊魂のオオカミの杖</Dest>
+    </String>
+    <String List="0">
       <EDID>StaffMassCharm</EDID>
       <REC>WEAP:FULL</REC>
       <Source>Staff of Mass Harmony</Source>
@@ -33939,6 +34857,12 @@
       <REC>WEAP:FULL</REC>
       <Source>Nord Hero War Axe</Source>
       <Dest>ノルドの英雄の片手斧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_NordHero_BattleAxe</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Nord Hero Battleaxe</Source>
+      <Dest>ノルドの英雄の両手斧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_NordHero_Sword</EDID>
@@ -37805,6 +38729,18 @@
       <Dest>銀の杖 (稲妻の枷)</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Silver_Staff_FireRune</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Silver Staff of Fire Runes</Source>
+      <Dest>銀の杖 (炎のルーン)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Silver_Staff_FrostRune</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Silver Staff of Frost Runes</Source>
+      <Dest>銀の杖 (氷のルーン)</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Silver_Staff_ShockRune</EDID>
       <REC>WEAP:FULL</REC>
       <Source>Silver Staff of Lightning Runes</Source>
@@ -37817,10 +38753,22 @@
       <Dest>木の杖 (炎の稲妻)</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Wooden_Staff_IceSpike</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Wooden Staff of Ice Spikes</Source>
+      <Dest>アイススパイクの杖</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Wooden_Staff_LightningBolt</EDID>
       <REC>WEAP:FULL</REC>
       <Source>Wooden Staff of Lightning Bolts</Source>
       <Dest>木の杖 (稲妻)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Glass_Staff_SummonAtronachFlame</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Glass Staff of the Flame Atronach</Source>
+      <Dest>碧水晶の杖 (炎の精霊)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ebony_Staff_SummonAtronachFrost</EDID>
@@ -37857,6 +38805,24 @@
       <REC>WEAP:FULL</REC>
       <Source>Ebony Staff of the Storm Atronach</Source>
       <Dest>黒檀の杖 (嵐の精霊)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Wooden_Staff_ConjureFamiliar</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Wooden Staff of the Spirit Wolf</Source>
+      <Dest>木の杖 (霊魂のオオカミ)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Glass_Staff_WallOfFrost</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Glass Staff of Frost Walls</Source>
+      <Dest>碧水晶の杖 (氷の壁)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Glass_Staff_WallOfFire</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Glass Staff of Fire Walls</Source>
+      <Dest>碧水晶の杖 (炎の壁)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Glasss_Staff_WallOfStorms</EDID>
@@ -38205,6 +39171,12 @@
       <REC>WEAP:FULL</REC>
       <Source>Dwemer Crossbow</Source>
       <Dest>ドワーフのクロスボウ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Silver_Tanto</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Silver Tanto</Source>
+      <Dest>銀の短刀</Dest>
     </String>
     <String List="0">
       <EDID>IronArrow</EDID>
@@ -41957,6 +42929,12 @@
       <Dest>アイカンターのスパイダー</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritWolf</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Spirit Wolf</Source>
+      <Dest>霊魂のオオカミ</Dest>
+    </String>
+    <String List="0">
       <EDID>DA13EncAfflicted00Template</EDID>
       <REC>NPC_:FULL</REC>
       <Source>Afflicted</Source>
@@ -44021,6 +44999,12 @@
       <Dest>ブラックブラッド略奪団</Dest>
     </String>
     <String List="0">
+      <EDID>MG07LabyrinthianDraugrTemplate</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Spectral Draugr</Source>
+      <Dest>亡霊のドラウグル</Dest>
+    </String>
+    <String List="0">
       <EDID>EncDragon02Fire</EDID>
       <REC>NPC_:FULL</REC>
       <Source>Dragon</Source>
@@ -45191,6 +46175,12 @@
       <Dest>気狂いヤギ</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritHorse</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Spirit Steed</Source>
+      <Dest>霊魂の駿馬</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Actor_Conjuration_InvisibleStalker</EDID>
       <REC>NPC_:FULL</REC>
       <Source>Invisible Stalker</Source>
@@ -45201,6 +46191,18 @@
       <REC>NPC_:FULL</REC>
       <Source>Ghostly Dragonpriest</Source>
       <Dest>亡霊のドラゴン・プリースト</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritBear</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Spirit Bear</Source>
+      <Dest>霊魂のクマ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritWraith</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Ice Spirit</Source>
+      <Dest>氷の霊魂</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Actor_GorakTheTrollslayer</EDID>
@@ -45225,6 +46227,30 @@
       <REC>NPC_:FULL</REC>
       <Source>Slaughterfish</Source>
       <Dest>スローターフィッシュ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritMudcrab</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Spirit Mudcrab</Source>
+      <Dest>霊魂のマッドクラブ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritSabreCat</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Spirit Sabre Cat</Source>
+      <Dest>霊魂のサーベルキャット</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritWerewolf</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Spirit Werewolf</Source>
+      <Dest>霊魂のウェアウルフ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritTroll</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Spirit Troll</Source>
+      <Dest>霊魂のトロール</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Actor_Conjuration_DremoraArcher</EDID>
@@ -45255,6 +46281,18 @@
       <REC>NPC_:FULL</REC>
       <Source>Invisible Entity</Source>
       <Dest>不可視の存在</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpectralArcher</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Spectral Archer</Source>
+      <Dest>亡霊の射手</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpectralWarrior</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Spectral Warrior</Source>
+      <Dest>亡霊の戦士</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Actor_Conjuration_SpectralWarhound</EDID>
@@ -46905,6 +47943,54 @@
       <REC>NPC_:SHRT</REC>
       <Source>Elsi</Source>
       <Dest>エルシ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritTroll_Potent</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Potent Spirit Troll</Source>
+      <Dest>強力な霊魂のトロール</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritWerewolf_Potent</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Potent Spirit Werewolf</Source>
+      <Dest>強力な霊魂のウェアウルフ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritSabreCat_Potent</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Potent Spirit Sabre Cat</Source>
+      <Dest>強力な霊魂のサーベルキャット</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritMudcrab_Potent</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Potent Spirit Mudcrab</Source>
+      <Dest>強力な霊魂のマッドクラブ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritWraith_Potent</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Potent Ice Spirit</Source>
+      <Dest>強力な氷の霊魂</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritBear_Potent</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Potent Spirit Bear</Source>
+      <Dest>強力な霊魂のクマ</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritHorse_Potent</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Potent Spirit Steed</Source>
+      <Dest>強力な霊魂の駿馬</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Actor_Conjuration_SpiritWolf_Potent</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Potent Spirit Wolf</Source>
+      <Dest>強力な霊魂のオオカミ</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Key_MQ101Cage</EDID>
@@ -50771,6 +51857,12 @@
       <Dest>キルクリース聖堂</Dest>
     </String>
     <String List="0">
+      <EDID>RobbersGorge01</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Robber&apos;s Cove</Source>
+      <Dest>ロバーズ洞穴</Dest>
+    </String>
+    <String List="0">
       <EDID>ShriekwindBastion01</EDID>
       <REC>CELL:FULL</REC>
       <Source>Shriekwind Bastion</Source>
@@ -53693,6 +54785,12 @@ With a hunger to swallow the world!
       <Dest>盗賊座は最後の大守護星座であり、その季節は最も暗い月、星霜の月だ。その監督下には恋人座、影座、塔座がある。この星座の下に生まれた者は典型的な盗賊ではなく、頻繁にリスクを犯しながらも、危険な目に遭うことはめったにない。しかしながら結局、運を使い果たしてしまい、他の星座の下に生まれた者のように長生きすることはまれだ。</Dest>
     </String>
     <String List="0">
+      <EDID>ShopsMagic</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Although it&apos;s possible to learn spells through other means, it is a common practice to buy the respective formula from another salesman - or more commonly, another wizard who is willing to share this most powerful form of knowledge.</Source>
+      <Dest>呪文を他の方法で学ぶことも可能だが、販売員からそれぞれの魔法式を買うのが一般的である - それより一般的な方法は - 知識というものの最も強力な形である魔法を共有しても良いと考える魔法使いからの購入である。</Dest>
+    </String>
+    <String List="0">
       <EDID>DoomstoneApprenticeTip</EDID>
       <REC>LSCR:DESC</REC>
       <Source>The Apprentice&apos;s Season is Sun&apos;s Height. Those born under the sign of the apprentice have a special affinity for magick of all kinds, but are more vulnerable to magick as well.</Source>
@@ -54710,6 +55808,18 @@ With a hunger to swallow the world!
       <Dest>力強い一撃</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Perk_TwoHanded_GreatswordFocus1</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Greatsword Focus</Source>
+      <Dest>グレートソードの集中</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_TwoHanded_WarhammerFocus1</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Warhammer Focus</Source>
+      <Dest>戦鎚の集中</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Perk_TwoHanded_Cleave</EDID>
       <REC>PERK:FULL</REC>
       <Source>Cleave</Source>
@@ -54726,6 +55836,12 @@ With a hunger to swallow the world!
       <REC>PERK:FULL</REC>
       <Source>Devastating Cleave</Source>
       <Dest>真・横一文字</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_OneHanded_WarAxeFocus1</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>War Axe Focus</Source>
+      <Dest>片手斧の集中</Dest>
     </String>
     <String List="0">
       <EDID>REQ_NULL_PointBlankShot</EDID>
@@ -55118,6 +56234,18 @@ With a hunger to swallow the world!
       <Dest>視覚操作</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Perk_OneHanded_SwordFocus1</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Sword Focus</Source>
+      <Dest>剣の集中</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_OneHanded_MaceFocus1</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Mace Focus</Source>
+      <Dest>メイスの集中</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Perk_Block_OverpoweringBashes</EDID>
       <REC>PERK:FULL</REC>
       <Source>Overpowering Bashes</Source>
@@ -55274,6 +56402,66 @@ With a hunger to swallow the world!
       <Dest>錬金学</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Perk_OneHanded_SwordFocus2</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Sword Focus</Source>
+      <Dest>剣の集中</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_OneHanded_SwordFocus3</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Sword Focus</Source>
+      <Dest>剣の集中</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_OneHanded_MaceFocus2</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Mace Focus</Source>
+      <Dest>メイスの集中</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_OneHanded_MaceFocus3</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Mace Focus</Source>
+      <Dest>メイスの集中</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_TwoHanded_GreatswordFocus2</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Greatsword Focus</Source>
+      <Dest>グレートソードの集中</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_TwoHanded_GreatswordFocus3</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Greatsword Focus</Source>
+      <Dest>グレートソードの集中</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_TwoHanded_WarhammerFocus2</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Warhammer Focus</Source>
+      <Dest>戦鎚の集中</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_TwoHanded_WarhammerFocus3</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Warhammer Focus</Source>
+      <Dest>戦鎚の集中</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_OneHanded_WarAxeFocus2</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>War Axe Focus</Source>
+      <Dest>片手斧の集中</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_OneHanded_WarAxeFocus3</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>War Axe Focus</Source>
+      <Dest>片手斧の集中</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Perk_Enchanting_EnchantersInsight2</EDID>
       <REC>PERK:FULL</REC>
       <Source>Enchanter&apos;s Insight</Source>
@@ -55412,6 +56600,24 @@ With a hunger to swallow the world!
       <Dest>回復術の達人</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Perk_TwoHanded_BattleAxeFocus1</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Battle Axe Focus</Source>
+      <Dest>両手斧の集中</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_TwoHanded_BattleAxeFocus2</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Battle Axe Focus</Source>
+      <Dest>両手斧の集中</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_TwoHanded_BattleAxeFocus3</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Battle Axe Focus</Source>
+      <Dest>両手斧の集中</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Perk_OneHanded_PowerfulCharge</EDID>
       <REC>PERK:FULL</REC>
       <Source>Powerful Charge</Source>
@@ -55422,6 +56628,12 @@ With a hunger to swallow the world!
       <REC>PERK:FULL</REC>
       <Source>Devastating Charge</Source>
       <Dest>壊滅的な突進</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_Smithing_Craftsmanship</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Craftsmanship</Source>
+      <Dest>職人技</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Perk_Smithing_DwarvenSmithing</EDID>
@@ -55602,6 +56814,18 @@ With a hunger to swallow the world!
       <REC>PERK:FULL</REC>
       <Source>Quick Shot</Source>
       <Dest>クイックショット</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_Marksmanship_PiercingShot</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Piercing Shot</Source>
+      <Dest>ピアシングショット</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_Marksmanship_PenetratingShot</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Penetrating Shot</Source>
+      <Dest>ペネトレーティングショット</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Perk_Evasion_Windrunner</EDID>
@@ -55964,6 +57188,18 @@ With a hunger to swallow the world!
       <Dest>強大な一撃</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Perk_Conjuration_CognitiveFlexibility1</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Cognitive Flexibility</Source>
+      <Dest>認知的柔軟性</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_Conjuration_CognitiveFlexibility2</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Cognitive Flexibility</Source>
+      <Dest>認知的柔軟性</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Perk_HeavyArmor_BattleMage</EDID>
       <REC>PERK:FULL</REC>
       <Source>Battle Mage</Source>
@@ -56082,6 +57318,12 @@ With a hunger to swallow the world!
       <REC>PERK:FULL</REC>
       <Source>The Way of the Voice</Source>
       <Dest>声の道</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_GM_doomAtronach_NoMagickaGain</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Stone of the Atronach Penalties</Source>
+      <Dest>精霊の石碑のペナルティ</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Perk_Speech_Masquerade1</EDID>
@@ -56208,6 +57450,12 @@ With a hunger to swallow the world!
       <REC>PERK:FULL</REC>
       <Source>REQ GM: Rescale physical damage spells</Source>
       <Dest>REQ GM: Rescale physical damage spells</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Perk_Conjuration_SpiritualBinding</EDID>
+      <REC>PERK:FULL</REC>
+      <Source>Spiritual Binding</Source>
+      <Dest>霊魂の束縛</Dest>
     </String>
     <String List="0">
       <EDID>AVOneHanded</EDID>
@@ -57599,11 +58847,11 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <Source>Some Argonians can conciously alter their metabolism to regenerate themselves very fast at first and then slowly over time. The process is exhausting, though, and can therefore only be used once a day.</Source>
       <Dest>いくらかのアルゴニアンは代謝を意識的に改変することができ、最初はとても素早く回復し時間とともに遅くなっていく。しかし、この過程によって激しく疲労するため、1日1回しか使えない。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Ability_StandingStones_Thief</EDID>
       <REC>SPEL:DESC</REC>
       <Source>The Sign of the Thief grants wide-spread abilities to those who bear her blessing. This includes increased damage with bows and one-handed weapons as well as improved sneaking, pickpocketing and lockpicking skills, boosting lock picking expertise by 20 points.</Source>
-      <Dest>盗賊座はその祝福がある者に幅広い能力を施す。弓と片手武器によるダメージが増え、隠密、スリ、ロックピックのスキルが向上し、開錠の知識を 20 ポイント与える。</Dest>
+      <Dest>盗賊座はその祝福がある者に幅広い能力を施す。弓と片手武器によるダメージが増え、隠密、スリ、ロックピックのスキルが向上し、開錠の技術を 20 ポイント与える。</Dest>
     </String>
     <String List="1">
       <EDID>doomMageAbility</EDID>
@@ -57984,6 +59232,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <Dest>駿馬の魔法オーラによって騎乗者も霊体化する…</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Conjuration5_SpiritSteed</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>The caster summons the spirit of a noble steed.</Source>
+      <Dest>術者は高潔な駿馬の霊魂を召喚する。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Power_ArcaneExperimentation</EDID>
       <REC>SPEL:DESC</REC>
       <Source>The caster experiments with arcane energies to create new enchanted objects that can be disenchanted afterwards. Three grand filled soul gems and five iron daggers are needed for that.</Source>
@@ -58107,13 +59361,13 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <EDID>REQ_Ability_Khajiit_Lockpicking</EDID>
       <REC>SPEL:DESC</REC>
       <Source>Your race is blessed with a natural agility and some people say also has an affiliation with crime. In any case, your lockpicking expertise is increased by &lt;10&gt;.</Source>
-      <Dest>あなたの種族は生来の俊敏さに恵まれ、犯罪と結びついているとも一部の人は言う。いずれにせよ、ロックピックの知識が &lt;10&gt; 増える。</Dest>
+      <Dest>あなたの種族は生来の俊敏さに恵まれ、犯罪と結びついているとも一部の人は言う。いずれにせよ、ロックピックの技術が &lt;10&gt; 増える。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Ability_SkeletonKey</EDID>
       <REC>SPEL:DESC</REC>
       <Source>The Skeleton&apos;s key otherworldly powers give you a lockpicking expertise bonus of 160 and opening any lock will become a children&apos;s game.</Source>
-      <Dest>不壊のピックの人智を超えた力は、あなたにロックピックの知識を160与え、あらゆる鍵開けが児戯に等しくなる。</Dest>
+      <Dest>不壊のピックの人智を超えた力は、あなたにロックピックの技術を160与え、あらゆる鍵開けが児戯に等しくなる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Scroll_FireStorm</EDID>
@@ -68220,6 +69474,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>疾走中に跳躍しながら強力な一撃を放ち&lt;br&gt;敵を木っ端微塵にする方法を学んだ。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Smithing_Craftsmanship</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve acquired the basics of craftsmanship and know how to properly use all kinds of tools. &lt;br&gt; Thus, you are able to craft and improve a wide variety of common goods.</Source>
+      <Dest>あなたは職人技の基本を習得し、全ての種類の道具を正しく使う方法を知った。&lt;br&gt;そのため、多種多様な常用品を作ったり、またその性能を高めたりできる。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Smithing_DwarvenSmithing</EDID>
       <REC>PERK:DESC</REC>
       <Source>You&apos;ve studied some long-lost schematics of dwarven equipment and &lt;br&gt; acquired the secret knowledge of how to create and improve them efficiently.</Source>
@@ -68662,6 +69922,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>両手武器の一撃で殺せない者はもう残っていない、&lt;br&gt;巨人でさえその一撃で簡単に陥落するほどだ。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Conjuration_CognitiveFlexibility1</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You have practiced the mental ability of maintaining two summons at the same time. This power extends to&lt;br&gt;controlling any type of conjured or conceived entity, even outside the school of Conjuration.</Source>
+      <Dest>あなたは同時に2体の召喚を保てる精神力を練習した。この力はあらゆる種類の&lt;br&gt;召喚物や想像物に及び、たとえ召喚一派から外れたものであっても例外ではない。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Evasion_AgileSpellcasting</EDID>
       <REC>PERK:DESC</REC>
       <Source>You learned how to avoid the limitations light armors bestow upon somatic spell components. &lt;br&gt; Thus, you can cast spells in them unhindered.</Source>
@@ -68884,6 +70150,12 @@ using the default resistance system leads to crap, because the damageresist resi
       <Dest>rescales the magnitude of spells with physical damage manually
 
 using the default resistance system leads to crap, because the damageresist resistance type uses the armor rating and not the derived damage resistance.</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Conjuration_SpiritualBinding</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your knowledge of Oblivion&apos;s spiritual aspects increases the strength of all your summoned spirits.</Source>
+      <Dest>あなたが持つオブリビオンの霊的な側面への知識が、召喚されたすべての霊魂の力を強める。</Dest>
     </String>
     <String List="1">
       <EDID>AVOneHanded</EDID>
@@ -69855,7 +71127,7 @@ Since this issue has a major impact on Requiem if not resolved now, the game wil
 
 (メニューを開いて以前のセーブゲームからやり直してください)</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_followerHasOptimalSkill_NoLockpicks</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems very complex to you and you&apos;re certain you would just be wasting your time and lockpicks trying to open it. Your follower &lt;Alias.ShortName=LockpickMinion&gt; however considers this lock trivial and claims &lt;Alias.Pronoun=LockpickMinion&gt; could pick it if &lt;Alias.Pronoun=LockpickMinion&gt; had %.0f lockpicks.
@@ -69864,10 +71136,10 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵はあまりに複雑すぎて、開けようなんて時間とロックピックをドブに捨てるようなものだ。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、この鍵は &lt;Alias.Pronoun=LockpickMinion&gt; にとって些細なものだ思っていて、 もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_followerHasOptimalSkill_Confirmation</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems very complex to you and you&apos;re certain you would just be wasting your time and lockpicks trying to open it. Your follower &lt;Alias.ShortName=LockpickMinion&gt; however considers this lock trivial and claims &lt;Alias.Pronoun=LockpickMinion&gt; could pick it with %.0f lockpicks.
@@ -69876,10 +71148,10 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵を些細なものだと思っていて、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_followerHasRequiredSkill_NoLockpicks</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems very complex to you. You&apos;re certain you would just be wasting your time and lockpicks trying to open it. Your follower &lt;Alias.ShortName=LockpickMinion&gt; however thinks &lt;Alias.Pronoun=LockpickMinion&gt; could pick this lock with some effort if &lt;Alias.Pronoun=LockpickMinion&gt; had at least %.0f lockpicks.
@@ -69888,10 +71160,10 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、もし &lt;Alias.Pronoun=LockpickMinion&gt; に少なくとも %.0f　本のロックピックがあれば、頑張って開けられるかもしれないと思っている。
 
-この鍵をより少ない努力でロックピックも無駄にせず開けるには、開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力でロックピックも無駄にせず開けるには、開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_followerHasRequiredSkill_Confirmation</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems very complex to you. You&apos;re certain you would just be wasting your time and lockpicks trying to open it. Your follower &lt;Alias.ShortName=LockpickMinion&gt; however thinks &lt;Alias.Pronoun=LockpickMinion&gt; could pick this lock with some effort and  %.0f lockpicks.
@@ -69900,40 +71172,40 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、もし &lt;Alias.Pronoun=LockpickMinion&gt; に少なくとも %.0f　本のロックピックがあれば、頑張って開けられるかもしれないと思っている。
 
-この鍵をより少ない努力でロックピックを無駄にせず開けるには、開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力でロックピックを無駄にせず開けるには、開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_InsufficientExpertise_WithParty</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems very complicated to you and your followers alike. You&apos;re certain you would just be wasting your time and lockpicks trying to open it. A lockpicking expertise of at least %.0f is needed to handle locks of this complexity.
 
 Your current lockpicking expertise is %.0f and your most skilled follower, &lt;Alias.ShortName=LockpickMinion&gt;, has an expertise of %.0f.</Source>
-      <Dest>この鍵はあなたとフォロワー達にとって複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+      <Dest>この鍵はあなたとフォロワー達にとって複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
 
-あなたの開錠の知識は %.0f で、フォロワーのなかで経験が最も豊富な &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+あなたの開錠の技術は %.0f で、フォロワーのなかで経験が最も豊富な &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_InsufficientExpertise_WithFollower</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems very complicated to both &lt;Alias.ShortName=LockpickMinion&gt; and you. You&apos;re certain you would just be wasting your time and lockpicks trying to open it. A lockpicking expertise of at least %.0f is needed to handle locks of this complexity.
 
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
-      <Dest>この鍵はあなたと&lt;Alias.ShortName=LockpickMinion&gt; にとって複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+      <Dest>この鍵はあなたと&lt;Alias.ShortName=LockpickMinion&gt; にとって複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
 
-あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_InsufficientExpertise_Solo</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems very complicated and you&apos;re certain that you would just be wasting your time and lockpicks trying to open it. A lockpicking expertise of at least %.0f is needed to handle locks of this complexity.
 
 Your current lockpicking expertise is %.0f.</Source>
-      <Dest>この鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+      <Dest>この鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
 
-あなたの開錠の知識は %.0f だ。</Dest>
+あなたの開錠の技術は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerTooDumb</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems complex to you, but with some time and enough lockpicks you should be able to open it. Your follower &lt;Alias.ShortName=LockpickMinion&gt; considers this lock far too complex to give it a try. 
@@ -69942,20 +71214,20 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵があまりに複雑すぎて試す気にもならないと思っている。
 
-この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_challengingLock_Solo</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems complex to you, but with some time and enough lockpicks you should be able to open it. A lockpicking expertise of at least %.0f is needed to handle locks of this complexity.
 
 Your current lockpicking expertise is %.0f.</Source>
-      <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+      <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
 
-あなたの開錠の知識は %.0f だ。</Dest>
+あなたの開錠の技術は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerNoLockpicksRequired</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems complex to you, but with some time and enough lockpicks you should be able to open it. Your follower &lt;Alias.ShortName=LockpickMinion&gt; also thinks &lt;Alias.Pronoun=LockpickMinion&gt; could pick this lock with some effort if &lt;Alias.Pronoun=LockpickMinion&gt; had at least %.0f lockpicks.
@@ -69964,10 +71236,10 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; もそう思っていて、 もし &lt;Alias.Pronoun=LockpickMinion&gt; に少なくとも %.0f　本のロックピックがあれば、頑張って開けられるかもしれない。
 
-この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerNoLockpicksOptimal</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems complex to you, but with some time and enough lockpicks you should be able to open it. Your follower &lt;Alias.ShortName=LockpickMinion&gt; however considers this lock trivial and claims &lt;Alias.Pronoun=LockpickMinion&gt; could pick it if &lt;Alias.Pronoun=LockpickMinion&gt; had %.0f lockpicks.
@@ -69976,10 +71248,10 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵を些細なものだと思っていて、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerCanPickRequired</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems complex to you, but with some time and enough lockpicks you should be able to open it. Your follower &lt;Alias.ShortName=LockpickMinion&gt; also thinks &lt;Alias.Pronoun=LockpickMinion&gt; could pick this lock with some effort and  %.0f lockpicks.
@@ -69988,10 +71260,10 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; もそう思っていて、 &lt;Alias.Pronoun=LockpickMinion&gt; であれば %.0f 本のロックピックと努力で開けられるかもしれない。
 
-この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerCanPickOptimal</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems complex to you, but with some time and enough lockpicks you should be able to open it. Your follower &lt;Alias.ShortName=LockpickMinion&gt; however considers this lock trivial and claims &lt;Alias.Pronoun=LockpickMinion&gt; could pick it with %.0f lockpicks.
@@ -70000,10 +71272,10 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵を些細なものだと思っていて、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerTooDumb</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems easy to you, but unfortunately you do not have any lockpicks at hand. Your follower &lt;Alias.ShortName=LockpickMinion&gt; considers this lock far too complex to give it a try. 
@@ -70012,10 +71284,10 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。 あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵があまりに複雑すぎて試す気にもならないと思っている。
 
-この鍵を簡単に開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵を簡単に開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerNoLockpicksRequired</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems easy to you, but unfortunately you do not have any lockpicks at hand. Your follower &lt;Alias.ShortName=LockpickMinion&gt; thinks &lt;Alias.Pronoun=LockpickMinion&gt; could pick this lock with some effort if &lt;Alias.Pronoun=LockpickMinion&gt; had at least %.0f lockpicks.
@@ -70024,10 +71296,10 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。 あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、もし &lt;Alias.Pronoun=LockpickMinion&gt; に少なくとも %.0f　本のロックピックがあれば、頑張って開けられるかもしれないと思っている。
 
-この鍵を簡単に開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵を簡単に開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerNoLockpicksOptimal</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems easy to you, but unfortunately you do not have any lockpicks at hand. Your follower &lt;Alias.ShortName=LockpickMinion&gt; also considers this lock easy and claims &lt;Alias.Pronoun=LockpickMinion&gt; could pick it if &lt;Alias.Pronoun=LockpickMinion&gt; had %.0f lockpicks.
@@ -70036,10 +71308,10 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。 。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; もこの鍵は簡単だと思っていて、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵を簡単に開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵を簡単に開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerCanPickRequired</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems easy to you, but unfortunately you do not have any lockpicks at hand. Your follower &lt;Alias.ShortName=LockpickMinion&gt; thinks &lt;Alias.Pronoun=LockpickMinion&gt; could pick this lock with some effort and  %.0f lockpicks.
@@ -70048,10 +71320,10 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f　本のロックピックがあれば、頑張って開けられるかもしれないと思っている。
 
-この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1">
+    <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerCanPickOptimal</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems easy to you, but unfortunately you do not have any lockpicks at hand. Your follower &lt;Alias.ShortName=LockpickMinion&gt; considers this lock easy as well and claims &lt;Alias.Pronoun=LockpickMinion&gt; could pick it with %.0f lockpicks.
@@ -70060,8 +71332,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵は簡単だと思っていて、 &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵を簡単に開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵を簡単に開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+あなたの開錠の技術は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>BecomeEtherealShout</EDID>
