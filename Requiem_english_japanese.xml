@@ -1220,6 +1220,12 @@
       <Dest>スノートロール</Dest>
     </String>
     <String List="0">
+      <EDID>WispRace</EDID>
+      <REC>RACE:FULL</REC>
+      <Source>Wisp Mother</Source>
+      <Dest>ウィスプマザー</Dest>
+    </String>
+    <String List="0">
       <EDID>WitchlightRace</EDID>
       <REC>RACE:FULL</REC>
       <Source>Wisp</Source>
@@ -2085,15 +2091,33 @@
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_FlameAtronach</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Flame Atronach</Source>
+      <Dest>炎の精霊の召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_FlameAtronach</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>The caster summons a Flame Atronach for &lt;dur&gt; seconds.</Source>
       <Dest>術者は &lt;dur&gt; 秒間、炎の精霊を召喚する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_FrostAtronach</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Frost Atronach</Source>
+      <Dest>氷の精霊の召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_FrostAtronach</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>The caster summons a Frost Atronach for &lt;dur&gt; seconds.</Source>
       <Dest>術者は &lt;dur&gt; 秒間、氷の精霊を召喚する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_StormAtronach</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Storm Atronach</Source>
+      <Dest>嵐の精霊の召喚</Dest>
     </String>
     <String List="0">
       <EDID>InvisibillityFFSelf</EDID>
@@ -3164,6 +3188,18 @@
       <Dest>スタミナ回復</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Conjuration_FlameAtronach_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Potent Flame Atronach</Source>
+      <Dest>強力な炎の精霊召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_FrostAtronach_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Potent Frost Atronach</Source>
+      <Dest>強力な氷の精霊召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Attacks_DwarvenSpider_ShockDamage</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Lightning Bolt</Source>
@@ -3927,15 +3963,33 @@
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_FlameThrall</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Flame Thrall</Source>
+      <Dest>炎の従徒召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_FlameThrall</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>The caster summons an exceptionally strong Fire Atronach that reduces its foes to cinders with the unrelenting fury of Oblivion&apos;s flames.</Source>
       <Dest>術者は衰えを知らないオブリビオンの猛火により敵を灰にする抜群に強い炎の精霊を召喚する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_FrostThrall</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Frost Thrall</Source>
+      <Dest>氷の従徒召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_FrostThrall</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>The caster summons an exceptionally strong Frost Atronach that shatters any foe in its way with the lethal ice of Oblivion.</Source>
       <Dest>術者は致命的なオブリビオンの氷により進路に立ち入った者を粉砕する抜群に強い氷の精霊を召喚する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_StormThrall</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Storm Thrall</Source>
+      <Dest>嵐の従徒召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_StormThrall</EDID>
@@ -4838,6 +4892,18 @@
       <Dest>術者は &lt;dur&gt; 秒間、ほぼすべての物理ダメージを無効化する非貫通性の力場を作り出す。</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Conjuration_FlameThrall_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Potent Flame Thrall</Source>
+      <Dest>強力な炎の従徒召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_FrostThrall_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Potent Frost Thrall</Source>
+      <Dest>強力な氷の従徒召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>DetectLifeEnemyExteriorConcSelf</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Detect Life Enemy Exterior</Source>
@@ -5148,6 +5214,12 @@
       <REC>MGEF:FULL</REC>
       <Source>The Tower Stone</Source>
       <Dest>塔の石碑</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ability_StandingStones_TowerExtras</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>You can pick effortless locks without anyone noticing it and you will also receive a wax key copy if the lock has a key.</Source>
+      <Dest>You can pick effortless locks without anyone noticing it and you will also receive a wax key copy if the lock has a key.</Dest>
     </String>
     <String List="0">
       <EDID>DetectUndeadFriendExteriorConcSelf</EDID>
@@ -6029,6 +6101,12 @@
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_FlamingFamiliar</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Flaming Familiar</Source>
+      <Dest>炎の使い魔召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_FlamingFamiliar</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Summons a familiar that will charge the nearest enemy and explode.</Source>
       <Dest>一番近くの敵に突進して爆発する使い魔を召喚する。</Dest>
@@ -6719,9 +6797,21 @@
     </String>
     <String List="0">
       <EDID>REQ_NULL_EnchSummonFlameAtronach</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Flame Atronach</Source>
+      <Dest>炎の精霊の召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_NULL_EnchSummonFlameAtronach</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Summons a Flame Atronach for &lt;dur&gt; seconds wherever the caster is pointing.</Source>
       <Dest>術者が狙った場所に &lt;dur&gt; 秒間、炎の精霊を召喚する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_NULL_EnchSummonFrostAtronach</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Frost Atronach</Source>
+      <Dest>氷の精霊の召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_NULL_EnchSummonFrostAtronach</EDID>
@@ -6731,9 +6821,21 @@
     </String>
     <String List="0">
       <EDID>REQ_NULL_EnchSummonStormAtronach</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Storm Atronach</Source>
+      <Dest>嵐の精霊の召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_NULL_EnchSummonStormAtronach</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Summons a Storm Atronach for &lt;dur&gt; seconds wherever the caster is pointing.</Source>
       <Dest>術者が狙った場所に &lt;dur&gt; 秒間、雷の精霊を召喚する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_NULL_EnchSummonFlameThrall</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Flame Thrall</Source>
+      <Dest>炎の従徒召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_NULL_EnchSummonFlameThrall</EDID>
@@ -6743,9 +6845,21 @@
     </String>
     <String List="0">
       <EDID>REQ_NULL_EnchSummonFrostThrall</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Frost Thrall</Source>
+      <Dest>氷の従徒召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_NULL_EnchSummonFrostThrall</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>The caster summons an exceptionally strong Frost Atronach that shatters any foe in its way with the lethal ice of Oblivion.</Source>
       <Dest>術者は致命的なオブリビオンの氷により進路に立ち入った者を粉砕する抜群に強い氷の精霊を召喚する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_NULL_EnchSummonStormThrall</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Storm Thrall</Source>
+      <Dest>嵐の従徒召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_NULL_EnchSummonStormThrall</EDID>
@@ -7714,6 +7828,12 @@
       <Dest>術者はあらゆる物理ダメージの &lt;95&gt;% を &lt;dur&gt; 秒間無効化する。</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Alteration2_LesserKnockEffect</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Lesser Knock</Source>
+      <Dest>弱い転倒</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_Alteration_Featherfalling_FFSelf</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Featherfalling</Source>
@@ -7895,6 +8015,12 @@
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration5_Teleport</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Teleport</Source>
+      <Dest>テレポート</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration5_Teleport</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>The caster casts his body through the fabric of space itself and instantaneously appears at the target location.</Source>
       <Dest>術者は自身の肉体を空間の構造内に投げ込み、対象の場所に瞬時に現れる。</Dest>
@@ -8039,6 +8165,12 @@
     </String>
     <String List="0">
       <EDID>REQ_Effect_DestructionIceNova</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Snow Spume</Source>
+      <Dest>雪の泡</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_DestructionIceNova</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>The caster manifests an explosion of ice shards at the target location, dealing &lt;mag&gt; points of damage in its radius.</Source>
       <Dest>術者は対象の場所に氷の欠片の爆発を生じさせ、衝撃範囲内に &lt;mag&gt; ポイントのダメージを与える。</Dest>
@@ -8090,6 +8222,18 @@
       <REC>MGEF:FULL</REC>
       <Source>Transcendance</Source>
       <Dest>卓絶</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_AlterationTranscendance03</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The target&apos;s body is dematerialized, becoming practically invulnerable for as long as the caster doesn&apos;t interact with the environment.</Source>
+      <Dest>対象の体が非実体化し、周囲と触れ合わない限り実質的に不死身になる。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritIceWraith</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Ice Spirit</Source>
+      <Dest>氷のスピリット召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_AlterationtelekineticGrip</EDID>
@@ -8350,16 +8494,40 @@
       <Dest>冷気耐性アップ</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Destruction_ResistFrost</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Increases frost resistance by &lt;mag&gt;%.</Source>
+      <Dest>冷気耐性が &lt;mag&gt;% 増加</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_Destruction_ResistFire</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Resist Fire</Source>
       <Dest>炎耐性</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Destruction_ResistFire</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Increases fire resistance by &lt;mag&gt;%.</Source>
+      <Dest>炎耐性が &lt;mag&gt;% 増加</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_Destruction_ResistShock</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Resist Shock</Source>
       <Dest>雷撃耐性</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Destruction_ResistShock</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Increases shock resistance by &lt;mag&gt;%.</Source>
+      <Dest>雷撃耐性が &lt;mag&gt;% 増加</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_DremoraArcher</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Dremora Archer</Source>
+      <Dest>ドレモラアーチャー召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_DremoraArcher</EDID>
@@ -8369,9 +8537,27 @@
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_DremoraMage</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Dremora Archmage</Source>
+      <Dest>ドレモラアークメイジ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_DremoraMage</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>The caster summons a mighty Dremora Archmage for &lt;dur&gt; seconds.</Source>
       <Dest>術者は &lt;dur&gt; 秒間、強大なドレモラ・アークメイジを召喚する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritSabrecat</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Sabrecat</Source>
+      <Dest>スピリット・サーベルキャット召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritWerewolf</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Werewolf</Source>
+      <Dest>スピリット・ウェアウルフ召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_crSpiderBiteFFContact02</EDID>
@@ -8638,6 +8824,12 @@
       <Dest>&lt;dur&gt; 秒間、時間の経過が遅くなる。</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_BreakRangedWeapons</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Break Ranged Weapons</Source>
+      <Dest>遠距離武器の破壊</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_AlterationtelekineticGripWabbajacka</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Telekinesis Effect</Source>
@@ -8888,6 +9080,18 @@
       <REC>MGEF:DNAM</REC>
       <Source>A blood-freezing poison that deals &lt;mag&gt; points of damage to Health and Stamina per second.</Source>
       <Dest>血を凍らせる毒で、体力とスタミナに1秒ごとに &lt;mag&gt; ポイントのダメージを与える。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Alcohol</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Alcohol</Source>
+      <Dest>アルコール</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Alcohol</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Numbs your sense of pain, making you feel &lt;mag&gt; points healthier for &lt;dur&gt; seconds.</Source>
+      <Dest>痛みの感覚を失くし、 &lt;mag&gt; ポイント健康であると &lt;dur&gt; 秒間感じさせる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Drug_Skooma01_FX</EDID>
@@ -9382,6 +9586,18 @@
       <Dest>ひどい苦痛</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Blessing_FortifyMelee</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Fortify Melee</Source>
+      <Dest>近接攻撃の強化</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Blessing_FortifyMelee</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Melee weapon danage is increased by &lt;mag&gt;%.</Source>
+      <Dest>近接武器のダメージが &lt;mag&gt;% 増加する。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_EnchFortifyHealthConstantSelf02</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Fortify Health</Source>
@@ -9400,6 +9616,12 @@
       <Dest>体力治癒</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_ShalidorsMirror</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Shalidor&apos;s Mirror</Source>
+      <Dest>シャリドールの鏡</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_MultiImpactBlock</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Block multiple OnHit after Spell Impact</Source>
@@ -9410,6 +9632,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Absorb Health</Source>
       <Dest>体力吸収</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Alteration_AbsorbHealthTouch</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster lays their grasping hand on a living target, focuses for a moment and then absorbs &lt;mag&gt; points of health.</Source>
+      <Dest>術者は握った手を生きた対象に置いて、少し集中し、そして &lt;mag&gt; ポイントの体力を吸収する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_AlchRestoreHealthBalmSelf</EDID>
@@ -10636,6 +10864,12 @@
       <Dest>冷気の粉末</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Dust_Shock</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Shock Powder</Source>
+      <Dest>雷の粉末</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_Illusion_75_ShadowSimulacrum_side</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Shadow Simulacrum - Passive Boni</Source>
@@ -11723,6 +11957,18 @@
       <Dest>スゥームがより頻繁に使える。</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Dust_Shock_Dwarven</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Shock Powder</Source>
+      <Dest>雷の粉末</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Dust_Shock_Dwarven</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Especially effective against constructs.</Source>
+      <Dest>ドゥーマー・コンストラクトに特に有効。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_CurseOfAgony</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Curse of Agony</Source>
@@ -11733,6 +11979,42 @@
       <REC>MGEF:DNAM</REC>
       <Source>A curse must lie on something you wear... You can feel how the life is sucked out of your body with terrifying pace, making your flesh wither within seconds!</Source>
       <Dest>この呪いは着用中の何かにかかっているに違いない… なんと恐ろしく簡単に命が吸い取られてしまうことか、数秒以内で肉体が枯れてしまうぞ！</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritIceWraith_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Ice Spirit</Source>
+      <Dest>氷のスピリット召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritWerewolf_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Werewolf</Source>
+      <Dest>スピリット・ウェアウルフ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Conjuration_SpiritSabrecat_Potent</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Summon Spirit Sabrecat</Source>
+      <Dest>スピリット・サーベルキャット召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_DispelCloak</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Dispel Cloak</Source>
+      <Dest>解呪のマント</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration5_GreaterKnockEffect</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Greater Knock</Source>
+      <Dest>強い転倒</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration3_KnockEffect</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Knock</Source>
+      <Dest>転倒</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ability_FortifyLockpicking_Skill</EDID>
@@ -11897,6 +12179,18 @@
       <Dest>炎ダメージに対して &lt;mag&gt;%の耐性が &lt;dur&gt; 秒間生じる。</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Alcohol_Magicka</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Alcohol</Source>
+      <Dest>アルコール</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_Alcohol_Magicka</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>This ale smells of minerals leached from the volcanic wastelands. Enhances your focus, giving you &lt;mag&gt; extra points of magicka for &lt;dur&gt; seconds.</Source>
+      <Dest>このエールがもつミネラルの香りは火山地帯から滲み出したものだ。 集中を高め、 &lt;dur&gt; 秒間追加のマジカを &lt;mag&gt; ポイント得る。</Dest>
+    </String>
+    <String List="0">
       <EDID>PerkRestoreStaminaConcAimed</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Restore Stamina</Source>
@@ -11937,6 +12231,18 @@
       <REC>ENCH:FULL</REC>
       <Source>Banish Daedra</Source>
       <Dest>デイドラ帰還</Dest>
+    </String>
+    <String List="0">
+      <EDID>StaffEnchConjureAtronachFrost</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Summon Frost Atronach</Source>
+      <Dest>氷の精霊の召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>StaffEnchConjureAtronachStorm</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Summon Storm Atronach</Source>
+      <Dest>嵐の精霊の召喚</Dest>
     </String>
     <String List="0">
       <EDID>StaffEnchExpelDaedra</EDID>
@@ -12753,6 +13059,12 @@
       <REC>ENCH:FULL</REC>
       <Source>Fury</Source>
       <Dest>激昂</Dest>
+    </String>
+    <String List="0">
+      <EDID>StaffEnchConjureAtronachFlame</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Summon Flame Atronach</Source>
+      <Dest>炎の精霊の召喚</Dest>
     </String>
     <String List="0">
       <EDID>StaffEnchFireRune</EDID>
@@ -14585,6 +14897,24 @@
       <Dest>火炎球</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration3_FlameAtronach</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Flame Atronach</Source>
+      <Dest>炎の精霊の召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration4_FrostAtronach</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Frost Atronach</Source>
+      <Dest>氷の精霊の召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration4_StormAtronach</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Storm Atronach</Source>
+      <Dest>嵐の精霊の召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Illusion1_Clairvoyance</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Clairvoyance</Source>
@@ -15065,6 +15395,12 @@
       <Dest>勇気の呼び声</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Alteration3_MageArmorOnSelf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mage Armor on Self (Rank III)</Source>
+      <Dest>魔術師の鎧 (ランク III)</Dest>
+    </String>
+    <String List="0">
       <EDID>AbFalmer</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Falmer Abilities</Source>
@@ -15111,6 +15447,24 @@
       <REC>SPEL:FULL</REC>
       <Source>Poisonous Breath</Source>
       <Dest>毒の息吹</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration1_MageArmorOnSelf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mage Armor on Self (Rank I)</Source>
+      <Dest>魔術師の鎧 (ランクI)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration2_MageArmorOnSelf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mage Armor on Self (Rank II)</Source>
+      <Dest>魔術師の鎧 (ランクII)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration4_MageArmorOnSelf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mage Armor on Self (Rank IV)</Source>
+      <Dest>魔術師の鎧 (ランクIV)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alteration4_Paralyze</EDID>
@@ -15273,6 +15627,30 @@
       <REC>SPEL:FULL</REC>
       <Source>Command Daedra</Source>
       <Dest>デイドラ支配</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration1_MageArmorOnSelf_LeftHand</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mage Armor on Self (Rank I)</Source>
+      <Dest>魔術師の鎧 (ランクI)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration3_MageArmorOnSelf_LeftHand</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mage Armor on Self (Rank III)</Source>
+      <Dest>魔術師の鎧 (ランク III)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration2_MageArmorOnSelf_LeftHand</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mage Armor on Self (Rank II)</Source>
+      <Dest>魔術師の鎧 (ランクII)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration4_MageArmorOnSelf_LeftHand</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mage Armor on Self (Rank IV)</Source>
+      <Dest>魔術師の鎧 (ランクIV)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Restoration2_ArcaneWard_LeftHand</EDID>
@@ -15671,6 +16049,24 @@
       <Dest>雷撃</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration5_FlameThrall</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Flame Thrall</Source>
+      <Dest>炎の従徒召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration5_FrostThrall</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Frost Thrall</Source>
+      <Dest>氷の従徒召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration5_StormThrall</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Storm Thrall</Source>
+      <Dest>嵐の従徒召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>crAtronachFlameFlames</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Flames</Source>
@@ -15983,6 +16379,12 @@
       <Dest>激しき力</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration2_FlamingFamiliar</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Flaming Familiar</Source>
+      <Dest>炎の使い魔召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>VoiceAnimalAllegiance1</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Predator&apos;s Might</Source>
@@ -16133,6 +16535,12 @@
       <Dest>狂戦士の怒り</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration4_FrostAtronach_LeftHand</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Frost Atronach</Source>
+      <Dest>氷の精霊の召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>dunCGVoiceFireboltStorm</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Firebolt Storm</Source>
@@ -16215,6 +16623,18 @@
       <REC>SPEL:FULL</REC>
       <Source>Witbane</Source>
       <Dest>知減病</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration3_FlameAtronach_LeftHand</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Flame Atronach</Source>
+      <Dest>炎の精霊の召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration4_StormAtronach_LeftHand</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Storm Atronach</Source>
+      <Dest>嵐の精霊の召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Destruction3_Fireball_RightHand</EDID>
@@ -16359,6 +16779,12 @@
       <REC>SPEL:FULL</REC>
       <Source>Lover&apos;s Comfort</Source>
       <Dest>恋人の癒し</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration5_MageArmorOnSelf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mage Armor on Self (Rank V)</Source>
+      <Dest>魔術師の鎧 (ランクV)</Dest>
     </String>
     <String List="0">
       <EDID>VoiceFireboltStorm</EDID>
@@ -16991,6 +17417,24 @@
       <Dest>メリディアの光</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration3_FlameAtronach_RightHand</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Flame Atronach</Source>
+      <Dest>炎の精霊の召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration4_FrostAtronach_RightHand</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Frost Atronach</Source>
+      <Dest>氷の精霊の召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration4_StormAtronach_RightHand</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Storm Atronach</Source>
+      <Dest>嵐の精霊の召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Conjuration2_RaiseDead_RightHand</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Reanimate Corpse</Source>
@@ -17355,6 +17799,12 @@
       <REC>SPEL:FULL</REC>
       <Source>Werewolf Claws</Source>
       <Dest>ウェアウルフの爪</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration5_DremoraLord</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Dremora Lord</Source>
+      <Dest>ドレモラロード召喚</Dest>
     </String>
     <String List="0">
       <EDID>doomApprenticeNegativeAbility</EDID>
@@ -18317,6 +18767,12 @@
       <Dest>羽根の落下</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Alteration2_LesserKnock</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Lesser Knock</Source>
+      <Dest>弱い転倒</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Alteration3_AbsorbHealth</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Absorb Health</Source>
@@ -18365,6 +18821,18 @@
       <Dest>オーラ探知</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Restoration3_DispelOnSelf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Dispel on Self</Source>
+      <Dest>解呪</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Restoration5_DispelOnTarget</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Dispel on Target</Source>
+      <Dest>相手への解呪</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Restoration3_HealingRay</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Healing Ray</Source>
@@ -18393,6 +18861,24 @@
       <REC>SPEL:FULL</REC>
       <Source>Nightmare</Source>
       <Dest>悪夢</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration5_TranscendanceOnSelf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Transcendance on Self</Source>
+      <Dest>卓絶</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration5_TranscendanceOnTarget</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Transcendance on Target</Source>
+      <Dest>相手への卓絶</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration5_Teleport</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Teleport</Source>
+      <Dest>テレポート</Dest>
     </String>
     <String List="0">
       <EDID>REQ_GM_GeneralDarknessEffect</EDID>
@@ -18471,6 +18957,12 @@
       <REC>SPEL:FULL</REC>
       <Source>Firestrike</Source>
       <Dest>火炎撃</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Destruction3_SnowSpume</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Snow Spume</Source>
+      <Dest>雪の泡</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Illusion4_PhantasmalKiller</EDID>
@@ -18557,6 +19049,30 @@
       <Dest>ドラゴン恐怖のオーラ</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration5_DremoraArcher</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Dremora Archer</Source>
+      <Dest>ドレモラアーチャー召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration5_DremoraMage</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Dremora Archmage</Source>
+      <Dest>ドレモラアークメイジ召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration4_SpiritSabrecat</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spirit Sabrecat</Source>
+      <Dest>スピリット・サーベルキャット召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration5_SpiritWerewolf</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spirit Werewolf</Source>
+      <Dest>スピリット・ウェアウルフ召喚</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Alteration5_AbsorbEssence_NPC</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Absorb Essence</Source>
@@ -18585,6 +19101,12 @@
       <REC>SPEL:FULL</REC>
       <Source>Lightning Rune (Rank II)</Source>
       <Dest>稲妻のルーン (ランクII)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration4_SpiritIceWraith</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Ice Spirit</Source>
+      <Dest>氷のスピリット召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_GM_Flurry</EDID>
@@ -18687,6 +19209,12 @@
       <REC>SPEL:FULL</REC>
       <Source>Summon Ghostly Dragonpriest</Source>
       <Dest>亡霊のドラゴン・プリースト召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration5_SpiritWerewolf_NPC</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Spirit Werewolf</Source>
+      <Dest>スピリット・ウェアウルフ召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Conjuration5_GhostlyDragonpriest_Morokei</EDID>
@@ -18899,6 +19427,12 @@
       <Dest>獣の血</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Restoration5_ShalidorsMirror</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Shalidor&apos;s Mirror</Source>
+      <Dest>シャリドールの鏡</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_GM_Stress_OnHit_ConcSpellDisarm</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Jinxed</Source>
@@ -18933,6 +19467,24 @@
       <REC>SPEL:FULL</REC>
       <Source>Veil of Silence</Source>
       <Dest>静寂のヴェール</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration3_MageArmorOnTarget</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mage Armor on Target (Rank I)</Source>
+      <Dest>相手への魔術師の鎧 (ランクI)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration4_MageArmorOnTarget</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mage Armor on Target (Rank II)</Source>
+      <Dest>相手への魔術師の鎧 (ランクII)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration5_MageArmorOnTarget</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mage Armor on Target (Rank III)</Source>
+      <Dest>相手への魔術師の鎧 (ランクIII)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_GM_FireRuneHammer</EDID>
@@ -19565,6 +20117,18 @@
       <Dest>REQ GM: end stamina drain after block ended</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Alteration5_GreaterKnock</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Greater Knock</Source>
+      <Dest>強い転倒</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alteration3_Knock</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Knock</Source>
+      <Dest>転倒</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Ability_Khajiit_Lockpicking</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Racial Proficiency: Khajiit Lockpicking</Source>
@@ -19593,6 +20157,12 @@
       <REC>SPEL:FULL</REC>
       <Source>Cheap Tricks</Source>
       <Dest>小細工</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Conjuration5_Dremora_Falion</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Summon Dremora Archmage &amp; Archer</Source>
+      <Dest>ドレモラアークメイジ &amp; アーチャー召喚</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ability_MeridiasMalediction</EDID>
@@ -19677,6 +20247,12 @@
       <REC>SCRL:FULL</REC>
       <Source>Scroll of Reanimate Corpse</Source>
       <Dest>死霊作成の巻物</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Scroll_FlameAtronach</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Scroll of Summon Flame Atronach</Source>
+      <Dest>炎の精霊召喚の巻物</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Scroll_SoulTrap</EDID>
@@ -19769,6 +20345,18 @@
       <Dest>デイドラ帰還の巻物</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Scroll_FrostAtronach</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Scroll of Summon Frost Atronach</Source>
+      <Dest>氷の精霊召喚の巻物</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Scroll_StormAtronach</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Scroll of Summon Storm Atronach</Source>
+      <Dest>嵐の精霊召喚の巻物</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Scroll_Revenant</EDID>
       <REC>SCRL:FULL</REC>
       <Source>Scroll of Revanant</Source>
@@ -19797,6 +20385,24 @@
       <REC>SCRL:FULL</REC>
       <Source>Scroll of Dead Thrall</Source>
       <Dest>死の従徒の巻物</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Scroll_FlameThrall</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Scroll of Summon Flame Thrall</Source>
+      <Dest>炎の従徒召喚の巻物</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Scroll_FrostThrall</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Scroll of Summon Frost Thrall</Source>
+      <Dest>氷の従徒召喚の巻物</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Scroll_StormThrall</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Scroll of Summon Storm Thrall</Source>
+      <Dest>嵐の従徒召喚の巻物</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Scroll_FlameCloak</EDID>
@@ -20025,6 +20631,30 @@
       <REC>SCRL:FULL</REC>
       <Source>Powder of Flames</Source>
       <Dest>炎の粉末</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Throwable_PowderFrost</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Powder of Ice</Source>
+      <Dest>氷の粉末</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Throwable_PowderShock</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Powder of Storms</Source>
+      <Dest>嵐の粉末</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Scroll_Knock</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Scroll of Knock</Source>
+      <Dest>転倒の巻物</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Scroll_GreaterKnock</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Scroll of Greater Knock</Source>
+      <Dest>強い転倒の巻物</Dest>
     </String>
     <String List="0">
       <EDID>BearTrap01</EDID>
@@ -21381,6 +22011,12 @@
       <REC>ARMO:FULL</REC>
       <Source>Alik&apos;r Hood</Source>
       <Dest>アリクルのフード</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Clothing_Robes_Archmage</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Arch-Mage&apos;s Robes</Source>
+      <Dest>アークメイジのローブ</Dest>
     </String>
     <String List="0">
       <EDID>ClothesMinerClothes</EDID>
@@ -24347,6 +24983,12 @@
       <Dest>ソリチュードの盾</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_DESC_Replaced_by_Archmage_items_added_by_the_script</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Arch-Mage&apos;s Robes</Source>
+      <Dest>アークメイジのローブ</Dest>
+    </String>
+    <String List="0">
       <EDID>DremoraDaedricHelmet</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Daedric Helmet</Source>
@@ -24737,16 +25379,52 @@
       <Dest>伝説のエルフの盾</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_SteelPlate_Cuirass_GuardThePale</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Pale Steel Plate Armor</Source>
+      <Dest>ペイルのスチールプレートの鎧</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_SteelPlate_Cuirass_GuardFalkreath</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Falkreath Steel Plate Armor</Source>
       <Dest>ファルクリース衛兵のスチールプレートの鎧</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_SteelPlate_Cuirass_GuardTheReach</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Reach Steel Plate Armor</Source>
+      <Dest>リーチのスチールプレートの鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SteelPlate_Cuirass_GuardHjaalmarch</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Hjaalmarch Steel Plate Armor</Source>
+      <Dest>ハイアルマーチのスチールプレートの鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SteelPlate_Cuirass_GuardTheRift</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Rift Steel Plate Armor</Source>
+      <Dest>リフトのスチールプレートの鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SteelPlate_Cuirass_GuardHaafingar</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Haafingar Steel Plate Armor</Source>
+      <Dest>ハーフィンガルのスチールプレートの鎧</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_SteelPlate_Cuirass_GuardWhiterun</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Whiterun Steel Plate Armor</Source>
       <Dest>ホワイトラン衛兵のスチールプレートの鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SteelPlate_Cuirass_GuardEastmarch</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Eastmarch Steel Plate Armor</Source>
+      <Dest>イーストマーチのスチールプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_SteelPlate_Cuirass_GuardWinterhold</EDID>
@@ -24803,10 +25481,46 @@
       <Dest>ウィンターホールド衛兵のオークのプレートの鎧</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Ebony_Cuirass_GuardThePale</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Pale Ebony Plate Armor</Source>
+      <Dest>ペイルの黒檀の鎧</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Ebony_Cuirass_GuardFalkreath</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Falkreath Ebony Plate Armor</Source>
       <Dest>ファルクリース衛兵の黒檀のプレート鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ebony_Cuirass_GuardTheReach</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Reach Ebony Plate Armor</Source>
+      <Dest>リーチの黒檀の鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ebony_Cuirass_GuardHjaalmarch</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Hjaalmarch Ebony Plate Armor</Source>
+      <Dest>ハイアルマーチの黒檀の鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ebony_Cuirass_GuardTheRift</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Rift Ebony Plate Armor</Source>
+      <Dest>リフトの黒檀の鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ebony_Cuirass_GuardHaafingar</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Haafingar Ebony Plate Armor</Source>
+      <Dest>ハイアルマーチの黒檀の鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ebony_Cuirass_GuardEastmarch</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Eastmarch Ebony Plate Armor</Source>
+      <Dest>イーストマーチの黒檀の鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ebony_Cuirass_GuardWinterhold</EDID>
@@ -24935,6 +25649,12 @@
       <Dest>呪文の書: 灯火</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Alteration1_MageArmorOnSelf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Mage Armor on Self I</Source>
+      <Dest>呪文の書: 魔術師の鎧I</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Conjuration1_BoundSword</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Bound Sword</Source>
@@ -24983,6 +25703,18 @@
       <Dest>呪文の書: 灯明</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Alteration2_MageArmorOnSelf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Mage Armor on Self II</Source>
+      <Dest>呪文の書: 魔術師の鎧II</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Alteration3_MageArmorOnSelf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Mage Armor on Self III</Source>
+      <Dest>呪文の書: 魔術師の鎧III</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Alteration3_TelekineticHand</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Telekinetic Hand</Source>
@@ -25005,6 +25737,12 @@
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Paralyze I</Source>
       <Dest>呪文の書: 麻痺I</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Alteration4_MageArmorOnSelf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Mage Armor on Self IV</Source>
+      <Dest>呪文の書: 魔術師の鎧IV</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Alteration4_DetectDeath</EDID>
@@ -25319,6 +26057,12 @@
       <Dest>呪文の書: 形なき矢</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Alteration5_MageArmorOnSelf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Mage Armor on Self V</Source>
+      <Dest>呪文の書: 魔術師の鎧V</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Restoration4_HealingHands</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Healing Hands III</Source>
@@ -25515,6 +26259,12 @@
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Clairvoyance I</Source>
       <Dest>呪文の書: 千里眼I</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Alteration2_LesserKnock</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Lesser Knock</Source>
+      <Dest>呪文の書: 弱い転倒</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Restoration3_HealSelf</EDID>
@@ -25817,6 +26567,12 @@
       <Dest>呪文の書: 大群召喚II</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Conjuration5_Teleport</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Teleport</Source>
+      <Dest>呪文の書: テレポート</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Restoration3_HealingRay</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Healing Ray</Source>
@@ -25845,6 +26601,18 @@
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Telekinetic Execution</Source>
       <Dest>呪文の書: 念動の処刑</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Alteration5_TranscendanceOnSelf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Transcendance on Self</Source>
+      <Dest>呪文の書: 卓絶</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Alteration5_TranscendanceOnTarget</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Transcendance on Target</Source>
+      <Dest>呪文の書: 相手への卓絶</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Alteration5_TransmuteCorpus</EDID>
@@ -26013,6 +26781,12 @@
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Phantasmal Killer</Source>
       <Dest>呪文の書: 幻影の殺人者</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Alteration2_TransmuteMusclesOnSelf</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Transmute Muscles on Self</Source>
+      <Dest>呪文の書: 筋肉変成</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Alteration5_TelekineticGrab</EDID>
@@ -26211,6 +26985,12 @@
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Dispel Soul Gem</Source>
       <Dest>呪文の書: 魂石解呪</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Alteration3_TransmuteMusclesOnTarget</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Transmute Muscles on Target</Source>
+      <Dest>呪文の書: 相手への筋肉変成</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Book_GorakNote</EDID>
@@ -26441,6 +27221,24 @@
       <Dest>メモ</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Alteration3_MageArmorOnTarget</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Mage Armor on Target I</Source>
+      <Dest>呪文の書: 相手への魔術師の鎧I</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Alteration4_MageArmorOnTarget</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Mage Armor on Target II</Source>
+      <Dest>呪文の書: 相手への魔術師の鎧II</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Alteration5_MageArmorOnTarget</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Mage Armor on Target III</Source>
+      <Dest>呪文の書: 相手への魔術師の鎧III</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Book_TyranusJournal</EDID>
       <REC>BOOK:FULL</REC>
       <Source>The Journal of Tyranus</Source>
@@ -26481,6 +27279,24 @@
       <REC>BOOK:FULL</REC>
       <Source>Daedric Dagger</Source>
       <Dest>デイドラのダガー</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Alteration3_Knock</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Knock</Source>
+      <Dest>呪文の書: 転倒</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Alteration5_GreaterKnock</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Greater Knock</Source>
+      <Dest>呪文の書: 強い転倒</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Alteration4_Polymorph</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Polymorph</Source>
+      <Dest>呪文の書: 異形化</Dest>
     </String>
     <String List="0">
       <EDID>BarrelFood01</EDID>
@@ -31529,6 +32345,12 @@
       <Dest>サングインのバラ</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Draugr_BattleAxe</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Ancient Nord Battleaxe</Source>
+      <Dest>古代ノルドの両手斧</Dest>
+    </String>
+    <String List="0">
       <EDID>EnchEbonyGreatswordAbsorbH04</EDID>
       <REC>WEAP:FULL</REC>
       <Source>Ebony Greatsword of Devouring</Source>
@@ -33077,6 +33899,12 @@
       <Dest>魔力の弓</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_DraugrHoned_BattleAxe</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Honed Ancient Nord Battleaxe</Source>
+      <Dest>研いだ古代ノルドの両手斧</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_DraugrHoned_Greatsword</EDID>
       <REC>WEAP:FULL</REC>
       <Source>Honed Ancient Nord Greatsword</Source>
@@ -33087,6 +33915,12 @@
       <REC>WEAP:FULL</REC>
       <Source>Honed Ancient Nord Sword</Source>
       <Dest>研いだ古代ノルドの剣</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_DraugrHoned_WarAxe</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Honed Ancient Nord War Axe</Source>
+      <Dest>研いだ古代ノルドの片手斧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_DraugrHoned_Bow</EDID>
@@ -36815,6 +37649,12 @@
       <Dest>鋼鉄のサーベル</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Dwarven_Longsword</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Dwarven Longsword</Source>
+      <Dest>ドワーフのロングソード</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Steel_Katana</EDID>
       <REC>WEAP:FULL</REC>
       <Source>Steel Katana</Source>
@@ -36983,6 +37823,12 @@
       <Dest>木の杖 (稲妻)</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Ebony_Staff_SummonAtronachFrost</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Ebony Staff of the Frost Atronach</Source>
+      <Dest>黒檀の杖 (氷の精霊)</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Ebony_Staff_Paralysis</EDID>
       <REC>WEAP:FULL</REC>
       <Source>Ebony Staff of Paralysis</Source>
@@ -37005,6 +37851,12 @@
       <REC>WEAP:FULL</REC>
       <Source>Glass Staff of Thunderbolts</Source>
       <Dest>碧水晶の杖 (いかづち)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ebony_Staff_ConjureAtronachStorm</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Ebony Staff of the Storm Atronach</Source>
+      <Dest>黒檀の杖 (嵐の精霊)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Glasss_Staff_WallOfStorms</EDID>
@@ -37037,6 +37889,12 @@
       <Dest>用心棒</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Draugr_WarAxe_Whiterun</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Axe of Whiterun</Source>
+      <Dest>ホワイトランの斧</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Steel_Crossbow_JohnCleese</EDID>
       <REC>WEAP:FULL</REC>
       <Source>Jon&apos;s Crossbow</Source>
@@ -37055,6 +37913,12 @@
       <Dest>ファルクリースの刀剣</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Draugr_WarAxe_Winterhold</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Axe of Winterhold</Source>
+      <Dest>ウィンターホールドの斧</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Draugr_Greatsword_Pale</EDID>
       <REC>WEAP:FULL</REC>
       <Source>Blade of the Pale</Source>
@@ -37065,6 +37929,12 @@
       <REC>WEAP:FULL</REC>
       <Source>Blade of Morthal</Source>
       <Dest>モーサルの刀剣</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Draugr_Battleaxe_Eastmarch</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Axe of Eastmarch</Source>
+      <Dest>イーストマーチの斧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Draugr_Sword_Haafingar</EDID>
@@ -37083,6 +37953,12 @@
       <REC>WEAP:FULL</REC>
       <Source>Blade of Markarth</Source>
       <Dest>マルカルスの刀剣</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Draugr_Battleaxe_Hjaalmarch</EDID>
+      <REC>WEAP:FULL</REC>
+      <Source>Axe of Hjaalmarch</Source>
+      <Dest>ハイアルマーチの斧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Silver_Sword_Stendarr</EDID>
@@ -37671,6 +38547,12 @@
       <REC>AMMO:FULL</REC>
       <Source>Steel Arrow of Shock</Source>
       <Dest>鋼鉄の矢 (迅雷)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ammo_Silver_Arrow</EDID>
+      <REC>AMMO:FULL</REC>
+      <Source>Silver Arrow</Source>
+      <Dest>銀の矢</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ammo_Silver_Bolt</EDID>
@@ -48341,6 +49223,12 @@
       <Dest>血液</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Drink_CinnabarBeer</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Cinnabar Beer</Source>
+      <Dest>辰砂ビール</Dest>
+    </String>
+    <String List="0">
       <EDID>CWArrowProjectile</EDID>
       <REC>PROJ:FULL</REC>
       <Source>Steel Arrow</Source>
@@ -48677,6 +49565,12 @@
       <Dest>鋼鉄の矢</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Projectile_Silver_Arrow</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>Silver Arrow</Source>
+      <Dest>銀の矢</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Projectile_SpectralArrow</EDID>
       <REC>PROJ:FULL</REC>
       <Source>Spectral Arrow</Source>
@@ -48905,6 +49799,18 @@
       <Dest>銀の矢 (炎)</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Projectile_Silver_ArrowFrost</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>Silver Arrow</Source>
+      <Dest>銀の矢</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Projectile_Silver_ArrowShock</EDID>
+      <REC>PROJ:FULL</REC>
+      <Source>Silver Arrow</Source>
+      <Dest>銀の矢</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Projectile_Silver_BoltFire</EDID>
       <REC>PROJ:FULL</REC>
       <Source>Silver Bolt</Source>
@@ -49131,6 +50037,78 @@
       <REC>SLGM:FULL</REC>
       <Source>The Black Star</Source>
       <Dest>黒き星</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SoulGem_Tomato_Petty</EDID>
+      <REC>SLGM:FULL</REC>
+      <Source>Petty Soul Tomato</Source>
+      <Dest>極小のソウル・トマト</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SoulGem_Tomato_Corrupted</EDID>
+      <REC>SLGM:FULL</REC>
+      <Source>Corrupted Soul Tomato</Source>
+      <Dest>壊れたソウル・トマト</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SoulGem_Tomato_Petty_Filled</EDID>
+      <REC>SLGM:FULL</REC>
+      <Source>Petty Soul Tomato</Source>
+      <Dest>極小のソウル・トマト</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SoulGem_Tomato_Lesser_Filled</EDID>
+      <REC>SLGM:FULL</REC>
+      <Source>Lesser Soul Tomato</Source>
+      <Dest>小さなソウル・トマト</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SoulGem_Tomato_Greater_Filled</EDID>
+      <REC>SLGM:FULL</REC>
+      <Source>Greater Soul Tomato</Source>
+      <Dest>大きなソウル・トマト</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SoulGem_Tomato_Grand_Filled</EDID>
+      <REC>SLGM:FULL</REC>
+      <Source>Grand Soul Tomato</Source>
+      <Dest>極大のソウル・トマト</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SoulGem_Tomato_Corrupted_Filled</EDID>
+      <REC>SLGM:FULL</REC>
+      <Source>Corrupted Soul Tomato</Source>
+      <Dest>壊れたソウル・トマト</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SoulGem_Tomato_Common_Filled</EDID>
+      <REC>SLGM:FULL</REC>
+      <Source>Common Soul Tomato</Source>
+      <Dest>普通のソウル・トマト</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SoulGem_Tomato_Lesser</EDID>
+      <REC>SLGM:FULL</REC>
+      <Source>Lesser Soul Tomato</Source>
+      <Dest>小さなソウル・トマト</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SoulGem_Tomato_Common</EDID>
+      <REC>SLGM:FULL</REC>
+      <Source>Common Soul Tomato</Source>
+      <Dest>普通のソウル・トマト</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SoulGem_Tomato_Greater</EDID>
+      <REC>SLGM:FULL</REC>
+      <Source>Greater Soul Tomato</Source>
+      <Dest>大きなソウル・トマト</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_SoulGem_Tomato_Grand</EDID>
+      <REC>SLGM:FULL</REC>
+      <Source>Grand Soul Tomato</Source>
+      <Dest>極大のソウル・トマト</Dest>
     </String>
     <String List="0">
       <EDID>KilkreathRuins03</EDID>
@@ -52962,6 +53940,18 @@ With a hunger to swallow the world!
       <Dest>忍耐力は戦闘への参加を望むすべての者にとって重要である。だが注意すべきことに、あまりにも疲れ果てた者にはそう遠くない死が待っている…</Dest>
     </String>
     <String List="0">
+      <EDID>MagicFire</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Staves are a common form of equipment among those who dabble in the arcane arts, but just about anyone is capable of wielding them.</Source>
+      <Dest>杖は秘儀の技術をかじったものの、それを使うことができない者の間では一般的な装備だ。</Dest>
+    </String>
+    <String List="0">
+      <EDID>MagicFrost</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Staves are a common form of equipment among those who dabble in the arcane arts, but just about anyone is capable of wielding them.</Source>
+      <Dest>杖は秘儀の技術をかじったものの、それを使うことができない者の間では一般的な装備だ。</Dest>
+    </String>
+    <String List="0">
       <EDID>MagicShock</EDID>
       <REC>LSCR:DESC</REC>
       <Source>The dwarves of Tamriel disappeared millennia ago and are presumed extinct.</Source>
@@ -53320,6 +54310,12 @@ With a hunger to swallow the world!
       <REC>LSCR:DESC</REC>
       <Source>Ancient legends have it that unholy creatures like the undead and werewolves are quite vulnerable to weapons made out of silver...</Source>
       <Dest>古の伝説にはアンデッドやウェアウルフといった不浄の生物が、銀製の武器に非常に脆弱だとある…</Dest>
+    </String>
+    <String List="0">
+      <EDID>xMagicStaves</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Staves are a common form of equipment among those who dabble in the arcane arts, but just about anyone is capable of wielding them.</Source>
+      <Dest>杖は秘儀の技術をかじったものの、それを使うことができない者の間では一般的な装備だ。</Dest>
     </String>
     <String List="0">
       <EDID>xDetection</EDID>
@@ -56607,7 +57603,7 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <EDID>REQ_Ability_StandingStones_Thief</EDID>
       <REC>SPEL:DESC</REC>
       <Source>The Sign of the Thief grants wide-spread abilities to those who bear her blessing. This includes increased damage with bows and one-handed weapons as well as improved sneaking, pickpocketing and lockpicking skills, boosting lock picking expertise by 20 points.</Source>
-      <Dest>盗賊座はその祝福がある者に幅広い能力を施す。弓と片手武器によるダメージが増え、隠密、スリ、ロックピックのスキルが向上し、解錠の知識を 20 ポイント与える。</Dest>
+      <Dest>盗賊座はその祝福がある者に幅広い能力を施す。弓と片手武器によるダメージが増え、隠密、スリ、ロックピックのスキルが向上し、開錠の知識を 20 ポイント与える。</Dest>
     </String>
     <String List="1">
       <EDID>doomMageAbility</EDID>
@@ -56976,6 +57972,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <Dest>術者は大気自身に破滅させる対象を探させ、パチパチと音を立てる稲妻によって短期間、あるいは死ぬまで拷問する。しかしながら、この呪文は空の下でのみ唱えられる。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Alteration5_TranscendanceOnTarget</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>The target&apos;s body is dematerialized, becoming practically invulnerable for as long as the caster doesn&apos;t interact with the environment.</Source>
+      <Dest>対象の体が非実体化し、周囲と触れ合わない限り実質的に不死身になる。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Ability_SpiritSteed</EDID>
       <REC>SPEL:DESC</REC>
       <Source>The steed&apos;s magical aura also makes its rider ethereal...</Source>
@@ -57201,7 +58203,7 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <EDID>ArmorDragonPriestMaskBronzeHelmet</EDID>
       <REC>ARMO:DESC</REC>
       <Source>Krosis&apos; cunning is yours as long as you wear the mask, making lockpicking and sneaking easier and enhancing marksmanship.</Source>
-      <Dest>この仮面をつけている限りクロシスの狡猾はあなたのものだ。解錠と隠密が容易になり、そして弓術が強化される。</Dest>
+      <Dest>この仮面をつけている限りクロシスの狡猾はあなたのものだ。開錠と隠密が容易になり、そして弓術が強化される。</Dest>
     </String>
     <String List="1">
       <EDID>ArmorDragonPriestMaskOrichalumHelmet</EDID>
@@ -58637,6 +59639,14 @@ Potion of Featherweight:
 Guardian Circle</Source>
       <Dest>&lt;font face&apos;$HandwrittenFont&apos;&gt; &lt;font size=&apos;40&apos;&gt; &lt;p align=&apos;center&apos;&gt; 
 ガーディアン・サークル</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Tome_Alteration2_LesserKnock</EDID>
+      <REC>BOOK:DESC</REC>
+      <Source>&lt;font face&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;40&apos;&gt;&lt;p align=&apos;center&apos;&gt;
+Lesser Knock</Source>
+      <Dest>&lt;font face&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;40&apos;&gt;&lt;p align=&apos;center&apos;&gt;
+Lesser Knock</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Tome_Restoration3_HealSelf</EDID>
@@ -68854,8 +69864,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵はあまりに複雑すぎて、開けようなんて時間とロックピックをドブに捨てるようなものだ。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、この鍵は &lt;Alias.Pronoun=LockpickMinion&gt; にとって些細なものだ思っていて、 もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵をより少ない努力で開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの解錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_followerHasOptimalSkill_Confirmation</EDID>
@@ -68866,8 +69876,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵を些細なものだと思っていて、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵をより少ない努力で開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの解錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_followerHasRequiredSkill_NoLockpicks</EDID>
@@ -68878,8 +69888,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、もし &lt;Alias.Pronoun=LockpickMinion&gt; に少なくとも %.0f　本のロックピックがあれば、頑張って開けられるかもしれないと思っている。
 
-この鍵をより少ない努力でロックピックも無駄にせず開けるには、解錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの解錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力でロックピックも無駄にせず開けるには、開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_followerHasRequiredSkill_Confirmation</EDID>
@@ -68890,7 +69900,7 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、もし &lt;Alias.Pronoun=LockpickMinion&gt; に少なくとも %.0f　本のロックピックがあれば、頑張って開けられるかもしれないと思っている。
 
-この鍵をより少ない努力でロックピックを無駄にせず開けるには、解錠の知識が少なくとも %.0f レベルは必要だ。
+この鍵をより少ない努力でロックピックを無駄にせず開けるには、開錠の知識が少なくとも %.0f レベルは必要だ。
 あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
@@ -68899,9 +69909,9 @@ Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinio
       <Source>This lock seems very complicated to you and your followers alike. You&apos;re certain you would just be wasting your time and lockpicks trying to open it. A lockpicking expertise of at least %.0f is needed to handle locks of this complexity.
 
 Your current lockpicking expertise is %.0f and your most skilled follower, &lt;Alias.ShortName=LockpickMinion&gt;, has an expertise of %.0f.</Source>
-      <Dest>この鍵はあなたとフォロワー達にとって複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
+      <Dest>この鍵はあなたとフォロワー達にとって複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
 
-あなたの解錠の知識は %.0f で、フォロワーのなかで経験が最も豊富な &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+あなたの開錠の知識は %.0f で、フォロワーのなかで経験が最も豊富な &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_InsufficientExpertise_WithFollower</EDID>
@@ -68909,9 +69919,9 @@ Your current lockpicking expertise is %.0f and your most skilled follower, &lt;A
       <Source>This lock seems very complicated to both &lt;Alias.ShortName=LockpickMinion&gt; and you. You&apos;re certain you would just be wasting your time and lockpicks trying to open it. A lockpicking expertise of at least %.0f is needed to handle locks of this complexity.
 
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
-      <Dest>この鍵はあなたと&lt;Alias.ShortName=LockpickMinion&gt; にとって複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
+      <Dest>この鍵はあなたと&lt;Alias.ShortName=LockpickMinion&gt; にとって複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
 
-あなたの解錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_InsufficientExpertise_Solo</EDID>
@@ -68919,9 +69929,9 @@ Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinio
       <Source>This lock seems very complicated and you&apos;re certain that you would just be wasting your time and lockpicks trying to open it. A lockpicking expertise of at least %.0f is needed to handle locks of this complexity.
 
 Your current lockpicking expertise is %.0f.</Source>
-      <Dest>この鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
+      <Dest>この鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
 
-あなたの解錠の知識は %.0f だ。</Dest>
+あなたの開錠の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerTooDumb</EDID>
@@ -68932,8 +69942,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵があまりに複雑すぎて試す気にもならないと思っている。
 
-この鍵をより少ない努力で開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの解錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_challengingLock_Solo</EDID>
@@ -68941,9 +69951,9 @@ Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinio
       <Source>This lock seems complex to you, but with some time and enough lockpicks you should be able to open it. A lockpicking expertise of at least %.0f is needed to handle locks of this complexity.
 
 Your current lockpicking expertise is %.0f.</Source>
-      <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。この鍵をより少ない努力で開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
+      <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
 
-あなたの解錠の知識は %.0f だ。</Dest>
+あなたの開錠の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerNoLockpicksRequired</EDID>
@@ -68954,8 +69964,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; もそう思っていて、 もし &lt;Alias.Pronoun=LockpickMinion&gt; に少なくとも %.0f　本のロックピックがあれば、頑張って開けられるかもしれない。
 
-この鍵をより少ない努力で開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの解錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerNoLockpicksOptimal</EDID>
@@ -68966,8 +69976,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵を些細なものだと思っていて、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵をより少ない努力で開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの解錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerCanPickRequired</EDID>
@@ -68978,8 +69988,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; もそう思っていて、 &lt;Alias.Pronoun=LockpickMinion&gt; であれば %.0f 本のロックピックと努力で開けられるかもしれない。
 
-この鍵をより少ない努力で開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの解錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerCanPickOptimal</EDID>
@@ -68990,8 +70000,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵を些細なものだと思っていて、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵をより少ない努力で開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの解錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerTooDumb</EDID>
@@ -69002,8 +70012,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。 あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵があまりに複雑すぎて試す気にもならないと思っている。
 
-この鍵を簡単に開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの解錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵を簡単に開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerNoLockpicksRequired</EDID>
@@ -69014,8 +70024,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。 あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、もし &lt;Alias.Pronoun=LockpickMinion&gt; に少なくとも %.0f　本のロックピックがあれば、頑張って開けられるかもしれないと思っている。
 
-この鍵を簡単に開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの解錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵を簡単に開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerNoLockpicksOptimal</EDID>
@@ -69026,8 +70036,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。 。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; もこの鍵は簡単だと思っていて、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵を簡単に開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの解錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵を簡単に開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerCanPickRequired</EDID>
@@ -69038,8 +70048,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f　本のロックピックがあれば、頑張って開けられるかもしれないと思っている。
 
-この鍵をより少ない努力で開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの解錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerCanPickOptimal</EDID>
@@ -69050,8 +70060,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵は簡単だと思っていて、 &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵を簡単に開けるには解錠の知識が少なくとも %.0f レベルは必要だ。
-あなたの解錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵を簡単に開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>BecomeEtherealShout</EDID>
