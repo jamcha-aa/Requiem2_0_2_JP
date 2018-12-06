@@ -290,6 +290,12 @@
       <Dest>動きそうにない…</Dest>
     </String>
     <String List="0">
+      <EDID>sSpellAdded</EDID>
+      <REC>GMST:DATA</REC>
+      <Source>Hmm, this spell might be useful...</Source>
+      <Dest>うーむ、この呪文は使えるかもしれない…</Dest>
+    </String>
+    <String List="0">
       <EDID>sWitnessKilled</EDID>
       <REC>GMST:DATA</REC>
       <Source>Alright, that was the last one...</Source>
@@ -474,6 +480,12 @@
       <REC>GMST:DATA</REC>
       <Source>Use</Source>
       <Dest>使う</Dest>
+    </String>
+    <String List="0">
+      <EDID>sUnlock</EDID>
+      <REC>GMST:DATA</REC>
+      <Source>Examine Lock</Source>
+      <Dest>開錠を試みる</Dest>
     </String>
     <String List="0">
       <EDID>sPoisonNoWeaponMessage</EDID>
@@ -972,6 +984,12 @@
       <REC>FACT:FULL</REC>
       <Source>GuardFaction (makes an actor a guard)</Source>
       <Dest>衛兵一派 (俳優を衛兵にします)</Dest>
+    </String>
+    <String List="0">
+      <EDID>FoxFaction</EDID>
+      <REC>FACT:FULL</REC>
+      <Source>Fox Faction</Source>
+      <Dest>Fox Faction</Dest>
     </String>
     <String List="0">
       <EDID>VigilantOfStendarrFaction</EDID>
@@ -2420,6 +2438,12 @@
       <Dest>氷マント</Dest>
     </String>
     <String List="0">
+      <EDID>FrostCloakFFSelf</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>For &lt;dur&gt; seconds, opponents in melee range take &lt;30&gt; points frost damage and Stamina damage per second.</Source>
+      <Dest>&lt;dur&gt; 秒間, 近接距離にいる敵に1秒ごとに &lt;30&gt; ポイントの氷ダメージとスタミナダメージを与えるる。</Dest>
+    </String>
+    <String List="0">
       <EDID>ShockCloakFFSelf</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Shock Cloak</Source>
@@ -2700,6 +2724,12 @@
       <REC>MGEF:DNAM</REC>
       <Source>Pickpocketing is &lt;mag&gt;% easier for &lt;dur&gt; seconds.</Source>
       <Dest>スリの難易度が &lt;mag&gt;%、 &lt;dur&gt; 秒間低下する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alch_FortifyLockpicking_Skill</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Ably Lockpicking (Skill)</Source>
+      <Dest>巧みな開錠 (スキル)</Dest>
     </String>
     <String List="0">
       <EDID>AlchFortifySneak</EDID>
@@ -3762,6 +3792,18 @@
       <REC>MGEF:DNAM</REC>
       <Source>Increases armor rating by &lt;mag&gt; additional points.</Source>
       <Dest>防御値が &lt;mag&gt; ポイント増加する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ench_FortifyLockpicking_Skill</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Ably Lockpicking (Skill)</Source>
+      <Dest>巧みな開錠 (スキル)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ench_FortifyLockpicking_Skill</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Lockpicking skill is increased by &lt;mag&gt;.</Source>
+      <Dest>開錠のスキルが &lt;mag&gt; ポイント上昇する。</Dest>
     </String>
     <String List="0">
       <EDID>EnchFortifyMagickaRateConstantSelf</EDID>
@@ -5412,6 +5454,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Drain Health</Source>
       <Dest>体力低下</Dest>
+    </String>
+    <String List="0">
+      <EDID>PlayerVampireAbsorbHealthConcAimed</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The vampire takes away the very lifeforce of the target, absorbing &lt;mag&gt; points of health per second.</Source>
+      <Dest>吸血鬼は対象から生命力そのものを奪い、体力、マジカ、スタミナを &lt;mag&gt;  ポイント吸収する。</Dest>
     </String>
     <String List="0">
       <EDID>EnchTrollsbaneFireDamageFFContact</EDID>
@@ -8644,6 +8692,24 @@
       <Dest>素手の攻撃によるダメージが &lt;mag&gt; ポイント増加する。</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Ench_FortifyLockpicking_Expertise</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Ably Lockpicking (Expertise)</Source>
+      <Dest>巧みな開錠 (知識)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ench_FortifyLockpicking_Expertise</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Lockpicking expertise is increased by &lt;mag&gt;.</Source>
+      <Dest>開錠の知識が &lt;mag&gt; ポイント上昇する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Alch_FortifyLockpicking_Expertise</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Ably Lockpicking (Expertise)</Source>
+      <Dest>巧みな開錠 (知識)</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_ConjurationConjureInvisibleStalker01Ancano</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Ancano&apos;s Might</Source>
@@ -11669,6 +11735,30 @@
       <Dest>この呪いは着用中の何かにかかっているに違いない… なんと恐ろしく簡単に命が吸い取られてしまうことか、数秒以内で肉体が枯れてしまうぞ！</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Ability_FortifyLockpicking_Skill</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Ably Lockpicking (Skill)</Source>
+      <Dest>巧みな開錠 (スキル)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ability_FortifyLockpicking_Skill</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Lockpicking skill is increased by &lt;mag&gt;.</Source>
+      <Dest>開錠のスキルが &lt;mag&gt; ポイント上昇する。</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ability_FortifyLockpicking_Expertise</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Ably Lockpicking (Expertise)</Source>
+      <Dest>巧みな開錠 (知識)</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ability_FortifyLockpicking_Expertise</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Lockpicking expertise is increased by &lt;mag&gt;.</Source>
+      <Dest>開錠の知識が &lt;mag&gt; ポイント上昇する。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Alteration5_AbsorbHealth_Effect</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Absorb Health</Source>
@@ -14027,6 +14117,12 @@
       <Dest>炎</Dest>
     </String>
     <String List="0">
+      <EDID>EnchWeaponFrostDamageBase</EDID>
+      <REC>ENCH:FULL</REC>
+      <Source>Frost</Source>
+      <Dest>冷気</Dest>
+    </String>
+    <String List="0">
       <EDID>EnchWeaponMagickaDamageBase</EDID>
       <REC>ENCH:FULL</REC>
       <Source>Spellbane</Source>
@@ -14589,6 +14685,24 @@
       <REC>SPEL:FULL</REC>
       <Source>Fade Other</Source>
       <Dest>他者透明</Dest>
+    </String>
+    <String List="0">
+      <EDID>FlameCloakDmg</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Fire Cloak Damage</Source>
+      <Dest>炎マントのダメージ</Dest>
+    </String>
+    <String List="0">
+      <EDID>FrostCloakDmg</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Ice Cloak Damage</Source>
+      <Dest>氷マントのダメージ</Dest>
+    </String>
+    <String List="0">
+      <EDID>LightningCloakDmg</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Lightning Cloak Damage</Source>
+      <Dest>雷のマントのダメージ</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Destruction1_Frostbite</EDID>
@@ -18563,6 +18677,12 @@
       <Dest>ソウル・ケルン召喚</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Ability_AlduinResistances</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Worldeater&apos;s Resilience</Source>
+      <Dest>世界を喰らう者の再生</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Conjuration5_GhostlyDragonpriest_NPC</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Summon Ghostly Dragonpriest</Source>
@@ -19443,6 +19563,12 @@
       <REC>SPEL:FULL</REC>
       <Source>REQ GM: end stamina drain after block ended</Source>
       <Dest>REQ GM: end stamina drain after block ended</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Ability_Khajiit_Lockpicking</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Racial Proficiency: Khajiit Lockpicking</Source>
+      <Dest>種族の熟達: カジートの開錠</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ability_SkeletonKey</EDID>
@@ -24419,6 +24545,12 @@
       <Dest>ハンマーフェルのケープ</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Studded_Cuirass_Alain</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Alain&apos;s Cuirass</Source>
+      <Dest>アランの鎧</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Studded_Boots_Alain</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Alain&apos;s Boots</Source>
@@ -24459,6 +24591,12 @@
       <REC>ARMO:FULL</REC>
       <Source>Hedge Knight Helmet</Source>
       <Dest>守護騎士の兜</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Studded_Helmet_Alain</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Alain&apos;s Helmet</Source>
+      <Dest>アランの兜</Dest>
     </String>
     <String List="0">
       <EDID>REQ_DragonPlate_Cuirass_DragonKnight</EDID>
@@ -25269,6 +25407,18 @@
       <REC>BOOK:FULL</REC>
       <Source>Recipe: Poison of Decay</Source>
       <Dest>レシピ: 衰微の毒</Dest>
+    </String>
+    <String List="0">
+      <EDID>RecipeCureDisease1</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Recipe: Cleansing</Source>
+      <Dest>レシピ: 浄化</Dest>
+    </String>
+    <String List="0">
+      <EDID>RecipeCureDisease2</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Recipe: Cleansing</Source>
+      <Dest>レシピ: 浄化</Dest>
     </String>
     <String List="0">
       <EDID>RecipeRestoreMagicka1</EDID>
@@ -28875,6 +29025,12 @@
       <REC>MISC:FULL</REC>
       <Source>Mark of Dibella</Source>
       <Dest>ディベラの印</Dest>
+    </String>
+    <String List="0">
+      <EDID>FFRiften14Ingot</EDID>
+      <REC>MISC:FULL</REC>
+      <Source>Wylandriah&apos;s Orichalcum Ingot</Source>
+      <Dest>ウィランドリアのオリハルコンのインゴット</Dest>
     </String>
     <String List="0">
       <EDID>TGRGoldenUrn</EDID>
@@ -40997,6 +41153,12 @@
       <Dest>馬</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Actor_Conjuration_Arniel</EDID>
+      <REC>NPC_:FULL</REC>
+      <Source>Shade of Arniel Gane</Source>
+      <Dest>アーニエル・ゲインの影</Dest>
+    </String>
+    <String List="0">
       <EDID>dunIronbindSalma</EDID>
       <REC>NPC_:FULL</REC>
       <Source>Salma</Source>
@@ -45857,6 +46019,12 @@
       <Dest>串刺しのエルシ</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Actor_Bandit_Elsi</EDID>
+      <REC>NPC_:SHRT</REC>
+      <Source>Elsi</Source>
+      <Dest>エルシ</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Key_MQ101Cage</EDID>
       <REC>KEYM:FULL</REC>
       <Source>Small Key</Source>
@@ -49391,6 +49559,12 @@
       <Dest>ムズルフト</Dest>
     </String>
     <String List="0">
+      <EDID>MarkarthNepossHouse</EDID>
+      <REC>CELL:FULL</REC>
+      <Source>Nepos&apos; House</Source>
+      <Dest>ネポスの屋敷</Dest>
+    </String>
+    <String List="0">
       <EDID>HaemarsShame02</EDID>
       <REC>CELL:FULL</REC>
       <Source>Haemar&apos;s Shame</Source>
@@ -51648,6 +51822,12 @@
     </String>
     <String List="0">
       <EDID>MQ202</EDID>
+      <REC id="0" idMax="3">QUST:NNAM</REC>
+      <Source>Ask in Riften about Esbern</Source>
+      <Dest>リフテンでエズバーンについて聞く</Dest>
+    </String>
+    <String List="0">
+      <EDID>MQ202</EDID>
       <REC id="1" idMax="3">QUST:NNAM</REC>
       <Source>Search the Ratway for Esbern&apos;s hideout</Source>
       <Dest>エズバーンをラットウェイで探す</Dest>
@@ -51711,6 +51891,12 @@
       <REC id="0" idMax="1">QUST:NNAM</REC>
       <Source>Bring Alessandra&apos;s Dagger to Andurs in Whiterun</Source>
       <Dest>アレッサンドラのダガーをホワイトランのアンドルスのところへ持っていく</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformRiften13</EDID>
+      <REC id="1" idMax="1">QUST:NNAM</REC>
+      <Source>Return to Alessandra, an attendant of Riften&apos;s Hall of the Dead</Source>
+      <Dest>リフテンにある死者の間の司祭、アレッサンドラのところに戻る</Dest>
     </String>
     <String List="0">
       <EDID>DA09</EDID>
@@ -51789,6 +51975,18 @@
       <REC>QUST:FULL</REC>
       <Source>Stoking the Flames</Source>
       <Dest>炎をかき立てる</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformRiften10</EDID>
+      <REC id="0" idMax="1">QUST:NNAM</REC>
+      <Source>Collect 10 fire salts for Balimund (&lt;Global=FFR10SaltCount&gt;/&lt;Global=FFR10SaltTotal&gt;)</Source>
+      <Dest>バリマンドのために炎の塩鉱石を10個集める (&lt;Global=FFR10SaltCount&gt;/&lt;Global=FFR10SaltTotal&gt;)</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformRiften10</EDID>
+      <REC id="1" idMax="1">QUST:NNAM</REC>
+      <Source>Bring the 10 fire salts to Balimund, the Riften blacksmith</Source>
+      <Dest>リフテンの鍛冶屋バリマンドに炎の塩鉱石10個を持っていく</Dest>
     </String>
     <String List="0">
       <EDID>WE23</EDID>
@@ -52223,6 +52421,18 @@
       <Dest>階段を上る</Dest>
     </String>
     <String List="0">
+      <EDID>FreeformIvarstead04</EDID>
+      <REC id="0" idMax="1">QUST:NNAM</REC>
+      <Source>Bring Klimmek&apos;s supplies to High Hrothgar</Source>
+      <Dest>クリメクの食糧をハイ・フロスガーに届ける</Dest>
+    </String>
+    <String List="0">
+      <EDID>FreeformIvarstead04</EDID>
+      <REC id="1" idMax="1">QUST:NNAM</REC>
+      <Source>Return to Klimmek in Ivarstead</Source>
+      <Dest>イヴァルステッドのクリメクのところに戻る</Dest>
+    </String>
+    <String List="0">
       <EDID>MGR22</EDID>
       <REC>QUST:FULL</REC>
       <Source>Shalidor&apos;s Insights Rewards</Source>
@@ -52347,6 +52557,12 @@
       <REC>QUST:FULL</REC>
       <Source>Dawnguard</Source>
       <Dest>ドーンガード</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC1VQ01MiscObjective</EDID>
+      <REC>QUST:NNAM</REC>
+      <Source>Speak with the leader of the Dawnguard, located within Fort Dawnguard, which is southeast of Riften and inside of Dayspring Canyon.</Source>
+      <Dest>ドーンガードの首領と話す。彼はリフテンの南東、デイスプリング峡谷のなかにあるドーンガード砦にいる</Dest>
     </String>
     <String List="0">
       <EDID>DLC1SoulCairnHuskMerchant</EDID>
@@ -53162,6 +53378,12 @@ With a hunger to swallow the world!
 --Meh321</Dest>
     </String>
     <String List="0">
+      <EDID>DLC1Vampires</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Vampires can be found in almost any province of Tamriel, though it seems that in these times, Skyrim is plagued by more of these creatures than ever before...</Source>
+      <Dest>吸血鬼はタムリエルのほぼ全域でみられるが、近頃、スカイリムはこれまで以上にこの怪物に悩まされているようだ…</Dest>
+    </String>
+    <String List="0">
       <EDID>DLC1WerewolfPerkTree</EDID>
       <REC>LSCR:DESC</REC>
       <Source>Werewolves have been roaming Skyrim for centuries, but their number seems to have been growing over the last years... drastically.</Source>
@@ -53174,6 +53396,24 @@ With a hunger to swallow the world!
       <Dest>ウェアウルフは数百年もスカイリムをうろついているが、その個体数は以前より増えているようだ… それも大幅に。</Dest>
     </String>
     <String List="0">
+      <EDID>DLC1VampireLordPerkTree</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Vampire Lords are the most dangerous of all vampires, being capable of unleashing terrible havoc on anything that dares to oppose them.</Source>
+      <Dest>ヴァンパイアロードは全ての吸血鬼のなかで最も危険であり、立ち向かおうとするものすべてに恐ろしい破滅をもたらしうる。</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC1VampireLordPerks</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Vampire Lords are the most dangerous of all vampires, being capable of unleashing terrible havoc on anything that dares to oppose them.</Source>
+      <Dest>ヴァンパイアロードは全ての吸血鬼のなかで最も危険であり、立ち向かおうとするものすべてに恐ろしい破滅をもたらしうる。</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC1VampireLordStates</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Vampire Lords are the most dangerous of all vampires, being capable of unleashing terrible havoc on anything that dares to oppose them.</Source>
+      <Dest>ヴァンパイアロードは全ての吸血鬼のなかで最も危険であり、立ち向かおうとするものすべてに恐ろしい破滅をもたらしうる。</Dest>
+    </String>
+    <String List="0">
       <EDID>DLC1CreatureTrollArmored</EDID>
       <REC>LSCR:DESC</REC>
       <Source>The Dawnguard uses armored battle trolls in their fight against the vampires.</Source>
@@ -53184,6 +53424,12 @@ With a hunger to swallow the world!
       <REC>LSCR:DESC</REC>
       <Source>Most Nords of Skyrim assumed the dragons were only a legend... until now.</Source>
       <Dest>スカイリムのノルドの大半が、ドラゴンは伝説上の存在に過ぎないと信じ込んでいた…今このときまで。</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC1VampireNoShun</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Not every vampire can be recognized with ease, as many are able to disguise themselves and walk among the living as if they were one of them...</Source>
+      <Dest>すべての吸血鬼が簡単に見分けられるわけではない。彼らの多くは変装し、人々の一員であるかのように暮らしているからだ…</Dest>
     </String>
     <String List="0">
       <EDID>DLC1WeaponDragonbone</EDID>
@@ -53202,6 +53448,12 @@ With a hunger to swallow the world!
       <REC>LSCR:DESC</REC>
       <Source>It is rumored that the more... &quot;civilized&quot; vampire clans always have some human slaves at their hideouts, treating them like cattle.</Source>
       <Dest>こんな噂がある… &quot;教養の有る&quot; 吸血鬼一族は常に何人かの人間の奴隷を隠れ家に置いていて、畜牛のように扱っているというものだ。</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC1VampireLordPowersStart</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Vampire Lords are the most dangerous of all vampires, being capable of unleashing terrible havoc on anything that dares to oppose them.</Source>
+      <Dest>ヴァンパイアロードは全ての吸血鬼のなかで最も危険であり、立ち向かおうとするものすべてに恐ろしい破滅をもたらしうる。</Dest>
     </String>
     <String List="0">
       <EDID>DLC1WeaponFletching</EDID>
@@ -53324,6 +53576,12 @@ With a hunger to swallow the world!
       <Dest>テルヴァンニ家のマスター・ウィザードらは伝統的にきん類の胞子を成長させて家を作り出すが、その方法は秘伝となっていて彼ら以外には知られていない。</Dest>
     </String>
     <String List="0">
+      <EDID>DLC2Solstheim4</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>The island of Solstheim is located to the northeast of Skyrim. The &quot;Northern Maiden&quot; out of Windhelm is known to occasionally take passengers back and forth.</Source>
+      <Dest>ソルスセイム島はスカイリムの北東に位置する。ウィンドヘルムを母港とする“ノーザンメイデン号”が時々旅人を島に渡航させているようだ。</Dest>
+    </String>
+    <String List="0">
       <EDID>DLC2CreatureRieklings2</EDID>
       <REC>LSCR:DESC</REC>
       <Source>Hawala faaaakara. Baaaa rakhee kaloo. Pooja kan faroo kee jaa. Goora! Goora! Goora! --Riekling Godspeak Song</Source>
@@ -53358,6 +53616,12 @@ With a hunger to swallow the world!
       <REC>LSCR:DESC</REC>
       <Source>Some tales tell of ancient Nord heroes whose Voices were powerful enough to tame and ride dragons.</Source>
       <Dest>伝説によれば、古代ノルドの英雄たちの中には竜族を手なずけて乗りこなすほどの強大な力の持ち主がいたそうだ。</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC2RavenRock1</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Although the East Empire Company originally founded Raven Rock, they turned the failing mining colony over to the Dark Elves at the beginning of the Fourth Era.</Source>
+      <Dest>レイヴン・ロックを設立したのは東帝都社であったが、採掘量減少により第四紀初頭にダークエルフらに譲渡されている。</Dest>
     </String>
     <String List="0">
       <EDID>DLC2RavenRock2</EDID>
