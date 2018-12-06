@@ -12,8 +12,8 @@ A machine translation is **not** used for added sentences in Requiem 2.x. Howeve
 ## Progress
 
 ### Requiem.esp
-- STRINGS: 8754/9842 items (88.9%)
-- DLSTRINGS: 1071/1302 items (82.2%)
+- STRINGS: 9375/9842 items (95.3%)
+- DLSTRINGS: 1087/1302 items (83.5%)
 - ILSTRINGS: 57/57 items (100%)
 
 ### Requiem - Legendary Bugsmasher Edition.esp (COMPLETED)
@@ -22,7 +22,7 @@ A machine translation is **not** used for added sentences in Requiem 2.x. Howeve
 
 ## Future
 
-No plan.
+Please don't expect my further work for future requiem releases.
 
 ## Copyrights
 
@@ -34,4 +34,4 @@ Requiem 1.9.4.1 日本語版 (https://skyrim.2game.info/detail.php?id=19281)
 
 USLEEP - Japanese Voice Edit (https://www.nexusmods.com/skyrim/mods/85456)
 
-(c) 2018 jamcha
+jamcha
