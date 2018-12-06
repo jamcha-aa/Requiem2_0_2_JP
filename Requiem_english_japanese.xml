@@ -1916,6 +1916,12 @@
       <Dest>追放 - 体力減退</Dest>
     </String>
     <String List="0">
+      <EDID>BanishDmgHealthFFTargetActor</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>If the target is not banished, it will be dealt &lt;mag&gt; unresistable damage and staggered.</Source>
+      <Dest>対象が追放されなかったとき、 &lt;mag&gt; の属性無視ダメージを与えよろめかせる。</Dest>
+    </String>
+    <String List="0">
       <EDID>TelekinesisEffect</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Telekinetic Hand</Source>
@@ -2354,6 +2360,12 @@
       <Dest>呪文防護</Dest>
     </String>
     <String List="0">
+      <EDID>AlchResistMagic</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Resists &lt;mag&gt;% of magic for &lt;dur&gt; seconds.</Source>
+      <Dest>魔法に対して &lt;mag&gt;% の耐性が &lt;dur&gt; 秒間生じる。</Dest>
+    </String>
+    <String List="0">
       <EDID>AlchDamageMagicka</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Spellbane</Source>
@@ -2394,6 +2406,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Flame Cloak</Source>
       <Dest>火炎マント</Dest>
+    </String>
+    <String List="0">
+      <EDID>FireCloakFFSelf</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>For &lt;dur&gt; seconds, opponents in melee range take &lt;30&gt; points fire damage per second. Targets on fire take extra damage.</Source>
+      <Dest>&lt;dur&gt; 秒間, 近接距離にいる敵に1秒ごとに &lt;30&gt; ポイントの炎ダメージを与える。炎上した敵には追加ダメージ。</Dest>
     </String>
     <String List="0">
       <EDID>FrostCloakFFSelf</EDID>
@@ -2642,6 +2660,12 @@
       <Dest>巧みな鍛造術</Dest>
     </String>
     <String List="0">
+      <EDID>AlchFortifySmithing</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Fortifies smithing skill by &lt;mag&gt; points.</Source>
+      <Dest>鍛冶スキルを &lt;mag&gt; ポイント上昇させる。</Dest>
+    </String>
+    <String List="0">
       <EDID>AlchFortifyHeavyArmor</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Stoneskin</Source>
@@ -2688,6 +2712,12 @@
       <REC>MGEF:DNAM</REC>
       <Source>You are &lt;mag&gt;% harder to detect for &lt;dur&gt; seconds.</Source>
       <Dest>&lt;mag&gt;%発見されにくくなる。 &lt;dur&gt; 秒間有効。</Dest>
+    </String>
+    <String List="0">
+      <EDID>AlchFortifyBarter</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Ably Bartering</Source>
+      <Dest>巧みな取引</Dest>
     </String>
     <String List="0">
       <EDID>AlchFortifyBarter</EDID>
@@ -2784,6 +2814,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Affliction</Source>
       <Dest>感染</Dest>
+    </String>
+    <String List="0">
+      <EDID>AlchDamageHealth</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Immediately drains the target&apos;s Health by &lt;mag&gt; points.</Source>
+      <Dest>対象の体力を即座に &lt;mag&gt; ポイント奪う。</Dest>
     </String>
     <String List="0">
       <EDID>VoiceClearSkiesEffect1</EDID>
@@ -3176,6 +3212,12 @@
       <Dest>毒の息吹</Dest>
     </String>
     <String List="0">
+      <EDID>DA13AfflictedSpray</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>This brutally painful poison deals &lt;mag&gt; damage for &lt;dur&gt; seconds.</Source>
+      <Dest>容赦無い痛みを伴う毒で&lt;mag&gt; ポイントのダメージを、&lt;dur&gt;  秒間与える。</Dest>
+    </String>
+    <String List="0">
       <EDID>ArmorFFSelf25</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Mage Armor (Rank II)</Source>
@@ -3410,6 +3452,12 @@
       <Dest>バニッシュ</Dest>
     </String>
     <String List="0">
+      <EDID>BanishFFActor50</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster sends weaker summoned daedric creatures back to the realms of Oblivion.</Source>
+      <Dest>術者は召喚された弱いデイドラをオブリビオンの領域へ送り返す。</Dest>
+    </String>
+    <String List="0">
       <EDID>VoiceKynesPeaceFactionEffect</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Faction - Kyne&apos;s Peace</Source>
@@ -3456,6 +3504,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Banish</Source>
       <Dest>バニッシュ</Dest>
+    </String>
+    <String List="0">
+      <EDID>BanishFFActor75</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster sends even powerful creatures back to the realms of Oblivion.</Source>
+      <Dest>術者は召喚された強力なデイドラをオブリビオンの領域へ送り返す。</Dest>
     </String>
     <String List="0">
       <EDID>CommandFFActor</EDID>
@@ -3762,6 +3816,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Fortify Smithing</Source>
       <Dest>鍛造上昇</Dest>
+    </String>
+    <String List="0">
+      <EDID>EnchFortifySmithingConstantSelf</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Fortifies smithing skill by &lt;mag&gt; points.</Source>
+      <Dest>鍛冶スキルを &lt;mag&gt; ポイント上昇させる。</Dest>
     </String>
     <String List="0">
       <EDID>EnchFortifySneakConstantSelf</EDID>
@@ -4394,6 +4454,18 @@
       <Dest>ときどき、&lt;dur&gt;秒間対象を麻痺させることがある。</Dest>
     </String>
     <String List="0">
+      <EDID>AlchCureDisease</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Cleansing</Source>
+      <Dest>浄化</Dest>
+    </String>
+    <String List="0">
+      <EDID>AlchCureDisease</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Removes almost every disease, poison as well as temporary magic effect and blessings.</Source>
+      <Dest>ほぼ全ての疾病、毒、一時的な魔法効果と祝福を取り除く。</Dest>
+    </String>
+    <String List="0">
       <EDID>MGRitual02Effect</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Vision of the Tenth Eye</Source>
@@ -4560,6 +4632,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Sanguinare Vampiris</Source>
       <Dest>サングイネア吸血症</Dest>
+    </String>
+    <String List="0">
+      <EDID>DisDamageHealthVampire</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Reduces Health by &lt;mag&gt;. Unless this malediction is cleansed within three days, the unfortunate victim will be bestowed with the curse of Vampirism.</Source>
+      <Dest>体力を&lt;mag&gt; ポイント低下させる。この呪いを浄化しないまま3日間を過ぎると、その不幸な犠牲者は吸血鬼の呪いを受けるだろう。</Dest>
     </String>
     <String List="0">
       <EDID>DisDamageStaminaRegen</EDID>
@@ -6772,6 +6850,12 @@
       <Dest>陽光の外套</Dest>
     </String>
     <String List="0">
+      <EDID>DLC1SunCloakFFSelf</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster enshrouds himself in bright, almost searing light. For &lt;dur&gt; seconds, undead in its range take &lt;30&gt; points of sun damage per second.</Source>
+      <Dest>術者は明るく焼けつくような光で自らを覆い隠す。&lt;dur&gt; 秒間、範囲内のアンデッドに1秒ごとに &lt;30&gt; ポイントの太陽光ダメージを与える。</Dest>
+    </String>
+    <String List="0">
       <EDID>DLC1SimDamageConcAimedCloak</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Sunfire Cloak</Source>
@@ -6854,6 +6938,12 @@
       <REC>MGEF:DNAM</REC>
       <Source>Absorb &lt;mag&gt; points of health, magicka, and stamina per second from the target.</Source>
       <Dest>目標から体力、マジカ、スタミナを毎秒 &lt;mag&gt; ポイント吸収できる。</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC1SunLightFFSelf</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Sunfire Cloak Light</Source>
+      <Dest>陽光の外套の光</Dest>
     </String>
     <String List="0">
       <EDID>DLC1VampireMesmerizeMagicEffect</EDID>
@@ -6980,6 +7070,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Stendarr&apos;s Aura - Isran</Source>
       <Dest>ステンダールのオーラ(イスラン)</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC1SunCloakFFSelfIsran</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The caster enshrouds himself in bright, almost searing light. For &lt;dur&gt; seconds, undead in its range take &lt;30&gt; points of sun damage per second.</Source>
+      <Dest>術者は明るく焼けつくような光で自らを覆い隠す。&lt;dur&gt; 秒間、範囲内のアンデッドに1秒ごとに &lt;30&gt; ポイントの太陽光ダメージを与える。</Dest>
     </String>
     <String List="0">
       <EDID>DLC1crChaurusHunterSpitFFAimed</EDID>
@@ -7160,6 +7256,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Forgemaster Flame Cloak</Source>
       <Dest>フォージマスターの火炎マント</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC1LD_ForgemasterFlameCloakEffect</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>For &lt;dur&gt; seconds, opponents in melee range take &lt;30&gt; points fire damage per second. Targets on fire take extra damage.</Source>
+      <Dest>&lt;dur&gt; 秒間, 近接距離にいる敵に1秒ごとに &lt;30&gt; ポイントの炎ダメージを与える。炎上した敵には追加ダメージ。</Dest>
     </String>
     <String List="0">
       <EDID>DLC1DawnguardRuneAxeIncrementKills</EDID>
@@ -8738,6 +8840,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Banishment</Source>
       <Dest>追放</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Effect_EnchBanishFFContactDamage</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>If the target is not banished, it will be dealt &lt;mag&gt; unresistable damage and staggered.</Source>
+      <Dest>対象が追放されなかったとき、 &lt;mag&gt; の属性無視ダメージを与えよろめかせる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_EnchShockDamageFFContactDwemerBonus</EDID>
@@ -11655,6 +11763,12 @@
       <REC>MGEF:FULL</REC>
       <Source>Spellshield</Source>
       <Dest>呪文防護</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Food_ResistMagic</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Resists &lt;mag&gt;% of magic for &lt;dur&gt; seconds.</Source>
+      <Dest>魔法に対して &lt;mag&gt;% の耐性が &lt;dur&gt; 秒間生じる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Food_ResistShock</EDID>
@@ -18722,7 +18836,7 @@
       <EDID>REQ_Ability_DetectionCloak</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Even better than X-Ray Vision!!!!</Source>
-      <Dest>Even better than X-Ray Vision!!!!</Dest>
+      <Dest>X線よりも優れている!!!!</Dest>
     </String>
     <String List="0">
       <EDID>REQ_GM_NPCDetectionEffect</EDID>
@@ -20627,10 +20741,28 @@
       <Dest>帽子</Dest>
     </String>
     <String List="0">
+      <EDID>ArmorGuardShieldRiften</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Rift Guard&apos;s Shield</Source>
+      <Dest>リフト衛兵の盾</Dest>
+    </String>
+    <String List="0">
+      <EDID>ArmorGuardShieldMarkarth</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Reach Guard&apos;s Shield</Source>
+      <Dest>リーチ衛兵の盾</Dest>
+    </String>
+    <String List="0">
       <EDID>ArmorGuardShieldWhiteRun</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Whiterun Guard&apos;s Shield</Source>
       <Dest>ホワイトラン衛兵の盾</Dest>
+    </String>
+    <String List="0">
+      <EDID>ArmorGuardShieldEastmarch</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Eastmarch Guard&apos;s Shield</Source>
+      <Dest>イーストマーチ衛兵の盾</Dest>
     </String>
     <String List="0">
       <EDID>ArmorGuardShieldFalkreath</EDID>
@@ -20649,6 +20781,30 @@
       <REC>ARMO:FULL</REC>
       <Source>Winterhold Guard&apos;s Shield</Source>
       <Dest>ウィンターホールド衛兵の盾</Dest>
+    </String>
+    <String List="0">
+      <EDID>ArmorGuardShieldSolitude</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Haafingar Guard&apos;s Shield</Source>
+      <Dest>ハーフィンガル衛兵の盾</Dest>
+    </String>
+    <String List="0">
+      <EDID>ArmorGuardShieldPale</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Pale Guard&apos;s Shield</Source>
+      <Dest>ペイル衛兵の盾</Dest>
+    </String>
+    <String List="0">
+      <EDID>ArmorGuardCuirassRiften</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Rift Guard&apos;s Armor</Source>
+      <Dest>リフト衛兵の鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>ArmorGuardCuirassMarkarth</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Reach Guard&apos;s Armor</Source>
+      <Dest>リーチ衛兵の鎧</Dest>
     </String>
     <String List="0">
       <EDID>ArmorGuardCuirassWhiterun</EDID>
@@ -20673,6 +20829,18 @@
       <REC>ARMO:FULL</REC>
       <Source>Winterhold Guard&apos;s Armor</Source>
       <Dest>ウィンターホールド衛兵の鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>ArmorGuardCuirassThePale</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Pale Guard&apos;s Armor</Source>
+      <Dest>ペイル衛兵の鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>ArmorGuardHelmetFullReach</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Reach Guard&apos;s Helmet</Source>
+      <Dest>リーチ衛兵の兜</Dest>
     </String>
     <String List="0">
       <EDID>ArmorGuardHelmetFullWhiterun</EDID>
@@ -20703,6 +20871,12 @@
       <REC>ARMO:FULL</REC>
       <Source>Pale Guard&apos;s Helmet</Source>
       <Dest>ペイル衛兵の兜</Dest>
+    </String>
+    <String List="0">
+      <EDID>ArmorGuardHelmetFullRift</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>The Rift Guard&apos;s Helmet</Source>
+      <Dest>リフト衛兵の兜</Dest>
     </String>
     <String List="0">
       <EDID>ClothesFarmBoots03</EDID>
@@ -20787,6 +20961,12 @@
       <REC>ARMO:FULL</REC>
       <Source>Silver Ring</Source>
       <Dest>銀の指輪</Dest>
+    </String>
+    <String List="0">
+      <EDID>ClothesMerchantHat</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Merchant&apos;s Hat</Source>
+      <Dest>商人の帽子</Dest>
     </String>
     <String List="0">
       <EDID>ClothesMerchantClothes</EDID>
@@ -21381,6 +21561,18 @@
       <REC>ARMO:FULL</REC>
       <Source>Sheogorath&apos;s Boots</Source>
       <Dest>シェオゴラスのブーツ</Dest>
+    </String>
+    <String List="0">
+      <EDID>ArmorGuardCuirassSolitude</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Haafingar Guard&apos;s Armor</Source>
+      <Dest>ハーフィンガル衛兵の鎧</Dest>
+    </String>
+    <String List="0">
+      <EDID>ArmorGuardHelmetFullHaafingar</EDID>
+      <REC>ARMO:FULL</REC>
+      <Source>Haafingar Guard&apos;s Helmet</Source>
+      <Dest>ハーフィンガル衛兵の兜</Dest>
     </String>
     <String List="0">
       <EDID>ReligiousAkatoshTime</EDID>
@@ -25395,6 +25587,12 @@
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Sunburst</Source>
       <Dest>呪文の書: 日差し</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Restoration3_SunfireCloak</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Sunfire Cloak</Source>
+      <Dest>呪文の書: 陽光の外套</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Restoration2_Sunfire</EDID>
@@ -47345,6 +47543,12 @@
       <Dest>アルゴニアン・エール</Dest>
     </String>
     <String List="0">
+      <EDID>CureDisease</EDID>
+      <REC>ALCH:FULL</REC>
+      <Source>Potion of Cleansing</Source>
+      <Dest>浄化のポーション</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Drink_BrandyCyrodilicWEDL03</EDID>
       <REC>ALCH:FULL</REC>
       <Source>Cyrodilic Brandy</Source>
@@ -51305,10 +51509,58 @@
       <Dest>家を買いたいんだが</Dest>
     </String>
     <String List="0">
+      <EDID>[03000C52]</EDID>
+      <REC>INFO:RNAM</REC>
+      <Source>I got your letter about the land for sale. Is it still available?</Source>
+      <Dest>売り地に関する手紙を読んだ。まだ買い手を探しているのかな？</Dest>
+    </String>
+    <String List="0">
+      <EDID>[03000C54]</EDID>
+      <REC>INFO:RNAM</REC>
+      <Source>Is that land you mentioned still available?</Source>
+      <Dest>前に言っていた土地はまだ買えるのかな？</Dest>
+    </String>
+    <String List="0">
+      <EDID>[0300BE06]</EDID>
+      <REC>INFO:RNAM</REC>
+      <Source>I got your letter about the land for sale. Is it still available?</Source>
+      <Dest>売り地に関する手紙を読んだ。まだ買い手を探しているのかな？</Dest>
+    </String>
+    <String List="0">
+      <EDID>[0300BE08]</EDID>
+      <REC>INFO:RNAM</REC>
+      <Source>Is that land you mentioned still available?</Source>
+      <Dest>前に言っていた土地はまだ買えるのかな？</Dest>
+    </String>
+    <String List="0">
       <EDID>BYOHHousePalePurchaseTopic</EDID>
       <REC>DIAL:FULL</REC>
       <Source>I&apos;d like to purchase a house.</Source>
       <Dest>家を買いたいんだが</Dest>
+    </String>
+    <String List="0">
+      <EDID>[0301770C]</EDID>
+      <REC>INFO:RNAM</REC>
+      <Source>I got your letter about the land for sale. Is it still available?</Source>
+      <Dest>売り地に関する手紙を読んだ。まだ買い手を探しているのかな？</Dest>
+    </String>
+    <String List="0">
+      <EDID>[03000C32]</EDID>
+      <REC>INFO:RNAM</REC>
+      <Source>Is that land you mentioned still available?</Source>
+      <Dest>前に言っていた土地はまだ買えるのかな？</Dest>
+    </String>
+    <String List="0">
+      <EDID>[0301770E]</EDID>
+      <REC>INFO:RNAM</REC>
+      <Source>Is that land you mentioned still available?</Source>
+      <Dest>前に言っていた土地はまだ買えるのかな？</Dest>
+    </String>
+    <String List="0">
+      <EDID>[03000C30]</EDID>
+      <REC>INFO:RNAM</REC>
+      <Source>I got your letter about the land for sale. Is it still available?</Source>
+      <Dest>売り地に関する手紙を読んだ。まだ買い手を探しているのかな？</Dest>
     </String>
     <String List="0">
       <EDID>CR08</EDID>
@@ -51591,6 +51843,12 @@
       <REC>QUST:FULL</REC>
       <Source>Bounty: Bandit Boss</Source>
       <Dest>賞金首: 山賊のボス</Dest>
+    </String>
+    <String List="0">
+      <EDID>BQ01</EDID>
+      <REC id="0" idMax="2">QUST:NNAM</REC>
+      <Source>Kill the bandit leader located at &lt;Alias=BountyLocation&gt; in &lt;Alias=Hold&gt;</Source>
+      <Dest>&lt;Alias=Hold&gt; の &lt;Alias=BountyLocation&gt; にいる山賊の頭を倒す</Dest>
     </String>
     <String List="0">
       <EDID>BQ01</EDID>
@@ -51882,6 +52140,12 @@
     </String>
     <String List="0">
       <EDID>BQ02</EDID>
+      <REC id="0" idMax="2">QUST:NNAM</REC>
+      <Source>Kill the leader of &lt;Alias=BountyLocation&gt; in &lt;Alias=Hold&gt;</Source>
+      <Dest>&lt;Alias=Hold&gt; の&lt;Alias=BountyLocation&gt; にいる敵のリーダーを倒す</Dest>
+    </String>
+    <String List="0">
+      <EDID>BQ02</EDID>
       <REC id="1" idMax="2">QUST:NNAM</REC>
       <Source>Collect the bounty from &lt;Alias=Steward&gt;</Source>
       <Dest>&lt;Alias=Steward&gt; から賞金を受け取る</Dest>
@@ -51900,6 +52164,12 @@
     </String>
     <String List="0">
       <EDID>BQ03</EDID>
+      <REC id="0" idMax="2">QUST:NNAM</REC>
+      <Source>Kill the giant located at &lt;Alias=BountyLocation&gt; in &lt;Alias=Hold&gt;</Source>
+      <Dest>&lt;Alias=Hold&gt; の &lt;Alias=BountyLocation&gt; にいる巨人を倒す</Dest>
+    </String>
+    <String List="0">
+      <EDID>BQ03</EDID>
       <REC id="1" idMax="2">QUST:NNAM</REC>
       <Source>Collect bounty from &lt;Alias=Steward&gt;</Source>
       <Dest>&lt;Alias=Steward&gt; から賞金を受け取る</Dest>
@@ -51915,6 +52185,12 @@
       <REC>QUST:FULL</REC>
       <Source>Bounty: Dragon</Source>
       <Dest>賞金首: ドラゴン</Dest>
+    </String>
+    <String List="0">
+      <EDID>BQ04</EDID>
+      <REC id="0" idMax="2">QUST:NNAM</REC>
+      <Source>Kill the dragon located at &lt;Alias=BountyLocation&gt; in &lt;Alias=Hold&gt;</Source>
+      <Dest>&lt;Alias=Hold&gt; の &lt;Alias=BountyLocation&gt; にいるドラゴンを倒す</Dest>
     </String>
     <String List="0">
       <EDID>BQ04</EDID>
@@ -52106,7 +52382,7 @@
       <EDID>REQ_Quest_Playerscripts</EDID>
       <REC>QUST:FULL</REC>
       <Source>A Requiem of better Times</Source>
-      <Dest>REQ_Playerscripts</Dest>
+      <Dest>日常へのレクイエム</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Quest_Playerscripts</EDID>
@@ -52149,6 +52425,30 @@
       <REC>QUST:FULL</REC>
       <Source>Requiem Secondary Skills Menu</Source>
       <Dest>Requiem Secondary Skills Menu</Dest>
+    </String>
+    <String List="0">
+      <EDID>ChargenLoadScreen</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>And the Scrolls have foretold,
+of black wings in the cold,
+That when brothers wage war come unfurled!
+Alduin, Bane of Kings,
+ancient shadow unbound,
+With a hunger to swallow the world!
+-- Song of the Dragonborn</Source>
+      <Dest>星霜の書は予言した。
+冷気の中の黒き羽の事を。
+民が戦いを遂行する時、広げられるその羽！ 
+アルドゥイン、王殺し、
+いにしえの影が解き放たれる。
+世界を飲み込む渇望とともに！
+-- ドラゴンボーンの歌</Dest>
+    </String>
+    <String List="0">
+      <EDID>AlchemyTasting</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Most alchemical ingredients are safe to sample, but many a careless alchemist have died seconds after swallowing vampire dust.</Source>
+      <Dest>ほとんどの錬金素材は標本として安全だが、多くの軽率な錬金術師が吸血鬼の遺灰を飲んだ数秒後に死亡している。</Dest>
     </String>
     <String List="0">
       <EDID>AlchemyBench</EDID>
@@ -52332,6 +52632,18 @@
       <Dest>錬金術の達人は正しい素材を用いれば強力な霊薬や凶悪な毒のどちらも作成できる…</Dest>
     </String>
     <String List="0">
+      <EDID>CharacterSkillAlteration</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Alteration is the art of changing reality and make it bend under one&apos;s will. Spells like Telekinesis, Detection and Transmutation are common among scholars and mages that adhere to this school of magic.</Source>
+      <Dest>変性魔法は現実を変化させ、それを望みのままに曲げる技術である。念動力、探知、変成といった呪文は、この流派の魔法に準ずる学者や魔術師には一般的なものである。</Dest>
+    </String>
+    <String List="0">
+      <EDID>CharacterSkillBlock</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>The art of parrying and blocking is essential to every combatant. Failure to parry a strike is a mistake one rarely makes twice...</Source>
+      <Dest>受け流しや防御の技術はすべての戦闘員に必要不可欠だ。攻撃を受け流さないなら、二度目がなくなるような失敗をすることになる…</Dest>
+    </String>
+    <String List="0">
       <EDID>CharacterSkillConjuration</EDID>
       <REC>LSCR:DESC</REC>
       <Source>Conjuration is the art of penetrating the walls between the realms of Mundus and what lies beyond. Spells belonging to this school call powerful entities to the caster&apos;s help or even cast his body through the fabric of space.</Source>
@@ -52380,10 +52692,28 @@
       <Dest>幻惑魔法は他者の精神や知覚力を操作する技術である。腕の立つ魔術師は犠牲者の行動をほぼすべて操作することができ、この技術に熟達すればより恐ろしいものとなる。なぜなら、悲惨な悪夢を呼び出し恐怖を植え込み、致命的な心臓発作でさえ起こすことができるからだ…</Dest>
     </String>
     <String List="0">
+      <EDID>CharacterSkillOneHanded</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>One-handed weapons are fast and easy to carry around; perfect for fighters who prefer maneuverability over pure force.</Source>
+      <Dest>片手武器は素早く、簡単に持ち運べる; 純粋な力よりも取り回しを重視する戦士にはうってつけだ。</Dest>
+    </String>
+    <String List="0">
       <EDID>CharacterSkillPickpocket</EDID>
       <REC>LSCR:DESC</REC>
       <Source>While the majority considers pickpocketing a crime, skilled thieves consider it an art that&apos;s not simple to master, but yields great rewards for those who do.</Source>
       <Dest>大多数がスリは犯罪だと考えている一方、腕の立つ盗賊はそれを、簡単には極められないが多大な利益を産み出す技術だと考えている。</Dest>
+    </String>
+    <String List="0">
+      <EDID>CharacterSkillRestoration</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Restoration is the art of influencing and controlling positive energies that can heal wounds, cure diseases and evoke certain other beneficial effects. Mages that are very skilled in this school are also able to dispel all kinds of magical effects and to  destroy the undead easily with searing light.</Source>
+      <Dest>回復魔法は傷を癒したり、疾病を治したり、その他有益な効果を呼び起こす正のエネルギーに影響を与え操作する技術である。この流派に非常に腕の立つ魔術師はあらゆる種類の魔法効果を解呪したり、焼け付く光によってアンデッドを簡単に破壊することもできる。</Dest>
+    </String>
+    <String List="0">
+      <EDID>CharacterSkillSmithing</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Smithing is Skyrim&apos;s most favoured and most honored profession. Legend has it that Skyrim&apos;s best blacksmiths are able to craft armors that could protect from even the most ferocious of creatures, and weapons that could tear even a giant&apos;s skull asunder...</Source>
+      <Dest>鍛冶はスカイリムで最も気に入れられている、誉れ高い職業である。伝説によると、スカイリムの最高の鍛冶職人は大抵の獰猛な生物でさえ防ぐ鎧や、巨人の頭蓋骨でさえバラバラにする武器を作成できると言う…</Dest>
     </String>
     <String List="0">
       <EDID>CharacterSkillSneak</EDID>
@@ -52420,6 +52750,12 @@
       <REC>LSCR:DESC</REC>
       <Source>The dwarves of Tamriel disappeared millennia ago and are presumed extinct.</Source>
       <Dest>タムリエルのドワーフらは何千年も前に姿が見えなくなり、絶滅したものと見なされている。</Dest>
+    </String>
+    <String List="0">
+      <EDID>CombatPowerAttack</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Light weapons can quickly kill unarmored targets but may prove ineffective against a blocking shield or plate armor. Heavy bludgeoning weapons are slow but capable of smashing down a foe&apos;s defenses.</Source>
+      <Dest>軽い武器は鎧をまとわぬ対象をすばやく始末できるが、盾の防御や鋼鉄の鎧には有効でない。重い打撃武器は遅いが敵の守りを打ちのめせる。</Dest>
     </String>
     <String List="0">
       <EDID>CombatBashing</EDID>
@@ -52752,6 +53088,12 @@
       <Dest>ある有名な伝説ではドラゴンボーンと呼ばれる、定命の体とドラゴンの魂を併せ持ち、邪竜アルドゥインを倒す運命にある英雄について語られている。</Dest>
     </String>
     <String List="0">
+      <EDID>CreatureDragonOdahviing</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Most Nords of Skyrim assumed the dragons were only a legend� until now.</Source>
+      <Dest>スカイリムのノルドの大半が、つい最近までドラゴンは伝説上の存在に過ぎないと信じ込んでいた。だが状況が変わった。 </Dest>
+    </String>
+    <String List="0">
       <EDID>CreatureHorker</EDID>
       <REC>LSCR:DESC</REC>
       <Source>Skyrim&apos;s Horkers are often hunted for their tusks and meat. Though they&apos;re pretty slow, one should not underestimate the power of their blows when they finally get into melee range.</Source>
@@ -52812,6 +53154,14 @@
       <Dest>盗賊座は最後の大守護星座であり、その季節は最も暗い月、星霜の月だ。その監督下には恋人座、影座、塔座がある。この星座の下に生まれた者は典型的な盗賊ではなく、頻繁にリスクを犯しながらも、危険な目に遭うことはめったにない。しかしながら結局、運を使い果たしてしまい、他の星座の下に生まれた者のように長生きすることはまれだ。</Dest>
     </String>
     <String List="0">
+      <EDID>CharacterSkillILegendary</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>With training and dedication, even a commoner can become a great warrior, mage or thief... once learned, those skills will never be forgotten. This is what it means to be legendary.
+--Meh321</Source>
+      <Dest>訓練と献身により、庶民でも偉大な戦士や魔術師、盗賊になることができる… いったん学んだスキルは忘れられることがない。これがレジェンダリーの意味するところである。
+--Meh321</Dest>
+    </String>
+    <String List="0">
       <EDID>DLC1WerewolfPerkTree</EDID>
       <REC>LSCR:DESC</REC>
       <Source>Werewolves have been roaming Skyrim for centuries, but their number seems to have been growing over the last years... drastically.</Source>
@@ -52822,6 +53172,18 @@
       <REC>LSCR:DESC</REC>
       <Source>Werewolves have been roaming Skyrim for centuries, but their number seems to have been growing over the last years... drastically.</Source>
       <Dest>ウェアウルフは数百年もスカイリムをうろついているが、その個体数は以前より増えているようだ… それも大幅に。</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC1CreatureTrollArmored</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>The Dawnguard uses armored battle trolls in their fight against the vampires.</Source>
+      <Dest>ドーンガードは吸血鬼と戦うため武装したトロールを使役している。</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC1CreatureDragonLegendary</EDID>
+      <REC>LSCR:DESC</REC>
+      <Source>Most Nords of Skyrim assumed the dragons were only a legend... until now.</Source>
+      <Dest>スカイリムのノルドの大半が、ドラゴンは伝説上の存在に過ぎないと信じ込んでいた…今このときまで。</Dest>
     </String>
     <String List="0">
       <EDID>DLC1WeaponDragonbone</EDID>
@@ -55105,6 +55467,12 @@
     </String>
     <String List="0">
       <EDID>DA04OghmaInfiniumChoiceMessage</EDID>
+      <REC id="2" idMax="3">MESG:ITXT</REC>
+      <Source>Read &quot;The Path of Endurance&quot;</Source>
+      <Dest>「忍耐の道」を読む</Dest>
+    </String>
+    <String List="0">
+      <EDID>DA04OghmaInfiniumChoiceMessage</EDID>
       <REC id="3" idMax="3">MESG:ITXT</REC>
       <Source>Read &quot;The Path of Magic&quot;</Source>
       <Dest>「魔法の道」を読む</Dest>
@@ -55240,6 +55608,12 @@
       <REC>MESG:FULL</REC>
       <Source>No Tile</Source>
       <Dest>タイルなし</Dest>
+    </String>
+    <String List="0">
+      <EDID>DLC1TrollFollowerDismissedMsg</EDID>
+      <REC>MESG:FULL</REC>
+      <Source>My Armored Troll leaves my service.</Source>
+      <Dest>武装したトロールと別れた。</Dest>
     </String>
     <String List="0">
       <EDID>planterClearMessage</EDID>
@@ -55966,6 +56340,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <Dest>いくらかのアルゴニアンは代謝を意識的に改変することができ、最初はとても素早く回復し時間とともに遅くなっていく。しかし、この過程によって激しく疲労するため、1日1回しか使えない。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Ability_StandingStones_Thief</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>The Sign of the Thief grants wide-spread abilities to those who bear her blessing. This includes increased damage with bows and one-handed weapons as well as improved sneaking, pickpocketing and lockpicking skills, boosting lock picking expertise by 20 points.</Source>
+      <Dest>盗賊座はその祝福がある者に幅広い能力を施す。弓と片手武器によるダメージが増え、隠密、スリ、ロックピックのスキルが向上し、解錠の知識を 20 ポイント与える。</Dest>
+    </String>
+    <String List="1">
       <EDID>doomMageAbility</EDID>
       <REC>SPEL:DESC</REC>
       <Source>Those under the Sign of the Mage are granted additional Magicka and find it easier to focus their thoughts while running.</Source>
@@ -56428,6 +56808,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <Dest>錬金の技術によって筋組織を恒久的に強化させると、傷つくほど粘り強く行動できる。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Ability_Alchemy_AlchemicalIntellect</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Having improved your mind with the art of alchemy, you can cast stronger spells with less effort, your magicka is expanded by &lt;150&gt; points and you regain &lt;3&gt; points of Magicka each second under any circumstance.</Source>
+      <Dest>錬金の技術で精神を高めたことで、強力な呪文をより少ない努力で唱えることができ、あなたのマジカは &lt;150&gt; ポイント増加したうえ、いかなる状況でもマジカが毎秒 &lt;3&gt; ポイント回復する。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Power_Illumination</EDID>
       <REC>SPEL:DESC</REC>
       <Source>The caster creates a bright, hovering orb of light. </Source>
@@ -56450,6 +56836,18 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <REC>SPEL:DESC</REC>
       <Source>You are blind and cannot percieve anything with your eyes.</Source>
       <Dest>You are blind and cannot percieve anything with your eyes.</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Ability_Khajiit_Lockpicking</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Your race is blessed with a natural agility and some people say also has an affiliation with crime. In any case, your lockpicking expertise is increased by &lt;10&gt;.</Source>
+      <Dest>あなたの種族は生来の俊敏さに恵まれ、犯罪と結びついているとも一部の人は言う。いずれにせよ、ロックピックの知識が &lt;10&gt; 増える。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Ability_SkeletonKey</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>The Skeleton&apos;s key otherworldly powers give you a lockpicking expertise bonus of 160 and opening any lock will become a children&apos;s game.</Source>
+      <Dest>不壊のピックの人智を超えた力は、あなたにロックピックの知識を160与え、あらゆる鍵開けが児戯に等しくなる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Scroll_FireStorm</EDID>
@@ -57475,6 +57873,26 @@ Potion of Healing:
 ～木椅子キノコ
 
 ～小麦
+
+&lt;/font&gt;</Dest>
+    </String>
+    <String List="1">
+      <EDID>RecipeRestoreHealth3</EDID>
+      <REC>BOOK:DESC</REC>
+      <Source>&lt;font face=&apos;$HandwrittenFont&apos;&gt;
+Potion of Healing:
+
+~Blue Dartwing
+
+~Charred Skeever Hide
+
+&lt;/font&gt;</Source>
+      <Dest>&lt;font face=&apos;$HandwrittenFont&apos;&gt;
+治癒の薬:
+
+~ブルー・ダートウィング
+
+~焼け焦げたスキーヴァーの皮
 
 &lt;/font&gt;</Dest>
     </String>
@@ -65612,7 +66030,7 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <EDID>REQ_Quest_Playerscripts</EDID>
       <REC>QUST:CNAM</REC>
       <Source>The twisted turns of fate have brought you into your current situation. It seems there is no easy way out. Better you prepare yourself to face your destiny with steel or magic!</Source>
-      <Dest>The twisted turns of fate have brought you into your current situation. It seems there is no easy way out. Better you prepare yourself to face your destiny with steel or magic!</Dest>
+      <Dest>運命の螺旋があなたをこの状況へと導いた。脱出への道のりはいずれも険しそうだ。武器や魔法を磨き、この定めに立ち向かう準備をすべきだ!</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Quest_Spellchoices</EDID>
@@ -67686,6 +68104,26 @@ using the default resistance system leads to crap, because the damageresist resi
       <Dest>これらの言葉を本当の意味で理解するために、ドラゴンの魂からの知識や力が必要だ…</Dest>
     </String>
     <String List="1">
+      <EDID>HelpEnchantingShort</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Ah, an arcane enchanter! I can place an magical item here to unlock its secrets by destroying it, or I can enchant a non-magical item using a soul gem.</Source>
+      <Dest>ああ、アルケイン付呪器だ! 魔法のアイテムをここに置いて壊すとその秘密を解き明かせるし、もしくは魔法のかかっていないアイテムに魂石を使うと付呪ができる。
+
+Ah, an arcane enchanter! I can place an magical item here to unlock its secrets by destroying it, or I can enchant a non-magical item using a soul gem.</Dest>
+    </String>
+    <String List="1">
+      <EDID>HelpAlchemyShort</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Ah, an alchemy lab, along with an alembic, a mortar and all the necessary apparatus. Perfect for brewing all kinds of potions.</Source>
+      <Dest>ああ、錬金器具。蒸留器他に、すり鉢など必要な装置が揃っている。あらゆる種類のポーションを作るうえで完璧だ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>HelpArmorBenchShort</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Ah, a workbench, along with some tools. Perfect for improving all kinds of equipment.</Source>
+      <Dest>ああ、作業台に、道具も一緒だ。あらゆる種類の装備を作るうえで完璧だ。</Dest>
+    </String>
+    <String List="1">
       <EDID>HelpGrindstoneShort</EDID>
       <REC>MESG:DESC</REC>
       <Source>A grindstone. Very useful when sharpening one&apos;s blade.</Source>
@@ -67696,6 +68134,12 @@ using the default resistance system leads to crap, because the damageresist resi
       <REC>MESG:DESC</REC>
       <Source>Ah, a forge. With the right techniques, one could shape all kinds of metal there...</Source>
       <Dest>ああ、鋳造器具だ。正しい技術があれば、あらゆる種類の金属をここで成形できるぞ…</Dest>
+    </String>
+    <String List="1">
+      <EDID>HelpJournalShortPC</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>My journal. Time taught me it&apos;s better to write important things down. It may be helpful to focus on one or more active quests if I want to.</Source>
+      <Dest>日記だ。時間というものは、重要なことは書き留めておくべきだと教えてくれる。1つ以上のアクティブなクエストに注目したいならその助けにもなる。</Dest>
     </String>
     <String List="1">
       <EDID>HelpWorldMapShortPC</EDID>
@@ -67740,16 +68184,34 @@ using the default resistance system leads to crap, because the damageresist resi
       <Dest>目が覚めて、恋人の癒しを自覚した。</Dest>
     </String>
     <String List="1">
+      <EDID>HelpSmeltingShort</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Ah, a smelter. I can smelt ore and recycle metal junk into ingots. With the right smithing experience, I might be able to melt gems into Alchemical glitterdust.</Source>
+      <Dest>ああ、溶鉱炉だ。鉱石を溶かしたり、金属のがらくたをインゴットにリサイクルできる。適切な鍛冶の経験があれば、宝石を溶かして錬金術用の輝く粉末にできるかもしれない。</Dest>
+    </String>
+    <String List="1">
       <EDID>VampireStage4Message</EDID>
       <REC>MESG:DESC</REC>
       <Source>Blood... I... I need... Blood...</Source>
       <Dest>血… ホ… ホシイ… 血…</Dest>
     </String>
     <String List="1">
+      <EDID>HelpTanningShort</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Ah, a tanning rack. Now I only need a sharp knife and some animal skins. I can even use the rack to prepare other raw materials.</Source>
+      <Dest>ああ、皮なめしの棚だ。ここで私に必要なものは鋭いナイフと動物の毛皮だけ。棚を使って他の材料を準備することもできる。</Dest>
+    </String>
+    <String List="1">
       <EDID>HelpBarterShortPC</EDID>
       <REC>MESG:DESC</REC>
       <Source>I better be careful with these prices... In times like these, merchants ought to be ripping off about anyone.</Source>
       <Dest>価格には注意していた方がいいな… 今のような時代では、商人はきっと法外な値段をふっかけてくるだろう。</Dest>
+    </String>
+    <String List="1">
+      <EDID>MQpathToHHShrineBlessingText</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I now know the Voice of the Sky.</Source>
+      <Dest>私はいま空の声を知っている。</Dest>
     </String>
     <String List="1">
       <EDID>doomAlreadyHaveMSG</EDID>
@@ -67786,6 +68248,12 @@ using the default resistance system leads to crap, because the damageresist resi
       <REC>MESG:DESC</REC>
       <Source>I better not even try...</Source>
       <Dest>試すことさえしないほうがいい…</Dest>
+    </String>
+    <String List="1">
+      <EDID>HelpJailTutorial</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>Blast it! Unless I choose to serve my time, I&apos;ll have to find a way out of here... and find my belongings too.</Source>
+      <Dest>ちくしょう! ここで過ごそうと思わないかぎりは、ここを出る方法を見つけなければ…それに持ち物も探さないと。</Dest>
     </String>
     <String List="1">
       <EDID>doomApprenticeRemovedMSG</EDID>
@@ -68020,6 +68488,24 @@ using the default resistance system leads to crap, because the damageresist resi
       <REC>MESG:DESC</REC>
       <Source>I awaken feeling a Mother&apos;s Love.</Source>
       <Dest>目が覚めて、母性愛を自覚した。</Dest>
+    </String>
+    <String List="1">
+      <EDID>planterClearMessage</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>There is already something growing here.</Source>
+      <Dest>既に作物がある。</Dest>
+    </String>
+    <String List="1">
+      <EDID>PlanterNotPlantableMESSAGE</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I can&apos;t plant that here.</Source>
+      <Dest>ここにそれを植えることはできない。</Dest>
+    </String>
+    <String List="1">
+      <EDID>PlanterOnlyOneItemMESSAGE</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I can&apos;t plant more than one item at a time.</Source>
+      <Dest>同時に植えられるアイテムは1つまでだ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_DestroyedBowInMelee</EDID>
