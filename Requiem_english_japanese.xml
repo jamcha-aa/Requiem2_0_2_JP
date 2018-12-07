@@ -5486,6 +5486,12 @@
       <Dest>栄養素</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Food_RestoreAttributes</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Consumed out of combat, it restores &lt;mag&gt; Stamina and Magicka.</Source>
+      <Dest>戦いで消費されたスタミナとマジカを &lt;mag&gt; ポイント回復する。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Food_RestoreStamina</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Restore Stamina</Source>
@@ -9361,7 +9367,7 @@
       <EDID>REQ_Effect_Alcohol</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Numbs your sense of pain, making you feel &lt;mag&gt; points healthier for &lt;dur&gt; seconds.</Source>
-      <Dest>痛みの感覚を失くし、 &lt;mag&gt; ポイント健康であると &lt;dur&gt; 秒間感じさせる。</Dest>
+      <Dest>&lt;dur&gt; 秒間、痛みの感覚を失くし、 体力 &lt;mag&gt; ポイントぶん、より健康であると感じさせる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Drug_Skooma01_FX</EDID>
@@ -54674,7 +54680,7 @@
       <EDID>REQ_Quest_Playerscripts</EDID>
       <REC>QUST:NNAM</REC>
       <Source>Ready your spells and weapons to face your destiny</Source>
-      <Dest>Ready your spells and weapons to face your destiny</Dest>
+      <Dest>運命に立ち向かえるよう魔法と武器を準備する</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Quest_DisguiseFactions</EDID>
@@ -68708,7 +68714,7 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <EDID>REQ_Quest_Playerscripts</EDID>
       <REC>QUST:CNAM</REC>
       <Source>The twisted turns of fate have brought you into your current situation. It seems there is no easy way out. Better you prepare yourself to face your destiny with steel or magic!</Source>
-      <Dest>運命の螺旋があなたをこの状況へと導いた。脱出への道のりはいずれも険しそうだ。武器や魔法を磨き、この定めに立ち向かう準備をすべきだ!</Dest>
+      <Dest>運命の螺旋があなたをこの状況へと導いた。脱出への道のりはいずれも険しそうだ。武器や魔法を準備し、この定めに立ち向かおう!</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Quest_Spellchoices</EDID>
