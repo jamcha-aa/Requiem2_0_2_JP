@@ -5495,7 +5495,7 @@
       <EDID>REQ_Food_RestoreStamina</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Consumed out of combat, it restores &lt;mag&gt; Stamina.</Source>
-      <Dest>戦いで使い果たしたスタミナを &lt;mag&gt; ポイント回復する。</Dest>
+      <Dest>戦いで消費されたスタミナを &lt;mag&gt; ポイント回復する。</Dest>
     </String>
     <String List="0">
       <EDID>PerkIntenseFlamesConfDownFFAimed</EDID>
@@ -26042,7 +26042,7 @@
       <EDID>REQ_SteelPlate_Cuirass_GuardThePale</EDID>
       <REC>ARMO:FULL</REC>
       <Source>The Pale Steel Plate Armor</Source>
-      <Dest>ペイルのスチールプレートの鎧</Dest>
+      <Dest>ペイル衛兵のスチールプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_SteelPlate_Cuirass_GuardFalkreath</EDID>
@@ -26054,25 +26054,25 @@
       <EDID>REQ_SteelPlate_Cuirass_GuardTheReach</EDID>
       <REC>ARMO:FULL</REC>
       <Source>The Reach Steel Plate Armor</Source>
-      <Dest>リーチのスチールプレートの鎧</Dest>
+      <Dest>リーチ衛兵のスチールプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_SteelPlate_Cuirass_GuardHjaalmarch</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Hjaalmarch Steel Plate Armor</Source>
-      <Dest>ハイアルマーチのスチールプレートの鎧</Dest>
+      <Dest>ハイヤルマーチ衛兵のスチールプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_SteelPlate_Cuirass_GuardTheRift</EDID>
       <REC>ARMO:FULL</REC>
       <Source>The Rift Steel Plate Armor</Source>
-      <Dest>リフトのスチールプレートの鎧</Dest>
+      <Dest>リフト衛兵のスチールプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_SteelPlate_Cuirass_GuardHaafingar</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Haafingar Steel Plate Armor</Source>
-      <Dest>ハーフィンガルのスチールプレートの鎧</Dest>
+      <Dest>ハーフィンガル衛兵のスチールプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_SteelPlate_Cuirass_GuardWhiterun</EDID>
@@ -26084,7 +26084,7 @@
       <EDID>REQ_SteelPlate_Cuirass_GuardEastmarch</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Eastmarch Steel Plate Armor</Source>
-      <Dest>イーストマーチのスチールプレートの鎧</Dest>
+      <Dest>イーストマーチ衛兵のスチールプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_SteelPlate_Cuirass_GuardWinterhold</EDID>
@@ -26096,145 +26096,145 @@
       <EDID>REQ_Orichalcum_Cuirass_GuardThePale</EDID>
       <REC>ARMO:FULL</REC>
       <Source>The Pale Orichalcum Plate Armor</Source>
-      <Dest>ペイルのオリハルコンの鎧</Dest>
+      <Dest>ペイル衛兵のオリハルコンプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Orichalcum_Cuirass_GuardBoots</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Orichalcum Plate Boots</Source>
-      <Dest>オークのプレートのブーツ</Dest>
+      <Dest>オリハルコンプレートのブーツ</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Orichalcum_Cuirass_GuardGauntlets</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Orichalcum Plate Gauntlets</Source>
-      <Dest>オークのプレートの篭手</Dest>
+      <Dest>オリハルコンプレートの篭手</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ebony_Cuirass_GuardBoots</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Ebony Plate Boots</Source>
-      <Dest>黒檀のプレートブーツ</Dest>
+      <Dest>黒檀プレートのブーツ</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ebony_Cuirass_GuardGauntlets</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Ebony Plate Gauntlets</Source>
-      <Dest>黒檀のプレート篭手</Dest>
+      <Dest>黒檀プレートの篭手</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ebony_Cuirass_GuardWhiterun</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Whiterun Ebony Plate Armor</Source>
-      <Dest>ホワイトランの黒檀のプレート鎧</Dest>
+      <Dest>ホワイトラン衛兵の黒檀プレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Orichalcum_Cuirass_GuardWhiterun</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Whiterun Orichalcum Plate Armor</Source>
-      <Dest>ホワイトラン衛兵ののオークのプレートの鎧</Dest>
+      <Dest>ホワイトラン衛兵のオリハルコンプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Orichalcum_Cuirass_GuardFalkreath</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Falkreath Orichalcum Plate Armor</Source>
-      <Dest>ファルクリース衛兵のオークのプレートの鎧</Dest>
+      <Dest>ファルクリース衛兵のオリハルコンプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Orichalcum_Cuirass_GuardTheReach</EDID>
       <REC>ARMO:FULL</REC>
       <Source>The Reach Orichalcum Plate Armor</Source>
-      <Dest>リーチのオリハルコンの鎧</Dest>
+      <Dest>リーチ衛兵のオリハルコンプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Orichalcum_Cuirass_GuardHjaalmarch</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Hjaalmarch Orichalcum Plate Armor</Source>
-      <Dest>ハイアルマーチのオリハルコンの鎧</Dest>
+      <Dest>ハイヤルマーチのオリハルコンプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Orichalcum_Cuirass_GuardTheRift</EDID>
       <REC>ARMO:FULL</REC>
       <Source>The Rift Orichalcum Plate Armor</Source>
-      <Dest>リフトのオリハルコンの鎧</Dest>
+      <Dest>リフト衛兵のオリハルコンプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Orichalcum_Cuirass_GuardHaafingar</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Haafingar Orichalcum Plate Armor</Source>
-      <Dest>ハーフィンガルのオリハルコンの鎧</Dest>
+      <Dest>ハーフィンガル衛兵のオリハルコンプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Orichalcum_Cuirass_GuardEastmarch</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Eastmarch Orichalcum Plate Armor</Source>
-      <Dest>イーストマーチのオリハルコンの鎧</Dest>
+      <Dest>イーストマーチ衛兵のオリハルコンプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Orichalcum_Cuirass_GuardWinterhold</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Winterhold Orichalcum Plate Armor</Source>
-      <Dest>ウィンターホールド衛兵のオークのプレートの鎧</Dest>
+      <Dest>ウィンターホールド衛兵オリハルコンプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ebony_Cuirass_GuardThePale</EDID>
       <REC>ARMO:FULL</REC>
       <Source>The Pale Ebony Plate Armor</Source>
-      <Dest>ペイルの黒檀の鎧</Dest>
+      <Dest>ペイル衛兵の黒檀プレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ebony_Cuirass_GuardFalkreath</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Falkreath Ebony Plate Armor</Source>
-      <Dest>ファルクリース衛兵の黒檀のプレート鎧</Dest>
+      <Dest>ファルクリース衛兵の黒檀プレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ebony_Cuirass_GuardTheReach</EDID>
       <REC>ARMO:FULL</REC>
       <Source>The Reach Ebony Plate Armor</Source>
-      <Dest>リーチの黒檀の鎧</Dest>
+      <Dest>リーチ衛兵の黒檀プレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ebony_Cuirass_GuardHjaalmarch</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Hjaalmarch Ebony Plate Armor</Source>
-      <Dest>ハイアルマーチの黒檀の鎧</Dest>
+      <Dest>ハイヤルマーチ衛兵の黒檀プレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ebony_Cuirass_GuardTheRift</EDID>
       <REC>ARMO:FULL</REC>
       <Source>The Rift Ebony Plate Armor</Source>
-      <Dest>リフトの黒檀の鎧</Dest>
+      <Dest>リフト衛兵の黒檀プレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ebony_Cuirass_GuardHaafingar</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Haafingar Ebony Plate Armor</Source>
-      <Dest>ハイアルマーチの黒檀の鎧</Dest>
+      <Dest>ハーフィンガル衛兵の黒檀プレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ebony_Cuirass_GuardEastmarch</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Eastmarch Ebony Plate Armor</Source>
-      <Dest>イーストマーチの黒檀の鎧</Dest>
+      <Dest>イーストマーチ衛兵の黒檀プレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ebony_Cuirass_GuardWinterhold</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Winterhold Ebony Plate Armor</Source>
-      <Dest>ウィンターホールドの黒檀のプレート鎧</Dest>
+      <Dest>ウィンターホールド衛兵の黒檀プレート鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Orichalcum_Guard_Helmet</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Orichalcum Plate Helmet</Source>
-      <Dest>オークのプレートの兜</Dest>
+      <Dest>オリハルコンプレートの兜</Dest>
     </String>
     <String List="0">
       <EDID>REQ_SteelPlate_Cuirass_GuardImperial</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Imperial Steel Plate Armor</Source>
-      <Dest>帝国軍のスチールプレート</Dest>
+      <Dest>帝国軍のスチールプレートの鎧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_SteelPlate_Cuirass_GuardSons</EDID>
@@ -38924,7 +38924,7 @@
       <EDID>REQ_Draugr_Battleaxe_Hjaalmarch</EDID>
       <REC>WEAP:FULL</REC>
       <Source>Axe of Hjaalmarch</Source>
-      <Dest>ハイアルマーチの斧</Dest>
+      <Dest>ハイヤルマーチの斧</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Silver_Sword_Stendarr</EDID>
