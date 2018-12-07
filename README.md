@@ -13,9 +13,9 @@ A machine translation is **not** used for added sentences in Requiem 2.x. Howeve
 
 ## Progress
 
-### Requiem.esp
+### Requiem.esp (Almost completed except BOOK and the Poem Quest)
 - STRINGS: 9753/9842 items (99.1%)
-- DLSTRINGS: 1124/1302 items (86.3%)
+- DLSTRINGS: 1196/1302 items (91.9%)
 - ILSTRINGS: 57/57 items (100%)
 
 ### Requiem - Legendary Bugsmasher Edition.esp (COMPLETED)
