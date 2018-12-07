@@ -1951,11 +1951,11 @@
       <Source>Banish - Damage Health</Source>
       <Dest>追放 - 体力減退</Dest>
     </String>
-    <String List="0">
+    <String List="0" Partial="1">
       <EDID>BanishDmgHealthFFTargetActor</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>If the target is not banished, it will be dealt &lt;mag&gt; unresistable damage and staggered.</Source>
-      <Dest>対象が追放されなかったとき、 &lt;mag&gt; の属性無視ダメージを与えよろめかせる。</Dest>
+      <Dest>対象が追放されなかったとき、 &lt;mag&gt; の無視ダメージを与えよろめかせる。</Dest>
     </String>
     <String List="0">
       <EDID>TelekinesisEffect</EDID>
@@ -8571,11 +8571,11 @@
       <Source>Elemental Fury</Source>
       <Dest>激しき力</Dest>
     </String>
-    <String List="0">
+    <String List="0" Partial="1">
       <EDID>REQ_Effect_ElementalFuryScript</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Combines fire, frost and shock into an elemental strike that deals &lt;mag&gt; total points of damage.</Source>
-      <Dest>炎、冷気、そして雷撃が一体となった属性攻撃によって合計 &lt;mag&gt; ポイントのダメージを与える。</Dest>
+      <Dest>炎、冷気、そして雷撃が一体となった攻撃によって合計 &lt;mag&gt; ポイントのダメージを与える。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_EnchantmentAdvFireSelfExplosioN</EDID>
@@ -9381,11 +9381,11 @@
       <Source>Banishment</Source>
       <Dest>追放</Dest>
     </String>
-    <String List="0">
+    <String List="0" Partial="1">
       <EDID>REQ_Effect_EnchBanishFFContactDamage</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>If the target is not banished, it will be dealt &lt;mag&gt; unresistable damage and staggered.</Source>
-      <Dest>対象が追放されなかったとき、 &lt;mag&gt; の属性無視ダメージを与えよろめかせる。</Dest>
+      <Dest>対象が追放されなかったとき、 &lt;mag&gt; の無視ダメージを与えよろめかせる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_EnchShockDamageFFContactDwemerBonus</EDID>
@@ -56119,11 +56119,11 @@ With a hunger to swallow the world!
       <Source>Strong Grip</Source>
       <Dest>強い掌握</Dest>
     </String>
-    <String List="0">
+    <String List="0" Partial="1">
       <EDID>REQ_Perk_Block_ElementalProtection</EDID>
       <REC>PERK:FULL</REC>
       <Source>Elemental Protection</Source>
-      <Dest>属性防御</Dest>
+      <Dest>防御</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Perk_Block_UnstoppableCharge</EDID>
@@ -68090,7 +68090,7 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <EDID>REQ_Ebony_Longsword_Tullius</EDID>
       <REC>WEAP:DESC</REC>
       <Source>General Tulllius must have spent a fortune on this piece - it&apos;s perfectly balanced and emanates an overwhelming elemental power. This sword deals &lt;20&gt; points of fire, ice and shock damage to the target.</Source>
-      <Dest>テュリウス将軍はこの一振りに幸運をつぎこんだに違いない - それは完璧なバランスをもち、圧倒的な属性の力を発揮する。この剣は炎、冷気、そして雷撃のダメージを &lt;20&gt; ポイントずつ対象に与える。</Dest>
+      <Dest>テュリウス将軍はこの一振りに幸運をつぎこんだに違いない - それは完璧なバランスをもち、圧倒的な元素の力を発揮する。この剣は炎、冷気、そして雷撃のダメージを &lt;20&gt; ポイントずつ対象に与える。</Dest>
     </String>
     <String List="1">
       <EDID>DLC1ElvenArrowBlood</EDID>
@@ -69047,6 +69047,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>オーバーチャージした破壊呪文のあらゆる力を激化させることによって、&lt;br&gt;それらが敵をよろめかせる能力を得た。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Pickpocket_NimbleFingers2</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your fingers have become very nimble, and besides other advantages, they allow you to &lt;br&gt; pickpocket even better and to apply poisons on your victims. Why fight if a vial of deadly venom can also do the trick?</Source>
+      <Dest>あなたの指はとても敏捷になった。そして他の利点として、スリはさらにうまくなり、あなたのカモに&lt;br&gt;毒も仕込めるようになった。致死の毒瓶でも目的を達成できるというのに、どうして戦う必要がある？</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_OneHanded_PowerfulStrike</EDID>
       <REC>PERK:DESC</REC>
       <Source>Your one-handed combat style has improved so much that all power attacks become devastating.&lt;br&gt;In fact, you are now skilled enough to precisely aim for an enemy&apos;s neck and attempt to decapitate them.</Source>
@@ -69113,6 +69119,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>武器をよりバランス良くできる。&lt;br&gt;従って、強力な一撃を放つための努力が減少した。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Smithing_AdvancedBlacksmithing</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve gained quite some finesse, allowing you to craft plate armor, fine jewelry and exotic blades.&lt;br&gt;You have also found a way to melt and crush certain gems into alchemically usable dust.</Source>
+      <Dest>あなたはかなりの技巧を得て、プレートアーマーや上質な宝飾品、そして異国の刀を作れるようになった。&lt;br&gt;またある種の宝石を溶かして砕き、錬金術に有用な粉末にする方法も見つけた。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Smithing_DraconicBlacksmithing</EDID>
       <REC>PERK:DESC</REC>
       <Source>The scales and bones of dragons are probably the hardest material to work with, &lt;br&gt; but you&apos;ve mastered even this art since you studied that old compendium.</Source>
@@ -69153,6 +69165,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>PERK:DESC</REC>
       <Source>You are able to block even more of a dangerous spell&apos;s effect.</Source>
       <Dest>さらに危険な呪文を防御できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Conjuration_Necromancy</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve developed a knack for making the dead serve your commands.&lt;br&gt; Therefore, all spells that summon or raise the dead and ghosts last longer and can raise more powerful entities.</Source>
+      <Dest>死者をあなたに仕えさせる才能を磨いた。したがって死者や霊を召喚したりよみがえらせたりする&lt;br&gt;全ての呪文はより長続きするようになり、さらに強力な存在を呼ぶこともできる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Conjuration_DarkInfusion</EDID>
@@ -69197,6 +69215,18 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>自身の精神に焦点を当てる方法を学んだ。従ってストレスの多い状況であっても&lt;br&gt;集中力を持続でき、マジカの回復が速くなる。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Alteration_MagicalAbsorption</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve mastered the art of absorbing Magicka from incoming spells, &lt;br&gt; and are now able to fully absorb their power from time to time.</Source>
+      <Dest>飛んでくる魔法からマジカを吸収する技術を極めたことによって、&lt;br&gt;時々、その力を完全に吸収することができる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Restoration_ImprovedHealing</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve gained more knowledge about restorative magics,&lt;br&gt;allowing you to heal wounds more efficiently with your healing spells.</Source>
+      <Dest>回復魔法についてさらなる知識を得たことによって、&lt;br&gt;治癒呪文を使い、より効率的に傷を治療できる。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Restoration_Respite</EDID>
       <REC>PERK:DESC</REC>
       <Source>In addition to curing wounds, your healing spells now reinvigorate the body itself,&lt;br&gt;restoring the affected subject&apos;s stamina.</Source>
@@ -69231,6 +69261,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>PERK:DESC</REC>
       <Source>People shouldn&apos;t burden themselves with purses and keys.&lt;br&gt;Luckily, you now can free them of these burdens more easily.</Source>
       <Dest>人々は小銭入れや鍵などの重荷を負うべきではない。&lt;br&gt;幸運なことに、彼らをその重荷から自由にすることはより簡単にできる…</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Pickpocket_NightlyThief</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You have learned how to avoid waking up targets during your &quot;nightly visits&quot;, &lt;br&gt; so you can free them from their worldly burdens with ease.</Source>
+      <Dest>&quot;夜の訪問&quot; 中に対象を起こさないようにする方法を学んだ、&lt;br&gt;そのため、簡単に彼らをこの世の重荷から開放させられる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Pickpocket_PerfectedArt</EDID>
@@ -69299,6 +69335,36 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>対象にのみ集中し息を止めることによって、&lt;br&gt;照準がより正確になった。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Marksmanship_PowerShot</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>While practicing your improved marksmanship techniques, you have discovered the art of aiming at tendons and joints.&lt;br&gt;Your shots will now have a chance to stagger enemies, depending on their size. With a crossbow, you might even stagger a giant!</Source>
+      <Dest>上達した弓のテクニックを練習するなかで、腱と関節を狙う技術を発見した。&lt;br&gt;あなたの射撃は、敵の大きさに応じてよろめかせる可能性がある。クロスボウなら、巨人さえもよろめかせるかもしれない!</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Marksmanship_Ranger</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You improved your footwork when engaging in ranged combat with light weapons,&lt;br&gt;greatly reducing your movement speed penalty while drawing a light bow or crossbow.</Source>
+      <Dest>軽量武器での遠距離戦におけるフットワークが上達したことで、&lt;br&gt;弓やクロスボウを引いているあいだの移動速度ペナルティが劇的に減少する。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Marksmanship_StunningPrecision</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You have mastered the art of aiming with precision at vulnerable points. Any shot that can successfully stagger an enemy&lt;br&gt;will almost always be delivering an additional shock of excruciating pain through their body, stunning them momentarily.</Source>
+      <Dest>急所を正確に狙う技術をマスターした。すべての射撃は敵をうまくよろめかせ、&lt;br&gt;ほとんどの場合、耐え難い苦痛の衝撃を加えて瞬間的に気絶させる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Block_DisarmingBash</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Sometimes, when you put all your strength into your bashes &lt;br&gt; your foes drop their weapon because of the pain.</Source>
+      <Dest>時々、全力をバッシュに込めたとき、&lt;br&gt;敵はその痛みから武器を落とす。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Block_PowerfulBashes</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>By gathering your strength for a short while, you can perform a much more powerful bash. &lt;br&gt; Bashing an enemy like this with your shield or the pommel of your weapon will likely put him off balance.</Source>
+      <Dest>短い間だけ力を凝集させることで、より強力なバッシュを放てる。&lt;br&gt;盾や両手武器の柄で強力なバッシュを放つと対象はバランスを崩すだろう。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Block_StrongGrip</EDID>
       <REC>PERK:DESC</REC>
       <Source>You hold on to your shield like you would hold on to your life.&lt;br&gt; Blocking is even more effective and your equipped shield weighs less.</Source>
@@ -69323,10 +69389,28 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>訓練によって強くなった。追加のスタミナを得て、持ち運び重量が増加する。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_HeavyArmor_CombatMeditation</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;re accustomed to your heavy armor so much&lt;br&gt; that you can now cast even Expert level spells with relative ease.</Source>
+      <Dest>重装鎧に十分に慣れたことで、&lt;br&gt;熟練者レベルの呪文でさえも比較的容易に詠唱できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_HeavyArmor_CombatCasting</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;re able to keep concentrated enough in heavy armor to &lt;br&gt; cast Novice and Apprentice level spells without severe penalties.</Source>
+      <Dest>重装鎧を着ていても十分に集中を保てるようになったことで&lt;br&gt;素人レベルや見習いレベルの呪文をかなりのペナルティ抜きに詠唱できる。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_HeavyArmor_CombatTraining</EDID>
       <REC>PERK:DESC</REC>
       <Source>You require no extra stamina for power attacks when wearing heavy armor and are less hindered by your armor.&lt;br&gt; Also, your gauntlets improve your unarmed damage.</Source>
       <Dest>重装を着ている時に強力な攻撃を行なっても追加のスタミナを必要とせず&lt;br&gt;素手ダメージが篭手によって改善される。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Speech_SilverTongue</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve spent quite some time improving your rhetorical skills and are now able to greatly influence&lt;br&gt;any conversation and to fascinate the opposite gender. You also get better offers at respective vendors.</Source>
+      <Dest>とても多くの時間を修辞の技法に費したことで、いかなる会話でも大きな影響を及ぼし、異性を魅惑できるようになった。また商人とより良い取り引きができるようになった。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Speech_Fencing</EDID>
@@ -69414,6 +69498,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>メイスに精通したことによって、&lt;br&gt;敵の鎧を貫通させる能力をある程度使えるようになった。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Block_OverpoweringBashes</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>When you put all of your power into your shield bashes, you will often overpower your foes. &lt;br&gt; They will be staggered much more now and likely will even trip and fall.</Source>
+      <Dest>シールドバッシュにありったけの力を込め、敵を圧倒する。&lt;br&gt;いまや彼らはこれまで以上によろめきやすくなり、つまずき転倒することさえあるだろう。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Conjuration_MysticBinding</EDID>
       <REC>PERK:DESC</REC>
       <Source>You&apos;ve become very skilled in binding weapon-shaped daedra from Oblivion. &lt;br&gt; Thereby, bound weapons are stronger and longer-lasting.</Source>
@@ -69444,10 +69534,22 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>バラバラに壊れる寸前まで遠距離武器を引くことによって、&lt;br&gt;著しいダメージを与えられる。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Block_ExperiencedBlocking</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>With weapon or shield you can block almost any blow with rock-solid confidence.&lt;br&gt;Additionally, when blocking a hit you feel the adrenaline rushing through your veins, recovering a small amount of stamina.</Source>
+      <Dest>武器や盾で確固たる自信をもってほとんどの攻撃を防御できる。&lt;br&gt;加えて、攻撃を防御したときに血中をアドレナリンが駆け巡るのを感じ、スタミナが少量回復する。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_HeavyArmor_RelentlessOnslaught</EDID>
       <REC>PERK:DESC</REC>
       <Source>After extensive training you now can sprint in heavy armor without problems.&lt;br&gt;Your familiarity with your armor also allows you to deflect most melee attacks while bull rushing.</Source>
       <Dest>膨大な訓練の結果、今や重装を着ても何事もなく疾走できる。鎧に精通したことにより、雄牛の突進中は大抵の近接攻撃をそらし無害化することもできる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Evasion_Dodge</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your trained reflexes allow you to dodge incoming blows when wearing no heavy armor.&lt;br&gt;By sprinting a step or two away, you can attempt to dodge hostile attacks.</Source>
+      <Dest>反射神経を鍛えたことで、重装鎧を着用していなければ敵の一撃をかわすことが出来るようになった。&lt;br&gt;不意に横へと移動することで、今や敵の攻撃から逃れることが出来る。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Pickpocket_MightyGreed</EDID>
@@ -69474,6 +69576,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>戦闘技術の改善によって、片手武器で与えるダメージが増加した。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_TwoHanded_GreatWeaponMastery1</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your improved fighting techniques increase your damage dealt with two-handed weapons.&lt;br&gt; Swinging these weapons is also less exhausting for you.</Source>
+      <Dest>戦闘技術の改善によって、両手武器で与えるダメージが増加した。&lt;br&gt;これらの武器を振るうことによる疲労も減少する。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Marksmanship_BasicRangedCombatTraining</EDID>
       <REC>PERK:DESC</REC>
       <Source>After some training you can now draw your bow with less effort while dealing more damage. &lt;br&gt; Also, you now know how to handle a crossbow properly and make use of its innate armor piercing abilities.</Source>
@@ -69492,6 +69600,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>重装を着ることに慣れたことによって、&lt;br&gt;それを着ているだけで疲れることがなくなった。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_HeavyArmor_CombatTrance</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your heavy armor distracts you even less, allowing you to cast Adept level spells &lt;br&gt; with almost no penalty.</Source>
+      <Dest>重装鎧に気を散らされることが少なくなったため、&lt;br&gt;精鋭魔法をほぼペナルティなしで詠唱できる。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Evasion_Agility</EDID>
       <REC>PERK:DESC</REC>
       <Source>After some training you are now much more confident in your evasive movements. &lt;br&gt; Your light armor and clothes will now hinder your movements less and you take less damage from falling.</Source>
@@ -69502,6 +69616,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>PERK:DESC</REC>
       <Source>You&apos;ve spent some time improving your sleight of hand,&lt;br&gt;which gives you substantial chances when pickpocketing.</Source>
       <Dest>手先の早業を改善するためいくらかの時間を費やしたことによって、&lt;br&gt;スリの現実的な可能性を得た。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Lockpicking_LocksmithingLore</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You have extended your repertoire of lockpicking tricks, which increases your expertise by an additional 25 points.&lt;br&gt;Adept locks can be picked without effort and you can attempt to open expert locks.</Source>
+      <Dest>開錠技術のレパートリーを広げたことで、追加の技術を25ポイント得る。&lt;br&gt;精鋭レベルの鍵は努力なしで開けることができ、熟練レベルの鍵に挑むこともできる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Sneak_Stealth1</EDID>
@@ -69522,6 +69642,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>スカリムの強欲な商人に対応する方法と&lt;br&gt;より良い値段交渉の方法を学んだ。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Enchanting_EnchantersInsight1</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve acquired fundamental insights into how matter and magic intertwine. Thus, you can now infuse&lt;br&gt; items with arcane energy at an enchanter and use soul gems to recharge enchanted items of all kinds.</Source>
+      <Dest>物体と魔法がどうやって結びつくかという基本的な洞察を獲得した。従って、付呪師として秘儀エネルギーを&lt;br&gt;アイテムに注ぎ込むことができるようになり、またあらゆる種類の付呪アイテムを魂石で充填できるようになった。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Sneak_Stealth2</EDID>
       <REC>PERK:DESC</REC>
       <Source>You are even harder to detect when sneaking while not wearing any heavy armor.</Source>
@@ -69538,6 +69664,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>PERK:DESC</REC>
       <Source>You&apos;ve acquired the advanced techniques of sword combat, &lt;br&gt; further increasing your attack rate with them.</Source>
       <Dest>剣を使った戦闘の高度な技術を獲得したことによって、&lt;br&gt;それらの攻撃速度がさらに増加した。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_OneHanded_SwordFocus3</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve become a master of sword combat, &lt;br&gt; allowing you to swing swords so fast that it&apos;s almost undetectable to the mortal eye.</Source>
+      <Dest>剣を使った戦闘を極めたことによって、&lt;br&gt;定命の者の目では検知できないほど速く剣を振れるようになった。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_OneHanded_MaceFocus2</EDID>
@@ -69588,10 +69720,143 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>片手斧による戦闘を極めたことによって、&lt;br&gt;ほとんどまるで自分の手の自然な延長であるかのように感じ始めた。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Enchanting_EnchantersInsight2</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your advanced knowledge of arcane energy allows you to improve all your enchantments even more.
+</Source>
+      <Dest>秘儀エネルギーの高度な知識によってすべての付呪をさらに改善できるようになった。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Lockpicking_MasterlyLockpicking</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You learned everything there is to know about the art of lockpicking. Your expertise increases by 35 points,&lt;br&gt;you can now pick expert locks without difficulty and even master locks are no longer safe from you.</Source>
+      <Dest>ロックピックの技法について知りうること全てを学んだ。開錠の技術が35ポイント増加し、&lt;br&gt;熟達レベルの鍵も難なく開けられるうえ、達人レベルの鍵さえもあなたにとってもはや安全ではない。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Illusion_ShadowShaping</EDID>
       <REC>PERK:DESC</REC>
       <Source>By studying spells like Shadow Shield or Shadow Simulacrum, you gained even deeper insights into the weave of shadows. &lt;br&gt; Thus, you can empower them and cast them with less effort.</Source>
       <Dest>影の盾や影の像といった呪文を研究することによって、影の綾へのより深い洞察を得た。&lt;br&gt;従って、それらを増強できより少ない努力で唱えられる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Alteration_ApprenticeAlteration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>By pursuing your apprenticeship in Alteration, you&apos;ve gained knowledge of Apprentice level spells&lt;br&gt;which you now augment while casting them with less effort.</Source>
+      <Dest>変成術の見習いを進め，あなたは見習いレベルの呪文の知識を得た。&lt;br&gt;それらの効果を増幅させる一方より少ない努力で詠唱できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Alteration_AdeptAlteration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>By advancing further into the school of Alteration, you&apos;ve gained some Adept level spells&lt;br&gt;and learned how to augment and cast spells of this rank more easily.</Source>
+      <Dest>変成術の流派をさらに前進させ、いくつかの精鋭レベルの呪文を獲得した。&lt;br&gt;またこのレベルの呪文を増幅する方法と、より簡単な詠唱法を習得した。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Alteration_ExpertAlteration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve unlocked almost every secret in the school of Alteration and you&apos;ve acquired some Expert level spells.&lt;br&gt;You can now cast spells of this level easier and augment them to an almost otherworldly extent.</Source>
+      <Dest>変成術派のほとんどの秘密を解き明かしたことで、いくつかの熟練者レベルの呪文を獲得した。&lt;br&gt;いまやこのレベルの呪文をより簡単に詠唱できるようになり、その効果をこの世のものとは思えないほど強めることもできる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Alteration_MasterAlteration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your knowledge of Alteration has become all-encompassing. You taught yourself a Master level spell &lt;br&gt; and you can cast the most complex spells from this school with less effort while augmenting them beyond mortal limits.</Source>
+      <Dest>変成術の知識が限りなく広がった。独学で達人レベルの呪文を習得し、この流派で最も複雑な呪文も&lt;br&gt;より少ない努力で、定命の者の限界を超えて増幅させ詠唱できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Conjuration_ApprenticeConjuration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>By pursuing your apprenticeship in Conjuration, you&apos;ve gained knowledge of Apprentice level spells&lt;br&gt;which you now augment while casting them with less effort.</Source>
+      <Dest>召喚術の見習いを進め，あなたは見習いレベルの呪文の知識を得た。&lt;br&gt;それらの効果を増幅させる一方より少ない努力で詠唱できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Conjuration_AdeptConjuration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>By advancing further into the school of Conjuration, you&apos;ve gained some Adept level spells&lt;br&gt;and learned how to augment and cast spells of this rank more easily.</Source>
+      <Dest>召喚術の流派をさらに前進させ、いくつかの精鋭レベルの呪文を獲得した。&lt;br&gt;またこのレベルの呪文を増幅する方法と、より簡単な詠唱法を習得した。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Conjuration_ExpertConjuration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve unlocked almost every secret in the school of Conjuration and you&apos;ve acquired some Expert level spells.&lt;br&gt;You can now cast spells of this level easier and augment them to an almost otherworldly extent.</Source>
+      <Dest>召喚術派のほとんどの秘密を解き明かしたことで、いくつかの熟練者レベルの呪文を獲得した。&lt;br&gt;いまやこのレベルの呪文をより簡単に詠唱できるようになり、その効果をこの世のものとは思えないほど強めることもできる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Conjuration_MasterConjuration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your knowledge of Conjuration has become all-encompassing. You taught yourself a Master level spell &lt;br&gt; and you can cast the most complex spells from this school with less effort while augmenting them beyond mortal limits.</Source>
+      <Dest>召喚術の知識が限りなく広がった。独学で達人レベルの呪文を習得し、この流派で最も複雑な呪文も&lt;br&gt;より少ない努力で、定命の者の限界を超えて増幅させ詠唱できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Destruction_ApprenticeDestruction</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>By pursuing your apprenticeship in Destruction, you&apos;ve gained knowledge of Apprentice level spells&lt;br&gt;which you now augment while casting them with less effort.</Source>
+      <Dest>破壊術の見習いを進め，あなたは見習いレベルの呪文の知識を得た。&lt;br&gt;それらの効果を増幅させる一方より少ない努力で詠唱できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Destruction_AdeptDestruction</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>By advancing further into the school of Destruction, you&apos;ve gained some Adept level spells&lt;br&gt;and learned how to augment and cast spells of this rank more easily.</Source>
+      <Dest>破壊術の流派をさらに前進させ、いくつかの精鋭レベルの呪文を獲得した。&lt;br&gt;またこのレベルの呪文を増幅する方法と、より簡単な詠唱法を習得した。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Destruction_ExpertDestruction</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve unlocked almost every secret in the school of Destruction and you&apos;ve acquired some Expert level spells.&lt;br&gt;You can now cast spells of this level easier and augment them to an almost otherworldly extent.</Source>
+      <Dest>破壊術派のほとんどの秘密を解き明かしたことで、いくつかの熟練者レベルの呪文を獲得した。&lt;br&gt;いまやこのレベルの呪文をより簡単に詠唱できるようになり、その効果をこの世のものとは思えないほど強めることもできる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Destruction_MasterDestruction</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your knowledge of Destruction has become all-encompassing. You taught yourself a Master level spell &lt;br&gt; and you can cast the most complex spells from this school with less effort while augmenting them beyond mortal limits.</Source>
+      <Dest>破壊術の知識が限りなく広がった。独学で達人レベルの呪文を習得し、この流派で最も複雑な呪文も&lt;br&gt;より少ない努力で、定命の者の限界を超えて増幅させ詠唱できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Illusion_ApprenticeIllusion</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>By pursuing your apprenticeship in Illusion, you&apos;ve gained knowledge of Apprentice level spells&lt;br&gt;which you now augment while casting them with less effort.</Source>
+      <Dest>幻惑術の見習いを進め，あなたは見習いレベルの呪文の知識を得た。&lt;br&gt;それらの効果を増幅させる一方より少ない努力で詠唱できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Illusion_AdeptIllusion</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>By advancing further into the school of Illusion, you&apos;ve gained some Adept level spells&lt;br&gt;and learned how to augment and cast spells of this rank more easily.</Source>
+      <Dest>幻惑術の流派をさらに前進させ、いくつかの精鋭レベルの呪文を獲得した。&lt;br&gt;またこのレベルの呪文を強化する方法と、より簡単な詠唱法を習得した。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Illusion_ExpertIllusion</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve unlocked almost every secret in the school of Illusion and you&apos;ve acquired some Expert level spells.&lt;br&gt;You can now cast spells of this level easier and augment them to an almost otherworldly extent.</Source>
+      <Dest>幻惑術派のほとんどの秘密を解き明かしたことで、いくつかの熟練者レベルの呪文を獲得した。&lt;br&gt;いまやこのレベルの呪文をより簡単に詠唱できるようになり、その効果をこの世のものとは思えないほど強めることもできる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Illusion_MasterIllusion</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your knowledge of Illusion has become all-encompassing. You taught yourself a Master level spell &lt;br&gt; and you can cast the most complex spells from this school with less effort while augmenting them beyond mortal limits.</Source>
+      <Dest>幻惑術の知識が限りなく広がった。独学で達人レベルの呪文を習得し、この流派で最も複雑な呪文も&lt;br&gt;より少ない努力で、定命の者の限界を超えて増幅させ詠唱できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Restoration_ApprenticeRestoration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>By pursuing your apprenticeship in Restoration, you&apos;ve gained knowledge of Apprentice level spells&lt;br&gt;which you now augment while casting them with less effort.</Source>
+      <Dest>回復術の見習いを進め，あなたは見習いレベルの呪文の知識を得た。&lt;br&gt;それらの効果を増幅させる一方より少ない努力で詠唱できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Restoration_AdeptRestoration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>By advancing further into the school of Restoration, you&apos;ve gained some Adept level spells&lt;br&gt;and learned how to augment and cast spells of this rank more easily.</Source>
+      <Dest>回復術の流派をさらに前進させ、いくつかの精鋭レベルの呪文を獲得した。&lt;br&gt;またこのレベルの呪文を強化する方法と、より簡単な詠唱法を習得した。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Restoration_ExpertRestoration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve unlocked almost every secret in the school of Restoration and you&apos;ve acquired some Expert level spells.&lt;br&gt;You can now cast spells of this level easier and augment them to an almost otherworldly extent.</Source>
+      <Dest>回復術派のほとんどの秘密を解き明かしたことで、いくつかの熟練者レベルの呪文を獲得した。&lt;br&gt;いまやこのレベルの呪文をより簡単に詠唱できるようになり、その効果をこの世のものとは思えないほど強めることもできる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Restoration_MasterRestoration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your knowledge of Restoration has become all-encompassing.You taught yourself a Master level spell &lt;br&gt; and you can cast the most complex spells from this school with less effort while augmenting them beyond mortal limits.</Source>
+      <Dest>回復術の知識が限りなく広がった。独学で達人レベルの呪文を習得し、この流派で最も複雑な呪文も&lt;br&gt;より少ない努力で、定命の者の限界を超えて増幅させ詠唱できる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_TwoHanded_BattleAxeFocus1</EDID>
@@ -69648,6 +69913,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>オーク装備は製作するのが難しいが、必要なことは得た。&lt;br&gt;特に設計図だ！ それらを簡単に最も効率的に製作、改善できる。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Smithing_GlassSmithing</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Crafting and improving Glass equipment is not for the unskilled, &lt;br&gt;but having studied intensely, you aren&apos;t one of them any more.</Source>
+      <Dest>碧水晶の装備を作り改善することは未熟な者のためにあるのではない、&lt;br&gt;だが熱心に学んだことで、あなたはもはや未熟者にはあてはまらない。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Smithing_EbonySmithing</EDID>
       <REC>PERK:DESC</REC>
       <Source>Ebony weapons and armor - some even fail at heating the metal. But not you. &lt;br&gt;Now that you&apos;ve studied the related schematics, you can craft and improve ebony equipment with ease.</Source>
@@ -69664,6 +69935,18 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>PERK:DESC</REC>
       <Source>You&apos;ve been able to learn more advanced techniques, &lt;br&gt; allowing you to craft and efficiently improve scale armor.</Source>
       <Dest>より高度な技術を学ぶことができ、&lt;br&gt;スケイル鎧の製作や効果的な改良ができるようになった。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Conjuration_ExtendedBinding</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve perfected your spells&apos; formulae to summon daedra and spirits,&lt;br&gt;and are now able to cast them more easily and further away.</Source>
+      <Dest>デイドラと霊魂を召喚する術式を完成させた、&lt;br&gt;今や彼らをより簡単に呼び出し、そして送り返せる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Conjuration_ElementalBinding</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your knowledge of Oblivion&apos;s elemental aspects increases the strength of all your summoned Atronachs&lt;br&gt;while the highest level rituals will conjure Thralls that are immune to Banishment and Control spells.</Source>
+      <Dest>オブリビオンの元素の側面を知り、召喚される全ての精霊が強まる。&lt;br&gt;その一方で最上位のレベルの儀式によって、追放や操作の影響を受けない従徒を呼び出すことができる。</Dest>
     </String>
     <String List="1">
       <EDID>VampireFeed</EDID>
@@ -69694,6 +69977,54 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>PERK:DESC</REC>
       <Source>The weapon-shaped Daedra you conjure now directly cut into their victims&apos; souls, &lt;br&gt; thereby making them vulnerable to soul gems.</Source>
       <Dest>召喚した武器型のデイドラが犠牲者の魂を直接切りつけるようになり、&lt;br&gt;その結果、相手を魂石に弱くできる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Alteration_NoviceAlteration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve taught yourself a few Novice level spells and learned how to cast them with decreased effort &lt;br&gt; while your newfound knowledge also allows you to augment all Alteration spells.</Source>
+      <Dest>独学でいくつかの素人レベルの呪文を学び、少ない努力で詠唱する方法を身につけた&lt;br&gt;その一方で新発見の知識によりすべての変成呪文を増幅できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Conjuration_NoviceConjuration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve taught yourself a few Novice level spells and learned how to cast them with decreased effort &lt;br&gt; while your newfound knowledge also allows you to augment all Conjuration spells.</Source>
+      <Dest>独学でいくつかの素人レベルの呪文を学び、少ない努力で詠唱する方法を身につけた&lt;br&gt;その一方で新発見の知識によりすべての召喚呪文を増幅できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Destruction_NoviceDestruction</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve taught yourself a few Novice level spells and learned how to cast them with decreased effort &lt;br&gt; while your newfound knowledge also allows you to augment all Destruction spells.</Source>
+      <Dest>独学でいくつかの素人レベルの呪文を学び、少ない努力で詠唱する方法を身につけた&lt;br&gt;その一方で新発見の知識によりすべての破壊呪文を増幅できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Illusion_NovicelIllusion</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve taught yourself a few Novice level spells and learned how to cast them with decreased effort &lt;br&gt; while your newfound knowledge also allows you to augment the strength and duration of all Illusion spells.</Source>
+      <Dest>独学でいくつかの素人レベルの呪文を学び、少ない努力で詠唱する方法を身につけた&lt;br&gt;その一方で新発見の知識によりすべての幻惑呪文を増幅できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Restoration_NoviceRestoration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve taught yourself a few Novice level spells and learned how to cast them with decreased effort &lt;br&gt; while your newfound knowledge also allows you to augment all Restoration spells.</Source>
+      <Dest>独学でいくつかの素人レベルの呪文を学び、少ない努力で詠唱する方法を身につけた&lt;br&gt;その一方で新発見の知識によりすべての回復呪文を増幅できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Lockpicking_CheapTricks</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You have learned the basics of the art of picking locks and gain 20 expertise. You can now pick novice and apprentice locks without difficulty,&lt;br&gt;but adept locks remain a challenge. If you apply some basic smithing techniques, you can even forge steel ingots into lockpicks.</Source>
+      <Dest>開錠の基本技術を習得して、20ポイントの技術を得た。いまや素人レベルと見習いレベルの鍵を難なく開けることができるが、&lt;br&gt;精鋭レベルの鍵は未だ歯ごたえがある。もし基本的な鍛冶技術があれば、鋼鉄のインゴットでロックピックを造ることもできる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Destruction_Cremation</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your higher level fire spells burn so ferociously that foes are set ablaze,&lt;br&gt;often causing them to run away in gruesome agony as their very skin becomes molten.</Source>
+      <Dest>高いレベルの炎呪文が敵を炎上させるほど残忍に燃え上がり、&lt;br&gt; 時々、皮膚が溶けていくという陰惨な苦悶のために敵が逃げ出すようになる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Destruction_DeepFreeze</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your higher level ice spells are colder than Skyrim&apos;s most ferocious blizzards,&lt;br&gt;causing them to freeze foes with low resistance to frost.</Source>
+      <Dest>高いレベルの氷の呪文がスカイリムの最も残忍な冬よりも冷たくなったことによって、&lt;br&gt; 冷気に高い耐性を持たない敵ならば凍り付かせられるようになった。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Destruction_ElectrostaticDischarge</EDID>
@@ -69732,6 +70063,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>鎧の弱点を突く技術を極めたことによって、&lt;br&gt;鎧を着た敵が遠距離武器にさらに弱くなった。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Evasion_Windrunner</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your light armor and clothes have become your second skin. You can even run in them without becoming exhausted,&lt;br&gt;and recover faster from exhaustion. Furthermore, your light armor hinders you even less than before.</Source>
+      <Dest>軽装と服は第2の肌となった。疲労なく走ることができ、&lt;br&gt;疲労からもより早く回復する。さらに、軽装は以前よりも邪魔にならない。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Sneak_Acrobatics</EDID>
       <REC>PERK:DESC</REC>
       <Source>Your improved balance allows you to silently roll forward,&lt;br&gt;avoid getting knocked down except through magic and move even more quietly.</Source>
@@ -69760,6 +70097,18 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>PERK:DESC</REC>
       <Source>Your experience in the obscure alchemical arts allows you to concentrate your poisons.&lt;br&gt; Thus, you can make most of them last longer before they need to be reapplied.</Source>
       <Dest>辺ぴな錬金技術の実験によって毒を濃縮できるようになった。&lt;br&gt;従って、効果時間の長い毒を作れるようになった。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Conjuration_StabilizedBinding</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Having studied the barriers that divide the planes of existence,&lt;br&gt; you can make your summoned daedra and spirits last longer in this realm.</Source>
+      <Dest>存在の次元界を分ける障壁について学んだことで、召喚したデイドラや霊魂を現世に長く留めていられる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Destruction_RuneMastery</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>By studying the arcane symbols of all three elements, you have developed more powerful rune spells&lt;br&gt;and have unlocked the secret of maintaining three active runes instead of just one.</Source>
+      <Dest>三元素全ての秘儀シンボルについて学んだことで、より強力なルーン呪文を開発し、&lt;br&gt;ただ1つでなく3つの活きたルーンを維持する秘密を解明した。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_HeavyArmor_Juggernaut</EDID>
@@ -70024,6 +70373,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>素手喧嘩に情熱的で、限界まで筋肉を屈強にする訓練を定期的に行った。&lt;br&gt;そのため、より強いパンチを打て、致命的な一撃を放つことができるようになった。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Speech_LoreOfTheThuum</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve been studying the lore and ancient script of dragons and the Thu&apos;um.&lt;br&gt;Thus, you can shout more often.</Source>
+      <Dest>あなたはドラゴンの物語や古代文字、そしてスゥームを学んできた。&lt;br&gt;したがって、より頻繁にシャウトを使うことができる。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Ability_AlduinMultipleSummons</EDID>
       <REC>PERK:DESC</REC>
       <Source>Ability to have multiple summons</Source>
@@ -70040,6 +70395,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>PERK:DESC</REC>
       <Source>You&apos;ve perfected your invocations of summoning weapon-shaped daedra by making them&lt;br&gt;bypass a part of any enemy&apos;s armor and inflict a small portion of unresistable damage with each strike.</Source>
       <Dest>武器型デイドラの召喚は完成され、敵の鎧を無視するようになり&lt;br&gt;一撃ごとにわずかな耐性無視ダメージを与えるようになる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Conjuration_Ritualism</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your knowledge of the realms of the dead surpasses that of many and decreases &lt;br&gt; the effort needed to raise or summon the dead and ghosts.</Source>
+      <Dest>死の世界に関するあなたの知識は多くの人々のそれを上回り、&lt;br&gt;死者や亡霊をよみがえらせたり召喚するのに必要な努力が減る。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Destruction_FireMastery</EDID>
@@ -70060,10 +70421,22 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>雷撃の理解によって自然の雷撃耐性を得られ、&lt;br&gt;またすべての雷撃呪文の力が大幅に増加する。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Smithing_LegendaryBlacksmithing</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You make steel sing songs on the anvil. Your hammer is no longer a mere tool, but a loom that weaves the fabric of myths.&lt;br&gt;You can improve weapons and armor of almost any kind, including the most ancient of artifacts.</Source>
+      <Dest>あなたは鋼鉄を金床のうえで歌わせる。そのハンマーはもはや単なる道具でなく、神話の布を織る織機となった。&lt;br&gt;最古のアーティファクトをふくむほぼ全ての種類の武器や防具を改良できる。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Marksmanship_RapidReload</EDID>
       <REC>PERK:DESC</REC>
       <Source>Your have familiarized yourself with the mechanics of your crossbow and can use this knowledge to reload it significantly faster.</Source>
       <Dest>弓師の技術が完成し、超人的な速さで&lt;br&gt;発射する方法を学んだ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Restoration_EssenceOfLife</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Your understanding of healing and how magic and life are intertwined &lt;br&gt;allows you to call upon your newfound power more often.</Source>
+      <Dest>治癒と魔法と生命がどのように関連しているかについて理解したことによって、&lt;br&gt;新たに発見した力をより頻繁に呼び出せるようになった。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_TwoHanded_MightyStrike</EDID>
@@ -70078,10 +70451,28 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>あなたは同時に2体の召喚を保てる精神力を練習した。この力はあらゆる種類の&lt;br&gt;召喚物や想像物に及び、たとえ召喚一派から外れたものであっても例外ではない。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Conjuration_CognitiveFlexibility2</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You have mastered the art of Cognitive Flexibility, a trait of only the most accomplished Summoners throughout history.&lt;br&gt;You can now control three summons, of any type, simultaneously.</Source>
+      <Dest>認知的柔軟性の技術をマスターした。それは歴史上最も熟達した召喚師だけが持つ特性だ。&lt;br&gt;いかなる種類でも同時に3体召喚しコントロールできる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_HeavyArmor_BattleMage</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You have mastered spellcasting while wearing heavy armor and now can even cast Master level spells with ease. &lt;br&gt; Bolstered by wearing your full heavy armor, you can concentrate even more and cast all spells easier.</Source>
+      <Dest>重装鎧着用中の呪文詠唱をマスターし、今や達人スペルでさえやすやすと唱えることが出来る。&lt;br&gt;全身に重装鎧を着用することで鼓舞され、より集中力を高めることができあらゆる呪文をより容易に詠唱することが出来る。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Evasion_AgileSpellcasting</EDID>
       <REC>PERK:DESC</REC>
       <Source>You learned how to avoid the limitations light armors bestow upon somatic spell components. &lt;br&gt; Thus, you can cast spells in them unhindered.</Source>
       <Dest>軽装が肉体の呪文的成分に与える制限を避ける方法を学んだ。&lt;br&gt;そのため、それらに妨げられずに呪文を詠唱できるようになった。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Ability_ArmorBreaking15_TwoHanded</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>With your newfound skill, &lt;br&gt; you&apos;re able to use any twohanded weapon&apos;s sheer mass to penetrate armor to an extent.</Source>
+      <Dest>新たに発見した技術によって、あらゆる両手武器の質量そのものを利用しある程度の鎧を貫通できるようになる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Evasion_VexingFlanker</EDID>
@@ -70096,6 +70487,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest />
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Alchemy_Regeneration</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Having altered your body with extracts from troll fat, slaughterfish eggs and spriggan sap,&lt;br&gt;you&apos;re now able to regenerate your body, and do so even more rapidly when you are immersed in water.</Source>
+      <Dest>トロールの脂肪、スローターフィッシュの卵、そしてスプリガンの樹液からの抽出物によって&lt;br&gt;肉体を変性させたことで、あなたは再生能力を獲得し、その効果は水中にいるとより高まる。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Alchemy_NightVision</EDID>
       <REC>PERK:DESC</REC>
       <Source>Having altered your body with extracts from a sabrecat eye, &lt;br&gt; you can now make your eyes see in the dark at will.</Source>
@@ -70106,6 +70503,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>PERK:DESC</REC>
       <Source>Having altered your body with extracts from troll fat and a mammoth heart,&lt;br&gt;you&apos;ve become more resilient to harm.</Source>
       <Dest>トロールの脂肪とマンモスの心臓からの抽出物によって&lt;br&gt;肉体を変性させることで、より気力があふれるようになる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Alchemy_AlchemicalIntellect</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>Having altered your body with extracts from a Dremora&apos;s Heart and Ectoplasm,&lt;br&gt;your mind has transcended mortal limits, expanding your magicka and improving your spell casting.</Source>
+      <Dest>デイドラの心臓とエクトプラズムからの抽出物によって肉体を変性させたことで、&lt;br&gt;精神が定命の者の限界を越え、マジカが増加し詠唱速度も向上した。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Alteration_SpellArmor</EDID>
@@ -70150,6 +70553,24 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>声の道に思いを巡らせるために時間を費やし、さらなる知識を発見し&lt;br&gt;価値のある洞察を得た。そのため、声のさらなる力を利用できる。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Perk_Speech_SpritiualEquilibirum</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You have been guided in meditating on the Thu&apos;um.&lt;br&gt;Now your shouts linger, lasting longer than they did before.</Source>
+      <Dest>スゥームの瞑想について指導を受けた。&lt;br&gt;いまやあなたのシャウトは生き続け、彼らのよりも長く残る。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Speech_DestructiveUrge</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>The horrors that the Thu&apos;um can inflict are etched into your mind just as you have seen them etched into stone.&lt;br&gt;Your Thu&apos;um will wreak even greater havoc among your unfortunate foes.</Source>
+      <Dest>スゥームの与える恐怖はあなたの心に刻み込まれる。以前見た石碑に刻み込まれていたのと同じように。&lt;br&gt;あなたのスゥームは不幸な敵をさらなる混乱に陥れる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Speech_IndomitableForce</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You know what it means to be called Ysmir, Dragon of the North.&lt;br&gt; As you have withstood the test of Thu&apos;um, so you will withstand the Thu&apos;um of others.</Source>
+      <Dest>あなたは、イスミール、北のドラゴンと呼ばれることの意味を知っている。スゥームの試練で耐えられたように、他者のスゥームにも耐えられる。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Speech_TheWayOfTheVoice</EDID>
       <REC>PERK:DESC</REC>
       <Source>You&apos;ve meditated thoroughly, and acquired vast insights into the Way of the Voice. &lt;br&gt; Thus, you can call upon the power of your Thu&apos;um rapidly once each day.</Source>
@@ -70190,6 +70611,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>PERK:DESC</REC>
       <Source>since setting the spell&apos;s noise level to the lowest possible still causes detection, we hardcode that some specific spells should be noiseless</Source>
       <Dest />
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Restoration_PainfulRegrets</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>You&apos;ve honestly reflected your sins, and you truly regret what pain you have inflicted upon others. &lt;br&gt;Therefore, the gods show at least a bit of mercy, but the torment of your deeds will haunt you for the rest of your days...</Source>
+      <Dest>自分の罪を正直に内省して、他者に与えてきた痛みを本当に後悔した。&lt;br&gt;そのため、神々は少なくともほんの少しの慈悲を示すが、今までの行為の罰として残りの生涯は悪い記憶にさいなまれることだろう…</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_GM_Soulreaping</EDID>
@@ -70509,7 +70936,7 @@ using the default resistance system leads to crap, because the damageresist resi
       <EDID>doomTowerMSG</EDID>
       <REC>MESG:DESC</REC>
       <Source>As your hand touches the stone you can feel its powerful and ancient magic in every part of your body. You recall the tales about the Tower: everywhere but nowhere, the true understanding of self, the Tower grants access to places locked away and blesses its bearer to carry the weight of the world with ease.</Source>
-      <Dest>手で石碑に触れると、強力な太古の魔法を身体の隅々まで感じる。あなたは塔の物語を思い出す: どこでも、しかしどこでもない、自己の真なる理解、塔は鍵のかけられた場所へ入ることを認め、世界の重みを容易に持ち運べるよう、運び手を祝福する。</Dest>
+      <Dest>手で石碑に触れると、強力な太古の魔法を身体の隅々まで感じる。あなたは塔の物語を思い出す: どこでも、しかしどこでもない、自己の真なる理解、塔は鍵のかけられた場所へ入ることを認め、この世の重荷を容易に持ち運べるよう、運び手を祝福する。</Dest>
     </String>
     <String List="1">
       <EDID>doomWarriorMSG</EDID>
@@ -71244,6 +71671,16 @@ Ah, an arcane enchanter! I can place an magical item here to unlock its secrets 
       <REC>MESG:DESC</REC>
       <Source>Damn it! My crossbow has been torn apart!</Source>
       <Dest>くそっ！ クロスボウがバラバラに壊された！</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Message_Setup_Requiem_Installed</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>After a short respite, you hear the whisper of the cogwheels subside, as if the machine has stabilized in perpetual silent motion. Whatever it was, it seems to have left an indelible mark on everything around you, from the highest Gods to the basest of animals and from the most arcane secrets to the simplest of tools.
+
+You also realize that you have been well saved. Your three skills are not as meager as you thought they were. You only need to focus on them, and you will be ready to start using them to their potential.</Source>
+      <Dest>少しの時間をおいて、歯車のささやきが静まるのが聞こえた。まるで、絶え間なく音もない動きのまま、機械が安定したかのように。何であれ、周囲の全てに消えない印が残されたようにみえる。それは最高神から果ては最も卑しい動物まで、または最も神秘的な秘密から果ては最も単純な道具まで。
+
+あなたはまたよく救われたと実感している。あなたが持つ3つのスキルは思っていたほど少なくもない。そのスキルに注目さえすればよく、可能性を引き出すために使う準備もできている。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_Setup_Requiem_Updating</EDID>
