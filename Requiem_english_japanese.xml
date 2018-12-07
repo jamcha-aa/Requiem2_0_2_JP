@@ -1951,11 +1951,11 @@
       <Source>Banish - Damage Health</Source>
       <Dest>追放 - 体力減退</Dest>
     </String>
-    <String List="0" Partial="1">
+    <String List="0">
       <EDID>BanishDmgHealthFFTargetActor</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>If the target is not banished, it will be dealt &lt;mag&gt; unresistable damage and staggered.</Source>
-      <Dest>対象が追放されなかったとき、 &lt;mag&gt; の無視ダメージを与えよろめかせる。</Dest>
+      <Dest>対象が追放されなかったとき、 &lt;mag&gt; の耐性無視ダメージを与えよろめかせる。</Dest>
     </String>
     <String List="0">
       <EDID>TelekinesisEffect</EDID>
@@ -9381,11 +9381,11 @@
       <Source>Banishment</Source>
       <Dest>追放</Dest>
     </String>
-    <String List="0" Partial="1">
+    <String List="0">
       <EDID>REQ_Effect_EnchBanishFFContactDamage</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>If the target is not banished, it will be dealt &lt;mag&gt; unresistable damage and staggered.</Source>
-      <Dest>対象が追放されなかったとき、 &lt;mag&gt; の無視ダメージを与えよろめかせる。</Dest>
+      <Dest>対象が追放されなかったとき、 &lt;mag&gt; の耐性無視ダメージを与えよろめかせる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_EnchShockDamageFFContactDwemerBonus</EDID>
