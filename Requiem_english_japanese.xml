@@ -59040,6 +59040,60 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <Dest>温かいベッドと良い睡眠に勝るものはない。そうすれば健康を維持し新しいことをより簡単に学べる。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Blessing_Akatosh</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Those blessed by Akatosh can regenerate magicka faster. The champions of Akatosh are exalted with substantial increases in all three attributes.</Source>
+      <Dest>アカトシュに祝福を受けた者はマジカの回復が早くなる。アカトシュの英雄は賞賛され、3つの能力値すべてが増加する。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Blessing_Arkay</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Those blessed by Arkay are slightly more resistant to wounds. The champions of Arkay are exalted with greater health and some magicka regeneration.</Source>
+      <Dest>アーケイに祝福を受けた者は少しだけ傷に耐性を得る。アーケイの英雄は賞賛され、体力が増加しマジカの回復速度がやや高まる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Blessing_Dibella</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Those blessed by Dibella receive a slight increase in their ability to influence others by speech. The agents of Dibella are exalted with even greater charisma.</Source>
+      <Dest>ディベラに祝福を受けた者は会話で相手に与える影響が少しだけ増加する。ディベラの代行者は賞賛され、魅力がさらに増す。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Blessing_Julianos</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Those blessed by Julianos are granted additional magicka. The disciples of Julianos are exalted with even more magicka.</Source>
+      <Dest>ジュリアノスに祝福を受けた者は追加のマジカを得る。ジュリアノスの弟子は賞賛され、さらに多くのマジカを得る。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Blessing_Kynareth</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Those blessed by Kynareth are granted additional stamina. The chosen of Kynareth are exalted with even more stamina.</Source>
+      <Dest>キナレスに祝福を受けた者は追加のスタミナを得る。キナレスに選ばれし者は賞賛され、さらに多くのスタミナを得る。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Blessing_Mara</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Those blessed by Mara find it somewhat easier to cast restoration spells. The messengers of Mara are exalted with additional health.</Source>
+      <Dest>マーラに祝福を受けた者は回復呪文を唱えることが幾分簡単になったことに気づく。マーラの使者は賞賛され、追加の体力を得る。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Blessing_Stendarr</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Those blessed by Stendarr block slightly more damage and are protected from almost any draining magic effects. The champions of Stendarr are exalted with additional health.</Source>
+      <Dest>ステンダールに祝福を受けた者は防御できるダメージがわずかに増え、ほとんどの吸収魔法から守られる。ステンダールの英雄は賞賛され、追加の体力を得る。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Blessing_Talos</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Those blessed by Talos are granted a fortified voice that allows the faster use of one&apos;s Thu&apos;um. True worshippers of Talos are exalted with the ancient blessing of strength.</Source>
+      <Dest>タロスに祝福を受けた者は声の力が強化されスゥームをより早く使えるようになる。真のタロスの崇拝者は賞賛され、太古の力の祝福を得る。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Blessing_Zenithar</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Those blessed by Zenithar are granted a slight discount at all merchants. The patrons of Zenithar are granted even greater discounts.</Source>
+      <Dest>ゼニタールの祝福を受けた者はすべての商人からわずかに値引きしてもらえる。ゼニタールの保護者はさらに多く値引きしてもらえる。</Dest>
+    </String>
+    <String List="1">
       <EDID>doomMagickaRecovery</EDID>
       <REC>SPEL:DESC</REC>
       <Source>Recover Magicka twice as fast.</Source>
@@ -59068,6 +59122,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <REC>SPEL:DESC</REC>
       <Source>Additional Magicka and enhanced Magicka regeneration while holding the Staff of Jyrik Gauldurson.</Source>
       <Dest>ジリク・ゴールドールソンの杖を持っている間は、マジカが追加され、マジカ回復の速度も高まる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>TrapDiseaseAtaxia</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Ataxia is a mild common disease affecting the victim&apos;s strength and dexterity. Symptoms include generalized pain and muscle stiffness. Lockpicking expertise is reduced by 40 and pickpocketing is much harder.</Source>
+      <Dest>運動不全症は患者の筋力と器用さに悪影響を及ぼす軽度の疾病である。その症状は全身の痛みと筋肉のコリを含む。ロックピックの技術は40減少し、スリは非常に困難になる。</Dest>
     </String>
     <String List="1">
       <EDID>TrapDiseaseBoneBreakFever</EDID>
@@ -59188,6 +59248,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <REC>SPEL:DESC</REC>
       <Source>The power of the grave gives you &lt;50&gt; extra health.</Source>
       <Dest>墓場の力で体力が &lt;50&gt; 上昇する。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Blessing_Auriel</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>Those blessed by Auriel are slightly better in marksmanship. The champions of Auriel are exalted with substantial increases in all three attributes.</Source>
+      <Dest>アーリエルに祝福を受けた者は弓術がわずかに上昇する。アーリエルの英雄は賞賛され、3つの能力値すべてが増加する。</Dest>
     </String>
     <String List="1">
       <EDID>BYOHAdoptionSleepAbilityMale</EDID>
@@ -67985,6 +68051,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>ゴラクはフォースウォーンのシャーマンか何かからこれを奪ったに違いない - 何にせよ、これはトロールをひどく怯えさせ、命中した対象を炎上させるようだ。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Daedric_Staff_Souldrinker</EDID>
+      <REC>WEAP:DESC</REC>
+      <Source>After a momentary focus on a living target, a Souldrinker will quickly leech their lifeforce to the wielder. Magicka is absorbed from non-living targets as well.</Source>
+      <Dest>生きている対象に焦点をあてた直後、魂飲みは素早く彼らの生命力を奪う。生きていない対象からもマジカは吸収される。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Orcish_Mace_Bouncer</EDID>
       <REC>WEAP:DESC</REC>
       <Source>Some say this mace&apos;s former owner once served as a bouncer, and found not a better name for it&apos;s most trusted tool.</Source>
@@ -68013,6 +68085,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>WEAP:DESC</REC>
       <Source>No one seems to know what the enchanter was thinking when he made this weapon become stronger if the wielder was drunk...</Source>
       <Dest>酔った時にこの武器が強力になるようにした付呪者の考えは誰も知るまい…</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Ebony_Longsword_Tullius</EDID>
+      <REC>WEAP:DESC</REC>
+      <Source>General Tulllius must have spent a fortune on this piece - it&apos;s perfectly balanced and emanates an overwhelming elemental power. This sword deals &lt;20&gt; points of fire, ice and shock damage to the target.</Source>
+      <Dest>テュリウス将軍はこの一振りに幸運をつぎこんだに違いない - それは完璧なバランスをもち、圧倒的な属性の力を発揮する。この剣は炎、冷気、そして雷撃のダメージを &lt;20&gt; ポイントずつ対象に与える。</Dest>
     </String>
     <String List="1">
       <EDID>DLC1ElvenArrowBlood</EDID>
@@ -68057,6 +68135,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>爆発して &lt;25&gt; ポイントの冷気ダメージを与える。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Ammo_Steel_Bolt_Shock</EDID>
+      <REC>AMMO:DESC</REC>
+      <Source>Explodes for &lt;25&gt; points of shock damage. Especially effective against constructs.</Source>
+      <Dest>爆発して &lt;25&gt; ポイントの雷撃ダメージを与える。特にドゥーマー・コンストラクトに有効だ。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Ammo_Iron_Arrow_Fire</EDID>
       <REC>AMMO:DESC</REC>
       <Source>Explodes for &lt;25&gt; points of fire damage.</Source>
@@ -68067,6 +68151,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>AMMO:DESC</REC>
       <Source>Explodes for &lt;25&gt; points of frost damage.</Source>
       <Dest>爆発して &lt;25&gt; ポイントの冷気ダメージを与える。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Ammo_Iron_Arrow_Shock</EDID>
+      <REC>AMMO:DESC</REC>
+      <Source>Explodes for &lt;25&gt; points of shock damage. Especially effective against constructs.</Source>
+      <Dest>爆発して &lt;25&gt; ポイントの雷撃ダメージを与える。特にドゥーマー・コンストラクトに有効だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Ammo_Daedric_Arrow_Fire</EDID>
@@ -68117,6 +68207,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>爆発して &lt;25&gt; ポイントの冷気ダメージを与える。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Ammo_Dwarven_Arrow_Shock</EDID>
+      <REC>AMMO:DESC</REC>
+      <Source>Explodes for &lt;25&gt; points of shock damage. Especially effective against constructs.</Source>
+      <Dest>爆発して &lt;25&gt; ポイントの雷撃ダメージを与える。特にドゥーマー・コンストラクトに有効だ。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Ammo_Ebony_Arrow_Fire</EDID>
       <REC>AMMO:DESC</REC>
       <Source>Explodes for &lt;60&gt; points of fire damage.</Source>
@@ -68145,6 +68241,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>AMMO:DESC</REC>
       <Source>Explodes for &lt;25&gt; points of frost damage.</Source>
       <Dest>爆発して &lt;25&gt; ポイントの冷気ダメージを与える。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Ammo_Elven_Arrow_Shock</EDID>
+      <REC>AMMO:DESC</REC>
+      <Source>Explodes for &lt;25&gt; points of shock damage. Especially effective against constructs.</Source>
+      <Dest>爆発して &lt;25&gt; ポイントの雷撃ダメージを与える。特にドゥーマー・コンストラクトに有効だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Ammo_Glass_Arrow_Fire</EDID>
@@ -68177,6 +68279,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>爆発して &lt;25&gt; ポイントの冷気ダメージを与える。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Ammo_Orcish_Arrow_Shock</EDID>
+      <REC>AMMO:DESC</REC>
+      <Source>Explodes for &lt;25&gt; points of shock damage. Especially effective against constructs.</Source>
+      <Dest>爆発して &lt;25&gt; ポイントの雷撃ダメージを与える。特にドゥーマー・コンストラクトに有効だ。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Ammo_Steel_Arrow_Fire</EDID>
       <REC>AMMO:DESC</REC>
       <Source>Explodes for &lt;25&gt; points of fire damage.</Source>
@@ -68187,6 +68295,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>AMMO:DESC</REC>
       <Source>Explodes for &lt;25&gt; points of frost damage.</Source>
       <Dest>爆発して &lt;25&gt; ポイントの冷気ダメージを与える。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Ammo_Steel_Arrow_Shock</EDID>
+      <REC>AMMO:DESC</REC>
+      <Source>Explodes for &lt;25&gt; points of shock damage. Especially effective against constructs.</Source>
+      <Dest>爆発して &lt;25&gt; ポイントの雷撃ダメージを与える。特にドゥーマー・コンストラクトに有効だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Ammo_Silver_Arrow</EDID>
@@ -68291,6 +68405,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>爆発して &lt;25&gt; ポイントの冷気ダメージを与える。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Ammo_Elven_Bolt_Shock</EDID>
+      <REC>AMMO:DESC</REC>
+      <Source>Explodes for &lt;25&gt; points of shock damage. Especially effective against constructs.</Source>
+      <Dest>爆発して &lt;25&gt; ポイントの雷撃ダメージを与える。特にドゥーマー・コンストラクトに有効だ。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Ammo_Iron_Bolt_Fire</EDID>
       <REC>AMMO:DESC</REC>
       <Source>Explodes for &lt;25&gt; points of fire damage.</Source>
@@ -68301,6 +68421,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>AMMO:DESC</REC>
       <Source>Explodes for &lt;25&gt; points of frost damage.</Source>
       <Dest>爆発して &lt;25&gt; ポイントの冷気ダメージを与える。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Ammo_Iron_Bolt_Shock</EDID>
+      <REC>AMMO:DESC</REC>
+      <Source>Explodes for &lt;25&gt; points of shock damage. Especially effective against constructs.</Source>
+      <Dest>爆発して &lt;25&gt; ポイントの雷撃ダメージを与える。特にドゥーマー・コンストラクトに有効だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Ammo_Orcish_Bolt_Fire</EDID>
@@ -68315,6 +68441,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>爆発して &lt;25&gt; ポイントの冷気ダメージを与える。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Ammo_Orcish_Bolt_Shock</EDID>
+      <REC>AMMO:DESC</REC>
+      <Source>Explodes for &lt;25&gt; points of shock damage. Especially effective against constructs.</Source>
+      <Dest>爆発して &lt;25&gt; ポイントの雷撃ダメージを与える。特にドゥーマー・コンストラクトに有効だ。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Ammo_Silver_Arrow_Fire</EDID>
       <REC>AMMO:DESC</REC>
       <Source>The arrow&apos;s head consists of an alloy of silver and steel. Explodes for &lt;25&gt; points of fire damage.</Source>
@@ -68325,6 +68457,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>AMMO:DESC</REC>
       <Source>The arrow&apos;s head consists of an alloy of silver and steel. Explodes for &lt;25&gt; points of frost damage.</Source>
       <Dest>この矢尻は銀と鋼鉄の合金でできている。爆発して &lt;25&gt; ポイントの冷気ダメージを与える。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Ammo_Silver_Arrow_Shock</EDID>
+      <REC>AMMO:DESC</REC>
+      <Source>The arrow&apos;s head consists of an alloy of silver and steel. Explodes for &lt;25&gt; points of shock damage. Especially effective against constructs.</Source>
+      <Dest>この矢の矢尻は銀と鋼鉄の合金でできている。爆発して &lt;25&gt; ポイントの雷撃ダメージを与える。特にドゥーマー・コンストラクトに有効だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Ammo_Silver_Bolt_Fire</EDID>
@@ -68339,6 +68477,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>このボルトの矢尻は銀と鋼鉄の合金でできている。爆発して&lt;25&gt; ポイントの冷気ダメージを与える</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Ammo_Silver_Bolt_Shock</EDID>
+      <REC>AMMO:DESC</REC>
+      <Source>The head of this bolt is coated with silver. Explodes for &lt;25&gt; points of shock damage. Especially effective against constructs.</Source>
+      <Dest>このボルトの矢尻は銀と鋼鉄の合金でできている。爆発して &lt;25&gt; ポイントの雷撃ダメージを与える。特にドゥーマー・コンストラクトに有効だ。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Ammo_Dwarven_Bolt_Fire</EDID>
       <REC>AMMO:DESC</REC>
       <Source>Explodes for &lt;25&gt; points of fire damage.</Source>
@@ -68349,6 +68493,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>AMMO:DESC</REC>
       <Source>Explodes for &lt;25&gt; points of frost damage.</Source>
       <Dest>爆発して &lt;25&gt; ポイントの冷気ダメージを与える。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Ammo_Dwarven_Bolt_Shock</EDID>
+      <REC>AMMO:DESC</REC>
+      <Source>Explodes for &lt;25&gt; points of shock damage. Especially effective against constructs.</Source>
+      <Dest>爆発して &lt;25&gt; ポイントの雷撃ダメージを与える。特にドゥーマー・コンストラクトに有効だ。</Dest>
     </String>
     <String List="1">
       <EDID>CR08</EDID>
@@ -70644,6 +70794,12 @@ using the default resistance system leads to crap, because the damageresist resi
       <Dest>和らぐことのない海と最も不透明な知識によって魂はほとんど覆い隠され、内容をチラっと見ただけでも分かるこの本の純然たる量の情報によってまさに限界の狂気が押し付けられる。少しの後、特に関心を惹くような節をほのめかす、目次のようなものに気づくが、見ているだけでもまだ苦痛は続いている。しかし、ほとんど無限の力ともいえる、巨大な感情さえ沸き起こってきた…</Dest>
     </String>
     <String List="1">
+      <EDID>VampireFeedMessage</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>The taste... so... sweet...</Source>
+      <Dest>ああ…とても…美味い…</Dest>
+    </String>
+    <String List="1">
       <EDID>HelpShoutsShortPC</EDID>
       <REC>MESG:DESC</REC>
       <Source>I need the knowledge, the power from a dragon&apos;s soul to understand these words truly...</Source>
@@ -70722,6 +70878,18 @@ Ah, an arcane enchanter! I can place an magical item here to unlock its secrets 
       <REC>MESG:DESC</REC>
       <Source>Arrrghhhh!!! The daylight... It burns!</Source>
       <Dest>ああぁあぁ！！！ 日光だ… 熱い！</Dest>
+    </String>
+    <String List="1">
+      <EDID>RestedMessage</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I awaken feeling rested.</Source>
+      <Dest>目が覚めて休息したのを自覚した。</Dest>
+    </String>
+    <String List="1">
+      <EDID>WellRestedMessage</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>I awaken feeling well rested.</Source>
+      <Dest>目が覚めて十分に休息したのを自覚した。</Dest>
     </String>
     <String List="1">
       <EDID>MarriageRestedMessage</EDID>
@@ -71078,6 +71246,26 @@ Ah, an arcane enchanter! I can place an magical item here to unlock its secrets 
       <Dest>くそっ！ クロスボウがバラバラに壊された！</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Message_Setup_Requiem_Updating</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>You are about to take a step when you hear a familiar noise. The cogs of Requiem seem to be changing. The whispering noise is almost inaudible, but it seems to have changed, as if some cogs have been switched for new ones.
+
+Again you feel that you should hold on for a few moments to understand what is happening.</Source>
+      <Dest>聞き覚えのある騒音が響いたとき、あなたはちょうど足を踏み出そうとするところだった。Requiemの歯車は変わろうとしている。ささやくような騒音はほとんど聞こえないが、何かが変わりつつあるようだ。まるで歯車が新しいものに換わるように。
+
+何が起きるのか理解するために、再びしばらくじっとするべきだと感じる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Message_Setup_Requiem_Installing</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>You suddenly feel a sense of apprehension as a mysterious sound enters your mind, like a machine of a thousand cogs starting to spin. Amidst that noise you think that you hear a voice speaking to you, whispering, &quot;Requiem&quot;.
+
+You are overcome with exhaustion as the machine changes the Aurbis to something more dangerous but also more interesting and vivid. The feeling is overpowering; you need to stand still and hope it passes quickly.</Source>
+      <Dest>奇妙な音が意識に入り込み、あなたは不安をおぼえた。それは数千の歯車が回りだすような音だった。その騒音のさなか、あなたは自分に話しかける声が聞こえたように思った。ささやくように、 &quot;Requiem&quot; と。
+
+機械がAurbisをより危険に、さらに興味深く鮮明なものに変えると、あなたは疲れを克服した。圧倒される気持ちだ; じっとしたまま、これが早く過ぎ去ることを祈らなければ。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Message_DisguiseBlown</EDID>
       <REC>MESG:DESC</REC>
       <Source>Damn it! I need to reestablish my disguise!</Source>
@@ -71204,6 +71392,12 @@ Your current lockpicking expertise is %.0f.</Source>
       <Dest>この鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
 
 あなたの開錠の技術は %.0f だ。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Message_doomstone_transition_forbidden</EDID>
+      <REC>MESG:DESC</REC>
+      <Source>The stone does not react at all to my touch...</Source>
+      <Dest>石碑は触れても何も反応しない…</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerTooDumb</EDID>
