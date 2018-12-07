@@ -15,7 +15,7 @@ A machine translation is **not** used for added sentences in Requiem 2.x. Howeve
 
 ### Requiem.esp
 - STRINGS: 9753/9842 items (99.1%)
-- DLSTRINGS: 1087/1302 items (83.5%)
+- DLSTRINGS: 1124/1302 items (86.3%)
 - ILSTRINGS: 57/57 items (100%)
 
 ### Requiem - Legendary Bugsmasher Edition.esp (COMPLETED)
@@ -32,7 +32,7 @@ Skyrim and original translations are products of Bethesda Softworks.
 
 Requiem is a product of Requiem Dungeon Masters and others (https://requiem.atlassian.net/wiki/spaces/RD/overview).
 
-Requiem 1.9.4.1 日本語版 (http://cyclotron.moe.hm/up/skyrim/fileup/src/cysk1147.7z.html)(http://cyclotron.moe.hm/up/skyrim/fileup/src/cysk1157.zip.html)
+Requiem 1.9.4.1 日本語版 (http://cyclotron.moe.hm/up/skyrim/fileup/src/cysk1147.7z.html) (http://cyclotron.moe.hm/up/skyrim/fileup/src/cysk1157.zip.html)
 
 USLEEP - Japanese Voice Edit (https://www.nexusmods.com/skyrim/mods/85456)
 
