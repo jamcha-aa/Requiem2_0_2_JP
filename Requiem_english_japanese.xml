@@ -6469,7 +6469,7 @@
       <EDID>REQ_Alcohol_DamageRegeneration</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Impairs coordination and focus, slowing the regeneration of Stamina by &lt;mag&gt;% and twice that for Magicka for &lt;dur&gt; seconds. At least you get to feel good for a while!</Source>
-      <Dest>調整力と集中力が失われ、 &lt;dur&gt; 秒間、スタミナの回復が &lt;mag&gt;% 遅くなり、マジカはその倍遅くなる。まぁ少なくともしばらく気分が良いんだが！</Dest>
+      <Dest>身体の制御と集中力が失われ、 &lt;dur&gt; 秒間、スタミナの回復が &lt;mag&gt;% 遅くなり、マジカはその倍遅くなる。少なくとも、気分は最高だ！</Dest>
     </String>
     <String List="0">
       <EDID>werewolfKnockbackEffect</EDID>
@@ -9367,7 +9367,7 @@
       <EDID>REQ_Effect_Alcohol</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Numbs your sense of pain, making you feel &lt;mag&gt; points healthier for &lt;dur&gt; seconds.</Source>
-      <Dest>&lt;dur&gt; 秒間、痛みの感覚を失くし、 体力 &lt;mag&gt; ポイントぶん、より健康であると感じさせる。</Dest>
+      <Dest>痛みの感覚が消え、体力が &lt;mag&gt; ポイント増加したように &lt;dur&gt; 秒間思わせる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Drug_Skooma01_FX</EDID>
