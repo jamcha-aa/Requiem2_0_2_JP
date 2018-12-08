@@ -6295,7 +6295,7 @@
       <EDID>TrapDisDamagePickpocketLockpick</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Lockpicking expertise is reduced by &lt;mag&gt; and pickpocketing is much harder.</Source>
-      <Dest>開錠の技術が &lt;mag&gt; 低下し、スリはより困難になる</Dest>
+      <Dest>開錠の知識が &lt;mag&gt; 低下し、スリはより困難になる</Dest>
     </String>
     <String List="0">
       <EDID>TrapDisDamageMagicka</EDID>
@@ -9151,25 +9151,25 @@
       <EDID>REQ_Ench_FortifyLockpicking_Expertise</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Ably Lockpicking (Expertise)</Source>
-      <Dest>巧みな開錠 (技術)</Dest>
+      <Dest>巧みな開錠 (知識)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ench_FortifyLockpicking_Expertise</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Lockpicking expertise is increased by &lt;mag&gt;.</Source>
-      <Dest>開錠の技術が &lt;mag&gt; ポイント上昇する。</Dest>
+      <Dest>開錠の知識が &lt;mag&gt; ポイント上昇する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alch_FortifyLockpicking_Expertise</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Ably Lockpicking (Expertise)</Source>
-      <Dest>巧みな開錠 (技術)</Dest>
+      <Dest>巧みな開錠 (知識)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alch_FortifyLockpicking_Expertise</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Lockpicking expertise is increased by &lt;mag&gt; for &lt;dur&gt; seconds.</Source>
-      <Dest>&lt;dur&gt; 秒間、開錠の技術が &lt;mag&gt; ポイント上がる。</Dest>
+      <Dest>&lt;dur&gt; 秒間、開錠の知識が &lt;mag&gt; ポイント上がる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_ConjurationConjureInvisibleStalker01Ancano</EDID>
@@ -12470,13 +12470,13 @@
       <EDID>REQ_Ability_FortifyLockpicking_Expertise</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Ably Lockpicking (Expertise)</Source>
-      <Dest>巧みな開錠 (技術)</Dest>
+      <Dest>巧みな開錠 (知識)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ability_FortifyLockpicking_Expertise</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>Lockpicking expertise is increased by &lt;mag&gt;.</Source>
-      <Dest>開錠の技術が &lt;mag&gt; ポイント上昇する。</Dest>
+      <Dest>開錠の知識が &lt;mag&gt; ポイント上昇する。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alteration5_AbsorbHealth_Effect</EDID>
@@ -26912,13 +26912,13 @@
       <EDID>RecipeCureDisease1</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Recipe: Cleansing</Source>
-      <Dest>レシピ: 浄化</Dest>
+      <Dest>レシピ: 浄化の霊薬</Dest>
     </String>
     <String List="0">
       <EDID>RecipeCureDisease2</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Recipe: Cleansing</Source>
-      <Dest>レシピ: 浄化</Dest>
+      <Dest>レシピ: 浄化の霊薬</Dest>
     </String>
     <String List="0">
       <EDID>RecipeRestoreMagicka1</EDID>
@@ -49688,7 +49688,7 @@
       <EDID>CureDisease</EDID>
       <REC>ALCH:FULL</REC>
       <Source>Potion of Cleansing</Source>
-      <Dest>浄化のポーション</Dest>
+      <Dest>浄化の霊薬</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Drink_BrandyCyrodilicWEDL03</EDID>
@@ -58857,7 +58857,7 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <EDID>REQ_Ability_StandingStones_Thief</EDID>
       <REC>SPEL:DESC</REC>
       <Source>The Sign of the Thief grants wide-spread abilities to those who bear her blessing. This includes increased damage with bows and one-handed weapons as well as improved sneaking, pickpocketing and lockpicking skills, boosting lock picking expertise by 20 points.</Source>
-      <Dest>盗賊座はその祝福がある者に幅広い能力を施す。弓と片手武器によるダメージが増え、隠密、スリ、ロックピックのスキルが向上し、開錠の技術を 20 ポイント与える。</Dest>
+      <Dest>盗賊座はその祝福がある者に幅広い能力を施す。弓と片手武器によるダメージが増え、隠密、スリ、ロックピックのスキルが向上し、開錠の知識を 20 ポイント与える。</Dest>
     </String>
     <String List="1">
       <EDID>doomMageAbility</EDID>
@@ -59133,7 +59133,7 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <EDID>TrapDiseaseAtaxia</EDID>
       <REC>SPEL:DESC</REC>
       <Source>Ataxia is a mild common disease affecting the victim&apos;s strength and dexterity. Symptoms include generalized pain and muscle stiffness. Lockpicking expertise is reduced by 40 and pickpocketing is much harder.</Source>
-      <Dest>運動不全症は患者の筋力と器用さに悪影響を及ぼす軽度の疾病である。その症状は全身の痛みと筋肉のコリを含む。ロックピックの技術は40減少し、スリは非常に困難になる。</Dest>
+      <Dest>運動不全症は患者の筋力と器用さに悪影響を及ぼす軽度の疾病である。その症状は全身の痛みと筋肉のコリを含む。開錠の知識は40減少し、スリは非常に困難になる。</Dest>
     </String>
     <String List="1">
       <EDID>TrapDiseaseBoneBreakFever</EDID>
@@ -59433,13 +59433,13 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <EDID>REQ_Ability_Khajiit_Lockpicking</EDID>
       <REC>SPEL:DESC</REC>
       <Source>Your race is blessed with a natural agility and some people say also has an affiliation with crime. In any case, your lockpicking expertise is increased by &lt;10&gt;.</Source>
-      <Dest>あなたの種族は生来の俊敏さに恵まれ、犯罪と結びついているとも一部の人は言う。いずれにせよ、ロックピックの技術が &lt;10&gt; 増える。</Dest>
+      <Dest>あなたの種族は生来の俊敏さに恵まれ、犯罪と結びついているとも一部の人は言う。いずれにせよ、開錠の知識が &lt;10&gt; 増える。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Ability_SkeletonKey</EDID>
       <REC>SPEL:DESC</REC>
       <Source>The Skeleton&apos;s key otherworldly powers give you a lockpicking expertise bonus of 160 and opening any lock will become a children&apos;s game.</Source>
-      <Dest>不壊のピックの人智を超えた力は、あなたにロックピックの技術を160与え、あらゆる鍵開けが児戯に等しくなる。</Dest>
+      <Dest>不壊のピックの人智を超えた力は、あなたに開錠の知識を160与え、あらゆる鍵開けが児戯に等しくなる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Scroll_FireStorm</EDID>
@@ -69627,7 +69627,7 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <EDID>REQ_Perk_Lockpicking_LocksmithingLore</EDID>
       <REC>PERK:DESC</REC>
       <Source>You have extended your repertoire of lockpicking tricks, which increases your expertise by an additional 25 points.&lt;br&gt;Adept locks can be picked without effort and you can attempt to open expert locks.</Source>
-      <Dest>開錠技術のレパートリーを広げたことで、追加の技術を25ポイント得る。&lt;br&gt;精鋭レベルの鍵は努力なしで開けることができ、熟練レベルの鍵に挑むこともできる。</Dest>
+      <Dest>開錠技術のレパートリーを広げたことで、追加の知識を25ポイント得る。&lt;br&gt;精鋭レベルの鍵は努力なしで開けることができ、熟練レベルの鍵に挑むこともできる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Sneak_Stealth1</EDID>
@@ -69736,7 +69736,7 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <EDID>REQ_Perk_Lockpicking_MasterlyLockpicking</EDID>
       <REC>PERK:DESC</REC>
       <Source>You learned everything there is to know about the art of lockpicking. Your expertise increases by 35 points,&lt;br&gt;you can now pick expert locks without difficulty and even master locks are no longer safe from you.</Source>
-      <Dest>ロックピックの技法について知りうること全てを学んだ。開錠の技術が35ポイント増加し、&lt;br&gt;熟達レベルの鍵も難なく開けられるうえ、達人レベルの鍵さえもあなたにとってもはや安全ではない。</Dest>
+      <Dest>開錠の技法について知りうること全てを学んだ。開錠の知識が35ポイント増加し、&lt;br&gt;熟達レベルの鍵も難なく開けられるうえ、もはや達人レベルの鍵さえもあなたからは安全を保てない。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Illusion_ShadowShaping</EDID>
@@ -70018,7 +70018,7 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <EDID>REQ_Perk_Lockpicking_CheapTricks</EDID>
       <REC>PERK:DESC</REC>
       <Source>You have learned the basics of the art of picking locks and gain 20 expertise. You can now pick novice and apprentice locks without difficulty,&lt;br&gt;but adept locks remain a challenge. If you apply some basic smithing techniques, you can even forge steel ingots into lockpicks.</Source>
-      <Dest>開錠の基本技術を習得して、20ポイントの技術を得た。いまや素人レベルと見習いレベルの鍵を難なく開けることができるが、&lt;br&gt;精鋭レベルの鍵は未だ歯ごたえがある。もし基本的な鍛冶技術があれば、鋼鉄のインゴットでロックピックを造ることもできる。</Dest>
+      <Dest>開錠の基本技術を習得して、20ポイントの知識を得た。いまや素人レベルと見習いレベルの鍵を難なく開けることができるが、&lt;br&gt;精鋭レベルの鍵は未だ歯ごたえがある。もし基本的な鍛冶技術があれば、鋼鉄のインゴットでロックピックを造ることもできる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Destruction_Cremation</EDID>
@@ -71758,7 +71758,7 @@ Since this issue has a major impact on Requiem if not resolved now, the game wil
 
 (メニューを開いて以前のセーブゲームからやり直してください)</Dest>
     </String>
-    <String List="1" Partial="1">
+    <String List="1">
       <EDID>REQ_Message_Lockpick_followerHasOptimalSkill_NoLockpicks</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems very complex to you and you&apos;re certain you would just be wasting your time and lockpicks trying to open it. Your follower &lt;Alias.ShortName=LockpickMinion&gt; however considers this lock trivial and claims &lt;Alias.Pronoun=LockpickMinion&gt; could pick it if &lt;Alias.Pronoun=LockpickMinion&gt; had %.0f lockpicks.
@@ -71767,10 +71767,10 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵はあまりに複雑すぎて、開けようなんて時間とロックピックをドブに捨てるようなものだ。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、この鍵は &lt;Alias.Pronoun=LockpickMinion&gt; にとって些細なものだ思っていて、 もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
-    <String List="1" Partial="1">
+    <String List="1">
       <EDID>REQ_Message_Lockpick_followerHasOptimalSkill_Confirmation</EDID>
       <REC>MESG:DESC</REC>
       <Source>This lock seems very complex to you and you&apos;re certain you would just be wasting your time and lockpicks trying to open it. Your follower &lt;Alias.ShortName=LockpickMinion&gt; however considers this lock trivial and claims &lt;Alias.Pronoun=LockpickMinion&gt; could pick it with %.0f lockpicks.
@@ -71779,8 +71779,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵を些細なものだと思っていて、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_followerHasRequiredSkill_NoLockpicks</EDID>
@@ -71791,8 +71791,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、もし &lt;Alias.Pronoun=LockpickMinion&gt; に少なくとも %.0f　本のロックピックがあれば、頑張って開けられるかもしれないと思っている。
 
-この鍵をより少ない努力でロックピックも無駄にせず開けるには、開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力でロックピックも無駄にせず開けるには、開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_followerHasRequiredSkill_Confirmation</EDID>
@@ -71803,8 +71803,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、もし &lt;Alias.Pronoun=LockpickMinion&gt; に少なくとも %.0f　本のロックピックがあれば、頑張って開けられるかもしれないと思っている。
 
-この鍵をより少ない努力でロックピックを無駄にせず開けるには、開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力でロックピックを無駄にせず開けるには、開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_InsufficientExpertise_WithParty</EDID>
@@ -71812,9 +71812,9 @@ Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinio
       <Source>This lock seems very complicated to you and your followers alike. You&apos;re certain you would just be wasting your time and lockpicks trying to open it. A lockpicking expertise of at least %.0f is needed to handle locks of this complexity.
 
 Your current lockpicking expertise is %.0f and your most skilled follower, &lt;Alias.ShortName=LockpickMinion&gt;, has an expertise of %.0f.</Source>
-      <Dest>この鍵はあなたとフォロワー達にとって複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+      <Dest>この鍵はあなたとフォロワー達にとって複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
 
-あなたの開錠の技術は %.0f で、フォロワーのなかで経験が最も豊富な &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+あなたの開錠の知識は %.0f で、フォロワーのなかで経験が最も豊富な &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_InsufficientExpertise_WithFollower</EDID>
@@ -71822,9 +71822,9 @@ Your current lockpicking expertise is %.0f and your most skilled follower, &lt;A
       <Source>This lock seems very complicated to both &lt;Alias.ShortName=LockpickMinion&gt; and you. You&apos;re certain you would just be wasting your time and lockpicks trying to open it. A lockpicking expertise of at least %.0f is needed to handle locks of this complexity.
 
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
-      <Dest>この鍵はあなたと&lt;Alias.ShortName=LockpickMinion&gt; にとって複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+      <Dest>この鍵はあなたと&lt;Alias.ShortName=LockpickMinion&gt; にとって複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
 
-あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_InsufficientExpertise_Solo</EDID>
@@ -71832,9 +71832,9 @@ Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinio
       <Source>This lock seems very complicated and you&apos;re certain that you would just be wasting your time and lockpicks trying to open it. A lockpicking expertise of at least %.0f is needed to handle locks of this complexity.
 
 Your current lockpicking expertise is %.0f.</Source>
-      <Dest>この鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+      <Dest>この鍵はあまりに複雑すぎて、開けようとするなんて時間とロックピックをドブに捨てるようなものだ。この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
 
-あなたの開錠の技術は %.0f だ。</Dest>
+あなたの開錠の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_doomstone_transition_forbidden</EDID>
@@ -71851,8 +71851,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵があまりに複雑すぎて試す気にもならないと思っている。
 
-この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_challengingLock_Solo</EDID>
@@ -71860,9 +71860,9 @@ Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinio
       <Source>This lock seems complex to you, but with some time and enough lockpicks you should be able to open it. A lockpicking expertise of at least %.0f is needed to handle locks of this complexity.
 
 Your current lockpicking expertise is %.0f.</Source>
-      <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
+      <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
 
-あなたの開錠の技術は %.0f だ。</Dest>
+あなたの開錠の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerNoLockpicksRequired</EDID>
@@ -71873,8 +71873,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; もそう思っていて、 もし &lt;Alias.Pronoun=LockpickMinion&gt; に少なくとも %.0f　本のロックピックがあれば、頑張って開けられるかもしれない。
 
-この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerNoLockpicksOptimal</EDID>
@@ -71885,8 +71885,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵を些細なものだと思っていて、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerCanPickRequired</EDID>
@@ -71897,8 +71897,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; もそう思っていて、 &lt;Alias.Pronoun=LockpickMinion&gt; であれば %.0f 本のロックピックと努力で開けられるかもしれない。
 
-この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_challengingLock_FollowerCanPickOptimal</EDID>
@@ -71909,8 +71909,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>この鍵はあなたにとって複雑そうだが、時間と十分なロックピックがあれば開けられるかもしれない。けれどもあなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵を些細なものだと思っていて、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で、 &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerTooDumb</EDID>
@@ -71921,8 +71921,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。 あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵があまりに複雑すぎて試す気にもならないと思っている。
 
-この鍵を簡単に開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵を簡単に開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerNoLockpicksRequired</EDID>
@@ -71933,8 +71933,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。 あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、もし &lt;Alias.Pronoun=LockpickMinion&gt; に少なくとも %.0f　本のロックピックがあれば、頑張って開けられるかもしれないと思っている。
 
-この鍵を簡単に開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵を簡単に開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerNoLockpicksOptimal</EDID>
@@ -71945,8 +71945,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。 。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; もこの鍵は簡単だと思っていて、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵を簡単に開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵を簡単に開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerCanPickRequired</EDID>
@@ -71957,8 +71957,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; は、もし &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f　本のロックピックがあれば、頑張って開けられるかもしれないと思っている。
 
-この鍵をより少ない努力で開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵をより少ない努力で開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1" Partial="1">
       <EDID>REQ_Message_Lockpick_easyLock_FollowerCanPickOptimal</EDID>
@@ -71969,8 +71969,8 @@ A lockpicking expertise of at least %.0f is needed to handle locks of this compl
 Your current lockpicking expertise is %.0f and &lt;Alias.ShortName=LockpickMinion&gt; has an expertise of %.0f.</Source>
       <Dest>あなたにとってこの鍵は簡単そうだが、あいにくロックピックの持ち合わせがない。あなたのフォロワー &lt;Alias.ShortName=LockpickMinion&gt; はこの鍵は簡単だと思っていて、 &lt;Alias.Pronoun=LockpickMinion&gt; に %.0f 本のロックピックがあれば開けられるだろうと言っている。
 
-この鍵を簡単に開けるには開錠の技術が少なくとも %.0f レベルは必要だ。
-あなたの開錠の技術は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
+この鍵を簡単に開けるには開錠の知識が少なくとも %.0f レベルは必要だ。
+あなたの開錠の知識は %.0f で &lt;Alias.ShortName=LockpickMinion&gt; の知識は %.0f だ。</Dest>
     </String>
     <String List="1">
       <EDID>BecomeEtherealShout</EDID>
