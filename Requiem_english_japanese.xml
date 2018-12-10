@@ -71684,7 +71684,7 @@ Ah, an arcane enchanter! I can place an magical item here to unlock its secrets 
       <Source>After a short respite, you hear the whisper of the cogwheels subside, as if the machine has stabilized in perpetual silent motion. Whatever it was, it seems to have left an indelible mark on everything around you, from the highest Gods to the basest of animals and from the most arcane secrets to the simplest of tools.
 
 You also realize that you have been well saved. Your three skills are not as meager as you thought they were. You only need to focus on them, and you will be ready to start using them to their potential.</Source>
-      <Dest>少しの時間をおいて、歯車のささやきが静まるのが聞こえた。まるで、絶え間なく音もない動きのまま、機械が安定したかのように。何であれ、周囲の全てに消えない印が残されたようにみえる。それは最高神から果ては最も卑しい動物まで、または最も神秘的な秘密から果ては最も単純な道具まで。
+      <Dest>少しの時間をおき、歯車のささやきが鎮まるのが聞こえた。まるで、機械が静かな動きで安定したかのように。何であれ、周囲の全てに消えない印が残されたようにみえる。それは最高神から果ては最も卑しい動物まで、または最も神秘的な秘密から果ては最も単純な道具まで。
 
 あなたはまたよく救われたと実感している。あなたが持つ3つのスキルは思っていたほど少なくもない。そのスキルに注目さえすればよく、可能性を引き出すために使う準備もできている。</Dest>
     </String>
@@ -71704,9 +71704,9 @@ Again you feel that you should hold on for a few moments to understand what is h
       <Source>You suddenly feel a sense of apprehension as a mysterious sound enters your mind, like a machine of a thousand cogs starting to spin. Amidst that noise you think that you hear a voice speaking to you, whispering, &quot;Requiem&quot;.
 
 You are overcome with exhaustion as the machine changes the Aurbis to something more dangerous but also more interesting and vivid. The feeling is overpowering; you need to stand still and hope it passes quickly.</Source>
-      <Dest>奇妙な音が意識に入り込み、あなたは不安をおぼえた。それは数千の歯車が回りだすような音だった。その騒音のさなか、あなたは自分に話しかける声が聞こえたように思った。ささやくように、 &quot;Requiem&quot; と。
+      <Dest>奇妙な音が意識に入り込み、あなたは不安をおぼえた。数千の歯車が回りだすような音だ。騒音のなかで、あなたは自分に話しかける声が聞こえたように思った。ささやくように、 &quot;Requiem&quot; と。
 
-機械がAurbisをより危険に、さらに興味深く鮮明なものに変えると、あなたは疲れを克服した。圧倒される気持ちだ; じっとしたまま、これが早く過ぎ去ることを祈らなければ。</Dest>
+機械がAurbisの世界をより危険に、さらに興味深く鮮明なものに変えると、あなたは疲れを克服した。圧倒される気持ちだ; じっとしたまま、これが早く過ぎ去ることを祈らなければ。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Message_DisguiseBlown</EDID>
