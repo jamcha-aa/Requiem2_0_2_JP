@@ -71242,15 +71242,13 @@ using the default resistance system leads to crap, because the damageresist resi
       <EDID>HelpEnchantingShort</EDID>
       <REC>MESG:DESC</REC>
       <Source>Ah, an arcane enchanter! I can place an magical item here to unlock its secrets by destroying it, or I can enchant a non-magical item using a soul gem.</Source>
-      <Dest>ああ、アルケイン付呪器だ! 魔法のアイテムをここに置いて壊すとその秘密を解き明かせるし、もしくは魔法のかかっていないアイテムに魂石を使うと付呪ができる。
-
-Ah, an arcane enchanter! I can place an magical item here to unlock its secrets by destroying it, or I can enchant a non-magical item using a soul gem.</Dest>
+      <Dest>ああ、アルケイン付呪器だ! 魔法のアイテムをここに置いて壊すとその秘密を解き明かせるし、もしくは魔法のかかっていないアイテムに魂石を使うと付呪ができる。</Dest>
     </String>
     <String List="1">
       <EDID>HelpAlchemyShort</EDID>
       <REC>MESG:DESC</REC>
       <Source>Ah, an alchemy lab, along with an alembic, a mortar and all the necessary apparatus. Perfect for brewing all kinds of potions.</Source>
-      <Dest>ああ、錬金器具。蒸留器他に、すり鉢など必要な装置が揃っている。あらゆる種類のポーションを作るうえで完璧だ。</Dest>
+      <Dest>ああ、錬金器具だ。蒸留器の他に、すり鉢など必要な装置が揃っている。あらゆる種類のポーションを作るうえで完璧だ。</Dest>
     </String>
     <String List="1">
       <EDID>HelpArmorBenchShort</EDID>
