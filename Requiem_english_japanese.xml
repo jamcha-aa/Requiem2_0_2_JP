@@ -58998,6 +58998,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <Dest>大蛇座の噛み付きは中期間対象を麻痺させ毒を与える。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Ability_StandingStones_Tower</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>The Tower grants a blessing of 20 extra carry weight and supernatural lockpicking skills. Expertise is increased by 40 and any effortless lock can be picked in plain sight with nobody noticing, creating a wax-molded copy of the key, if one exists.</Source>
+      <Dest>塔は持ち運び重量を20増やし、超自然的な開錠のスキルを与える。開錠の知識が40ポイント増え、また自分にとってたやすい錠前ならロウの合鍵を作り、誰にも気づかれずに開けることができる。</Dest>
+    </String>
+    <String List="1">
       <EDID>doomRitualAbility</EDID>
       <REC>SPEL:DESC</REC>
       <Source>Those under the Sign of the Ritual are capable of animating hordes of undead for a limited duration once each day.</Source>
@@ -67767,6 +67773,200 @@ Mage Shield III</Source>
 魔術師の盾 III</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Book_TyranusJournal</EDID>
+      <REC>BOOK:DESC</REC>
+      <Source>&lt;font face=&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;20&apos;&gt;2nd Last Seed, 4E 201
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I had the dream again. The one where I was a boy, and a thief. The one with the golden sword. The one where I reached out my hand, and held the hilt, and wished that I had not.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Again, that same feeling of being trapped, and not by the guards. I saw the emperor&apos;s face. A kindly face, smiling at the little thief in his tent, but when he spoke, it was with the other voice.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;&quot;How shall I know you?&quot;
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I woke, shaking and terrified. The voice. The sword. Will I ever be rid of it?
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;5th Last Seed, 4E 201
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I am still full of so many regrets. It has taken me so long to come to Stendarr&apos;s side, and through so many other gods, and none of them true. I dreamt last night of the years in which I travelled, wild and mad. I dreamt of Froki in his shack, nursing me back to some semblance of sanity.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;When I prayed to Stendarr this morning, I looked up at the blue sky without truly meaning to do so. Only belatedly did I realise that it was Froki&apos;s Kyne in my heart. The contemplation of the sky under his tuition should have brought me peace, but I fear it has only strengthened the power within me.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Sometimes I feel as if I could shout to that sky, and the whole world would answer. This power is a terrible thing, and not a thing of Stendarr. I pray. I maintain the Vigil. I will be strong.
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;8th Last Seed, 4E 201
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Last night I dreamt I was in Cyrodiil again. All those years I spent with the Legion, fighting under Ulfric&apos;s command. The sight of Titus Mede II, standing tall in the front lines, and that golden sword flashing in the sunlight. It made my teeth ache. The voice in the sword... it woke something old in me, something powerful and ancient and terrible. I keep my teeth clenched. I will not give in.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I dreamt of that moment when I made my first kill. I was a mere stripling, with Ulfric Stormcloak on one side and old Agnius on the other, and the Altmer before us had no chance. My blade sank through his golden armor and grated on bone, and again, the voice sounded, as it had when I touched the sword. &quot;How shall I measure the worth of your existence?&quot;
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I woke, as I always do when I hear that voice, and I cried out, and it was not my voice that called, nor the voice of my dreams, but something else. It was as if the whole world was singing, and my voice the echo of that song. I clapped my hands across my mouth and began to pray, but Stendarr does not answer, and I am not surprised. I am not worthy. I will never be worthy, no matter how much they gild my armor and my name.
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;
+11th Last Seed, 4E 201
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Still the dreams. Stendarr and the Vigil that I keep are the only thing that make them bearable, but always I can feel that voice whispering in my head.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;My studies with Keeper Carcette have put a name to the blade.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Goldbrand.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;It is a thing of dark power, of dragons and daedra, and I wish with all my heart that I had never even laid eyes on it, let alone attempted to take it as my own. This is the punishment for all the theft I did as a child, and for following false gods for so many years.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Stendarr grant me mercy. I have none for myself.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I have found myself drawn back to Markarth, where I first heard Ulfric shout, and understood what it was that I had locked behind my teeth. The atrocities I saw. The whispering in my head. The madness that overtook me. Fleeing my own deeds as much as those of the Stormcloaks. Years of wandering, until Froki found me.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I will not do it. I cannot give in. I dream of battle, and with each blow the voice whispers to me. &quot;How shall I know you apart from such as were they, of whom there is no trace?&quot; And I know, even now, that I carry out that prince&apos;s will in spite of myself.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;It is not Stendarr who has drawn me here, I know that. I do not know why.
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;
+15th Last Seed, 4E 201
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I have found the house that draws me. In my dreams, I enter. There is a daedra inside; some enemy of the voice that calls to my head and bids me kill. The voice that bids me prove my existence with the death and destruction of others.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;The Vigil call me Tyranus, the terrible, and have granted me accolade for my prowess in battle, but they do not know from where it comes. They do not know of the Voice.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;There is an altar in the house that the voice in my head wills me to destroy. Perhaps, if I do what it asks, it will finally let me be... but I am afraid. I cannot enter alone. I know what I will become, if I let the voice in my head unleash the voice that is my own.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I could tear this city apart, and none would be able to stand against me, as they could not stand against Ulfric Stormcloak. That kind of power does not belong in any mortal throat.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Goldbrand. Artifact of daedra, and dragons, and heresy. I wish I had never seen it, and never touched it.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I will wait. Someone will come. Someone who is able to aid me... and able to stop me, at the end.&lt;/font&gt;&lt;/font&gt;</Source>
+      <Dest>&lt;font face=&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;20&apos;&gt;第四紀201年、収穫の月2日
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;またあの夢を見た。私が少年で、そして盗賊だった夢。黄金の剣を持っていた夢。手をのばし、柄を握り、それが夢であってほしいと願った夢。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;また罠にかかったような気分だ。衛兵に捕まったんじゃない。私は皇帝の顔を見た。彼は優しそうに、テントの中でこの小さな盗賊に微笑みかけていたが、口を開いたとき、それは別人の声だった。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;&quot;どうやってお前を知るのだ?&quot;
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;私は目覚め、震え、そして恐れた。あの声。あの剣。私は忘れることができるのか?
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;第四紀201年、収穫の月5日
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I am still full of so many regrets. It has taken me so long to come to Stendarr&apos;s side, and through so many other gods, and none of them true. I dreamt last night of the years in which I travelled, wild and mad. I dreamt of Froki in his shack, nursing me back to some semblance of sanity.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;When I prayed to Stendarr this morning, I looked up at the blue sky without truly meaning to do so. Only belatedly did I realise that it was Froki&apos;s Kyne in my heart. The contemplation of the sky under his tuition should have brought me peace, but I fear it has only strengthened the power within me.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Sometimes I feel as if I could shout to that sky, and the whole world would answer. This power is a terrible thing, and not a thing of Stendarr. I pray. I maintain the Vigil. I will be strong.
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;8th Last Seed, 4E 201
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Last night I dreamt I was in Cyrodiil again. All those years I spent with the Legion, fighting under Ulfric&apos;s command. The sight of Titus Mede II, standing tall in the front lines, and that golden sword flashing in the sunlight. It made my teeth ache. The voice in the sword... it woke something old in me, something powerful and ancient and terrible. I keep my teeth clenched. I will not give in.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I dreamt of that moment when I made my first kill. I was a mere stripling, with Ulfric Stormcloak on one side and old Agnius on the other, and the Altmer before us had no chance. My blade sank through his golden armor and grated on bone, and again, the voice sounded, as it had when I touched the sword. &quot;How shall I measure the worth of your existence?&quot;
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I woke, as I always do when I hear that voice, and I cried out, and it was not my voice that called, nor the voice of my dreams, but something else. It was as if the whole world was singing, and my voice the echo of that song. I clapped my hands across my mouth and began to pray, but Stendarr does not answer, and I am not surprised. I am not worthy. I will never be worthy, no matter how much they gild my armor and my name.
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;
+11th Last Seed, 4E 201
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Still the dreams. Stendarr and the Vigil that I keep are the only thing that make them bearable, but always I can feel that voice whispering in my head.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;My studies with Keeper Carcette have put a name to the blade.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Goldbrand.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;It is a thing of dark power, of dragons and daedra, and I wish with all my heart that I had never even laid eyes on it, let alone attempted to take it as my own. This is the punishment for all the theft I did as a child, and for following false gods for so many years.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Stendarr grant me mercy. I have none for myself.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I have found myself drawn back to Markarth, where I first heard Ulfric shout, and understood what it was that I had locked behind my teeth. The atrocities I saw. The whispering in my head. The madness that overtook me. Fleeing my own deeds as much as those of the Stormcloaks. Years of wandering, until Froki found me.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I will not do it. I cannot give in. I dream of battle, and with each blow the voice whispers to me. &quot;How shall I know you apart from such as were they, of whom there is no trace?&quot; And I know, even now, that I carry out that prince&apos;s will in spite of myself.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;It is not Stendarr who has drawn me here, I know that. I do not know why.
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;
+15th Last Seed, 4E 201
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I have found the house that draws me. In my dreams, I enter. There is a daedra inside; some enemy of the voice that calls to my head and bids me kill. The voice that bids me prove my existence with the death and destruction of others.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;The Vigil call me Tyranus, the terrible, and have granted me accolade for my prowess in battle, but they do not know from where it comes. They do not know of the Voice.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;There is an altar in the house that the voice in my head wills me to destroy. Perhaps, if I do what it asks, it will finally let me be... but I am afraid. I cannot enter alone. I know what I will become, if I let the voice in my head unleash the voice that is my own.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I could tear this city apart, and none would be able to stand against me, as they could not stand against Ulfric Stormcloak. That kind of power does not belong in any mortal throat.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Goldbrand. Artifact of daedra, and dragons, and heresy. I wish I had never seen it, and never touched it.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I will wait. Someone will come. Someone who is able to aid me... and able to stop me, at the end.&lt;/font&gt;&lt;/font&gt;</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Book_Recipe_ExplosiveAmmo</EDID>
       <REC>BOOK:DESC</REC>
       <Source>[pagebreak]
@@ -69742,6 +69942,24 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>PERK:DESC</REC>
       <Source>You are even harder to detect when sneaking while not wearing any heavy armor.</Source>
       <Dest>重装を着ていなければ隠密行動中にさらに発見されにくくなる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Ability_Sneak20</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>20% harder to detect when sneaking.</Source>
+      <Dest>隠密状態のとき20%発見されにくくなる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Ability_Sneak25</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>25% harder to detect when sneaking.</Source>
+      <Dest>隠密状態のとき25%発見されにくくなる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Ability_Sneak30</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>30% harder to detect when sneaking.</Source>
+      <Dest>隠密状態のとき30%発見されにくくなる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Alchemy_AlchemicalLore2</EDID>
