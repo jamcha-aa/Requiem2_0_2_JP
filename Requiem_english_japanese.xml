@@ -68179,6 +68179,36 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
 そういいながら、もはやオスバーグと呼ぶべきでない老いた僧侶は立ち去った。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Book_HelgenEasterEgg</EDID>
+      <REC>BOOK:DESC</REC>
+      <Source>&lt;font face=&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;20&apos;&gt;I was twelve when I first knew that I wanted a dog. I was thirteen when I begged my parents to get me a puppy. I was fourteen when I tried to take one of Agath&apos;s new litter and they found me and made me bring the little thing back and apologise to both the dog and the smith. I was fifteen when I prayed to the Divines for a pup of my own. I was sixteen when I abandoned the Divines, prayed to anyone who would fill my wish, and found Dagger.&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;The stray was facing off against a wolf. Neither of them had seen me. I drew my bow, and as the wolf advanced, I crept round the little hound and fired the arrow into the wolf&apos;s heart. I approached the dog I had saved carefully, so as not to startle it.&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;When a wolf looks at you, it only has one decision to make: prey, or threat? A dog, though, when it turns those big brown eyes your way, has no decisions at all. It already loves you, and in return, you open your heart to it. I tore off a strip of meat from the jerky in my pack, and offered it to the dog. He sniffed and barked and took it, and that was it. We were inseparable... or so I thought. I called the dog Dagger for his small size and his sharp teeth, and he hunted at my side for fourteen years.
+[pagebreak]
+He was everything I wanted: companion, guardian and brother-at-arms, giving me entertainment when I was happy and solace when I was sad. No lover was so faithful, no friend so free of judgement, no family so willing to oblige yet asking for so little in return.&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;That&apos;s the thing about wishes, though. Their master is Clavicus Vile, and his servant, Barbas, often takes the form of a dog. I always used to wonder why, when I read that story. Now I know. All of Vile&apos;s gifts come with a curse, and Dagger was a Daedric gift, for sure, as all dogs are.&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;Dagger fought as fiercely as any soldier, but the Imperials have sharp swords, and they struck us both down. I survived. They would not even let me bury him before they brought me here.
+[pagebreak]
+If you come to this place as a prisoner, know that I, too, felt your loneliness and your pain... and if you ever see a stray in trouble, be careful how much you love him. Dogs don&apos;t live forever, and they take your heart with them when they die.&lt;/font&gt;&lt;/font&gt;</Source>
+      <Dest>&lt;font face=&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;20&apos;&gt;12歳のとき、私は初めて犬を飼いたいと思った。13歳のとき、私は両親に犬を飼いたいとお願いした。14歳のとき、アガスの産んだ仔の一匹をくすねようとしたが、彼らに見つかり、彼らは仔犬を元の場所に戻してアガスと仔に謝った。15歳のとき、神々に私の犬が手に入るよう祈った。16歳のとき、私は神々を捨て、私の願いを叶えてくれる者なら何にでも祈り、そしてダガーに会った。&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;その迷子の犬はオオカミに向かい合っていた。どちらも私を見ていなかった。私は弓を引き、オオカミが進むと、忍び寄ってその胸に矢を放った。私は犬が怯えないよう慎重に近づいた。&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;オオカミはあなたを見たとき、たったひとつの判断をする: それは獲物か、危険か。けれどもその犬は、大きな茶色い目を回してこちらを見たとき、何の判断もしていなかった。すでに好意を抱いていて、こちらも心を開いた。私は鞄からジャーキーを取り出してその犬にやった。彼は鼻を鳴らして一吠えし、それを取った。そういうことだ。私たちはひとつだった…そう私は思った。彼の小さく鋭い歯から、私はその犬をダガーと呼び、ともに14年狩りをした。
+[pagebreak]
+彼は私の望む全てだった: 仲間、用心棒、そして戦友。私が喜んでいるときには楽しませてくれて、悲しんでいるときはなぐさめてくれた。どんな恋人もそんな誠実にはなれないし、どんな友人もそんな自由な決断はできないし、どんな家族もそんなに少ない見返りでは満足しない。&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;けれどもその願いが問題だ。彼の主はクラヴィカス・ヴァイルで、その下僕バルバスは犬の姿をしていることが多い。私がその物語を読んだとき、どうしてそうなのかいつも不思議に思っていた。今ならわかる。ヴァイルの贈り物は呪いとともにやってくる。そしてダガーはデイドラの贈り物だった。確かに。全ての犬がそうであるように。&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;ダガーはどんな兵士にも負けないくらい激しく戦った。けれども帝国の兵士は鋭い剣で私たちを襲った。私は生き残った。ここに連れてこられる前、帝国の兵士はダガーを埋葬さえさせてくれなかった。
+[pagebreak]
+もしあなたが囚人としてここに来たなら、私も、あなたが感じた孤独と痛みがわかる…そしてもし困っている迷子に会ったなら、それをどのくらい愛しているのか注意してほしい。犬は永遠に生きない。そして彼らが死んだとき、あなたの心も持っていってしまう。&lt;/font&gt;&lt;/font&gt;</Dest>
+    </String>
+    <String List="1">
       <EDID>DA14SanguineRose</EDID>
       <REC>WEAP:DESC</REC>
       <Source>The Rose will grant immense power to the those who are willing to ridicule themselves by  being naked and to subdue themselves to a drug...</Source>
