@@ -8368,6 +8368,12 @@
       <Dest>術者は対象の最も恐れる幻影を作り出し、その結果は立ち向かうことに成功するかひどい心臓発作で死ぬかのどちらかとなる。生きている定命の者にのみ機能する。</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Conjuration4_MarkRecall</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Mark &amp; Recall</Source>
+      <Dest>刻印と想起</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_AlterationTransmuteAnimus</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Transmutation</Source>
@@ -19535,6 +19541,12 @@
       <Dest>幻影の殺人者</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration4_MarkRecall</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mark &amp; Recall</Source>
+      <Dest>刻印と想起</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Alteration5_TransmuteCorpus</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Transmute: Corpus</Source>
@@ -21273,6 +21285,12 @@
       <REC>SCRL:FULL</REC>
       <Source>Scroll of Telekinesis</Source>
       <Dest>念動力の巻物</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Scroll_MarkRecall</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Scroll of Mark &amp; Recall</Source>
+      <Dest>刻印と想起の巻物</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Scroll_SoulGemEvocation</EDID>
@@ -27339,6 +27357,12 @@
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Summon Invisible Stalker</Source>
       <Dest>呪文の書: 不可視のストーカー召喚</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Tome_Conjuration4_MarkRecall</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Mark &amp; Recall</Source>
+      <Dest>呪文の書: 刻印と想起</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Conjuration1_Swarm</EDID>
@@ -59400,6 +59424,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <Dest>術者は高潔な駿馬の霊魂を召喚する。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Conjuration4_MarkRecall</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>A conjurer first weaves an extraplanar mark while facing down on the ground. Subsequent castings will then be recalling the caster to the mark, and swap the mark to the caster&apos;s old location.</Source>
+      <Dest>詠唱者はまず地面に超次元的な刻印を残す。次に唱えたとき、詠唱者は刻印があった場所へ召喚され、代わりに刻印は詠唱者がそれまでいた場所へと移る。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Power_ArcaneExperimentation</EDID>
       <REC>SPEL:DESC</REC>
       <Source>The caster experiments with arcane energies to create new enchanted objects that can be disenchanted afterwards. Three grand filled soul gems and five iron daggers are needed for that.</Source>
@@ -59554,6 +59584,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <REC>SCRL:DESC</REC>
       <Source>Nearby living creatures, but not undead, machines or daedra, can be seen through walls.</Source>
       <Dest>アンデッド、機械、デイドラ以外の近くにいる生物を壁越しに見られる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Scroll_MarkRecall</EDID>
+      <REC>SCRL:DESC</REC>
+      <Source>A conjurer first weaves an extraplanar mark while facing down on the ground. Subsequent castings will then be recalling the caster to the mark, and swap the mark to the caster&apos;s old location.</Source>
+      <Dest>詠唱者はまず地面に超次元的な刻印を残す。次に唱えたとき、詠唱者は刻印があった場所へ召喚され、代わりに刻印は詠唱者がそれまでいた場所へと移る。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Scroll_JohnCleese</EDID>
