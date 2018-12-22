@@ -28223,6 +28223,48 @@
       <Dest>デイドラのダガー</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_HogithumReward</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>On Hogithum</Source>
+      <Dest>ホギトゥーム</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumFragment_PelagiusWing</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Fragment of a poem</Source>
+      <Dest>詩の断片</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumFragment_MorthalSwamp</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Fragment of a poem</Source>
+      <Dest>詩の断片</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumFragment_DarklightTower</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Fragment of a poem</Source>
+      <Dest>詩の断片</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumFragment_RobbersCove</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Fragment of a poem</Source>
+      <Dest>詩の断片</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumFragment_FrostmereCrypt</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Fragment of a poem</Source>
+      <Dest>詩の断片</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumFragment_WolfskullCave</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Fragment of a poem</Source>
+      <Dest>詩の断片</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Alteration3_Knock</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Knock</Source>
@@ -54743,6 +54785,18 @@
       <Dest>Requiem Secondary Skills Menu</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_HOGITHUM</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>On Hogithum</Source>
+      <Dest>ホギトゥーム</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HOGITHUM</EDID>
+      <REC id="1" idMax="3">QUST:NNAM</REC>
+      <Source>Find all six missing fragments</Source>
+      <Dest>失われた6つの詩の断片を見つける</Dest>
+    </String>
+    <String List="0">
       <EDID>ChargenLoadScreen</EDID>
       <REC>LSCR:DESC</REC>
       <Source>And the Scrolls have foretold,
@@ -69365,6 +69419,12 @@ If you come to this place as a prisoner, know that I, too, felt your loneliness 
       <REC id="24" idMax="24">QUST:CNAM</REC>
       <Source>alteration master</Source>
       <Dest>alteration master</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_HOGITHUM</EDID>
+      <REC id="0" idMax="4">QUST:CNAM</REC>
+      <Source>I have discovered the fragment of a poem. That seems interesting. Perhaps I should explore at the Bard&apos;s College to see what this is all about.</Source>
+      <Dest>詩の断片を見つけた。興味深いものだ。これが一体何なのか吟遊詩人の大学で調べよう。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Alteration_EmpoweredAlterations</EDID>
