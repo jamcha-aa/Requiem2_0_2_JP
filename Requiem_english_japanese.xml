@@ -69427,6 +69427,18 @@ If you come to this place as a prisoner, know that I, too, felt your loneliness 
       <Dest>詩の断片を見つけた。興味深いものだ。これが一体何なのか吟遊詩人の大学で調べよう。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_HOGITHUM</EDID>
+      <REC id="1" idMax="4">QUST:CNAM</REC>
+      <Source>I found a report at the Bard&apos;s college. It mentions a song, and suggests some places where I might find more about it. Giraud Gemane would probably be happy if I found them all.</Source>
+      <Dest>吟遊詩人の大学で報告書を見つけた。ある詩について述べられており、より多くの手がかりがあるかもしれない場所をいくつか示している。もし全てを見つけられたらジラウド・ゲマネは喜ぶだろう。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_HOGITHUM</EDID>
+      <REC id="2" idMax="4">QUST:CNAM</REC>
+      <Source>I think I found all pieces of the lost poem, but it seems that the last verse is still missing. Perhaps Giraud Gemane can help.</Source>
+      <Dest>失われた全ての詩の断片を見つけたはずだが、最後の一編がまだ見つからないようだ。ジラウド・ゲマネが助けてくれるかもしれない。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Alteration_EmpoweredAlterations</EDID>
       <REC>PERK:DESC</REC>
       <Source>You learned how to empower Alteration spells. Thus, you now can overcharge their effects into &lt;br&gt; even more powerful, longer lasting versions.</Source>
