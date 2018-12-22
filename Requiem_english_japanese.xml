@@ -8368,6 +8368,12 @@
       <Dest>術者は対象の最も恐れる幻影を作り出し、その結果は立ち向かうことに成功するかひどい心臓発作で死ぬかのどちらかとなる。生きている定命の者にのみ機能する。</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_Conjuration4_MarkRecall</EDID>
+      <REC>MGEF:FULL</REC>
+      <Source>Mark &amp; Recall</Source>
+      <Dest>刻印と想起</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_AlterationTransmuteAnimus</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Transmutation</Source>
@@ -19535,6 +19541,12 @@
       <Dest>幻影の殺人者</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Conjuration4_MarkRecall</EDID>
+      <REC>SPEL:FULL</REC>
+      <Source>Mark &amp; Recall</Source>
+      <Dest>刻印と想起</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Alteration5_TransmuteCorpus</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Transmute: Corpus</Source>
@@ -21273,6 +21285,12 @@
       <REC>SCRL:FULL</REC>
       <Source>Scroll of Telekinesis</Source>
       <Dest>念動力の巻物</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Scroll_MarkRecall</EDID>
+      <REC>SCRL:FULL</REC>
+      <Source>Scroll of Mark &amp; Recall</Source>
+      <Dest>刻印と想起の巻物</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Scroll_SoulGemEvocation</EDID>
@@ -27341,6 +27359,12 @@
       <Dest>呪文の書: 不可視のストーカー召喚</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Tome_Conjuration4_MarkRecall</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Spell Tome: Mark &amp; Recall</Source>
+      <Dest>呪文の書: 刻印と想起</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Conjuration1_Swarm</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Summon Swarm I</Source>
@@ -28197,6 +28221,48 @@
       <REC>BOOK:FULL</REC>
       <Source>Daedric Dagger</Source>
       <Dest>デイドラのダガー</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumReward</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>On Hogithum</Source>
+      <Dest>ホギトゥーム</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumFragment_PelagiusWing</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Fragment of a poem</Source>
+      <Dest>詩の断片</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumFragment_MorthalSwamp</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Fragment of a poem</Source>
+      <Dest>詩の断片</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumFragment_DarklightTower</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Fragment of a poem</Source>
+      <Dest>詩の断片</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumFragment_RobbersCove</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Fragment of a poem</Source>
+      <Dest>詩の断片</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumFragment_FrostmereCrypt</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Fragment of a poem</Source>
+      <Dest>詩の断片</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumFragment_WolfskullCave</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Fragment of a poem</Source>
+      <Dest>詩の断片</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Alteration3_Knock</EDID>
@@ -54719,6 +54785,18 @@
       <Dest>Requiem Secondary Skills Menu</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_HOGITHUM</EDID>
+      <REC>QUST:FULL</REC>
+      <Source>On Hogithum</Source>
+      <Dest>ホギトゥーム</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HOGITHUM</EDID>
+      <REC id="1" idMax="3">QUST:NNAM</REC>
+      <Source>Find all six missing fragments</Source>
+      <Dest>失われた6つの詩の断片を見つける</Dest>
+    </String>
+    <String List="0">
       <EDID>ChargenLoadScreen</EDID>
       <REC>LSCR:DESC</REC>
       <Source>And the Scrolls have foretold,
@@ -58570,10 +58648,58 @@ With a hunger to swallow the world!
 The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvardenfell. 彼らはパワフルな知性と強靭で俊敏な肉体をあわせもち、すばらしい戦士と幻術師となりうる。彼らは炎に極めて強く、炎ダメージの2/3を防ぐ。一日に一度、彼らは短いあいだ自身の先祖を呼び出し、ほとんどのものから自分を守ることができる。</Dest>
     </String>
     <String List="1">
+      <EDID>HighElfRace</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The Altmer of Summerset Isle are called &quot;High&quot; Elves in the Empire, describing both their physical appearance and their snobbish personality. The arcane ability of High Elves surpasses all other races in Tamriel. Their Highborn power allows them to regenerate magicka very quickly once per day. They are weak in physical combat, however, and their magic affinity makes them forty percent more susceptible to hostile spells.</Source>
+      <Dest>サマーセット島のアルトマーは、その外見と高飛車な性格から、帝国においてハイエルフと呼ばれている。ハイエルフの魔力はタムリエルの種族で最も高い。その高貴な生まれの力により、一日に一度マジカをきわめて速く回復させられる。彼らは物理的な戦いで弱く、魔法との親和性ゆえに、敵対的な呪文に40%弱くなる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>ImperialRace</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The cosmopolitan citizens of Cyrodiil are descended from the founders of the glorious Empire that has influenced Tamriel&apos;s history throughout the eras. Imperials are shrewd traders, skilled in both magic and combat, and possess exceptionally high stamina because of the martial discipline of the schools of Cyrodiil. Once per day, they can call upon the Voice of the Emperor to influence others.</Source>
+      <Dest>このシロディールの国際人は、タムリエルの時代を通し影響を及ぼしてきた栄光の帝国、その創設者たちの子孫である。インペリアルは商才に優れ、魔法と戦闘双方の技術を兼ね備えており、またシロディールの戦訓に従い非常に高いスタミナを持っている。一日に一度、彼らは他者に影響を及ぼす皇帝の声を使用できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>KhajiitRace</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The Khajiit are a race of feline humanoids hailing from the province of Elsweyr, well-known as great merchants but also as smugglers and thieves. They are very fast and outrun all other races which, combined with a high stamina reserve, makes them fearsome skirmishers. However, they are seldom gifted with the skill to harness magical forces. All Khajiit can see in the dark at will and eat raw meat, and their sharp claws are as lethal as knives.</Source>
+      <Dest>カジートはエルスウェーアから来た猫人種で、すばらしい商人であるとともに密輸業者や盗賊としても知られている。彼らの高いスタミナ、そして最も速い足は、彼らを恐るべき斥候へと変える。しかし、彼らはほとんど魔力を持たない。すべてのカジートは暗闇でも目が効き、生肉を食べられ、そしてその鋭い爪はナイフのようにはたらく。</Dest>
+    </String>
+    <String List="1">
+      <EDID>NordRace</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>Skyrim&apos;s Nords are tall and fair, with a culture which values honor, glory, and loyalty to family and community. Nords have come to distrust magic, but excel in physical warfare. They are greatly resistant to frost and lightning damage, reducing them by half and by one quarter respectively. Once per day, Nords gifted with the Thu&apos;um can enter a trance that allows them to shout rapidly, pausing only for breath.</Source>
+      <Dest>スカイリムのノルドは背が高く公正で、家族や集団への名誉、栄光、そして忠誠を重んじる。ノルドは魔法を信用しないが、体格に優れる。彼らは冷気と雷撃に高い耐性をもち、それぞれ半減および1/4にさせる。一日に一度、スゥームの祝福を得たノルドはトランス状態に入り、息を止めて素早くシャウトを使うことができる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>OrcRace</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The Orsimer or &quot;Pariah Folk&quot;, commonly called Orcs, come from Orsinium in the west. Their savage appearance and customs sometimes cause fear, but they have won acceptance for their distinguished service in the Legion. Orcs&apos; superior strength makes them formidable warriors, though use of magic requires extensive training. Berserk rage allows them to greatly increase their strength while halving all damage taken, once per day.</Source>
+      <Dest>オーシマーもしくは「のけ者」は、一般にオークと呼ばれ、西方のオルシニウムからやって来た。彼らの野蛮な外見と習慣は恐れられることもあるが、軍隊における功績により人々に受け入れられている。オークの超人的な筋力は彼らを手強い戦士にさせるが、魔法を使うには多くの訓練を必要とする。一日に一度、狂戦士の怒りは彼らの筋力を爆発的に増加させ、受けるダメージを半減させる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>RedguardRace</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The dark-skinned, wiry-haired Redguards of Hammerfell seem born for battle, though their proud and independent spirits suit free-ranging heroism more. They have a hardy constitution and natural resistance to poison and disease, but tend to shun their magic. They can force an Adrenaline Rush to flood themselves with stamina and move faster than normal, gaining an immunity to most paralysis effects.</Source>
+      <Dest>黒い肌に硬い髪。ハンマーフェルのレッドガードは戦うために生まれてきたもののようだが、彼らの誇りと自立心は、解き放たれたヒロイズムにふさわしい。彼らの頑丈な体格は毒や疾病への耐性をもつが、魔法は捨て去る傾向にある。彼らはアドレナリン・ラッシュを起こすことができ、スタミナの洪水と素早い動きを生み出してほとんどの麻痺効果を無効にする。</Dest>
+    </String>
+    <String List="1">
+      <EDID>WoodElfRace</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The Bosmer, or Wood Elves, originate from the sacred forest of Valenwood. Their culture is highly carnivorous and even cannibalistic, derived from the Green Pact with the forest, in which they harm no plant. Their dexterity makes them excellent scouts and thieves, and there are no finer archers in all of Tamriel. They have a natural resistance to diseases and, once per day, can command nearby animals to fight for them.</Source>
+      <Dest>ボズマーもしくはウッドエルフはヴァレンウッドの聖なる森林に起源をもつ。彼らの文化は、植物に危害を及ぼさないというグリーン・パクトに従い、かなりの肉食で、ときに人をも食らう。その俊敏さは彼らを優秀な斥候や盗賊にさせ、その弓術はタムリエル随一である。彼らは生まれながら疾病への耐性を持ち、一日に一度、付近の野生動物を従わせ戦わせることができる。</Dest>
+    </String>
+    <String List="1">
       <EDID>NordRaceAstrid</EDID>
       <REC>RACE:DESC</REC>
       <Source>Citizens of Skyrim, they are a tall and fair-haired people.  Strong and hardy, Nords are famous for their resistance to cold. They are highly talented warriors, particularly with two-handed weapons.</Source>
       <Dest>スカイリムの民は背が高く、髪は金色である。強く、たくましいノルドは冷気に対する耐性で広く知られる。戦士としての才能も高く、特に両手武器の使用に秀でている。</Dest>
+    </String>
+    <String List="1">
+      <EDID>NordRaceVampire</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>Skyrim&apos;s Nords are tall and fair, with a culture which values honor, glory, and loyalty to family and community. Nords have come to distrust magic, but excel in physical warfare. They are greatly resistant to frost and lightning damage, reducing them by half and by one quarter respectively. Once per day, Nords gifted with the Thu&apos;um can enter a trance that allows them to shout rapidly, pausing only for breath.</Source>
+      <Dest>スカイリムのノルドは背が高く公正で、家族や集団への名誉、栄光、そして忠誠を重んじる。ノルドは魔法を信用しないが、体格に優れる。彼らは冷気と雷撃に高い耐性をもち、それぞれ半減および1/4にさせる。一日に一度、スゥームの祝福を得たノルドはトランス状態に入り、息を止めて素早くシャウトを使うことができる。</Dest>
     </String>
     <String List="1">
       <EDID>ArgonianRaceVampire</EDID>
@@ -58596,10 +58722,46 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
 The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvardenfell. 彼らはパワフルな知性と強靭で俊敏な肉体をあわせもち、すばらしい戦士と幻術師となりうる。彼らは炎に極めて強く、炎ダメージの2/3を防ぐ。一日に一度、彼らは短いあいだ自身の先祖を呼び出し、ほとんどのものから自分を守ることができる。</Dest>
     </String>
     <String List="1">
+      <EDID>HighElfRaceVampire</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The Altmer of Summerset Isle are called &quot;High&quot; Elves in the Empire, describing both their physical appearance and their snobbish personality. The arcane ability of High Elves surpasses all other races in Tamriel. Their Highborn power allows them to regenerate magicka very quickly once per day. They are weak in physical combat, however, and their magic affinity makes them forty percent more susceptible to hostile spells.</Source>
+      <Dest>サマーセット島のアルトマーは、その外見と高飛車な性格から、帝国においてハイエルフと呼ばれている。ハイエルフの魔力はタムリエルの種族で最も高い。その高貴な生まれの力により、一日に一度マジカをきわめて速く回復させられる。彼らは物理的な戦いで弱く、魔法との親和性ゆえに、敵対的な呪文に40%弱くなる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>ImperialRaceVampire</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The cosmopolitan citizens of Cyrodiil are descended from the founders of the glorious Empire that has influenced Tamriel&apos;s history throughout the eras. Imperials are shrewd traders, skilled in both magic and combat, and possess exceptionally high stamina because of the martial discipline of the schools of Cyrodiil. Once per day, they can call upon the Voice of the Emperor to influence others.</Source>
+      <Dest>このシロディールの国際人は、タムリエルの時代を通し影響を及ぼしてきた栄光の帝国、その創設者たちの子孫である。インペリアルは商才に優れ、魔法と戦闘双方の技術を兼ね備えており、またシロディールの戦訓に従い非常に高いスタミナを持っている。一日に一度、彼らは他者に影響を及ぼす皇帝の声を使用できる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>KhajiitRaceVampire</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The Khajiit are a race of feline humanoids hailing from the province of Elsweyr, well-known as great merchants but also as smugglers and thieves. They are very fast and outrun all other races which, combined with a high stamina reserve, makes them fearsome skirmishers. However, they are seldom gifted with the skill to harness magical forces. All Khajiit can see in the dark at will and eat raw meat, and their sharp claws are as lethal as knives.</Source>
+      <Dest>カジートはエルスウェーアから来た猫人種で、すばらしい商人であるとともに密輸業者や盗賊としても知られている。彼らの高いスタミナ、そして最も速い足は、彼らを恐るべき斥候へと変える。しかし、彼らはほとんど魔力を持たない。すべてのカジートは暗闇でも目が効き、生肉を食べられ、そしてその鋭い爪はナイフのようにはたらく。</Dest>
+    </String>
+    <String List="1">
+      <EDID>RedguardRaceVampire</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The dark-skinned, wiry-haired Redguards of Hammerfell seem born for battle, though their proud and independent spirits suit free-ranging heroism more. They have a hardy constitution and natural resistance to poison and disease, but tend to shun their magic. They can force an Adrenaline Rush to flood themselves with stamina and move faster than normal, gaining an immunity to most paralysis effects.</Source>
+      <Dest>黒い肌に硬い髪。ハンマーフェルのレッドガードは戦うために生まれてきたもののようだが、彼らの誇りと自立心は、解き放たれたヒロイズムにふさわしい。彼らの頑丈な体格は毒や疾病への耐性をもつが、魔法は捨て去る傾向にある。彼らはアドレナリン・ラッシュを起こすことができ、スタミナの洪水と素早い動きを生み出してほとんどの麻痺効果を無効にする。</Dest>
+    </String>
+    <String List="1">
+      <EDID>WoodElfRaceVampire</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The Bosmer, or Wood Elves, originate from the sacred forest of Valenwood. Their culture is highly carnivorous and even cannibalistic, derived from the Green Pact with the forest, in which they harm no plant. Their dexterity makes them excellent scouts and thieves, and there are no finer archers in all of Tamriel. They have a natural resistance to diseases and, once per day, can command nearby animals to fight for them.</Source>
+      <Dest>ボズマーもしくはウッドエルフはヴァレンウッドの聖なる森林に起源をもつ。彼らの文化は、植物に危害を及ぼさないというグリーン・パクトに従い、かなりの肉食で、ときに人をも食らう。その俊敏さは彼らを優秀な斥候や盗賊にさせ、その弓術はタムリエル随一である。彼らは生まれながら疾病への耐性を持ち、一日に一度、付近の野生動物を従わせ戦わせることができる。</Dest>
+    </String>
+    <String List="1">
       <EDID>DA13AfflictedRace</EDID>
       <REC>RACE:DESC</REC>
       <Source>In addition to their quick and perceptive grasp of spellcraft, even the humblest of Bretons can boast a resistance to shock attacks. They are particularly skilled at conjuration magic.</Source>
       <Dest>呪文習得の早さと理解度に加え、ブレトンはどんな者でも魔法に対する耐性を備えている。特に召喚魔法に長けている。</Dest>
+    </String>
+    <String List="1">
+      <EDID>OrcRaceVampire</EDID>
+      <REC>RACE:DESC</REC>
+      <Source>The Orsimer or &quot;Pariah Folk&quot;, commonly called Orcs, come from Orsinium in the west. Their savage appearance and customs sometimes cause fear, but they have won acceptance for their distinguished service in the Legion. Orcs&apos; superior strength makes them formidable warriors, though use of magic requires extensive training. Berserk rage allows them to greatly increase their strength while halving all damage taken, once per day.</Source>
+      <Dest>オーシマーもしくは「のけ者」は、一般にオークと呼ばれ、西方のオルシニウムからやって来た。彼らの野蛮な外見と習慣は恐れられることもあるが、軍隊における功績により人々に受け入れられている。オークの超人的な筋力は彼らを手強い戦士にさせるが、魔法を使うには多くの訓練を必要とする。一日に一度、狂戦士の怒りは彼らの筋力を爆発的に増加させ、受けるダメージを半減させる。</Dest>
     </String>
     <String List="1">
       <EDID>ManakinRace</EDID>
@@ -58912,6 +59074,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <REC>SPEL:DESC</REC>
       <Source>The Bite of the Serpent will paralyze and poison a target for a moderate duration.</Source>
       <Dest>大蛇座の噛み付きは中期間対象を麻痺させ毒を与える。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Ability_StandingStones_Tower</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>The Tower grants a blessing of 20 extra carry weight and supernatural lockpicking skills. Expertise is increased by 40 and any effortless lock can be picked in plain sight with nobody noticing, creating a wax-molded copy of the key, if one exists.</Source>
+      <Dest>塔は持ち運び重量を20増やし、超自然的な開錠のスキルを与える。開錠の知識が40ポイント増え、また自分にとってたやすい錠前ならロウの合鍵を作り、誰にも気づかれずに開けることができる。</Dest>
     </String>
     <String List="1">
       <EDID>doomRitualAbility</EDID>
@@ -59310,6 +59478,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <Dest>術者は高潔な駿馬の霊魂を召喚する。</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Conjuration4_MarkRecall</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>A conjurer first weaves an extraplanar mark while facing down on the ground. Subsequent castings will then be recalling the caster to the mark, and swap the mark to the caster&apos;s old location.</Source>
+      <Dest>詠唱者はまず地面に超次元的な刻印を残す。次に唱えたとき、詠唱者は刻印があった場所へ召喚され、代わりに刻印は詠唱者がそれまでいた場所へと移る。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Power_ArcaneExperimentation</EDID>
       <REC>SPEL:DESC</REC>
       <Source>The caster experiments with arcane energies to create new enchanted objects that can be disenchanted afterwards. Three grand filled soul gems and five iron daggers are needed for that.</Source>
@@ -59464,6 +59638,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <REC>SCRL:DESC</REC>
       <Source>Nearby living creatures, but not undead, machines or daedra, can be seen through walls.</Source>
       <Dest>アンデッド、機械、デイドラ以外の近くにいる生物を壁越しに見られる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Scroll_MarkRecall</EDID>
+      <REC>SCRL:DESC</REC>
+      <Source>A conjurer first weaves an extraplanar mark while facing down on the ground. Subsequent castings will then be recalling the caster to the mark, and swap the mark to the caster&apos;s old location.</Source>
+      <Dest>詠唱者はまず地面に超次元的な刻印を残す。次に唱えたとき、詠唱者は刻印があった場所へ召喚され、代わりに刻印は詠唱者がそれまでいた場所へと移る。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Scroll_JohnCleese</EDID>
@@ -67683,6 +67863,200 @@ Mage Shield III</Source>
 魔術師の盾 III</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Book_TyranusJournal</EDID>
+      <REC>BOOK:DESC</REC>
+      <Source>&lt;font face=&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;20&apos;&gt;2nd Last Seed, 4E 201
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I had the dream again. The one where I was a boy, and a thief. The one with the golden sword. The one where I reached out my hand, and held the hilt, and wished that I had not.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Again, that same feeling of being trapped, and not by the guards. I saw the emperor&apos;s face. A kindly face, smiling at the little thief in his tent, but when he spoke, it was with the other voice.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;&quot;How shall I know you?&quot;
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I woke, shaking and terrified. The voice. The sword. Will I ever be rid of it?
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;5th Last Seed, 4E 201
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I am still full of so many regrets. It has taken me so long to come to Stendarr&apos;s side, and through so many other gods, and none of them true. I dreamt last night of the years in which I travelled, wild and mad. I dreamt of Froki in his shack, nursing me back to some semblance of sanity.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;When I prayed to Stendarr this morning, I looked up at the blue sky without truly meaning to do so. Only belatedly did I realise that it was Froki&apos;s Kyne in my heart. The contemplation of the sky under his tuition should have brought me peace, but I fear it has only strengthened the power within me.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Sometimes I feel as if I could shout to that sky, and the whole world would answer. This power is a terrible thing, and not a thing of Stendarr. I pray. I maintain the Vigil. I will be strong.
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;8th Last Seed, 4E 201
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Last night I dreamt I was in Cyrodiil again. All those years I spent with the Legion, fighting under Ulfric&apos;s command. The sight of Titus Mede II, standing tall in the front lines, and that golden sword flashing in the sunlight. It made my teeth ache. The voice in the sword... it woke something old in me, something powerful and ancient and terrible. I keep my teeth clenched. I will not give in.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I dreamt of that moment when I made my first kill. I was a mere stripling, with Ulfric Stormcloak on one side and old Agnius on the other, and the Altmer before us had no chance. My blade sank through his golden armor and grated on bone, and again, the voice sounded, as it had when I touched the sword. &quot;How shall I measure the worth of your existence?&quot;
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I woke, as I always do when I hear that voice, and I cried out, and it was not my voice that called, nor the voice of my dreams, but something else. It was as if the whole world was singing, and my voice the echo of that song. I clapped my hands across my mouth and began to pray, but Stendarr does not answer, and I am not surprised. I am not worthy. I will never be worthy, no matter how much they gild my armor and my name.
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;
+11th Last Seed, 4E 201
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Still the dreams. Stendarr and the Vigil that I keep are the only thing that make them bearable, but always I can feel that voice whispering in my head.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;My studies with Keeper Carcette have put a name to the blade.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Goldbrand.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;It is a thing of dark power, of dragons and daedra, and I wish with all my heart that I had never even laid eyes on it, let alone attempted to take it as my own. This is the punishment for all the theft I did as a child, and for following false gods for so many years.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Stendarr grant me mercy. I have none for myself.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I have found myself drawn back to Markarth, where I first heard Ulfric shout, and understood what it was that I had locked behind my teeth. The atrocities I saw. The whispering in my head. The madness that overtook me. Fleeing my own deeds as much as those of the Stormcloaks. Years of wandering, until Froki found me.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I will not do it. I cannot give in. I dream of battle, and with each blow the voice whispers to me. &quot;How shall I know you apart from such as were they, of whom there is no trace?&quot; And I know, even now, that I carry out that prince&apos;s will in spite of myself.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;It is not Stendarr who has drawn me here, I know that. I do not know why.
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;
+15th Last Seed, 4E 201
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I have found the house that draws me. In my dreams, I enter. There is a daedra inside; some enemy of the voice that calls to my head and bids me kill. The voice that bids me prove my existence with the death and destruction of others.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;The Vigil call me Tyranus, the terrible, and have granted me accolade for my prowess in battle, but they do not know from where it comes. They do not know of the Voice.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;There is an altar in the house that the voice in my head wills me to destroy. Perhaps, if I do what it asks, it will finally let me be... but I am afraid. I cannot enter alone. I know what I will become, if I let the voice in my head unleash the voice that is my own.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I could tear this city apart, and none would be able to stand against me, as they could not stand against Ulfric Stormcloak. That kind of power does not belong in any mortal throat.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Goldbrand. Artifact of daedra, and dragons, and heresy. I wish I had never seen it, and never touched it.
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I will wait. Someone will come. Someone who is able to aid me... and able to stop me, at the end.&lt;/font&gt;&lt;/font&gt;</Source>
+      <Dest>&lt;font face=&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;20&apos;&gt;第四紀201年、収穫の月2日
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;またあの夢を見た。私が少年で、そして盗賊だった夢。黄金の剣を持っていた夢。手をのばし、柄を握り、それが夢であってほしいと願った夢。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;また罠にかかったような気分だ。衛兵に捕まったんじゃない。私は皇帝の顔を見た。彼は優しそうに、テントの中でこの小さな盗賊に微笑みかけていたが、口を開き、別人の声で言った。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;&quot;どうすればお前が何者だとわかるのか?&quot;
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;私は目覚め、震え、そして恐れた。あの声。あの剣。私は忘れることができるのか?
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;第四紀201年、収穫の月5日
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;今でも後悔でいっぱいだ。ステンダールのお側にたどり着くまで、あまりにも長い時間がかかった。そして幾多の他の神々をとおしてなお、真実を得ていない。昨晩、これまでの旅路の夢を見た。野生と狂気の旅路だ。フローキの小屋で彼が夢に現れ、少し正気に戻してくれた。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;今朝ステンダールに祈ったとき、何の気なしに空を見上げた。その直後、フローキのカイネが心の内にあることに気づいた。彼の教えのもと、空を見つめることで私は落ち着くべきだった。だが私は恐れた。内なる力が強まっただけだからだ。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;空に叫べば世界は答えてくれるのかと思うことがある。この力は恐ろしいもので、だがステンダールのものではない。私は祈る。番人でありつづける。私は、強い。
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;第四紀201年、収穫の月8日
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;昨晩、シロディールにいた頃の夢をまた見た。その頃私は帝国軍にいて、ウルフリックの下で戦った。前線に立つタイタス・ミード2世の光景。金色の剣が太陽の輝きを帯びた。私は歯がゆくなる。その剣の声は私の古いものを呼び起こす…力強く、とても古く、そして恐るべきものだ。私は歯ぎしりした。私はあきらめない。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;最初の殺しをしたときの夢を見た。私は若く、傍らにはウルフリック・ストームクローク、もう一方には老アグニウス。対するアルトマーにチャンスはなかった。私の剣は黄金鎧の中に沈みこみ、骨に当たった。そして声がした。まるで剣に触れたときのように。 &quot;どうすればお前の価値を測れるのか?&quot;
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;目覚め、その声が聞こえたときいつもしているように、私は叫んだ。その声は私のものではなく、夢からのものでもなく、他の何かだった。まるで世界が歌っているようで、私の声はそれを反響させるものだった。口の前で手を組み祈った。だがステンダールは何も答えない。驚くことじゃない。私には価値がないからだ。立派になんてなりえない。彼らがどれほど私の鎧や名を飾りつけようと。
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;
+第四紀201年、収穫の月11日
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;まだ夢を見る。ステンダールとその番人であることが唯一私が耐えられている理由でもあるが、いつも頭の中で声がささやきつづけるのを感じる。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;番人カルセッテと学ぶなかで、その剣に名を与えた。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;ゴールドブランド。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;それはドラゴンとデイドラに由来する闇の力。私は心の底から願ってきた、それを目にするのはおろか手にとることさえないように。それは私が子供のように犯してきた全ての窃盗や、長年にわたり誤った神に従ってきたことへの罰である。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;ステンダールは慈悲を授けてくださる。私には何もない。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;私はマルカルスに戻っていることに気づいた。そこはウルフリックのシャウトを初めて聞いたところだった。そして私が歯の奥で鍵をかけていたものがわかった。私が見た暴虐。頭でささやく声。私を追い越した狂気。ストームクロークと同じように逃げ続けてきた私の業。幾年の放浪。フローキが私を見つけるまで。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;私はしない。降参できない。夢のなかで争い、幾多の声がささやいてくる。 &quot;記録を失ったお前がいかなる者か、どうすればわかるのか?&quot; 私はわかる。今でもわかる。私は王子の、そして私自身の意志をなす。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;ステンダールがここに導いたのではない。それはわかる。なぜかはわからないが。
+&lt;font size=&apos;5&apos;&gt;
+
+
+
+&lt;/font&gt;
+第四紀201年、収穫の月15日
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;私の気を引く屋敷を見つけた。夢のなかで私はそこに入る。デイドラが中にいる; 声が呼びかけ、その敵を殺すように呼びかけてくる。その敵を殺し、破壊することで私の存在を証明するよう呼びかけてくる。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;番人は私を「恐ろしいティラヌス」と呼び、戦いでの武勇を称賛した。だが彼らはその力がどこから来るのか知らない。彼らは声のことも知らない。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;屋敷の中に祭壇がある。それは頭の中で破壊を求める声のものだ。もし、私がそう尋ねれば、最後にはきっと…だが迷っている。一人で入りたくない。わかっている。私がどうなってしまうのか。もし頭の中の声が、私自身のものだとわかってしまったら。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;私はこの街を引き裂ける。何者も私には立ち向かえない。ウルフリック・ストームクロークの前に誰も立ちふさがれなかったように。この力はいかなる定命の者の喉にも備わらない。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;ゴールドブランド。デイドラの、ドラゴンの、そして異教の遺産。これまで見ないことを、そして触れないことを祈った。
+&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;私は待つ。誰かが来るのを。私を助けてくれる者を…そして、私を止めてくれる、終わらせてくれる者を。&lt;/font&gt;&lt;/font&gt;</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Book_Recipe_ExplosiveAmmo</EDID>
       <REC>BOOK:DESC</REC>
       <Source>[pagebreak]
@@ -67893,6 +68267,36 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
 「&lt;i&gt;私の&lt;/i&gt;鍛冶場だ」老いた僧侶は答えたが、彼の声には何か別のものが宿っているようだった。「全部私の鍛冶場だ。創造にかかわることで、その行動は祝福されるが、傲慢になり、ほかのものを侮辱するなら覚えておけ-金床の主たる神は誰の傲慢さであろうと打ち砕くと。私は誰にも勝る神であると」
 
 そういいながら、もはやオスバーグと呼ぶべきでない老いた僧侶は立ち去った。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Book_HelgenEasterEgg</EDID>
+      <REC>BOOK:DESC</REC>
+      <Source>&lt;font face=&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;20&apos;&gt;I was twelve when I first knew that I wanted a dog. I was thirteen when I begged my parents to get me a puppy. I was fourteen when I tried to take one of Agath&apos;s new litter and they found me and made me bring the little thing back and apologise to both the dog and the smith. I was fifteen when I prayed to the Divines for a pup of my own. I was sixteen when I abandoned the Divines, prayed to anyone who would fill my wish, and found Dagger.&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;The stray was facing off against a wolf. Neither of them had seen me. I drew my bow, and as the wolf advanced, I crept round the little hound and fired the arrow into the wolf&apos;s heart. I approached the dog I had saved carefully, so as not to startle it.&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;When a wolf looks at you, it only has one decision to make: prey, or threat? A dog, though, when it turns those big brown eyes your way, has no decisions at all. It already loves you, and in return, you open your heart to it. I tore off a strip of meat from the jerky in my pack, and offered it to the dog. He sniffed and barked and took it, and that was it. We were inseparable... or so I thought. I called the dog Dagger for his small size and his sharp teeth, and he hunted at my side for fourteen years.
+[pagebreak]
+He was everything I wanted: companion, guardian and brother-at-arms, giving me entertainment when I was happy and solace when I was sad. No lover was so faithful, no friend so free of judgement, no family so willing to oblige yet asking for so little in return.&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;That&apos;s the thing about wishes, though. Their master is Clavicus Vile, and his servant, Barbas, often takes the form of a dog. I always used to wonder why, when I read that story. Now I know. All of Vile&apos;s gifts come with a curse, and Dagger was a Daedric gift, for sure, as all dogs are.&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;Dagger fought as fiercely as any soldier, but the Imperials have sharp swords, and they struck us both down. I survived. They would not even let me bury him before they brought me here.
+[pagebreak]
+If you come to this place as a prisoner, know that I, too, felt your loneliness and your pain... and if you ever see a stray in trouble, be careful how much you love him. Dogs don&apos;t live forever, and they take your heart with them when they die.&lt;/font&gt;&lt;/font&gt;</Source>
+      <Dest>&lt;font face=&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;20&apos;&gt;12歳のとき、私は初めて犬を飼いたいと思った。13歳のとき、私は両親に犬を飼いたいとお願いした。14歳のとき、アガスの産んだ仔の一匹をくすねようとしたが、彼らに見つかり、彼らは仔犬を元の場所に戻してアガスと仔に謝った。15歳のとき、神々に私の犬が手に入るよう祈った。16歳のとき、私は神々を捨て、私の願いを叶えてくれる者なら何にでも祈り、そしてダガーに会った。&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;その迷子の犬はオオカミに向かい合っていた。どちらも私を見ていなかった。私は弓を引き、オオカミが進むと、忍び寄ってその胸に矢を放った。私は犬が怯えないよう慎重に近づいた。&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;オオカミはあなたを見たとき、たったひとつの判断をする: それは獲物か、危険か。けれどもその犬は、大きな茶色い目を回してこちらを見たとき、何の判断もしていなかった。すでに好意を抱いていて、こちらも心を開いた。私は鞄からジャーキーを取り出してその犬にやった。彼は鼻を鳴らして一吠えし、それを取った。そういうことだ。私たちはひとつだった…そう私は思った。彼の小さく鋭い歯から、私はその犬をダガーと呼び、ともに14年狩りをした。
+[pagebreak]
+彼は私の望む全てだった: 仲間、用心棒、そして戦友。私が喜んでいるときには楽しませてくれて、悲しんでいるときはなぐさめてくれた。どんな恋人もそんな誠実にはなれないし、どんな友人もそんな自由な決断はできないし、どんな家族もそんなに少ない見返りでは満足しない。&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;けれどもその願いが問題だ。彼の主はクラヴィカス・ヴァイルで、その下僕バルバスは犬の姿をしていることが多い。私がその物語を読んだとき、どうしてそうなのかいつも不思議に思っていた。今ならわかる。ヴァイルの贈り物は呪いとともにやってくる。そしてダガーはデイドラの贈り物だった。確かに。全ての犬がそうであるように。&lt;font size=&apos;14&apos;&gt;
+
+&lt;/font&gt;ダガーはどんな兵士にも負けないくらい激しく戦った。けれども帝国の兵士は鋭い剣で私たちを襲った。私は生き残った。ここに連れてこられる前、帝国の兵士はダガーを埋葬さえさせてくれなかった。
+[pagebreak]
+もしあなたが囚人としてここに来たなら、私も、あなたが感じた孤独と痛みがわかる…そしてもし困っている迷子に会ったなら、それをどのくらい愛しているのか注意してほしい。犬は永遠に生きない。そして彼らが死んだとき、あなたの心も持っていってしまう。&lt;/font&gt;&lt;/font&gt;</Dest>
     </String>
     <String List="1">
       <EDID>DA14SanguineRose</EDID>
@@ -69017,6 +69421,12 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <Dest>alteration master</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_HOGITHUM</EDID>
+      <REC id="0" idMax="4">QUST:CNAM</REC>
+      <Source>I have discovered the fragment of a poem. That seems interesting. Perhaps I should explore at the Bard&apos;s College to see what this is all about.</Source>
+      <Dest>詩の断片を見つけた。興味深いものだ。これが一体何なのか吟遊詩人の大学で調べよう。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Perk_Alteration_EmpoweredAlterations</EDID>
       <REC>PERK:DESC</REC>
       <Source>You learned how to empower Alteration spells. Thus, you now can overcharge their effects into &lt;br&gt; even more powerful, longer lasting versions.</Source>
@@ -69658,6 +70068,24 @@ And with that, the old priest, who wasn&apos;t really called Ossoberg after all,
       <REC>PERK:DESC</REC>
       <Source>You are even harder to detect when sneaking while not wearing any heavy armor.</Source>
       <Dest>重装を着ていなければ隠密行動中にさらに発見されにくくなる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Ability_Sneak20</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>20% harder to detect when sneaking.</Source>
+      <Dest>隠密状態のとき20%発見されにくくなる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Ability_Sneak25</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>25% harder to detect when sneaking.</Source>
+      <Dest>隠密状態のとき25%発見されにくくなる。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Perk_Ability_Sneak30</EDID>
+      <REC>PERK:DESC</REC>
+      <Source>30% harder to detect when sneaking.</Source>
+      <Dest>隠密状態のとき30%発見されにくくなる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Alchemy_AlchemicalLore2</EDID>
@@ -71242,15 +71670,13 @@ using the default resistance system leads to crap, because the damageresist resi
       <EDID>HelpEnchantingShort</EDID>
       <REC>MESG:DESC</REC>
       <Source>Ah, an arcane enchanter! I can place an magical item here to unlock its secrets by destroying it, or I can enchant a non-magical item using a soul gem.</Source>
-      <Dest>ああ、アルケイン付呪器だ! 魔法のアイテムをここに置いて壊すとその秘密を解き明かせるし、もしくは魔法のかかっていないアイテムに魂石を使うと付呪ができる。
-
-Ah, an arcane enchanter! I can place an magical item here to unlock its secrets by destroying it, or I can enchant a non-magical item using a soul gem.</Dest>
+      <Dest>ああ、アルケイン付呪器だ! 魔法のアイテムをここに置いて壊すとその秘密を解き明かせるし、もしくは魔法のかかっていないアイテムに魂石を使うと付呪ができる。</Dest>
     </String>
     <String List="1">
       <EDID>HelpAlchemyShort</EDID>
       <REC>MESG:DESC</REC>
       <Source>Ah, an alchemy lab, along with an alembic, a mortar and all the necessary apparatus. Perfect for brewing all kinds of potions.</Source>
-      <Dest>ああ、錬金器具。蒸留器他に、すり鉢など必要な装置が揃っている。あらゆる種類のポーションを作るうえで完璧だ。</Dest>
+      <Dest>ああ、錬金器具だ。蒸留器の他に、すり鉢など必要な装置が揃っている。あらゆる種類のポーションを作るうえで完璧だ。</Dest>
     </String>
     <String List="1">
       <EDID>HelpArmorBenchShort</EDID>
