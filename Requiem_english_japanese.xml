@@ -54792,9 +54792,27 @@
     </String>
     <String List="0">
       <EDID>REQ_HOGITHUM</EDID>
+      <REC id="0" idMax="3">QUST:NNAM</REC>
+      <Source>Find more information about the missing fragment</Source>
+      <Dest>失われた断片の情報をもっと探す</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HOGITHUM</EDID>
       <REC id="1" idMax="3">QUST:NNAM</REC>
       <Source>Find all six missing fragments</Source>
       <Dest>失われた6つの詩の断片を見つける</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HOGITHUM</EDID>
+      <REC id="2" idMax="3">QUST:NNAM</REC>
+      <Source>Talk to &lt;Alias=Giraud&gt;</Source>
+      <Dest>&lt;Alias=Giraud&gt; と話す</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HOGITHUM</EDID>
+      <REC id="3" idMax="3">QUST:NNAM</REC>
+      <Source>Read the complete &quot;On Hogithum&quot;</Source>
+      <Dest>完全な &quot;ホギトゥーム&quot; を読む</Dest>
     </String>
     <String List="0">
       <EDID>ChargenLoadScreen</EDID>
@@ -69430,13 +69448,25 @@ If you come to this place as a prisoner, know that I, too, felt your loneliness 
       <EDID>REQ_HOGITHUM</EDID>
       <REC id="1" idMax="4">QUST:CNAM</REC>
       <Source>I found a report at the Bard&apos;s college. It mentions a song, and suggests some places where I might find more about it. Giraud Gemane would probably be happy if I found them all.</Source>
-      <Dest>吟遊詩人の大学で報告書を見つけた。ある詩について述べられており、より多くの手がかりがあるかもしれない場所をいくつか示している。もし全てを見つけられたらジラウド・ゲマネは喜ぶだろう。</Dest>
+      <Dest>吟遊詩人の大学で報告書を見つけた。それはある詩について述べており、より多くの発見があるかもしれない場所をいくつか示している。もし全てを見つけられたらジラウド・ゲマネは喜ぶだろう。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_HOGITHUM</EDID>
       <REC id="2" idMax="4">QUST:CNAM</REC>
       <Source>I think I found all pieces of the lost poem, but it seems that the last verse is still missing. Perhaps Giraud Gemane can help.</Source>
       <Dest>失われた全ての詩の断片を見つけたはずだが、最後の一編がまだ見つからないようだ。ジラウド・ゲマネが助けてくれるかもしれない。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_HOGITHUM</EDID>
+      <REC id="3" idMax="4">QUST:CNAM</REC>
+      <Source>Giraud was ecstatic and rewarded me with a copy of the collated fragments, including the last verse. According to Adonato&apos;s letter, it might be risky to read the complete version, but I can&apos;t resist the temptation. Surely nothing terrible can come out of it.</Source>
+      <Dest>ジラウドは大喜びで、最後の断片を含む詩をまとめてくれた。アドナトの手紙によればこの詩を完全な形で読むのは危険かもしれないが，誘惑に抗えない。何も悪いことは起きないかもしれないが。</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_HOGITHUM</EDID>
+      <REC id="4" idMax="4">QUST:CNAM</REC>
+      <Source>A tale of old has now been told, A bard&apos;s reward is due; A queen once brewed a lethal food, And you can brew it too.</Source>
+      <Dest>古の物語は歌われた。吟遊詩人への報酬が支払われるのも当然だ。女王はかつて致死の食物を作り、今やあなたもそれを作れる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Perk_Alteration_EmpoweredAlterations</EDID>
