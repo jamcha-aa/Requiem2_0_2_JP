@@ -9058,6 +9058,12 @@
       <Dest>念動波</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_AbsorbDescription</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>The spell has a short distance and requires a momentary focus on the target before applying.</Source>
+      <Dest>この呪文は距離が短く、また詠唱前に対象へ焦点を当てなければならない。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_Illusion_75_Blackout</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Blackout</Source>
@@ -68315,6 +68321,12 @@ If you come to this place as a prisoner, know that I, too, felt your loneliness 
 &lt;/font&gt;ダガーはどんな兵士にも負けないくらい激しく戦った。けれども帝国の兵士は鋭い剣で私たちを襲った。私は生き残った。ここに連れてこられる前、帝国の兵士はダガーを埋葬さえさせてくれなかった。
 [pagebreak]
 もしあなたが囚人としてここに来たなら、私も、あなたが感じた孤独と痛みがわかる…そしてもし困っている迷子に会ったなら、それをどのくらい愛しているのか注意してほしい。犬は永遠に生きない。そして彼らが死んだとき、あなたの心も持っていってしまう。&lt;/font&gt;&lt;/font&gt;</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_HogithumReward</EDID>
+      <REC>BOOK:CNAM</REC>
+      <Source>The collated fragments of a very old and apocryphal song.</Source>
+      <Dest>とても古く謎に満ちた歌の照合された断片。</Dest>
     </String>
     <String List="1">
       <EDID>DA14SanguineRose</EDID>
