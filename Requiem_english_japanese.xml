@@ -62972,6 +62972,128 @@ Conjure Dremora Lord</Source>
     </String>
     <String List="1">
       <EDID>REQ_Book_Recipe_Daedric</EDID>
+      <REC>BOOK:DESC</REC>
+      <Source>[pagebreak]
+&lt;p align=&quot;center&quot;&gt;
+
+
+
+
+
+
+&lt;font face=&apos;$DaedricFont&apos; size=&quot;40&quot; color=&quot;#3F0000&quot; alpha=&quot;#bf&quot;&gt;JOIN ME&lt;/font&gt;
+
+
+
+&lt;/p&gt;
+
+
+
+[pagebreak]
+[pagebreak]
+&lt;font face=&apos;$HandwrittenFont&apos; color=&quot;#3F0000&quot; alpha=&quot;#bf&quot;&gt;&lt;p align=&quot;left&quot;&gt;
+To understand how Daedric armor and weapons are forged, one must understand my journey. It is long, and takes you outside of the plane of Mundus and into Oblivion. Only there can the forging truly be understood.
+
+Twice, I have made this journey. Perhaps there will be a third time.
+
+First, the object to be crafted must be forged, using the blood of those gods that has fallen into the plane of Mundus. You know this substance as ebony. It is hard to find, and harder still to forge. This must be your first mastery.
+
+After that, you will need the heart of a Daedra. I suggest a Dremora as your best choice. It is important that you are stronger than the Dremora, not only so that you can slay it, but so that you can hold its will once it is bound to the artifact. This must be your second mastery.
+
+In addition, you will need a black soul gem, empty so that it may absorb the soul, and ground to a fine powder, so that the soul will be absorbed throughout the artifact. The object must be heated in a fire at least as hot as the one that was used to craft it. When the black glass of the ebony has softened, the powder must be spread evenly over the surface, and will sink into it. When it is hot enough, it will begin to glow, and your smithing has begun. This must be your third mastery.
+
+The heart must be cast into the fire. It will burst, blinding you. All the rest must be done in darkness, for you will not see it.
+
+The Daedra within will be trapped in the crushed soul gem. The artifact will transform as the Daedra struggles to escape. The ebony will contort, fighting, wrapping around itself, shooting forth spikes, and it will glow red. You will see this even through the blindness. This is your fourth and final mastery, and it is one that cannot be taught, only experienced. Bind the Daedra to the artifact, and keep it there.
+
+I strongly suggest that you do this in the hour before midnight. It is the hour of deepest darkness, in which the constellations combine to confuse the Daedra&apos;s will and make it vulnerable to your own.
+
+If you fail to master that fourth and last step, then the best thing that can happen is the loss of your forging, and all the ingredients. There are other, less predictable effects that may also occur. None of them will be good. Some of them are severe enough that death might be considered kind.
+
+The worst is the freedom of the Daedra you sought to imprison. If you cannot hold it, it will hold you. It will be very hungry, as I was. It will be very angry, as I was. It will kill you, as I killed the one who imprisoned me.
+
+It will not release your soul.
+
+To understand how Daedric armor and weapons are forged, one must understand my journey. It is long, and takes you outside of the plane of Mundus and into Oblivion. Only there can the forging truly be understood.
+[pagebreak]
+
+
+&lt;p align=&quot;center&quot;&gt;Twice,
+I have made
+this journey.
+
+Perhaps
+you will be with me,
+for the third.&lt;/p&gt;&lt;/font&gt;
+[pagebreak]
+
+&lt;p align=&quot;center&quot;&gt;&lt;font face=&apos;$DaedricFont&apos; size=&quot;100&quot; color=&quot;#3F0000&quot; alpha=&quot;#bf&quot;&gt;
+O
+&lt;/font&gt;&lt;/p&gt;
+
+</Source>
+      <Dest>[pagebreak]
+&lt;p align=&quot;center&quot;&gt;
+
+
+
+
+
+
+&lt;font face=&apos;$DaedricFont&apos; size=&quot;40&quot; color=&quot;#3F0000&quot; alpha=&quot;#bf&quot;&gt;JOIN ME&lt;/font&gt;
+
+
+
+&lt;/p&gt;
+
+
+
+[pagebreak]
+[pagebreak]
+&lt;font face=&apos;$HandwrittenFont&apos; color=&quot;#3F0000&quot; alpha=&quot;#bf&quot;&gt;&lt;p align=&quot;left&quot;&gt;
+デイドラの鎧と武器の製法を理解するためには、私の旅路を知らなければならない。その旅は長く、ムンダスの外、オブリビオンの領域にあなたを連れて行く。そこでのみ製法を理解することができる。
+
+二度、私は経てきた。この旅を。もしかしたらあるかもしれない。三度目も。
+
+まずこの武具は、ムンダスの領域に落ちた神の血を使って造られなければならない。この血は黒檀として知られている。それを見つけるのは難しく、加工するのはより困難だ。最初にこの技能に習熟する必要がある。
+
+次に、デイドラの心臓が必要になる。ドレモラのものが最適だろう。ただし貴方がドレモラよりも強大であることが重要だ。それは倒せるというだけでなく、一度武具に閉じ込めたらその意志を留められるということだ。これが二つ目に必要な技能である。
+
+さらに、魂を満たせるよう空の黒魂石が必要だ。それを粉末にすれば、武具の隅々にまで魂が吸収される。これを黒檀の武具を作成したときと同じくらい強い炎で熱しなければならない。黒檀の黒いガラスが軟らかくなったときに、粉末を表面に散らす。するとそれは中に浸透してゆく。十分に熱くなれば、それは輝き始め、ついに製作が始まる。これが三つ目に必要な技能である。
+
+心臓を炎の中に投げ込むと、それは爆発し、貴方の目を塞ぐ。残りの作業はすべて暗闇の中で行われる。何も見えないからだ。
+
+デイドラは砕けた魂石に捕われる。デイドラは逃げようともがき、武具は形を変える。黒檀は曲がりくねり、争い、包み込み、棘立ち、赤みを帯びる。貴方は暗闇の中でさえそれが見える。これが第四の、そして最後に身につける技能である。これは言葉では伝えられず、ただ経験するのみだ。デイドラを武具に捕え、留めるのだ。
+
+これらは真夜中の一時間前に行うことを強く推奨する。その一時間は最も暗く、星座がデイドラの意志を迷わせ、貴方の意志に最も従わせやすくなる。
+
+もし四つの技能の習得や最後の段階に失敗したなら、貴方には鍛冶の技術や材料が不足している。ただしこれは最も幸運な場合だ。この作業では予測できないことが起こりうる。それはどれも良いものではない。そのいくつかは死でさえもぬるいと思わせるほど深刻なものだ。
+
+最悪の事態は貴方が捕らえようとしていたデイドラを解放してしまうことである。もし留められなければ、貴方が捕えられる。それはとても空腹だ。私がそうしていたように。それはとても腹立たしい。私がそうしていたように。それは貴方を殺す。私をここへ放り込んだ者を私が殺したように。
+
+貴方の魂は解放されない。
+
+デイドラの鎧と武器の製法を理解するためには、私の旅路を知らなければならない。その旅は長く、ムンダスの外、オブリビオンの領域にあなたを連れて行く。そこでのみ製法を理解することができる。
+[pagebreak]
+
+
+&lt;p align=&quot;center&quot;&gt;二度、
+私は経てきた。
+この旅を。
+
+もしかしたら
+貴方は私と共にいるかもしれない。
+三度目には。&lt;/p&gt;&lt;/font&gt;
+[pagebreak]
+
+&lt;p align=&quot;center&quot;&gt;&lt;font face=&apos;$DaedricFont&apos; size=&quot;100&quot; color=&quot;#3F0000&quot; alpha=&quot;#bf&quot;&gt;
+O
+&lt;/font&gt;&lt;/p&gt;
+
+</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Book_Recipe_Daedric</EDID>
       <REC>BOOK:CNAM</REC>
       <Source>This book should allow a skilled blacksmith to learn the techniques of creating daedric equipment.</Source>
       <Dest>この本によって腕の立つ鍛冶屋はデイドラ装備を製作する技術を学べる。</Dest>
