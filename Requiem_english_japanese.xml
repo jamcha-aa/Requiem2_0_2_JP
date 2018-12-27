@@ -7933,7 +7933,7 @@
       <EDID>REQ_Alteration2_LesserKnockEffect</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Lesser Knock</Source>
-      <Dest>粗末な開錠</Dest>
+      <Dest>開錠 (下級)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alteration2_LesserKnockEffect</EDID>
@@ -12319,7 +12319,7 @@
       <EDID>REQ_Effect_Scroll_GreaterKnock</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Greater Knock (Scroll)</Source>
-      <Dest>高度な開錠の巻物</Dest>
+      <Dest>開錠の巻物 (上級)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Scroll_GreaterKnock</EDID>
@@ -12446,7 +12446,7 @@
       <EDID>REQ_Alteration5_GreaterKnockEffect</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Greater Knock</Source>
-      <Dest>高度な開錠</Dest>
+      <Dest>開錠 (上級)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alteration5_GreaterKnockEffect</EDID>
@@ -19316,7 +19316,7 @@
       <EDID>REQ_Alteration2_LesserKnock</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Lesser Knock</Source>
-      <Dest>粗末な開錠</Dest>
+      <Dest>開錠 (下級)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alteration3_AbsorbHealth</EDID>
@@ -20792,7 +20792,7 @@
       <EDID>REQ_Alteration5_GreaterKnock</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Greater Knock</Source>
-      <Dest>高度な開錠</Dest>
+      <Dest>開錠 (上級)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Alteration3_Knock</EDID>
@@ -21338,7 +21338,7 @@
       <EDID>REQ_Scroll_GreaterKnock</EDID>
       <REC>SCRL:FULL</REC>
       <Source>Scroll of Greater Knock</Source>
-      <Dest>高度な開錠の巻物</Dest>
+      <Dest>開錠の巻物 (上級)</Dest>
     </String>
     <String List="0">
       <EDID>BearTrap01</EDID>
@@ -27044,7 +27044,7 @@
       <EDID>REQ_Tome_Alteration2_LesserKnock</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Lesser Knock</Source>
-      <Dest>呪文の書: 粗末な開錠</Dest>
+      <Dest>呪文の書: 開錠 (下級)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Restoration3_HealSelf</EDID>
@@ -28280,7 +28280,7 @@
       <EDID>REQ_Tome_Alteration5_GreaterKnock</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Greater Knock</Source>
-      <Dest>呪文の書: 高度な開錠</Dest>
+      <Dest>呪文の書: 開錠 (上級)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Tome_Alteration4_Polymorph</EDID>
