@@ -25802,25 +25802,25 @@
       <EDID>REQ_ImperialHeavy_Helmet_ImpHero</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Imperial General Helmet</Source>
-      <Dest>帝国軍将軍の兜</Dest>
+      <Dest>帝国軍将校の兜</Dest>
     </String>
     <String List="0">
       <EDID>REQ_ImperialHeavy_Gauntlets_ImpHero</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Imperial General Gauntlets</Source>
-      <Dest>帝国軍将軍の篭手</Dest>
+      <Dest>帝国軍将校の篭手</Dest>
     </String>
     <String List="0">
       <EDID>REQ_ImperialHeavy_Cuirass_ImpHero</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Imperial General Cuirass</Source>
-      <Dest>帝国軍将軍のキュイラス</Dest>
+      <Dest>帝国軍将校のキュイラス</Dest>
     </String>
     <String List="0">
       <EDID>REQ_ImperialHeavy_Boots_ImpHero</EDID>
       <REC>ARMO:FULL</REC>
       <Source>Imperial General Boots</Source>
-      <Dest>帝国軍将軍のブーツ</Dest>
+      <Dest>帝国軍将校のブーツ</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Steel_Helmet_Legendary_Galmar</EDID>
@@ -59253,7 +59253,7 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <EDID>REQ_Blessing_Dibella</EDID>
       <REC>SPEL:DESC</REC>
       <Source>Those blessed by Dibella receive a slight increase in their ability to influence others by speech. The agents of Dibella are exalted with even greater charisma.</Source>
-      <Dest>ディベラに祝福を受けた者は会話で相手に与える影響が少しだけ増加する。ディベラの代行者は賞賛され、魅力がさらに増す。</Dest>
+      <Dest>ディベラに祝福を受けた者は会話で相手に与える影響が少しだけ増加する。ディベラの使徒は賞賛され、魅力がさらに増す。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Blessing_Julianos</EDID>
