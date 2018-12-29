@@ -6214,6 +6214,12 @@
       <Dest>カイネの祝福</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Ench_KynesToken_ReducedAnimalDamage</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Damage taken from animals is reduced by &lt;10&gt;%.</Source>
+      <Dest>動物から受けるダメージが &lt;10&gt;% 減少する。</Dest>
+    </String>
+    <String List="0">
       <EDID>SprigganMatronBugDamageConcAimed</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Spriggan Matron Swarm Spray</Source>
