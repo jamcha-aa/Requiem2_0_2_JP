@@ -59628,6 +59628,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <Dest>極度に疲労したため、集中が続かなくなり筋肉が思うように動かなくなった。そのため武器を握り続けることがやや困難になる…</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Illusion4_FogOfShadows</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>The caster weaves shadows and madness into a fog that lasts for &lt;120&gt; seconds, slowing its victims and rendering them more susceptible to illusions. If empowered, it also cripples their magicka regeneration.</Source>
+      <Dest>詠唱者は霧の中に影と狂気を &lt;120&gt; 秒間織り込み、相手を遅くさせ、より幻惑にかかりやすくする。強化された場合、この呪文は相手のマジカ回復を不能にさせる。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Ability_Blindness</EDID>
       <REC>SPEL:DESC</REC>
       <Source>You are blind and cannot percieve anything with your eyes.</Source>
