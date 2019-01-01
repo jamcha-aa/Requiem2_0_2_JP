@@ -19196,7 +19196,7 @@
       <EDID>REQ_GM_Stress_UntrainedArmor_Wearing</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Physical Exertion (Heavy Armor)</Source>
-      <Dest>Heavy Armor Penalty Stamina Reg</Dest>
+      <Dest>肉体疲労 (重装)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Illusion4_InvisibilitySphere</EDID>
@@ -19784,7 +19784,7 @@
       <EDID>REQ_GM_Stress_Running_Magicka</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Mental Exertion (Running)</Source>
-      <Dest>Heavy Armor Penalty Stamina Reg</Dest>
+      <Dest>精神疲労 (走行)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Power_Examine</EDID>
@@ -20084,7 +20084,7 @@
       <EDID>REQ_GM_Stress_Blocking</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Physical Exertion (Blocking)</Source>
-      <Dest>防御の犠牲</Dest>
+      <Dest>肉体疲労 (防御)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ability_Werewolf_Player</EDID>
@@ -20564,7 +20564,7 @@
       <EDID>REQ_GM_Stress_Attacking</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Physical Exertion (Attacking)</Source>
-      <Dest>Stamina Drain for Attacks</Dest>
+      <Dest>肉体疲労 (攻撃)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_GM_Stress_DodgeDrain</EDID>
@@ -20576,7 +20576,7 @@
       <EDID>REQ_GM_Stress_Jumping</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Physical Exertion (Jumping)</Source>
-      <Dest>Physical Exertion (Jumping)</Dest>
+      <Dest>肉体疲労 (ジャンプ)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_GM_Stress_Attacking_End</EDID>
@@ -20660,25 +20660,25 @@
       <EDID>REQ_GM_Stress_UntrainedArmor_Sprint</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Physical Exertion (Heavy Armor Sprinting)</Source>
-      <Dest>Physical Exertion (Heavy Armor Sprinting)</Dest>
+      <Dest>肉体疲労 (重装走行)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_GM_Stress_Running_Stamina</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Physical Exertion (Running)</Source>
-      <Dest>Physical Exertion (Running)</Dest>
+      <Dest>肉体疲労 (走行)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_GM_Stress_Swimming_Stamina</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Physical Exertion (Swimming)</Source>
-      <Dest>Physical Exertion (Swimming)</Dest>
+      <Dest>肉体疲労 (水泳)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_GM_Stress_Swimming_Magicka</EDID>
       <REC>SPEL:FULL</REC>
       <Source>Mental Exertion (Swimming)</Source>
-      <Dest>Mental Exertion (Swimming)</Dest>
+      <Dest>精神疲労 (水泳)</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Ability_Blindness</EDID>
@@ -59626,6 +59626,12 @@ The Dunmer, or Dark Elves, are the ash-skinned, red-eyed, Elven people of Vvarde
       <REC>SPEL:DESC</REC>
       <Source>Due to your exhaustion, you can barely concentrate and your muscles do not really obey your will anymore, making it rather hard to maintain your grip on your weapons...</Source>
       <Dest>極度に疲労したため、集中が続かなくなり筋肉が思うように動かなくなった。そのため武器を握り続けることがやや困難になる…</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Illusion4_FogOfShadows</EDID>
+      <REC>SPEL:DESC</REC>
+      <Source>The caster weaves shadows and madness into a fog that lasts for &lt;120&gt; seconds, slowing its victims and rendering them more susceptible to illusions. If empowered, it also cripples their magicka regeneration.</Source>
+      <Dest>詠唱者は霧の中に影と狂気を &lt;120&gt; 秒間織り込み、相手を遅くさせ、より幻惑にかかりやすくする。強化された場合、この呪文は相手のマジカ回復を不能にさせる。</Dest>
     </String>
     <String List="1">
       <EDID>REQ_Ability_Blindness</EDID>
