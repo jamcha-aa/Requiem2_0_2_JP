@@ -60092,6 +60092,14 @@ Healing
  &lt;font size=&apos;40&apos;&gt; 自分自身の完璧なイメージに集中することで、体は治癒し始める。</Dest>
     </String>
     <String List="1">
+      <EDID>WE100Letter</EDID>
+      <REC>BOOK:DESC</REC>
+      <Source>&lt;font face=&apos;$HandwrittenFont&apos;&gt;
+After searching for months, my luck is finally turning. I&apos;ve located the &lt;Alias=Item&gt; in Skyrim. The mercenary told me to look at the &lt;Alias=Dungeon&gt;. But I must be very careful, because this place is guarded by a &lt;Alias.ShortName=Boss&gt;. This looks like a safe place; I&apos;ll make camp here and start tomorrow.</Source>
+      <Dest>&lt;font face=&apos;$HandwrittenFont&apos;&gt;
+何ヶ月も探し回って、ついにツキが回ってきた。スカイリムで &lt;Alias=Item&gt; がある場所を見つけたんだ。傭兵はそれが &lt;Alias=Dungeon&gt; にあると言った。だが気をつけなければ。そこは &lt;Alias.ShortName=Boss&gt; に守られている。ここは安全なようだ。キャンプを張って明日探索に出よう。</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Tome_Alteration2_Magelight</EDID>
       <REC>BOOK:DESC</REC>
       <Source>&lt;font face&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;40&apos;&gt;&lt;p align=&apos;center&apos;&gt;
