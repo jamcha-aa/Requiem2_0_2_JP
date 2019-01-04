@@ -64389,6 +64389,26 @@ Invisibility</Source>
       <Dest>大きいトロール近い… 名前ウリク。大きい。強い。滝の近く洞窟いる。トロールたくさん一緒！ 記念品、すてき。ゴラクがウリクやる、ゴラクがウリク殺る、ゴラクがウリクやる、ゴラクがウリク記念品する！ ゴラク巨人の王様なる！</Dest>
     </String>
     <String List="1">
+      <EDID>REQ_Book_SaarthalSuppliesNote</EDID>
+      <REC>BOOK:DESC</REC>
+      <Source>&lt;font face=&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;15&apos;&gt;&lt;font alpha=&apos;#B0&apos;&gt;Arniel,&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Thank you for sending word of Skulig&apos;s fate. He was a talented apprentice, if overly curious, and he will be missed. We have few enough Nords as it is.&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;I&apos;m sending replacement scrolls for the ones which were lost with him. I will also be asking Tolfdir to conduct a lesson on safety, so that our newest members don&apos;t make the same mistake. While protection may indeed be necessary in these ruins, it&apos;s imperative that our students appreciate the dangers of the magics we wield. Please ensure that everyone working in Saarthal understands that the contents of this chest are for emergency use only, and that the bound denizens of Oblivion do not take kindly to being used as targets for frost spells, even in short bursts.&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;Savos Aren,
+Arch-mage.</Source>
+      <Dest>&lt;font face=&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;15&apos;&gt;&lt;font alpha=&apos;#B0&apos;&gt;アーニエル、&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;スクリグの最期について連絡してくれてありがとう。彼は才能ある生徒だった。ただ好奇心が強すぎて、そして残念なことになった。現状、ノルドの人数はかなり足りない。&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;彼と一緒に失われた分の巻物については今送っているところだ。新入生たちが同じ過ちを起こさないように、トルフディルには安全な授業を心がけるよう頼んでいる。ただしこの廃墟で生徒を保護するのが不可欠である一方で、私達が使う魔法の危険性を生徒が認識するのも欠かせない。サールザルで作業する皆はこのチェストの中身が緊急時のものであること、そして召喚されたオブリビオンの住人たちにとってはわずかな時間であっても冷気魔法の的にされるのは好ましくないことなのだと理解しておいてほしい。&lt;font size=&apos;5&apos;&gt;
+
+&lt;/font&gt;サボス・アレン、
+アークメイジ</Dest>
+    </String>
+    <String List="1">
       <EDID>REQ_Tome_Restoration1_ArcaneWard</EDID>
       <REC>BOOK:DESC</REC>
       <Source>&lt;font face&apos;$HandwrittenFont&apos;&gt;&lt;font size=&apos;40&apos;&gt;&lt;p align=&apos;center&apos;&gt;
