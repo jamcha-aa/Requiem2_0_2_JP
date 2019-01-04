@@ -10738,6 +10738,12 @@
       <Dest>死霊術の強化</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Effect_DLC1RestoreHealthUndeadFFSelf</EDID>
+      <REC>MGEF:DNAM</REC>
+      <Source>Heals the caster by &lt;mag&gt; points per second. Only affects undead targets.</Source>
+      <Dest>対象の体力を毎秒 &lt;mag&gt; ポイント回復する。アンデッドにしか効果はない。</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Effect_RestoreHealthConstructFFActor</EDID>
       <REC>MGEF:FULL</REC>
       <Source>Arcane Mending</Source>
@@ -12259,7 +12265,7 @@
       <EDID>REQ_Effect_Conjuration_50_SpectralArrow_side</EDID>
       <REC>MGEF:DNAM</REC>
       <Source>The arrow will also hinder the target and reduce his attack speed by &lt;mag&gt;% for &lt;dur&gt; seconds.</Source>
-      <Dest>The arrow will also hinder the target and reduce his attack speed by &lt;mag&gt;% for &lt;dur&gt; seconds.</Dest>
+      <Dest>またこの矢は相手を邪魔し、 &lt;dur&gt; 秒間、攻撃速度を &lt;mag&gt;% 低下させる。</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Effect_Conjuration_50_SpectralArrow_side2</EDID>
