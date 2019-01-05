@@ -28040,7 +28040,7 @@
       <EDID>REQ_Book_ValtheimBossJournal</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Letters to Harald</Source>
-      <Dest>メモ</Dest>
+      <Dest>ハラルド宛の手紙</Dest>
     </String>
     <String List="0">
       <EDID>REQ_Book_JohnsNote02</EDID>
@@ -28239,6 +28239,18 @@
       <REC>BOOK:FULL</REC>
       <Source>Daedric Dagger</Source>
       <Dest>デイドラのダガー</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_Book_LetterToRon</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Letter to Ron</Source>
+      <Dest>ロン宛の手紙</Dest>
+    </String>
+    <String List="0">
+      <EDID>REQ_HogithumReport</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Adonato&apos;s Report</Source>
+      <Dest>アドナトの手紙</Dest>
     </String>
     <String List="0">
       <EDID>REQ_HogithumReward</EDID>
