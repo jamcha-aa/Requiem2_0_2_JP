@@ -28307,6 +28307,12 @@
       <Dest>呪文の書: 開錠 (上級)</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Book_TheThirteenthStone</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>The Thirteenth Stone</Source>
+      <Dest>13番目の石碑</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_Tome_Alteration4_Polymorph</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Spell Tome: Polymorph</Source>
