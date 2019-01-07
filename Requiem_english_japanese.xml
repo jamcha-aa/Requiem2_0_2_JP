@@ -28247,6 +28247,12 @@
       <Dest>ロン宛の手紙</Dest>
     </String>
     <String List="0">
+      <EDID>REQ_Book_HairOfTheDog</EDID>
+      <REC>BOOK:FULL</REC>
+      <Source>Hair of the Dog</Source>
+      <Dest>イヌの毛</Dest>
+    </String>
+    <String List="0">
       <EDID>REQ_HogithumReport</EDID>
       <REC>BOOK:FULL</REC>
       <Source>Adonato&apos;s Report</Source>
@@ -68507,6 +68513,42 @@ If you come to this place as a prisoner, know that I, too, felt your loneliness 
 &lt;/font&gt;ダガーはどんな兵士にも負けないくらい激しく戦った。けれども帝国の兵士は鋭い剣で私たちを襲った。私は生き残った。ここに連れてこられる前、帝国の兵士はダガーを埋葬さえさせてくれなかった。
 [pagebreak]
 もしあなたが囚人としてここに来たなら、私も、あなたが感じた孤独と痛みがわかる…そしてもし困っている迷子に会ったなら、それをどのくらい愛しているのか注意してほしい。犬は永遠に生きない。そして彼らが死んだとき、あなたの心も持っていってしまう。&lt;/font&gt;&lt;/font&gt;</Dest>
+    </String>
+    <String List="1">
+      <EDID>REQ_Book_HairOfTheDog</EDID>
+      <REC>BOOK:DESC</REC>
+      <Source>&lt;font face=&apos;$HandwrittenFont&apos;&gt; &lt;font size=&apos;18&apos;&gt;
+They say the hair of dogs that bite 
+Will cure the bite itself; 
+Restorative magic 
+From a story-teller&apos;s shelf.
+
+So if you wake up aching 
+From the mead the night before,
+The way to cure it might be 
+Just to have a little more!
+
+But that&apos;s the thing of dog bites,
+For the dog that bit last night 
+Will try and bite again, but - 
+Just a taste won&apos;t hurt you, right?
+&lt;/font&gt;</Source>
+      <Dest>&lt;font face=&apos;$HandwrittenFont&apos;&gt; &lt;font size=&apos;18&apos;&gt;
+イヌに噛まれた傷なんて
+そいつの毛を擦り込めば治るというだろう; 
+噺家の本棚なんかにある
+回復魔法のひとつだ。
+
+だから前の晩に飲んだ酒で
+最悪の目覚めをしたなら、
+それを治すには
+もう一杯飲めばいい!
+
+まあイヌに噛まれた場合はちょっと問題だ、
+昨晩噛んだイヌは
+また噛もうとしてくるからな、だが - 
+味はこっちを傷つけてこない。そうだろう?
+&lt;/font&gt;</Dest>
     </String>
     <String List="1">
       <EDID>REQ_HogithumReward</EDID>
